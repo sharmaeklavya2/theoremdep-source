@@ -1,0 +1,16 @@
+{
+    "ID": "theorems",
+    "NAME": "TheoremDep",
+    "DESCRIPTION": "Track dependencies between theorems and definitions.",
+    "ASYNC_JS": [
+        "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+    ],
+    "DEP_REASON_MAP": {
+        "def": "Used in definition",
+        "proof": "Used in proof"
+    },
+    "SEARCH_FIELDS": ["title", "description"],
+    "SEARCH_SYNC_JS": [
+        "https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.js"
+    ]
+}

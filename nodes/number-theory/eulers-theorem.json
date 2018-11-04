@@ -1,0 +1,43 @@
+{
+    "deps": [
+        {
+            "/number-theory/coprime": "def",
+            "/number-theory/eulers-totient-function": "def",
+            "/number-theory/modular-equivalence": "def",
+            "/abstract-algebra/znstar-is-a-group": "proof",
+            "/abstract-algebra/group-elem-to-the-power-group-size-equals-identity": "proof"
+        },
+        {
+            "/number-theory/coprime": "def",
+            "/number-theory/eulers-totient-function": "def",
+            "/number-theory/modular-equivalence": "def",
+            "/number-theory/mutliplication-permutes-znstar": "proof"
+        }
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Euler's Theorem",
+        "description": "If a and n are coprime, then a^phi(n) ≡ 1 (mod n), where phi is Euler's Totient Function."
+    },
+    "document": [
+        {
+            "type": "inline",
+            "text": "If $a$ and $n$ are coprime, then $a^{\\phi(n)} \\equiv 1 \\pmod{n}$, where $\\phi$ is the [Euler's Totient function](eulers-totient-function.html)."
+        },
+        {
+            "title": "Proof using Abstract Algebra",
+            "type": "include",
+            "path": "/number-theory/eulers-theorem-abstract-algebra-proof.md"
+        },
+        {
+            "title": "Direct Proof",
+            "type": "include",
+            "path": "/number-theory/eulers-theorem-direct-proof.md"
+        },
+        {
+            "title": "Further Reading",
+            "type": "inline",
+            "text": "<https://en.wikipedia.org/wiki/Euler%27s_theorem>"
+        }
+    ]
+}

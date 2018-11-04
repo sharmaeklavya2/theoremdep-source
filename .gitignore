@@ -1,0 +1,23 @@
+*.pyc
+__pycache__/
+/readme.html
+
+/concepdag.py
+/theme/
+/theme
+/secret/
+/secret
+/output/
+/output
+/intermediate/
+/intermediate
+/deploy/
+/deploy
+.env
+
+# Trash
+*~
+*.sw[po]
+*.db
+Desktop.ini
+.DS_Store
