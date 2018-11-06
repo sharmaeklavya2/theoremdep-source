@@ -1,0 +1,14 @@
+{
+    "deps": {
+        "/number-theory/divisibility": "def"
+    },
+    "metadata": {
+        "type": "definition",
+        "title": "Modular Equivalence",
+        "description": "a is equivalent to b mod n iff n divides (a-b)."
+    },
+    "document": {
+        "type": "inline",
+        "text": "$a \\equiv b \\pmod{n} \\iff n \\mid (a-b)$"
+    }
+}

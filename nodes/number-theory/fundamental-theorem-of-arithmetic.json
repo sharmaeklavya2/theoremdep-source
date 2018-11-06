@@ -1,0 +1,16 @@
+{
+    "deps": {
+        "/number-theory/euclids-lemma": "proof"
+    },
+    "metadata": {
+        "type": "theorem",
+        "title": "Fundamental Theorem of Arithmetic",
+        "keywords": ["prime", "factor", "factorize", "factorization"],
+        "description": "An integer can be written as a product of primes in a unique way."
+    },
+    "document": {
+        "type": "inline",
+        "title": "Proof",
+        "text": "$n = p_1p_2\\ldots = q_1q_2\\ldots$\n\nBy Euclid's lemma, every $p_i$ must divide a $q_j$. We can prove this theorem using mathematical induction.\n\nSee [complete proof on Wikipedia](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic)."
+    }
+}

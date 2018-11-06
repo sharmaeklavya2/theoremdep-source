@@ -1,0 +1,14 @@
+{
+    "deps": {
+        "/number-theory/gcd-is-min-lincomb": "proof"
+    },
+    "metadata": {
+        "type": "theorem",
+        "title": "Euclid's lemma",
+        "description": "If a prime divides the product of two numbers, it must divide at least one of those numbers."
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/euclids-lemma.md"
+    }
+}

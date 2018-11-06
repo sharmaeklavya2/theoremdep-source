@@ -1,0 +1,15 @@
+{
+    "deps": {
+        "/misc/well-ordering-principle": "proof"
+    },
+    "metadata": {
+        "type": "theorem",
+        "title": "Integer Division Theorem",
+        "keywords": ["euclid", "division"],
+        "description": "Let a and b be integers, with b > 0. Then there exist unique integers q and r such that a = b*q + r and 0 ≤ r < b."
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/integer-division-theorem.md"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "metadata": {
+        "type": "theorem",
+        "title": "gcd(a, b) = gcd(a-b, b)",
+        "keywords": ["gcd", "subtraction"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/gcd-subtraction.md"
+    }
+}

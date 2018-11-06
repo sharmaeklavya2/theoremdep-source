@@ -1,0 +1,14 @@
+{
+    "deps": {
+        "/number-theory/gcd-subtraction": "proof"
+    },
+    "metadata": {
+        "type": "theorem",
+        "title": "GCD is the smallest Linear Combination",
+        "description": "The gcd of two numbers is their smallest positive linear combination."
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/gcd-is-min-lincomb.md"
+    }
+}
