@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/number-theory/gcd/gcd-divide",
+        "/number-theory/if-coprime-to-first-then-divides-second"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Order of elements in cyclic group",
+        "description": "Order of elements in a cyclic group."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cyclic-groups/order-of-elements-in-cyclic-group.md"
+    }
+}

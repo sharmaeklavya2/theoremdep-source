@@ -1,0 +1,14 @@
+{
+    "deps": {
+        "/number-theory/gcd/gcd-is-min-lincomb": "proof"
+    },
+    "metadata": {
+        "type": "theorem",
+        "title": "Existence of Modular Inverse",
+        "description": "Modular inverse of a mod n exists iff gcd(a, n) = 1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/mod-inv-existence.md"
+    }
+}

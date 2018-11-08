@@ -1,6 +1,6 @@
 {
     "deps": {
-        "/number-theory/gcd-subtraction": "proof"
+        "/number-theory/gcd/gcd-subtraction": "proof"
     },
     "metadata": {
         "type": "theorem",
@@ -9,6 +9,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/number-theory/gcd-is-min-lincomb.md"
+        "path": "/number-theory/gcd/gcd-is-min-lincomb.md"
     }
 }

@@ -6,6 +6,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/number-theory/gcd-subtraction.md"
+        "path": "/number-theory/gcd/gcd-subtraction.md"
     }
 }

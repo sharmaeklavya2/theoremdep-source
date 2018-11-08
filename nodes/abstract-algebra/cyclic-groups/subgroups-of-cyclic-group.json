@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/group",
+        "/number-theory/gcd/gcd-is-min-lincomb"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Subgroups of a cyclic group",
+        "description": "For an infinite-order cyclic group <a>, subgroups are <a^k> for all k. For a cyclic group <a> of order n, subgroups are <a^k> for all divisors k of n."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cyclic-groups/subgroups-of-cyclic-group.md"
+    }
+}

@@ -1,6 +1,6 @@
 {
     "deps": {
-        "/number-theory/gcd-is-min-lincomb": "proof"
+        "/number-theory/gcd/gcd-is-min-lincomb": "proof"
     },
     "metadata": {
         "type": "theorem",

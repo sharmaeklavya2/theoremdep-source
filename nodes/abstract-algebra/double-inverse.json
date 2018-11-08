@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/group"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Double inverse",
+        "description": "(a^(-1))^(-1) = a"
+    },
+    "document": {
+        "type": "inline",
+        "text": "$(a^{-1})^{-1} = a$"
+    }
+}

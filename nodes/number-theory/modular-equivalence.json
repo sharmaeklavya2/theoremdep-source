@@ -1,7 +1,4 @@
 {
-    "deps": {
-        "/number-theory/divisibility": "def"
-    },
     "metadata": {
         "type": "definition",
         "title": "Modular Equivalence",

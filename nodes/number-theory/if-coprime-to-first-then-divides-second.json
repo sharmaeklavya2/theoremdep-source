@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/number-theory/coprime",
+        "/number-theory/gcd/gcd-is-min-lincomb"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "If x divides ab and x is coprime to a, then x divides b",
+        "description": "If a number divides the product of two numbers and is coprime to the first number in the product, then it must divide the second number in the product."
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/if-coprime-to-first-then-divides-second.md"
+    }
+}

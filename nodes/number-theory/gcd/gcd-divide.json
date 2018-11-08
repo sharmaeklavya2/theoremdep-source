@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "gcd(a/d, b/d) = gcd(a, b)/d",
+        "description": "gcd(a/d, b/d) = gcd(a, b)/d"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/gcd/gcd-divide.md"
+    }
+}
