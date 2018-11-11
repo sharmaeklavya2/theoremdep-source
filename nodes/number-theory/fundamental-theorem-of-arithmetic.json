@@ -1,6 +1,7 @@
 {
     "deps": {
-        "/number-theory/euclids-lemma": "proof"
+        "/number-theory/euclids-lemma": "proof",
+        "/number-theory/every-number-has-prime-factorization": "proof"
     },
     "metadata": {
         "type": "theorem",

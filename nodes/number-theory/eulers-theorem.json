@@ -11,7 +11,7 @@
             "/number-theory/coprime": "def",
             "/number-theory/modular-equivalence": "def",
             "/number-theory/eulers-totient-function": "def",
-            "/number-theory/mutliplication-permutes-znstar": "proof"
+            "/number-theory/multiplication-permutes-znstar": "proof"
         }
     ],
     "metadata": {

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/number-theory/every-number-has-prime-factorization",
+        "/number-theory/euclids-lemma"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "ab is coprime to x iff a and b are coprime to x"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/ab-coprime-to-x-iff-a-and-b-coprime-to-x.md"
+    }
+}

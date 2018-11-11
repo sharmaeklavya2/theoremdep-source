@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/number-theory/if-coprime-to-first-then-divides-second",
+        "/number-theory/ab-coprime-to-x-iff-a-and-b-coprime-to-x"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Multiplication permutes Zn*",
+        "description": "Multiplying all elements of Zn* by a number coprime to n returns a permutation of Zn*"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/multiplication-permutes-znstar.md"
+    }
+}

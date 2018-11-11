@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/number-theory/mod-inv-existence",
+        "/number-theory/ab-coprime-to-x-iff-a-and-b-coprime-to-x"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Zn* is a group",
+        "description": "The set of integers coprime to n is a group under multiplication mod n"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/znstar-is-a-group.md"
+    }
+}

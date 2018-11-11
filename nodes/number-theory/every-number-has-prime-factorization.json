@@ -1,0 +1,11 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "Every number has a prime factorization"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/every-number-has-a-prime-factorization.md"
+    }
+}
