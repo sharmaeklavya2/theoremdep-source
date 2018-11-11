@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/permutation-groups/symmetric-group",
+        "/abstract-algebra/permutation-groups/parity"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Alternating Group",
+        "description": "The set of all even permutations is called the alternating group"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/permutation-groups/alternating-group.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/group"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Coset",
+        "metadata": "A coset is a set obtained by multiplying every element of a subgroup by a group element."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cosets/coset.md"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/abstract-algebra/permutation-groups/symmetric-group"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Product of disjoint cycles is commutative"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/permutation-groups/product-of-disjoint-cycles-is-commutative.md"
+    }
+}

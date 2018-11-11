@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/cosets/coset",
+        "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Two cosets are either identical or disjoint",
+        "description": "Two cosets are either identical or disjoint."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cosets/cosets-are-either-identical-or-disjoint.md"
+    }
+}

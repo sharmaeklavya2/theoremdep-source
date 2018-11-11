@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/permutation-groups/product-of-disjoint-cycles-is-commutative",
+        "/abstract-algebra/permutation-groups/permutation-is-disjoint-cycle-product"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Canonical cycle notation of a permutation",
+        "description": "Canonical cycle notation is a unique way of writing a permutation as a product of disjoint cycles."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/permutation-groups/canonical-cycle-notation.md"
+    }
+}

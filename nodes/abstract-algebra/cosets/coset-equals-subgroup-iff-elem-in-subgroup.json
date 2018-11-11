@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/cosets/coset",
+        "/abstract-algebra/cosets/size"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "gH = H iff g in H",
+        "description": "Coset of a subgroup equals the subgroup iff the representative is in the subgroup."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/group"
+    ],
+    "metadata": {
+        "type": "deftheorem",
+        "title": "Symmetric Group",
+        "description": "The symmetric group is the set of all permutations where the operation is composition of permutations."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/permutation-groups/symmetric-group.md"
+    }
+}

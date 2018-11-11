@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/cosets/coset"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "a(bH) = (ab)H for subset H of a group",
+        "description": "Multiplication of a coset by a group element is associative. For subset H of a group, a(bH) = (ab)H."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cosets/associativity.md"
+    }
+}

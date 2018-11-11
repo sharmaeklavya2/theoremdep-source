@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "def",
+        "title": "Euler's Totient Function",
+        "description": "Euler's totient function ϕ(n) is the number of numbers smaller than n and coprime to it."
+    },
+    "document": {
+        "type": "inline",
+        "text": "Euler's totient function $\\phi(n)$ is the number of numbers smaller than $n$ and coprime to $n$."
+    }
+}

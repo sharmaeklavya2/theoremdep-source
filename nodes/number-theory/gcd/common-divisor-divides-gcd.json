@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/number-theory/gcd/gcd-is-min-lincomb"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Common divisor of two numbers divides their GCD",
+        "description": "Commmon divisor of two numbers divides their GCD."
+    },
+    "document": {
+        "type": "inline",
+        "text": "Common divisor of two numbers divides their GCD.\n\n## Proof\n\nGCD of two number is a linear combination of those numbers, so a common divisor would divide it."
+    }
+}

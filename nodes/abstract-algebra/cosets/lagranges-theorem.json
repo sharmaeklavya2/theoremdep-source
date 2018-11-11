@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/abstract-algebra/cosets/coset",
+        "/abstract-algebra/cosets/size",
+        "/abstract-algebra/cosets/cosets-are-either-identical-or-disjoint"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Lagrange's Theorem",
+        "description": "Order of subgroup divides order of group. Furthermore, number of cosets equals ratio of orders of group and subgroup."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cosets/lagranges-theorem.md"
+    }
+}

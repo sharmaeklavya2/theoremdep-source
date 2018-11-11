@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/number-theory/eulers-totient-function",
+        "/abstract-algebra/cyclic-groups/order-of-elements-in-cyclic-group"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "A cyclic group of order n has ϕ(n) generators"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cyclic-groups/cyclic-group-has-phi-generators.md"
+    }
+}

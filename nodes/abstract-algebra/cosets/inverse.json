@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/cosets/coset"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Inverse of a coset",
+        "description": "(gH)^(-1) = H^(-1)g^(-1)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cosets/inverse.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/permutation-groups/permutation-is-disjoint-cycle-product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Permutation is transposition product",
+        "description": "Every finite permutation can be written as a product of transpositions."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/permutation-groups/permutation-is-transposition-product.md"
+    }
+}
