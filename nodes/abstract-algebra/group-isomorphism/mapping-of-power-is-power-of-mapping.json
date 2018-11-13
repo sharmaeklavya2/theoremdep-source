@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/group-isomorphism/group-isomorphism"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Mapping of power is power of mapping",
+        "description": "ϕ(g^k) = ϕ(g)^k"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/group-isomorphism/mapping-of-power-is-power-of-mapping.md"
+    }
+}

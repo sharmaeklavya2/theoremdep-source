@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/group-isomorphism/group-isomorphism"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Cyclic groups are isomorphic to Z or Zn",
+        "description": "A cyclic group of infinite order is isomorphic to Z. A cyclic group of order n is isomorphic to Zn."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cyclic-groups/isomorphic-to-z.md"
+    }
+}

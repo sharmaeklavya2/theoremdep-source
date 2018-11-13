@@ -1,6 +1,7 @@
 {
     "deps": [
-        "/abstract-algebra/group"
+        "/abstract-algebra/group",
+        "/misc/composition-of-bijections-is-a-bijection"
     ],
     "metadata": {
         "type": "deftheorem",

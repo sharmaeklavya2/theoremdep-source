@@ -2,7 +2,7 @@ The symmetric group $S_X$ is the set of all permutations of $X$ where the operat
 
 ## Proof that it is a group
 
-* Closure: Composition of bijections is one-to-one.
+* Closure: Composition of bijections is a bijection.
 * Associativity: Function composition is associative.
 * Identity: Identity permutation exists.
 * Inverse: Inverse permutation exists.

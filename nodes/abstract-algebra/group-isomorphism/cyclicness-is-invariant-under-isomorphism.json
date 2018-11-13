@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/group-isomorphism/group-isomorphism",
+        "/abstract-algebra/group-isomorphism/mapping-of-power-is-power-of-mapping"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Cyclicness is invariant under isomorphism",
+        "description": "If < a > is isomorphic to G via ϕ, then G = < ϕ(a) >."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/group-isomorphism/cyclicness-is-invariant-under-isomorphism.md"
+    }
+}

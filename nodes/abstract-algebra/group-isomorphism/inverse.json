@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/abstract-algebra/group-isomorphism/group-isomorphism"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Inverse of a group isomorphism is a group isomorphism"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/group-isomorphism/inverse.md"
+    }
+}

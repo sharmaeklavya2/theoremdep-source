@@ -1,0 +1,18 @@
+
+{
+    "deps": [
+        "/abstract-algebra/group-isomorphism/group-isomorphism",
+        "/abstract-algebra/group-isomorphism/cyclicness-is-invariant-under-isomorphism",
+        "/abstract-algebra/order-of-element-in-external-direct-product",
+        "/abstract-algebra/cyclic-groups/order-of-elements-in-cyclic-group",
+        "/number-theory/gcd-times-lcm-equals-product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Zm × Zn is isomorphic to Zmn iff m and n are coprime"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/group-isomorphism/zm-cross-zn-isomorphic-to-zmn.md"
+    }
+}
