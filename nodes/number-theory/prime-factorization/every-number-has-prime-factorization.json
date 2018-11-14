@@ -6,6 +6,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/number-theory/every-number-has-a-prime-factorization.md"
+        "path": "/number-theory/prime-factorization/every-number-has-a-prime-factorization.md"
     }
 }

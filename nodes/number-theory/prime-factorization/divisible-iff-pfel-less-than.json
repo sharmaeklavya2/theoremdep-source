@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/number-theory/prime-factorization/pfel",
+        "/number-theory/prime-factorization/pfel-of-ratio-is-difference-of-pfel"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Divisible iff PFEL is less than or equal",
+        "description": "a divides b iff PFEL(a) ≤ PFEL(b)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/prime-factorization/divisible-iff-pfel-less-than.md"
+    }
+}

@@ -5,6 +5,7 @@
         "/abstract-algebra/group-isomorphism/cyclicness-is-invariant-under-isomorphism",
         "/abstract-algebra/order-of-element-in-external-direct-product",
         "/abstract-algebra/cyclic-groups/order-of-elements-in-cyclic-group",
+        "/abstract-algebra/cyclic-groups/isomorphic-to-z",
         "/number-theory/gcd-times-lcm-equals-product"
     ],
     "metadata": {

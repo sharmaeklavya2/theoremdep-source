@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/number-theory/prime-factorization/pfel",
+        "/number-theory/prime-factorization/divisible-iff-pfel-less-than"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PFEL of lcm is max of PFEL"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/prime-factorization/pfel-of-lcm-is-max-of-pfel.md"
+    }
+}

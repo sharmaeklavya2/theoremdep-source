@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/number-theory/prime-factorization/pfel"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PFEL of ratio is difference of PFEL"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/prime-factorization/pfel-of-ratio-is-difference-of-pfel.md"
+    }
+}

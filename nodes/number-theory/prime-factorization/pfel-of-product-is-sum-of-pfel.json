@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/number-theory/prime-factorization/pfel"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PFEL of product is sum of PFEL"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/prime-factorization/pfel-of-product-is-sum-of-pfel.md"
+    }
+}

@@ -30,7 +30,7 @@ Let $a$ and $b$ be generators of $\mathbb{Z}_m$ and $\mathbb{Z}_n$ respectively,
 $o_a = m$ and $o_b = n$.
 
 \begin{align}
-& operatorname{order}((a, b)) = \operatorname{lcm}(o_a, o_b) = \operatorname{lcm}(m, n) = \frac{mn}{\gcd(m, n)} = mn
+& \operatorname{order}((a, b)) = \operatorname{lcm}(o_a, o_b) = \operatorname{lcm}(m, n) = \frac{mn}{\gcd(m, n)} = mn
 \\ &\Rightarrow \mathbb{Z}_m \times \mathbb{Z}_n = \langle (a, b) \rangle \wedge |\mathbb{Z}_m \times \mathbb{Z}_n| = mn
 \\ &\Rightarrow \mathbb{Z}_m \times \mathbb{Z}_n \cong \mathbb{Z}_{mn}
 \end{align}

@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/number-theory/prime-factorization/pfel-of-product-is-sum-of-pfel",
+        "/number-theory/prime-factorization/pfel-of-gcd-is-min-of-pfel",
+        "/number-theory/prime-factorization/pfel-of-lcm-is-max-of-pfel"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "GCD times LCM equals product",
+        "description": "gcd(a, b) * lcm(a, b) = a * b"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/gcd-times-lcm-equals-product.md"
+    }
+}

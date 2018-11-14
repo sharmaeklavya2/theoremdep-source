@@ -1,0 +1,10 @@
+{
+    "deps": [
+        "/number-theory/prime-factorization/fundamental-theorem-of-arithmetic"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Prime Factorization Exponent List (PFEL)",
+        "description": "PFEL of a number is the list of exponents in the prime factorization of that number."
+    }
+}
