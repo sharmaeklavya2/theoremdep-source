@@ -4,11 +4,14 @@ The GCD of two numbers is their smallest positive linear combination.
 
 Let $p_{a, b}(x, y): \gcd(x, y) = \gcd(a, b) \wedge x, y \in a\mathbb{Z} + b\mathbb{Z}$.
 
-$$(\gcd(x, y) = \gcd(x-y, y) = \gcd(a, b)) \wedge (x, y \in a\mathbb{Z} + b\mathbb{Z} \iff x-y, y \in a\mathbb{Z} + b\mathbb{Z})$$
+\begin{align}
+&p_{a, b}(x, y)
+\\ &\iff \gcd(x, y) = \gcd(a, b) \wedge x, y \in a\mathbb{Z} + b\mathbb{Z}
+\\ &\iff \gcd(x-y, y) = \gcd(a, b) \wedge x-y, y \in a\mathbb{Z} + b\mathbb{Z}
+\\ &\iff p_{a, b}(x-y, y)
+\end{align}
 
-Therefore,
-
-$$(p_{a, b}(x, y) \iff p_{a, b}(x, y)) \Rightarrow (p_{a, b}(x, y) \iff p_{a, b}(y, x\%y))$$
+Therefore, $p_{a, b}(x, y) = p_{a, b}(y, x\% y)$.
 
 Let $\lambda$ be the operation defined by $(x, y) \mapsto (y, x\%y)$ where $y$ is not 0.
 $p_{a, b}$ is invariant over $\lambda$.
@@ -24,6 +27,7 @@ $$p_{a, b}(e, 0)
 \Rightarrow \gcd(a, b) \in a\mathbb{Z} + b\mathbb{Z}$$
 
 Let $d$ be the smallest positive linear combination of $a$ and $b$.
+Since $g$ is a linear combination of $a$ and $b$, $d \le g$.
 
 $$g \mid a \wedge g \mid b \Rightarrow g \mid d \Rightarrow g \le d \Rightarrow g = d$$
 
