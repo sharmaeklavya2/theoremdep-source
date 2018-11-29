@@ -7,6 +7,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/abstract-algebra/homomorphism/mapping-of-power-is-power-of-mapping.md"
+        "path": "/abstract-algebra/group-homomorphism/mapping-of-power-is-power-of-mapping.md"
     }
 }

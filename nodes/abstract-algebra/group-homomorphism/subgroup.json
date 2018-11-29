@@ -1,7 +1,7 @@
 {
     "deps": [
         "/abstract-algebra/subgroup-condition-2",
-        "/abstract-algebra/homomorphism/mapping-of-power-is-power-of-mapping"
+        "/abstract-algebra/group-homomorphism/mapping-of-power-is-power-of-mapping"
     ],
     "metadata": {
         "type": "theorem",
@@ -10,6 +10,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/abstract-algebra/homomorphism/subgroup.md"
+        "path": "/abstract-algebra/group-homomorphism/subgroup.md"
     }
 }
