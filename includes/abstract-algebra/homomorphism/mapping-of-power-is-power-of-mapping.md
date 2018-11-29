@@ -1,4 +1,4 @@
-Let $\phi$ be an isomorphism from $G$ to $H$. Let $g \in G$.
+Let $\phi$ be a homomorphism from $G$ to $H$. Let $g \in G$.
 Then $\phi(g^k) = \phi(g)^k$.
 
 ## Proof

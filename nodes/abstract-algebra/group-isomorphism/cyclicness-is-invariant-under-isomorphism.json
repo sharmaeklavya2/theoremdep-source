@@ -1,7 +1,7 @@
 {
     "deps": [
         "/abstract-algebra/group-isomorphism/group-isomorphism",
-        "/abstract-algebra/group-isomorphism/mapping-of-power-is-power-of-mapping"
+        "/abstract-algebra/homomorphism/mapping-of-power-is-power-of-mapping"
     ],
     "metadata": {
         "type": "theorem",

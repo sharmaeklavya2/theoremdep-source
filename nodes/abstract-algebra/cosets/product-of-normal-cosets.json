@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/cosets/associativity"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Product of normal cosets is well-defined",
+        "description": "Let N be a normal subgroup. Then the product (aN)(bN) = (ab)N is well-defined."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cosets/product-of-normal-cosets.md"
+    }
+}
