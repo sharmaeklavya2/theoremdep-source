@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/abstract-algebra/homomorphism/normal-subgroup",
+        "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup",
+        "/abstract-algebra/homomorphism/mapping-of-power-is-power-of-mapping"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "First isomorphism theorem",
+        "description": "Image of homomorphism ϕ from G to H is isomorphic to quotient group G/ker(ϕ)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/first-isomorphism-theorem.md"
+    }
+}
