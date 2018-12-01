@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/abstract-algebra/cosets/factor-group",
+        "/abstract-algebra/cosets/normal-correspondence-theorem",
+        "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup",
+        "/abstract-algebra/first-isomorphism-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Third isomorphism theorem",
+        "description": "(G/N)/(K/N) is isomorphic to G/K."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/third-isomorphism-theorem.md"
+    }
+}
