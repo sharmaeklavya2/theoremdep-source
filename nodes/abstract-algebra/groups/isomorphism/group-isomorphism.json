@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/group"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Isomorphism on Groups",
+        "description": "Two groups are isomorphic iff they are related via a bijection ϕ such that ϕ(ab) = ϕ(a)ϕ(b)."
+    },
+    "document": {
+        "type": "inline",
+        "text": "Groups $G_1$ and $G_2$ are isomorphic ($G \\cong H$) iff there is a bijection $\\phi$ from $G_1$ to $G_2$ such that $\\phi(ab) = \\phi(a)\\phi(b)$.\n$\\phi$ is called an isomorphism."
+    }
+}

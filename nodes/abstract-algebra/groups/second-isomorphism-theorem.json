@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/abstract-algebra/cosets/factor-group",
+        "/abstract-algebra/groups/subgroup-condition-2",
+        "/abstract-algebra/cosets/product-of-normal-cosets",
+        "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup",
+        "/abstract-algebra/groups/first-isomorphism-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Second isomorphism theorem",
+        "description": "Let S be a subgroup of G and N be a normal subgroup of G. Then SN/N is isomorphic to S/(S∩N)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/second-isomorphism-theorem.md"
+    }
+}

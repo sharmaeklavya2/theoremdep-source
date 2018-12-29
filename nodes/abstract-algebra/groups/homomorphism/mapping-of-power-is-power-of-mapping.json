@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "Mapping of power is power of mapping",
+        "description": "ϕ(g^k) = ϕ(g)^k"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/homomorphism/mapping-of-power-is-power-of-mapping.md"
+    }
+}

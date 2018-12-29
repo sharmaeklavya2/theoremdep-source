@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/group",
+        "/abstract-algebra/groups/subgroup-condition"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Condition for a subset to be a subgroup",
+        "description": "Condition for a subset to be a subgroup."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/subgroup-condition-2.md"
+    }
+}

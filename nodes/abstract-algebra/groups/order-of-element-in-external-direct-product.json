@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/external-direct-product-is-group"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Order of element in external direct product",
+        "description": "order of (g, h) in G × H = lcm(order(g), order(h))"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/order-of-element-in-external-direct-product.md"
+    }
+}

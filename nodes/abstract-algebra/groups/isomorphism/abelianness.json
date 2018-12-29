@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/isomorphism/group-isomorphism"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Abelianness is invariant under isomorphism",
+        "description": "If G is isomorphic to H and G is abelian, then H is abelian."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/isomorphism/abelianness.md"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/isomorphism/group-isomorphism",
+        "/abstract-algebra/groups/isomorphism/inverse",
+        "/misc/composition-of-bijections-is-a-bijection"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Isomorphism of groups is an equivalence relation"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/isomorphism/equivalence-relation.md"
+    }
+}

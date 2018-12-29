@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/abstract-algebra/group"
+        "/abstract-algebra/groups/group"
     ],
     "metadata": {
         "type": "def",

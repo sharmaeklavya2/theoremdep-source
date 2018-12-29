@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/permutation-groups/canonical-cycle-notation",
+        "/abstract-algebra/groups/permutation-groups/product-of-cycles-and-transposition"
+    ],
+    "metadata": {
+        "type": "deftheorem",
+        "title": "Parity of a permutation",
+        "description": "If a permutation can be written as a product of only an odd number of transpositions, it is called an odd permutation. If a permutation can be written as a product of only an even number of transpositions, it is called an even permutation. Every permutation is either an odd permutation or an even permutation."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/permutation-groups/parity.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/group",
+        "/abstract-algebra/groups/order-of-element-divides-order-of-group"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Group of prime order is cyclic"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/cyclic-groups/group-of-prime-order-is-cyclic.md"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/subgroup-condition-2",
+        "/abstract-algebra/groups/homomorphism/mapping-of-power-is-power-of-mapping"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Homomorphic mapping of subgroup of domain is subgroup of codomain",
+        "description": "Homomorphic mapping of subgroup of domain is subgroup of codomain. Inverse mapping of subgroup of codomain is subgroup of domain."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/homomorphism/subgroup.md"
+    }
+}

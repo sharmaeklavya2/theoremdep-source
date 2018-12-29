@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/isomorphism/group-isomorphism"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Cayley's Theorem",
+        "description": "Every group is isomorphic to a permutation group"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/isomorphism/cayleys-theorem.md"
+    }
+}

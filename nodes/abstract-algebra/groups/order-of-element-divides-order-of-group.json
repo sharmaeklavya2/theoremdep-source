@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/group",
+        "/abstract-algebra/cosets/lagranges-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Order of element divides order of group"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/order-of-element-divides-order-of-group.md"
+    }
+}

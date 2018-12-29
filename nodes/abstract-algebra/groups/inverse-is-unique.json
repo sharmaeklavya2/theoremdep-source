@@ -1,0 +1,14 @@
+{
+    "deps": {
+        "/abstract-algebra/groups/group": "def"
+    },
+    "metadata": {
+        "type": "theorem",
+        "title": "Inverse of a group element is unique",
+        "description": "Inverse of a group element is unique."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/inverse-is-unique.md"
+    }
+}

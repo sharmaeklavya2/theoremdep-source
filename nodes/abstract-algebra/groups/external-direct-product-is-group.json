@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/group"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "External direct product is a group",
+        "description": "For groups G and H, G × H is a group"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/external-direct-product-is-group.md"
+    }
+}

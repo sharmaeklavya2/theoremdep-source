@@ -4,8 +4,8 @@
             "/number-theory/coprime": "def",
             "/number-theory/modular-equivalence": "def",
             "/number-theory/eulers-totient-function": "def",
-            "/abstract-algebra/znstar-is-a-group": "proof",
-            "/abstract-algebra/group-elem-to-the-power-group-size-equals-identity": "proof"
+            "/abstract-algebra/groups/znstar-is-a-group": "proof",
+            "/abstract-algebra/groups/group-elem-to-the-power-group-size-equals-identity": "proof"
         },
         {
             "/number-theory/coprime": "def",

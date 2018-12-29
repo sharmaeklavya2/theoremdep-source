@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/group"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Inverse of product of two elements of a group",
+        "description": "(a*b)^(-1) = (b^(-1)) * (a^(-1))"
+    },
+    "document": {
+        "type": "inline",
+        "text": "$$(ab)(b^{-1}a^{-1}) = a(bb^{-1})a^{-1} = aa^{-1} = e$$\n\nTherefore, $(ab)^{-1} = b^{-1}a^{-1}$."
+    }
+}
