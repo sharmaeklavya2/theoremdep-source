@@ -1,11 +1,11 @@
 {
     "deps": {
-        "/number-theory/gcd/gcd-subtraction": "proof"
+        "/number-theory/integer-division-theorem": "proof"
     },
     "metadata": {
         "type": "theorem",
         "title": "GCD is the smallest Linear Combination",
-        "description": "The gcd of two numbers is their smallest positive linear combination."
+        "description": "The gcd of a set of numbers is their smallest positive linear combination."
     },
     "document": {
         "type": "include",

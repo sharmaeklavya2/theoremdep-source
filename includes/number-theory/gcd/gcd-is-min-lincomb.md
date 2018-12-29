@@ -1,34 +1,20 @@
-The GCD of two numbers is their smallest positive linear combination.
+The GCD of a set of numbers is their smallest positive linear combination.
+
+\[ \gcd(a_1, a_2, \ldots, a_n) = \min^+\left( \sum_{i=1}^n a_i\mathbb{Z} \right) \]
 
 ## Proof
 
-Let $p_{a, b}(x, y): \gcd(x, y) = \gcd(a, b) \wedge x, y \in a\mathbb{Z} + b\mathbb{Z}$.
+Let $g = \gcd(a_1, a_2, \ldots, a_n)$.
+Let $d = \sum_{i=1}^n k_ia_i$ be the smallest positive linear combination of $[a_1, a_2, \ldots, a_n]$.
 
-\begin{align}
-&p_{a, b}(x, y)
-\\ &\iff \gcd(x, y) = \gcd(a, b) \wedge x, y \in a\mathbb{Z} + b\mathbb{Z}
-\\ &\iff \gcd(x-y, y) = \gcd(a, b) \wedge x-y, y \in a\mathbb{Z} + b\mathbb{Z}
-\\ &\iff p_{a, b}(x-y, y)
-\end{align}
+Since $g \mid a_i$, $g \mid d$. So $g \le d$.
 
-Therefore, $p_{a, b}(x, y) = p_{a, b}(y, x\% y)$.
+Let $a_i = qd + r$, where $0 \le r \lt d$ (by integer division theorem).
+Therefore, $r = a_i - qd$ is a linear combination of $[a_1, a_2, \ldots, a_n]$ which is smaller than $d$.
+Since $d$ is the smallest positive linear combination, $r$ must be 0.
+Therefore, $d$ divides $a_i$.
 
-Let $\lambda$ be the operation defined by $(x, y) \mapsto (y, x\%y)$ where $y$ is not 0.
-$p_{a, b}$ is invariant over $\lambda$.
+Since $d$ divides all $a_i$, it is a common divisor of $[a_1, a_2, \ldots, a_n]$.
+Therefore, $d \le g$.
 
-Applying $\lambda$ on $(x, y)$ decreases $y$.
-Therefore, successively applying $\lambda$ on $(a, b)$ will eventually reduce it to the form $(e, 0)$.
-
-$p_{a, b}(a, b)$ is trivially true.
-$p_{a, b}(e, 0)$ is true since $p_{a, b}$ is invariant over $\lambda$.
-
-$$p_{a, b}(e, 0)
-\Rightarrow e = \gcd(a, b) \wedge e \in a\mathbb{Z} + b\mathbb{Z}
-\Rightarrow \gcd(a, b) \in a\mathbb{Z} + b\mathbb{Z}$$
-
-Let $d$ be the smallest positive linear combination of $a$ and $b$.
-Since $g$ is a linear combination of $a$ and $b$, $d \le g$.
-
-$$g \mid a \wedge g \mid b \Rightarrow g \mid d \Rightarrow g \le d \Rightarrow g = d$$
-
-Therefore, $\gcd(a, b)$ is the smallest positive linear combination of $a$ and $b$.
+Since $d \le g$ and $g \le d$, $d = g$.
