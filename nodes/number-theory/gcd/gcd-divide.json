@@ -1,5 +1,7 @@
 {
-    "deps": [],
+    "deps": [
+        "/number-theory/gcd/common-divisor-divides-gcd"
+    ],
     "metadata": {
         "type": "theorem",
         "title": "gcd(a/d, b/d) = gcd(a, b)/d",
