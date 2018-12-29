@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring",
+        "/abstract-algebra/rings/0x-is-0"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "A field is an integral domain"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/field-is-integral-domain.md"
+    }
+}

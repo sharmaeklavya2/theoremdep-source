@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/group"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Ring",
+        "description": "A ring is a set with 2 operations (addition and multiplication) which satisfies certain properties."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/ring.md"
+    }
+}

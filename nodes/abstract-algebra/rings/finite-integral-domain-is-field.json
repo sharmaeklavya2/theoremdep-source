@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "A finite integral domain is a field"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/finite-integral-domain-is-field.md"
+    }
+}

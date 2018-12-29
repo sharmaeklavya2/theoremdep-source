@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "In a ring, 0x = 0 = x0 for all x",
+        "description": "Let R be a ring. For all elements x in R, 0x = 0 = x0."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/0x-is-0.md"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Characteristic of ring equals additive order of unity"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/char-equals-additive-order-of-unity.md"
+    }
+}
