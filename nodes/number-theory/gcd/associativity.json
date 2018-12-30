@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/number-theory/gcd/common-divisor-divides-gcd"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "gcd is associative",
+        "description": "gcd(a1, a2, ..., am, b1, b2, ... bn) = gcd(gcd(a1, a2, ..., am), b1, b2, ..., bm)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/gcd/associativity.md"
+    }
+}
