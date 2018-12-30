@@ -1,6 +1,7 @@
 {
     "deps": [
-        "/abstract-algebra/rings/ring"
+        "/abstract-algebra/rings/field",
+        "/abstract-algebra/rings/intdom"
     ],
     "metadata": {
         "type": "theorem",

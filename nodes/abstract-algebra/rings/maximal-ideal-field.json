@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ideal",
+        "/abstract-algebra/rings/field",
+        "/abstract-algebra/rings/quotient-ring",
+        "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "I is a maximal ideal iff R/I is a field",
+        "description": "Let I be an ideal of R, a commutative ring with unity. Then I is maximal in R iff R/I is a field."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/maximal-ideal-field.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring",
+        "/abstract-algebra/rings/0x-is-0"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "(-a)b = a(-b) = -ab"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/minus-outside.md"
+    }
+}

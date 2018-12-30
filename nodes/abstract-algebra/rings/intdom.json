@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Integral Domain",
+        "description": "R is an integral domain iff R is a commutative ring with unity and R has no zero-divisors."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/intdom.md"
+    }
+}

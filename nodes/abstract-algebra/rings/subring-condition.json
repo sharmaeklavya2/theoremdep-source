@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring",
+        "/abstract-algebra/groups/subgroup-condition-2"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Conditions for a subset of a ring to be a subring"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/subring-condition.md"
+    }
+}

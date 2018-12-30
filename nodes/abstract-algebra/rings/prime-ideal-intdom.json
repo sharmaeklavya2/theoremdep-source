@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ideal",
+        "/abstract-algebra/rings/intdom",
+        "/abstract-algebra/rings/quotient-ring",
+        "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "I is a prime ideal iff R/I is an integral domain",
+        "description": "Let I be an ideal of R, a commutative ring with unity. Then I is prime in R iff R/I is an integral domain."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/prime-ideal-intdom.md"
+    }
+}

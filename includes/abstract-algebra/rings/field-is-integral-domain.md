@@ -1,9 +1,4 @@
-$(R, +, \circ)$ is a field iff $(R, +, \circ)$ is a ring and $(R-\{0\}, \circ)$ is an abelian group.
-
-$(R, +, \circ)$ is an integral domain iff $\circ$ is commutative, $\circ$ has an identity
-and $(R, +, \circ)$ has no zero-divisors. $a, b \in R-\{0\}$ are zero-divisors iff $ab = 0$.
-
-If $(R, +, \circ)$ is a field then it is also an integral domain.
+If $R$ is a field then it is also an integral domain.
 
 ## Proof by contradiction
 

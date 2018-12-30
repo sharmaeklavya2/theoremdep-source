@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ideal",
+        "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Product of ideal cosets is well-defined",
+        "description": "Let I be an ideal. The product of cosets (a+I)(b+I) = ab+I is well-defined."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/cosets/product-of-ideal-cosets.md"
+    }
+}

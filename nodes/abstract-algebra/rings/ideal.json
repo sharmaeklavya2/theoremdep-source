@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Ideal",
+        "description": "An ideal I is a subring of R with the absorption property, i.e. aI = I for all a in R."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/ideal.md"
+    }
+}

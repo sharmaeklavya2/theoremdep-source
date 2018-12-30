@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ideal",
+        "/number-theory/integer-division-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Every ideal of Z is a principal ideal"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/ideal-of-z-is-principal.md"
+    }
+}
