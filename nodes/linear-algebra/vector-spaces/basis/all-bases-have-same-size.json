@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/basis/basis",
+        "/linear-algebra/vector-spaces/linindep-is-smaller-than-span"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "All bases of a vector space have the same size"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/basis/all-bases-have-same-size.md"
+    }
+}

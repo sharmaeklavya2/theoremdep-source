@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/field"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Vector Space",
+        "description": "A vector space is a set of vectors along with a scalar multiplication operation."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/vector-space.md"
+    }
+}

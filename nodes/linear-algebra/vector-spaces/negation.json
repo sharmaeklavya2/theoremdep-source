@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/zero"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Negation in vector space",
+        "description": "-v = (-1)v. -(av) = (-a)v = a(-v)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/negation.md"
+    }
+}

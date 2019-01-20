@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/basis/basis",
+        "/linear-algebra/vector-spaces/linindep-is-smaller-than-span",
+        "/linear-algebra/vector-spaces/linindep-increment"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Linearly independent set can be expanded into a basis",
+        "description": "If a set of vectors is linearly independent, a finite number of vectors can be added to it to make it a basis if the vector space has a finite-sized basis."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/basis/expand-linindep-to-basis.md"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/linindep"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Incrementing a linearly independent set",
+        "keywords": ["increment", "expand", "increase", "grow"],
+        "description": "If S is linearly independent and v is not a linear combination of S, then S+{v} is linearly independent."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/linindep-increment.md"
+    }
+}

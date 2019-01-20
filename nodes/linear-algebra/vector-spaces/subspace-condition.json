@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/vector-space",
+        "/abstract-algebra/groups/subgroup-condition-2",
+        "/linear-algebra/vector-spaces/negation"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Condition for being a subspace",
+        "description": "Let W be a subset of vector space V. Then W is a subspace of V iff W is closed under addition and scalar multiplication."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/subspace-condition.md"
+    }
+}

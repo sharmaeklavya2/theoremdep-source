@@ -1,0 +1,14 @@
+{
+    "deps": {
+        "/abstract-algebra/rings/ring": "optional"
+    },
+    "metadata": {
+        "type": "definition",
+        "title": "Vector",
+        "description": "A vector is a sequence of numbers with an element-wise addition operation and a scalar multiplication operation."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector.md"
+    }
+}

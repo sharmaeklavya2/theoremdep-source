@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/vector-space"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Zeros in vector space",
+        "description": "0v = 0, a0 = 0, (av = 0 iff a=0 or v=0)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/zero.md"
+    }
+}
