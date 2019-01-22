@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Pythagorean theorem",
+        "description": "If < u, v > = 0, < u, u > + < v, v > = < u+v, u+v >."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/pythagorean-theorem.md"
+    }
+}

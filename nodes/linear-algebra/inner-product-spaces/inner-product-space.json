@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/vector-space"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Inner product space",
+        "description": "An inner product space is a vector space equipped with an inner product operator, which is an abstract generalization of the dot product."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/inner-product-space.md"
+    }
+}

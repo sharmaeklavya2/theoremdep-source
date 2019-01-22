@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/norm",
+        "/linear-algebra/inner-product-spaces/cauchy-schwarz-inequality",
+        "/complex-numbers/real-part-less-than-abs"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Triangle inequality",
+        "description": "|x+y| ≤ |x| + |y|"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/triangle-inequality.md"
+    }
+}

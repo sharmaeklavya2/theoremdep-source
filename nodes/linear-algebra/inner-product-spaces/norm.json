@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Norm",
+        "description": "norm(x) = sqrt(< x, x >)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/norm.md"
+    }
+}

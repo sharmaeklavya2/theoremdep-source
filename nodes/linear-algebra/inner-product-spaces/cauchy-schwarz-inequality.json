@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space",
+        "/linear-algebra/inner-product-spaces/zero"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Cauchy-Schwarz Inequality",
+        "description": "< u, v >² ≤ < u, u > < v, v >"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/cauchy-schwarz-inequality.md"
+    }
+}

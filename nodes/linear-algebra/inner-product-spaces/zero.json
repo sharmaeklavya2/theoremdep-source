@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Zero in inner product",
+        "description": "< 0, v > = < v, 0 > = 0."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/zero.md"
+    }
+}
