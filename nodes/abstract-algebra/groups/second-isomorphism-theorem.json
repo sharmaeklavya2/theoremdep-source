@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/abstract-algebra/cosets/factor-group",
+        "/abstract-algebra/groups/factor-groups/factor-group",
         "/abstract-algebra/groups/subgroup-condition-2",
         "/abstract-algebra/cosets/product-of-normal-cosets",
         "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup",

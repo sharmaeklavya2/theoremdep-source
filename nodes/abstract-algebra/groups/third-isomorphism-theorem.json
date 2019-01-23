@@ -1,7 +1,7 @@
 {
     "deps": [
-        "/abstract-algebra/cosets/factor-group",
-        "/abstract-algebra/cosets/normal-correspondence-theorem",
+        "/abstract-algebra/groups/factor-groups/factor-group",
+        "/abstract-algebra/groups/factor-groups/normal-correspondence-theorem",
         "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup",
         "/abstract-algebra/groups/first-isomorphism-theorem"
     ],

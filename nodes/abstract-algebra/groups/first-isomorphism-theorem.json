@@ -1,7 +1,7 @@
 {
     "deps": [
         "/abstract-algebra/groups/homomorphism/normal-subgroup",
-        "/abstract-algebra/cosets/factor-group",
+        "/abstract-algebra/groups/factor-groups/factor-group",
         "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup",
         "/abstract-algebra/groups/homomorphism/mapping-of-power-is-power-of-mapping"
     ],
