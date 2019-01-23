@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Polynomial"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/polynomial.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/polynomials/polynomial"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Degree of product of polynomials",
+        "description": "deg(pq) ≤ deg(p) + deg(q). If coefficients of p and q are from an integral domain, deg(pq) = deg(p) + deg(q)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/degree-of-product.md"
+    }
+}

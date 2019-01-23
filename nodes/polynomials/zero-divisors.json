@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/polynomials/degree-of-product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Zero divisors of a polynomial",
+        "description": "Ring R has no zero divisors iff the ring of polynomials R[x] has no zero divisors"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/zero-divisors.md"
+    }
+}

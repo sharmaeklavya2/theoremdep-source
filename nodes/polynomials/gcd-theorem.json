@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/field",
+        "/polynomials/gcd",
+        "/polynomials/division-theorem",
+        "/polynomials/degree-of-product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Polynomial GCD theorem",
+        "description": "The GCD of polynomials is unique and equals their least degree monic linear combination."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/gcd-theorem.md"
+    }
+}

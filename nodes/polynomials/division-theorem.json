@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/field",
+        "/polynomials/degree-of-sum",
+        "/polynomials/degree-of-product",
+        "/polynomials/zero-divisors",
+        "/abstract-algebra/rings/field-is-integral-domain"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Polynomial division theorem",
+        "description": "If a and b are polynomials, a can be uniquely expressed as bq + r where deg(r) < deg(b)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/division-theorem.md"
+    }
+}

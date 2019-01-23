@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/polynomials/polynomial",
+        "/polynomials/degree-of-sum",
+        "/polynomials/degree-of-product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Polynomials of a ring form a ring",
+        "description": "The set of all polynomials is a ring if the coefficients are from a ring."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/ring.md"
+    }
+}

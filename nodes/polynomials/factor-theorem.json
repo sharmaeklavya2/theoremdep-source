@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/polynomials/division-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Factor theorem",
+        "description": "(x-a) is a factor of p(x) iff p(a) = 0"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/factor-theorem.md"
+    }
+}

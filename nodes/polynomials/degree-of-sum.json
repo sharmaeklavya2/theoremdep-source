@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/polynomials/polynomial"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Degree of sum of polynomials",
+        "description": "The degree of sum of 2 polynomials is at most the maximum of the degrees of those polynomials."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/degree-of-sum.md"
+    }
+}
