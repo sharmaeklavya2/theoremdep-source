@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/number-theory/modular-equivalence"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Modular addition",
+        "description": "a1 ≡ b1 and a2 ≡ b2 implies a1+a2 ≡ b1+b2"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/mod-add.md"
+    }
+}

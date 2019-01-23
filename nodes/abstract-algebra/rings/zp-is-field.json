@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/field",
+        "/abstract-algebra/rings/zn-is-ring",
+        "/number-theory/mod-inv-existence"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Zp is a field",
+        "description": "If p is prime, Zp is a field"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/zp-is-field.md"
+    }
+}

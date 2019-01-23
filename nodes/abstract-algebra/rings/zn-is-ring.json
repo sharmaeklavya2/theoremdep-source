@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring",
+        "/number-theory/modular-equivalence",
+        "/number-theory/mod-add",
+        "/number-theory/mod-mult",
+        "/number-theory/integer-division-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Zn is a ring",
+        "description": "The set of integers modulo n is a ring."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/zn-is-ring.md"
+    }
+}

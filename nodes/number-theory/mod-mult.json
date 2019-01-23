@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/number-theory/modular-equivalence"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Modular multiplication",
+        "description": "a1 ≡ b1 and a2 ≡ b2 implies a1a2 ≡ b1b2"
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/mod-mult.md"
+    }
+}
