@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space",
+        "/complex-numbers/conjugation-is-homomorphic"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Inner product is anti-linear in second argument",
+        "description": "< u, av > = conj(a) < u, v > and < u, v1+v2 > = < u, v1 > + < u, v2 >"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/antilin-in-2nd.md"
+    }
+}

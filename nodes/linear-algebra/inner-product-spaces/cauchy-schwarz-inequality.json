@@ -1,7 +1,7 @@
 {
     "deps": [
-        "/linear-algebra/inner-product-spaces/inner-product-space",
-        "/linear-algebra/inner-product-spaces/zero"
+        "/linear-algebra/inner-product-spaces/zero",
+        "/linear-algebra/inner-product-spaces/antilin-in-2nd"
     ],
     "metadata": {
         "type": "theorem",

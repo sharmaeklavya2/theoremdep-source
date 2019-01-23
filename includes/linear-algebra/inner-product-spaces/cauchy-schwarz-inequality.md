@@ -10,9 +10,9 @@ Then $|\langle \mathbf{u}, \mathbf{v} \rangle|^2 \le \langle \mathbf{u}, \mathbf
 \begin{align}
 0 &\le \| \mathbf{u} - k\mathbf{v} \|^2 \tag{by positive semidefiniteness}
 \\ &= \langle \mathbf{u} - k\mathbf{v}, \mathbf{u} - k\mathbf{v} \rangle
-\\ &= \langle \mathbf{u}, \mathbf{u} \rangle - \langle \mathbf{u}, k\mathbf{v} \rangle - \langle k\mathbf{v}, \mathbf{u} \rangle + \langle k\mathbf{v}, k\mathbf{v} \rangle \tag{by linearity}
+\\ &= \langle \mathbf{u}, \mathbf{u} \rangle - \langle \mathbf{u}, k\mathbf{v} \rangle - \langle k\mathbf{v}, \mathbf{u} \rangle + \langle k\mathbf{v}, k\mathbf{v} \rangle \tag{by (anti-)linearity}
 \\ &= \langle \mathbf{u}, \mathbf{u} \rangle - \overline{k}\langle \mathbf{u}, \mathbf{v} \rangle - k\overline{\langle \mathbf{u}, \mathbf{v} \rangle}
-    + k\overline{k}\langle \mathbf{v}, \mathbf{v} \rangle \tag{by linearity and conjugate symmetry}
+    + k\overline{k}\langle \mathbf{v}, \mathbf{v} \rangle \tag{by (anti-)linearity and conjugate symmetry}
 \\ &= \|\mathbf{u}\|^2 - \overline{k}k\|\mathbf{v}\|^2 - k\overline{k\|\mathbf{v}\|^2} + k\overline{k}\|\mathbf{v}\|^2
 \\ &= \|\mathbf{u}\|^2 - k\overline{k}\|\mathbf{v}\|^2 - k\overline{k}\|\mathbf{v}\|^2 + k\overline{k}\|\mathbf{v}\|^2
 \\ &= \|\mathbf{u}\|^2 - k\overline{k}\|\mathbf{v}\|^2

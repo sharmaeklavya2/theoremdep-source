@@ -1,9 +1,12 @@
-$\langle 0, v \rangle = \langle v, 0 \rangle = 0$.
+$\langle \mathbf{0}, \mathbf{v} \rangle = \langle \mathbf{v}, \mathbf{0} \rangle = 0$.
 
 ## Proof
 
-\[ \langle 0, v \rangle = \langle 0 + 0, v \rangle = \langle 0, v \rangle + \langle 0, v \rangle
-\Rightarrow \langle 0, v \rangle = 0 \]
+\[ \langle \mathbf{0}, \mathbf{v} \rangle
+= \langle \mathbf{0} + \mathbf{0}, \mathbf{v} \rangle
+= \langle \mathbf{0}, \mathbf{v} \rangle + \langle \mathbf{0}, \mathbf{v} \rangle \tag{linearity in first argument}
+\Rightarrow \langle \mathbf{0}, \mathbf{v} \rangle = 0 \]
 
-\[ \langle v, 0 \rangle = \langle v, 0 + 0 \rangle = \langle v, 0 \rangle + \langle v, 0 \rangle
-\Rightarrow \langle v, 0 \rangle = 0 \]
+\[ \langle \mathbf{v}, \mathbf{0} \rangle
+= \overline{\langle \mathbf{0}, \mathbf{v} \rangle} \tag{conjugate symmetry}
+= \overline{0} = 0 \]

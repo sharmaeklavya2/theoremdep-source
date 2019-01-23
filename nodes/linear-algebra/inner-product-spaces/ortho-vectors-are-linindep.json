@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space",
+        "/linear-algebra/inner-product-spaces/inner-product-space"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "A set of mutually orthogonal vectors is linearly independent"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/ortho-vectors-are-linindep.md"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/antilin-in-2nd",
+        "/linear-algebra/inner-product-spaces/zero"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "x and y are parallel iff ∥x∥²∥y∥² = |< x, y >|².",
+        "description": "Two vectors are parallel iff the absolute value of their dot product equals the product of their norms."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/parallelism.md"
+    }
+}

@@ -29,10 +29,10 @@ Therefore, $v_k$ is a linear combination of the rest of the vectors in $S$.
 
 Conversely, assume $v_k$ is a linear combination of the rest of the vectors in $S$.
 
-\begin{align}
-& v_k = \sum_{i=1}^{k-1} a_iv_i + \sum_{i=k+1}^n a_iv_i
-& \sum_{i=1}^{k-1} a_iv_i + (-1)v_k + \sum_{i=k+1}^n a_iv_i = 0
-\end{align}
+\[
+v_k = \sum_{i=1}^{k-1} a_iv_i + \sum_{i=k+1}^n a_iv_i
+\implies \sum_{i=1}^{k-1} a_iv_i + (-1)v_k + \sum_{i=k+1}^n a_iv_i = 0
+\]
 
 Therefore, a linear combination of $S$ is 0 where all coefficients are not 0.
 Therefore, $S$ is linearly dependent.
