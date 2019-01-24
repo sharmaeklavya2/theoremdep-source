@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/polynomials/polynomial",
+        "/number-theory/gcd/gcd-divide"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "A polynomial in rationals is a rational times a polynomial in integers"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/rational-to-int.md"
+    }
+}

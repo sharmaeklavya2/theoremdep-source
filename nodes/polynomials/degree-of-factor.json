@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/polynomials/degree-of-product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Degree of factor is less than degree of polynomial",
+        "description": "If a(x) divides p(x), degree of a(x) lies between 0 and deg(p)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/degree-of-factor.md"
+    }
+}

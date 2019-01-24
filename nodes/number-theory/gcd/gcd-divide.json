@@ -4,8 +4,7 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "gcd(a/d, b/d) = gcd(a, b)/d",
-        "description": "gcd(a/d, b/d) = gcd(a, b)/d"
+        "title": "gcd(a1/d, a2/d, ..., an/d) = gcd(a1, a_2, ..., an)/d"
     },
     "document": {
         "type": "include",

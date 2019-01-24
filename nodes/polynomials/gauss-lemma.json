@@ -1,0 +1,22 @@
+{
+    "deps": [
+        "/polynomials/divisibility",
+        "/polynomials/degree-of-factor",
+        "/polynomials/degree-of-product",
+        "/polynomials/rational-to-int",
+        "/number-theory/euclids-lemma",
+        "/number-theory/modular-equivalence",
+        "/number-theory/mod-mult",
+        "/abstract-algebra/rings/zp-is-intdom",
+        "/polynomials/zero-divisors"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Gauss' Lemma",
+        "description": "If a polynomial in Z[x] has a factor in Q[x], it also has a factor in Z[x] of the same degree."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/gauss-lemma.md"
+    }
+}
