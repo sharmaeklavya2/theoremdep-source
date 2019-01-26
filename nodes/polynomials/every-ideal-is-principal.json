@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ideal",
+        "/polynomials/division-theorem",
+        "/polynomials/principal-ideal-trivial"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Every ideal in F[x] is principal",
+        "description": "Every ideal the ring of polynomials of a field is a principal ideal"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/every-ideal-is-principal.md"
+    }
+}

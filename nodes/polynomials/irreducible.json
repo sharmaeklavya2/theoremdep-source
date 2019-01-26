@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/polynomials/polynomial"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Irreducible polynomial",
+        "description": "A polynomial is irreducible iff it cannot be expressed as a product of polynomials of lower degree."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/irreducible.md"
+    }
+}

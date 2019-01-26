@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ideal",
+        "/polynomials/degree-of-sum",
+        "/abstract-algebra/rings/field-is-integral-domain"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "p(x)F[x] = F[x] iff p is a non-zero constant"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/principal-ideal-trivial.md"
+    }
+}

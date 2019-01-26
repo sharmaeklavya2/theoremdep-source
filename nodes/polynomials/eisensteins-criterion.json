@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/polynomials/irreducible",
+        "/polynomials/degree-of-product",
+        "/polynomials/gauss-lemma",
+        "/number-theory/euclids-lemma"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Eisenstein's criterion",
+        "description": "If f(x) is in Z[x] and p is prime and deg(f) = n and p divides all fi except fn and p^2 does not divide f0, then f is irreducible over Q[x]."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/eisensteins-criterion.md"
+    }
+}

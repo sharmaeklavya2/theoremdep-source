@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/polynomials/divisibility"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "q(x)F[x] is in p(x)F[x] iff p(x) divides q(x)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/subideal-condition.md"
+    }
+}
