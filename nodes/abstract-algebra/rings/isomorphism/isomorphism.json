@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ring"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Ring isomorphism",
+        "description": "A ring isomorphism is a bijective function ϕ such that ϕ(a+b) = ϕ(a) + ϕ(b) and ϕ(ab) = ϕ(a)ϕ(b)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/isomorphism/isomorphism.md"
+    }
+}

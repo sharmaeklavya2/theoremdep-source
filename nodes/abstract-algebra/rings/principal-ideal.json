@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/ideal",
+        "/abstract-algebra/rings/subring-condition"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Principal ideal",
+        "description": "A principal ideal is a multiplicative coset"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/principal-ideal.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/polynomials/polynomial",
+        "/polynomials/ring"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "R is commutative iff R[x] is commutative"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/commutative.md"
+    }
+}

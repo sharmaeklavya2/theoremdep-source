@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/isomorphism/isomorphism",
+        "/abstract-algebra/rings/field"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Being a field is preserved under isomorphism"
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/rings/isomorphism/field.md"
+    }
+}

@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/abstract-algebra/rings/ideal",
+        "/abstract-algebra/rings/principal-ideal",
         "/polynomials/division-theorem",
         "/polynomials/principal-ideal-trivial"
     ],

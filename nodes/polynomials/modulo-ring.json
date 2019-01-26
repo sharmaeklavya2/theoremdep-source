@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/field-is-integral-domain",
+        "/polynomials/division-theorem",
+        "/polynomials/commutative",
+        "/polynomials/degree-of-sum",
+        "/abstract-algebra/groups/subgroup-condition-2",
+        "/polynomials/divisibility",
+        "/polynomials/degree-of-product"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "F[x]/p(x): A ring",
+        "description": "F[x]/p(x) is the ring of all polynomials modulo p(x)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/modulo-ring.md"
+    }
+}

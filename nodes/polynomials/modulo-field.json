@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/field-is-integral-domain",
+        "/polynomials/modulo-ring",
+        "/polynomials/degree-of-product",
+        "/polynomials/gcd-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "The ring F[x]/p(x) is a field iff p is irreducible"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/modulo-field.md"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/isomorphism/isomorphism",
+        "/polynomials/ring",
+        "/polynomials/modulo-ring",
+        "/abstract-algebra/rings/principal-ideal",
+        "/abstract-algebra/rings/quotient-ring",
+        "/abstract-algebra/cosets/coset-equals-subgroup-iff-elem-in-subgroup",
+        "/polynomials/degree-of-sum",
+        "/polynomials/division-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "F[x]/p(x) is isomorphic to F[x]/p(x)F[x]"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/modulo-isomorphic.md"
+    }
+}
