@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Identity matrix",
+        "description": "The identity matrix is a matrix I such that AI = IA = A."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/identity.md"
+    }
+}

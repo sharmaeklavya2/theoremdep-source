@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/abstract-algebra/semiring",
+        "/linear-algebra/matrices/matrix",
+        "/linear-algebra/matrices/mult-assoc",
+        "/linear-algebra/matrices/distributive",
+        "/linear-algebra/matrices/identity"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Square matrices form a (semi)ring"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/semiring.md"
+    }
+}

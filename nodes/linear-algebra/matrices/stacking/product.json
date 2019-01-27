@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/stacking/stacking"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Product of stacked matrices",
+        "description": ""
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/stacking/product.md"
+    }
+}

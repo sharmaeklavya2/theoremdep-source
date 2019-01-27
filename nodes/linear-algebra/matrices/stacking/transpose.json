@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/stacking/stacking"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Transpose of stacked matrix"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/stacking/transpose.md"
+    }
+}

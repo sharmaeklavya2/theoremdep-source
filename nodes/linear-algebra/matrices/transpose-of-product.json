@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Transpose of product",
+        "description": "(AB)' = B'A'"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/transpose-of-product.md"
+    }
+}

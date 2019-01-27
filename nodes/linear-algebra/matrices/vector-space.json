@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix",
+        "/linear-algebra/vector-spaces/vector-space"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matrices over a field form a vector space",
+        "description": ""
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/vector-space.md"
+    }
+}

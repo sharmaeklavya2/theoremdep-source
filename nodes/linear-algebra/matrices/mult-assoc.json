@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matrix multiplication is associative"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/mult-assoc.md"
+    }
+}

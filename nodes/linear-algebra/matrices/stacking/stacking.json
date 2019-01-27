@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Stacking",
+        "description": "[A|B] is the horizontal stacking of matrices. [A/B] is the vertical stacking of matrices."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/stacking/stacking.md"
+    }
+}
