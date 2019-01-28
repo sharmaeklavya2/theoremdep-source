@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/inverse",
+        "/linear-algebra/matrices/mult-assoc"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Inverse of product",
+        "description": "inv(AB) = inv(B)inv(A)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/inverse-of-product.md"
+    }
+}

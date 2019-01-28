@@ -38,8 +38,10 @@ $(A+B)_{i, j} = A_{i, j} + B_{i, j}$.
 \implies A+B = B+A \]
 
 * Scalar multiplication: Let $A$ be an $m$ by $n$ matrix and $r \in R$.
-Then $rA$ is an $m$ by $n$ matrix such that $(rA)_{i, j} = rA_{i, j}$.
+Then $rA$ is an $m$ by $n$ matrix such that $(rA)_{i, j} = rA_{i, j}$
+and $Ar$ is an $m$ by $n$ matrix such that $(Ar)_{i, j} = A_{i, j}r$.
 $rA$ is called the scalar product of $r$ and $A$.
+$Ar$ is called the scalar product of $A$ and $r$.
 \[ (r(sA))_{i, j} = r(sA)_{i, j} = r(sA_{i, j}) = (rs)A_{i, j} = ((rs)A)_{i, j}
 \implies r(sA) = (rs)A \]
 \begin{align}
@@ -53,6 +55,9 @@ $rA$ is called the scalar product of $r$ and $A$.
 \\ &= (rA)_{i, j} + (rB)_{i, j} = (rA + rB)_{i, j}
 \\ &\implies r(A+B) = (rA+rB)
 \end{align}
+Similarly, $(Ar)s = A(rs)$, $A(r+s) = (Ar + As)$ and $(A+B)r = (Ar + Br)$.
+If $R$ is commutative,
+\[ (rA)_{i, j} = rA_{i, j} = A_{i, j}r = (Ar)_{i, j} \implies rA = Ar \]
 
 * Matrix multiplication: Let $A$ be an $m$ by $p$ matrix and $B$ be a $p$ by $n$ matrix.
 $AB$ is defined to be an $m$ by $n$ matrix such that

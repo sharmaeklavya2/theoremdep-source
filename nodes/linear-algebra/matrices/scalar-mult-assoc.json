@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "c(AB) = (cA)B and (AB)c = A(Bc)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/scalar-mult-assoc.md"
+    }
+}

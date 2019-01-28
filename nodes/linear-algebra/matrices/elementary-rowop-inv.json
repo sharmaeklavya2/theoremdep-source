@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/elementary-rowop"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Every elementary row operation has an inverse"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/elementary-rowop-inv.md"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Reduced Row Echelon Form (RREF)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/rref.md"
+    }
+}

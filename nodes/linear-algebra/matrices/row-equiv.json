@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/elementary-rowop",
+        "/linear-algebra/matrices/elementary-rowop-inv"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Row equivalence",
+        "description": "A and B are row equivalent iff B can be obtained from A by applying a finite number of elementary row operations to A."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/row-equiv.md"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/identity",
+        "/linear-algebra/matrices/mult-assoc"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Inverse of a matrix",
+        "description": "The inverse of matrix A is a matrix B such that AB = BA = I."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/inverse.md"
+    }
+}

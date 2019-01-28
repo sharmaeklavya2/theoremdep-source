@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Elementary row operation",
+        "description": "An elementary row operation on a matrix either adds a multiple of a row to another row, multiplies a row by a scalar or swaps two rows."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/elementary-rowop.md"
+    }
+}
