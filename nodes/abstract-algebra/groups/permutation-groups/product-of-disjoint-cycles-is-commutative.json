@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/abstract-algebra/groups/permutation-groups/symmetric-group"
+        "/abstract-algebra/groups/permutation-groups/permutation-group"
     ],
     "metadata": {
         "type": "theorem",

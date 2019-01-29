@@ -1,4 +1,7 @@
 {
+    "deps": [
+        "/abstract-algebra/groups/permutation-groups/permutation-group"
+    ],
     "metadata": {
         "type": "theorem",
         "title": "Permutation is disjoint cycle product",

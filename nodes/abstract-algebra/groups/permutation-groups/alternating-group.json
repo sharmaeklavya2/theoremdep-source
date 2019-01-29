@@ -1,7 +1,8 @@
 {
     "deps": [
-        "/abstract-algebra/groups/permutation-groups/symmetric-group",
-        "/abstract-algebra/groups/permutation-groups/parity"
+        "/abstract-algebra/groups/permutation-groups/parity",
+        "/abstract-algebra/groups/subgroup-condition-2",
+        "/abstract-algebra/groups/inverse-of-product"
     ],
     "metadata": {
         "type": "def",

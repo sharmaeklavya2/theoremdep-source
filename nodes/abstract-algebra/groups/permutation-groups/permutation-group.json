@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/group",
+        "/misc/composition-of-bijections-is-a-bijection",
+        "/misc/function-composition-is-associative"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Permutation group",
+        "description": "A permutation group on a finite set X is a group of bijections on X, where the group operator is function composition."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/permutation-groups/permutation-group.md"
+    }
+}
