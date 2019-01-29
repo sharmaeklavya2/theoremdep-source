@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/group"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Homomorphism on groups",
+        "description": "A homomorphism ϕ is a function from one group to another such that ϕ(ab) = ϕ(a)ϕ(b)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/homomorphism/homomorphism.md"
+    }
+}

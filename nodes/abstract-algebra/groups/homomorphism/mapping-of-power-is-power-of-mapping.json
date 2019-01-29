@@ -1,5 +1,7 @@
 {
-    "deps": [],
+    "deps": [
+        "/abstract-algebra/groups/homomorphism/homomorphism"
+    ],
     "metadata": {
         "type": "theorem",
         "title": "Mapping of power is power of mapping",
