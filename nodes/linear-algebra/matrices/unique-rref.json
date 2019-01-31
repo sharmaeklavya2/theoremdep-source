@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/rref",
+        "/linear-algebra/matrices/row-equiv-matrices-have-same-row-space"
+    ],
+    "metadata": {
+        "theorem": "theorem",
+        "title": "RREF is unique",
+        "description": "Every matrix is row equivalent to a unique matrix in RREF."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/unique-rref.md"
+    }
+}

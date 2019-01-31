@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/system-of-linear-equations/rank-homogenous"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Homogeneous linear equations with more variables than unknowns",
+        "description": "If AX = 0 is a system of linear equations with more variables than unknowns, then there exists a non-trivial solution."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/system-of-linear-equations/more-variables-than-unknowns.md"
+    }
+}

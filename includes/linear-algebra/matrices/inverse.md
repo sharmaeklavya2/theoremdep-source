@@ -9,6 +9,9 @@ and is denoted as $A^{-1}$.
 
 A matrix whose inverse exists is called an invertible matrix.
 
+$AB = BA = I \Rightarrow$ $A$ and $B$ are inverses of each other.
+Therefore, $A = (A^{-1})^{-1}$.
+
 ## Proof
 
 Suppose $A$ has a left inverse $L$ and a right inverse $R$.

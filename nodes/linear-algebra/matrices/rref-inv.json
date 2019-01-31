@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/unique-rref",
+        "/linear-algebra/matrices/inverse",
+        "/linear-algebra/matrices/stacking/product",
+        "/linear-algebra/matrices/row-equiv-matrix",
+        "/linear-algebra/matrices/full-rank-inv",
+        "/linear-algebra/matrices/full-rank-square-rref-is-identity"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "RREF([A|I]) = [I|inv(A)] iff A is invertible",
+        "description": "This is an algorithm for finding the inverse of a matrix by calculating RREF."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/rref-inv.md"
+    }
+}

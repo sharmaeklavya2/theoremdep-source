@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/elementary-rowop",
+        "/linear-algebra/matrices/stacking/stacking"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Elementary row operation on stacked matrix",
+        "description": "Let f be an elementary row operation. Then f([A|B]) = [f(A)|f(B)]."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/stacking/elementary-rowop.md"
+    }
+}

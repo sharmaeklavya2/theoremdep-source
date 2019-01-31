@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/abstract-algebra/rings/field",
         "/linear-algebra/matrices/identity",
         "/linear-algebra/matrices/mult-assoc"
     ],

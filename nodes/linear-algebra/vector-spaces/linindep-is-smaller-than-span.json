@@ -3,7 +3,7 @@
         "/linear-algebra/vector-spaces/linindep",
         "/linear-algebra/vector-spaces/span",
         "/linear-algebra/matrices/matrix",
-        "/linear-algebra/system-of-equations/more-variables-than-unknowns",
+        "/linear-algebra/system-of-linear-equations/more-variables-than-unknowns",
         "/linear-algebra/matrices/transpose-of-product"
     ],
     "metadata": {

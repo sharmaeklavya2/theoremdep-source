@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/row-equiv",
+        "/linear-algebra/matrices/elementary-rowop-matrix",
+        "/linear-algebra/matrices/mult-assoc",
+        "/linear-algebra/matrices/inverse-of-product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Row equivalence matrix",
+        "description": "If A and B are row equivalent, then there exists an invertible matrix R such that B = RA."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/row-equiv-matrix.md"
+    }
+}

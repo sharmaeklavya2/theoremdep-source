@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/rref",
+        "/linear-algebra/matrices/identity"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Full-rank square matrix in RREF is the identity matrix",
+        "description": "Let A be an n by n matrix. If A is in RREF and all rows of A are non-zero, then A is the identity matrix."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/full-rank-square-rref-is-identity.md"
+    }
+}

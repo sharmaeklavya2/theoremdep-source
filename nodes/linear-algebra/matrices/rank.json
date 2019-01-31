@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/field",
+        "/linear-algebra/matrices/unique-rref"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Rank of a matrix",
+        "description": "The rank of a matrix is the number of non-zero rows in the RREF of the matrix."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/rank.md"
+    }
+}

@@ -1,12 +1,13 @@
 {
     "deps": [
         "/linear-algebra/matrices/elementary-rowop",
-        "/linear-algebra/matrices/elementary-rowop-inv"
+        "/linear-algebra/matrices/elementary-rowop-inv",
+        "/abstract-algebra/rings/field"
     ],
     "metadata": {
         "type": "theoremdef",
-        "title": "Row equivalence",
-        "description": "A and B are row equivalent iff B can be obtained from A by applying a finite number of elementary row operations to A."
+        "title": "Row equivalence of matrices",
+        "description": "Matrices A and B are row equivalent iff B can be obtained from A by applying a finite number of elementary row operations to A."
     },
     "document": {
         "type": "include",

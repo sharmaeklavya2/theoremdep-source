@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Row space",
+        "description": "The row space of a matrix is the set of all linear combinations of the rows of the matrix."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/row-space.md"
+    }
+}

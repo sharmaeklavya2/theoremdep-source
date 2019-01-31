@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/linear-algebra/system-of-linear-equations/system-of-linear-equations",
+        "/linear-algebra/matrices/rank",
+        "/linear-algebra/matrices/unique-rref",
+        "/linear-algebra/system-of-linear-equations/row-equiv-have-same-solutions"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Rank of a homogenous system of linear equations",
+        "description": "If AX = 0 is a system of equations, then rank(A) = n iff X=0 is the only solution."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/system-of-linear-equations/rank-homogenous.md"
+    }
+}

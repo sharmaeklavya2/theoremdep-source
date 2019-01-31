@@ -2,7 +2,8 @@ Let $A$ and $B$ be matrices of the same size.
 $A$ and $B$ are row equivalent iff $B$ can be obtained from $A$
 by applying a finite number of elementary row operations to $A$.
 
-Row equivalence is an equivalence relation.
+Row equivalence is an equivalence relation
+when matrices are over a field.
 
 ## Proof
 

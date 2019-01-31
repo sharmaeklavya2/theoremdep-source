@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/row-equiv",
+        "/linear-algebra/system-of-linear-equations/system-of-linear-equations",
+        "/linear-algebra/matrices/row-equiv-matrix",
+        "/linear-algebra/matrices/stacking/product",
+        "/linear-algebra/matrices/mult-assoc"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Equations with row equivalent matrices have the same solution set",
+        "description": "If [A|B] is row equivalent to [C|D], then AX=B and CX=D have the same solution set."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/system-of-linear-equations/row-equiv-have-same-solutions.md"
+    }
+}
