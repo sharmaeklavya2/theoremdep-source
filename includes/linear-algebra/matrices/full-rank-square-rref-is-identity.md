@@ -1,9 +1,11 @@
-Let $A$ be an $n$ by $n$ matrix.
-Let $A$ be in RREF and all rows of $A$ be non-zero.
-Then $A = I_n$ (identity matrix).
+Let $A$ be an $n$ by $n$ matrix in RREF.
+Then all rows of $A$ are non-zero iff A = I_n$ (identity matrix).
 
 ## Proof
 
+If $A$ is the identity matrix, all rows of $A$ are non-zero.
+
+Let all rows of $A$ be non-zero.
 Let $\alpha_i$ be the smallest value of $j$ such that $A[i, j] \neq 0$.
 Since $A$ is in RREF, $\alpha_i < \alpha_{i+1}$.
 Therefore, $1 \le \alpha_1 < \alpha_2 < \ldots < \alpha_n \le n$.
