@@ -1,7 +1,5 @@
 {
-    "deps": {
-        "/misc/well-ordering-principle": "proof"
-    },
+    "deps": [],
     "metadata": {
         "type": "theorem",
         "title": "Integer Division Theorem",

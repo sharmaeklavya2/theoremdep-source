@@ -10,7 +10,7 @@ Let $S = \{a - bk : k \in \mathbb{Z} \textrm{ and } a - bk \ge 0\}$.
 If $a > 0$, $S$ is non-empty for $k=0$.
 If $a \le 0$, $S$ is non-empty for $k=2a$.
 Since $S$ is a non-empty set of non-negative integers,
-by well-ordering principle $S$ has a smallest element.
+$S$ has a smallest element.
 
 Let $r = \min{S}$. Then $\exists q$ such that $r = a - bq$.
 Assume (for proof by contradiction), that $r \ge b$.
