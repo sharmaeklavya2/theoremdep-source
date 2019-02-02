@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Submatrix",
+        "description": "A submatrix of a matrix M is a matrix obtained by removing a few rows and/or columns of M."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/submatrix.md"
+    }
+}

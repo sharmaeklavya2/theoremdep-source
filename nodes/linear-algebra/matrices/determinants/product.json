@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/determinants/rank",
+        "/linear-algebra/matrices/full-rank-inv",
+        "/linear-algebra/matrices/product-equals-identity-implies-invertible",
+        "/linear-algebra/matrices/full-rank-square-rref-is-identity",
+        "/linear-algebra/matrices/elementary-rowop-matrix",
+        "/linear-algebra/matrices/mult-assoc",
+        "/linear-algebra/matrices/determinants/upper-triangular"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Determinant of product is product of determinants",
+        "description": "|AB| = |A||B|"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/determinants/product.md"
+    }
+}

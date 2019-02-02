@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/determinants/elementary-rowop"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Determinant of scalar product of matrix",
+        "description": "|cA| = c^n|A|"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/determinants/scalar-mult.md"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/determinants/determinant"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Swapping last 2 rows of a matrix negates its determinant"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/determinants/last-2-rows-swap.md"
+    }
+}
