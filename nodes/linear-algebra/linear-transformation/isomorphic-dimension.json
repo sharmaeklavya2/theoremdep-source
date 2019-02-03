@@ -1,11 +1,11 @@
 {
     "deps": [
-        "/linear-algebra/vector-spaces/linear-transformation/linear-transformation",
+        "/linear-algebra/linear-transformation/linear-transformation",
         "/linear-algebra/vector-spaces/basis/all-bases-have-same-size",
-        "/linear-algebra/vector-spaces/linear-transformation/basis-of-range",
-        "/linear-algebra/vector-spaces/linear-transformation/kernel-is-subspace",
+        "/linear-algebra/linear-transformation/basis-of-range",
+        "/linear-algebra/linear-transformation/kernel-is-subspace",
         "/linear-algebra/vector-spaces/basis/unique-repr",
-        "/linear-algebra/vector-spaces/linear-transformation/isomorphism-equiv"
+        "/linear-algebra/linear-transformation/isomorphism-equiv"
     ],
     "metadata": {
         "type": "theorem",
@@ -14,6 +14,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/linear-algebra/vector-spaces/linear-transformation/isomorphic-dimension.md"
+        "path": "/linear-algebra/linear-transformation/isomorphic-dimension.md"
     }
 }

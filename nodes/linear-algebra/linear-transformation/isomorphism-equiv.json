@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/linear-algebra/vector-spaces/linear-transformation/composition",
+        "/linear-algebra/linear-transformation/composition",
         "/misc/composition-of-bijections-is-a-bijection"
     ],
     "metadata": {
@@ -9,6 +9,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/linear-algebra/vector-spaces/linear-transformation/isomorphism-equiv.md"
+        "path": "/linear-algebra/linear-transformation/isomorphism-equiv.md"
     }
 }
