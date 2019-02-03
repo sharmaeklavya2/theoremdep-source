@@ -9,8 +9,8 @@ Sometimes they are numbered from 0 onwards.
 The set of $m$ by $n$ matrices in $R$ is denoted by $\mathbb{M}_{m, n}(R)$.
 
 A matrix where the number of rows equals the number of columns is a square matrix.
-A matrix where the number of columns is 1 is called a column matrix.
-A matrix where the number of rows is 1 is called a row matrix.
+A matrix where the number of columns is 1 is called a column vector.
+A matrix where the number of rows is 1 is called a row vector.
 
 A zero matrix (denoted by $0$) is a matrix whose all elements are 0.
 

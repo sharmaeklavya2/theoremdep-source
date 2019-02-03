@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/vector-space",
+        "/linear-algebra/inner-product-spaces/inner-product-space",
+        "/linear-algebra/dot",
+        "/linear-algebra/matrices/trace",
+        "/complex-numbers/conjugation-is-homomorphic",
+        "/complex-numbers/conjugate-product-abs",
+        "/linear-algebra/matrices/transpose-of-product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matrices form an inner-product space",
+        "description": "Let F be a subfield of complex numbers. Matrices over F form an inner-product space, where the inner product is given by tr(A*B)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/inner-product-space.md"
+    }
+}
