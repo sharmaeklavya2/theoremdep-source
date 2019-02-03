@@ -9,6 +9,10 @@ Therefore, $C$ and $D$ have the same RREF.
 
 ## Proof
 
+The Gauss-Jordan elimination algorithm applies a set of specific elementary row operations
+to $C$ so that the resulting matrix is in RREF.
+Therefore, $C$ is always row-equivalent to a matrix in RREF.
+
 Let $A$ and $B$ be 2 $m$ by $n$ matrices in RREF which are row-equivalent to $C$.
 By transitivity of row-equivalence, $A$ and $B$ are row-equivalent.
 Let the rows of $A$ be $a_1, \ldots, a_m$ and the rows of $B$ be $b_1, \ldots, b_m$.

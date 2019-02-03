@@ -1,7 +1,8 @@
 {
     "deps": [
         "/linear-algebra/matrices/rref",
-        "/linear-algebra/matrices/row-equiv-matrices-have-same-row-space"
+        "/linear-algebra/matrices/row-equiv-matrices-have-same-row-space",
+        "/linear-algebra/matrices/gauss-jordan-algo"
     ],
     "metadata": {
         "theorem": "theorem",

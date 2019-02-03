@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/rref"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Rows of RREF are linearly independent",
+        "description": "If a matrix is in RREF, its non-zero rows are linearly independent."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/rref-linindep.md"
+    }
+}
