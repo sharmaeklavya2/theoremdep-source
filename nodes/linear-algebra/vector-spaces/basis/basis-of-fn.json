@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/vector-space",
+        "/linear-algebra/vector-spaces/basis/basis"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Basis of F^n"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/basis/basis-of-fn.md"
+    }
+}

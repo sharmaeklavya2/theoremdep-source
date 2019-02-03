@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/basis/basis",
+        "/linear-algebra/vector-spaces/linear-transformation/isomorphic-dimension",
+        "/linear-algebra/vector-spaces/linear-transformation/composition",
+        "/linear-algebra/vector-spaces/linear-transformation/isomorphism-equiv",
+        "/misc/function-composition-is-associative"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Canonical decomposition of a linear transformation",
+        "description": "Let T be a linear transformation from U to V. Then T = T3.T2.T1 where T1: U to F^dim(U), T2: F^dim(U) to F^dim(V), T3: F^dim(V) to V are linear transformations. This is called the canonical decomposition of T."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/linear-transformation/canonical-decomposition.md"
+    }
+}

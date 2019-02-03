@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/linear-transformation/linear-transformation",
+        "/linear-algebra/vector-spaces/basis/basis-of-fn"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matrix of linear transformation",
+        "description": "Every linear transformation from F^m to F^n can be expressed as a matrix pre-multiplication."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/linear-transformation/matrix.md"
+    }
+}
