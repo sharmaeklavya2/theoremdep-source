@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/eigenvectors/eigenvector",
+        "/linear-algebra/matrices/stacking/product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Diagonalization",
+        "description": "Let A be a square matrix. Let P be the matrix whose columns are eigenvectors of A. Then AP = PD, where D is a diagonal matrix."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/diagonalization.md"
+    }
+}

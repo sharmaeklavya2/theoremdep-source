@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/linear-algebra/eigenvectors/diagonalization",
+        "/linear-algebra/vector-spaces/linindep",
+        "/linear-algebra/matrices/inverse",
+        "/linear-algebra/matrices/transpose-of-product",
+        "/linear-algebra/matrices/full-rank-inv",
+        "/linear-algebra/matrices/full-rank-linindep"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "A is diagonalizable iff there are n linearly independent eigenvectors",
+        "description": "Let A be an n by n matrix. Then A is diagonalizable iff A has n linearly independent eigenvectors."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/diag-linindep.md"
+    }
+}

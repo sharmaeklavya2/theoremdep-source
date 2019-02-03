@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/linear-transformation/canonical-decomposition",
+        "/linear-algebra/linear-transformation/matrix"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Eigenvalues and Eigenvectors",
+        "description": "Let T be a linear transformation. If T(x) = kx is satisfied for some k and some x, then k is an eigenvalue and x is an eigenvector."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/eigenvector.md"
+    }
+}

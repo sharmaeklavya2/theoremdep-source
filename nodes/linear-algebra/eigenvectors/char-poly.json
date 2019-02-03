@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/linear-algebra/eigenvectors/eigenvector",
+        "/linear-algebra/system-of-linear-equations/rank-homogenous",
+        "/linear-algebra/matrices/determinants/rank"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Characteristic polynomial of a matrix",
+        "description": "The characteristic polynomial of a matrix A is |xI - A|. Its roots are the eigenvalues of A."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/char-poly.md"
+    }
+}

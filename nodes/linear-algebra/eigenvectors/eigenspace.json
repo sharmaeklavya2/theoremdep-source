@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/eigenvectors/eigenvector",
+        "/linear-algebra/vector-spaces/subspace-condition"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Eigenspace",
+        "description": "Let A be a matrix and λ be an eigenvalue of A. Then E(λ) is the vector space of all solutions to Ax = λx."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/eigenspace.md"
+    }
+}
