@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/linear-algebra/eigenvectors/eigenvector",
+        "/linear-algebra/vector-spaces/linindep",
+        "/linear-algebra/vector-spaces/zero"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Eigenvectors of distinct eigenvalues are linearly independent",
+        "description": "In all vectors in a set of eigenvectors correspond to different eigenvalues, then the set is linearly independent."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/distinct-eigenvalue-linindep.md"
+    }
+}

@@ -11,6 +11,8 @@ This is equivalent to saying that "no vector in $S$ is a linear combination of t
 When a vector $v$ in $S$ is a linear combination of the other elements of $S$,
 $v$ is said to be linearly dependent in $S$.
 
+An empty set is defined to be linearly independent.
+
 ## Proof
 
 Let $S$ be linearly dependent.
