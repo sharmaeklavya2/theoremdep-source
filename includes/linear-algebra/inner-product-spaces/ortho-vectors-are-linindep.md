@@ -1,5 +1,5 @@
-Let $S = \{v_1, v_2, \ldots, v_n\}$ be a set of non-zero vectors from an inner product space $V$.
-If $\langle v_i, v_j \rangle = 0$ for all $v_i, v_j \in S$, then $S$ is linearly independent.
+Let $S = \{v_1, v_2, \ldots, v_n\}$ be a set of orthogonal vectors from an inner product space $V$.
+Then $S$ is linearly independent.
 
 ## Proof
 

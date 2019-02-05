@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/stacking/product",
+        "/linear-algebra/matrices/stacking/transpose",
+        "/linear-algebra/matrices/product-equals-identity-implies-invertible",
+        "/linear-algebra/inner-product-spaces/orthogonality",
+        "/linear-algebra/matrices/inner-product-space"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Orthogonal matrix",
+        "description": "A matrix A is orthogonal iff A'A = I. Equivalently, A is orthogonal iff rows of A are orthonormal."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/orthogonal.md"
+    }
+}

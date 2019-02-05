@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space",
+        "/linear-algebra/inner-product-spaces/orthogonality",
+        "/linear-algebra/vector-spaces/span",
+        "/linear-algebra/vector-spaces/linindep"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Gram-Schmidt Process",
+        "description": "The Gram-Schmidt process takes a set of n linearly independent vectors as input and outputs a set of n orthogonal vectors which have the same span."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/gram-schmidt-process.md"
+    }
+}

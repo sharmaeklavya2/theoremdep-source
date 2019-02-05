@@ -1,15 +1,15 @@
 {
     "deps": [
         "/linear-algebra/inner-product-spaces/inner-product-space",
-        "/linear-algebra/vector-spaces/linindep",
         "/linear-algebra/inner-product-spaces/orthogonality"
     ],
     "metadata": {
         "type": "theorem",
-        "title": "A set of mutually orthogonal vectors is linearly independent"
+        "title": "Coordinatization over orthogonal vectors",
+        "description": "Let (x1, x2, ..., xn) be orthogonal vectors. Coordinate of v along xi is (v.xi)/(xi.x)."
     },
     "document": {
         "type": "include",
-        "path": "/linear-algebra/inner-product-spaces/ortho-vectors-are-linindep.md"
+        "path": "/linear-algebra/inner-product-spaces/coordinatization.md"
     }
 }
