@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/basis/basis"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Coordinatization over a basis",
+        "description": "Let B be a finite basis of vector space V. Then every vector in V can be expressed uniquely as a linear combination of vectors in B. The coefficients of the linear combination are called the coordinates of that vector."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/basis/coordinatization.md"
+    }
+}

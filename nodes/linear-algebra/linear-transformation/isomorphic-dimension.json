@@ -4,7 +4,7 @@
         "/linear-algebra/vector-spaces/basis/all-bases-have-same-size",
         "/linear-algebra/linear-transformation/basis-of-range",
         "/linear-algebra/linear-transformation/kernel-is-subspace",
-        "/linear-algebra/vector-spaces/basis/unique-repr",
+        "/linear-algebra/vector-spaces/basis/coordinatization",
         "/linear-algebra/linear-transformation/isomorphism-equiv"
     ],
     "metadata": {
