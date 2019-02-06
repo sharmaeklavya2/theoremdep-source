@@ -1,10 +1,10 @@
 {
     "deps": [
-        "/linear-algebra/vector-spaces/basis/basis",
+        "/linear-algebra/vector-spaces/basis/basis-of-fn",
+        "/linear-algebra/vector-spaces/basis/coordinatization",
         "/linear-algebra/linear-transformation/isomorphic-dimension",
         "/linear-algebra/linear-transformation/composition",
-        "/linear-algebra/linear-transformation/isomorphism-equiv",
-        "/misc/function-composition-is-associative"
+        "/linear-algebra/linear-transformation/isomorphism-equiv"
     ],
     "metadata": {
         "type": "theorem",

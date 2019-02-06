@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/basis/coordinatization"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Basis changer",
+        "description": "A basis changer is a bijection which maps coordinates of one basis to coorindates of another basis."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/basis/basis-change.md"
+    }
+}

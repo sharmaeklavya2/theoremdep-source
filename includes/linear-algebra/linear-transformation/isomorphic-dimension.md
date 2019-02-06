@@ -1,80 +1,78 @@
-Let $U$ and $V$ be finite-dimensional vector spaces.
-Then $U$ and $V$ are isomorphic iff $U$ and $V$ have the same dimension.
+Let $U$ and $V$ be vector spaces.
+Then they are isomorphic iff there is a bijection from a basis of $U$ to a basis of $V$.
+The isomorphism is the basis changer function.
 
-Furthermore, if $U$ and $V$ have the same dimension and $[x_1, x_2, \ldots, x_n]$
-is a basis of $U$ and $[y_1, y_2, \ldots, y_n]$ is a basis of $V$,
-then $T\left(\sum_{i=1}^n a_ix_i \right) = \sum_{i=1}^n a_iy_i$ is an isomorphism from $U$ to $V$.
+This means that if $U$ and $V$ are finite-dimensional vector spaces,
+they are isomorphic iff $\dim(U) = \dim(V)$.
 
-Furthermore, if $U$ and $V$ are isomorphic and one of them is finite dimensional,
-then the other is also finite dimensional.
+This also means that a finite-dimensional vector space cannot be isomorphic to an infinite-dimensional vector space,
+since there cannot be a bijection from a finite basis to an infinite basis.
 
 ## Proof of 'only-if' part
 
-Let $U$ and $V$ be isomorphic.
-Assume that $U$ is finite dimensional.
-Let $T: U \mapsto V$ be an isomorphism.
-Let $K$ be the kernel of $T$.
+Let $P$ be a basis of $U$ and $Q$ be a basis of $V$.
+Let $\phi$ be a bijection from $P$ to $Q$.
+This means that a basis-changer bijection $T$ exists from $P$ to $Q$.
 
-\[ T(0) = T(0+0) = T(0) + T(0) \implies T(0) = 0 \implies 0 \in K \]
+\begin{align}
+& T\left(\left(\sum_{p \in P} a_p p\right) + \left(\sum_{p \in P} b_p p \right)\right)
+\\ &= T\left( \sum_{p \in P} (a_p+b_p)p\right)
+\\ &= \sum_{p \in P} (a_p+b_p)\phi(p)
+\\ &= \sum_{p \in P} a_p \phi(p) + \sum_{p \in P} b_p \phi(p)
+\\ &= T\left(\sum_{p \in P} a_p p\right) + T\left(\sum_{p \in P} b_p p\right)
+\end{align}
+\begin{align}
+& T\left(c\left(\sum_{p \in P} a_p p\right)\right)
+\\ &= T\left(\sum_{p \in P} (ca_p) p\right)
+\\ &= \sum_{p \in P} (ca_p)\phi(p)
+\\ &= c\left(\sum_{p \in P} a_p \phi(p)\right)
+\\ &= cT\left(\sum_{p \in P} a_p p\right)
+\end{align}
 
-Since $T$ is one-to-one, $K = \{0\}$.
-Therefore, $\{\}$ is a basis for $K$.
-
-Let $S$ be a basis of $U$. Therefore, $T(S)$ is a basis of $T(U)$.
-Since $T$ is onto, $V = T(U)$.
-Therefore, $T(S)$ is a basis of $V$.
-
-Therefore, $\operatorname{dim}(V) = |T(S)| = |S| = \operatorname{dim}(U)$.
-This means $V$ is also finite-dimensional.
+Therefore, $T$ is a linear transformation.
+Since $T$ is a bijection, it is an isomorphism,
+which means $U$ and $V$ are isomorphic.
 
 ## Proof of 'if' part
 
-Let $\operatorname{dim}(U) = \operatorname{dim}(V) = n$.
-Let $X = \{x_1, x_2, \ldots, x_n\}$ be a basis of $U$
-and $Y = \{y_1, y_2, \ldots, y_n\}$ be a basis of $V$.
+Let $B$ be a basis of $U$.
+Let $T: U \mapsto V$ be an isomorphism.
+This means $T$ is one-to-one, therefore, $T$ is a bijection from $B$ to $T(B)$.
 
-Let $T: U \mapsto V$ where
-\[ T\left(\sum_{i=1}^n a_ix_i\right) = \sum_{i=1}^n a_iy_i \]
+### Part 1: $\operatorname{span}(T(B)) = T(U)$
 
-Every vector in $U$ can be represented uniquely as a linear combination of $X$.
-Every vector in $V$ can be represented uniquely as a linear combination of $Y$.
-Therefore $T$ is well-defined and onto.
-
-\begin{align}
-& T\left(\sum_{i=1}^n a_ix_i\right) = T\left(\sum_{i=1}^n b_ix_i\right)
-\\ &\Rightarrow \sum_{i=1}^n a_iy_i = \sum_{i=1}^n b_iy_i
-\\ &\Rightarrow a_i = b_i \forall i \tag{$\because$ of unique representation}
-\\ &\Rightarrow \sum_{i=1}^n a_ix_i = \sum_{i=1}^n b_ix_i
-\end{align}
-
-Therefore, $T$ is one-to-one.
+Let $T(u) \in T(U)$, where $u \in U$.
+Since every element in $U$ is representable as a linear combination of $B$,
+$u = \sum_{b \in B} a_b b$.
 
 \begin{align}
-& T\left(\left(\sum_{i=1}^n a_ix_i\right) + \left(\sum_{i=1}^n b_ix_i \right)\right)
-\\ &= T\left( \sum_{i=1}^n (a_i+b_i)x_i\right)
-\\ &= \sum_{i=1}^n (a_i+b_i)y_i
-\\ &= \sum_{i=1}^n a_iy_i + \sum_{i=1}^n b_iy_i
-\\ &= T\left(\sum_{i=1}^n a_ix_i\right) + T\left(\sum_{i=1}^n b_ix_i\right)
+T(u) &= T\left(\sum_{b \in B} a_b b \right)
+\\ &= \sum_{b \in B} a_b T(b) \tag{$\because T$ is a linear transformation}
+\\ &\in \operatorname{span}(T(B))
 \end{align}
-\begin{align}
-& T\left(c\left(\sum_{i=1}^n a_ix_i\right)\right)
-\\ &= T\left(\sum_{i=1}^n (ca_i)x_i\right)
-\\ &= \sum_{i=1}^n (ca_i)y_i
-\\ &= c\left(\sum_{i=1}^n a_iy_i\right)
-\\ &= cT\left(\sum_{i=1}^n a_ix_i\right)
-\end{align}
-Therefore, $T$ is a linear transformation.
 
-Since $T$ is a bijective linear transformation from $U$ to $V$,
-$U$ is isomorphic to $V$.
+Therefore, $T(U) \subseteq \operatorname{span}(T(B))$.
 
-## Finite dimensionality
+Let $\sum_{b \in B} a_b T(b)$ be an element of $\operatorname{span}(T(B))$.
+Then \[ \sum_{b \in B} a_b T(b) = T\left( \sum_{b \in B} a_b b \right) \in T(U) \]
 
-We have already proved that if $U$ is finite-dimensional
-and $T: U \mapsto V$ is an isomorphism then $V$ is also finite-dimensional.
+Therefore, $\operatorname{span}(T(B)) \in T(U) \Rightarrow \operatorname{span}(T(B)) = T(U)$.
 
-Now assume that $V$ is finite-dimensional
-and $T: U \mapsto V$ is an isomorphism.
-Since isomorphism is an equivalence relation,
-there is an isomorphism from $V$ to $U$.
-Therefore, $U$ is also finite-dimensional.
+### Part 2: $T(B)$ is linearly independent
+
+\[ \sum_{b \in B} a_b T(b) = 0
+\Rightarrow T\left( \sum_{b \in B} a_b b \right) = 0 \]
+
+\[ T(0) = T(0 + 0) = T(0) + T(0) \implies T(0) = 0 \]
+
+Since $T$ is a bijection, $\sum_{b \in B} a_b b = 0$.
+Since $B$ is linearly independent, $\forall b \in B, a_b = 0$.
+Therefore, $T(B)$ is linearly independent.
+
+### Part 3: Conclusion
+
+Since $\operatorname{span}(T(B)) = T(U)$ and $T(B)$ is linearly independent,
+$T(B)$ is a basis of $T(U)$.
+Since $T$ is onto, $T(U) = V$.
+
+Therefore, $T$ is a bijection from a basis of $U$ ($B$) to a basis of $V$ ($T(B)$).

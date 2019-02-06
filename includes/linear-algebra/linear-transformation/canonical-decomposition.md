@@ -1,21 +1,18 @@
 Let $T: U \mapsto V$ be a linear transformation.
-Let $\dim(U) = m$ and $\dim(V) = n$.
-Then $T = T_3T_2T_1$ where $T_1: U \mapsto F^m$, $T_2: F^m \mapsto F^n$, $T_3: F^n \mapsto V$
-are linear transformations and $T_1$ and $T_3$ are isomorphisms.
+Let $P = [u_1, u_2, \ldots, u_m]$ be a basis of $U$ and $Q = [v_1, v_2, \ldots, v_n]$ be a basis of $V$.
 
-If $U = V$, then a canonical decomposition exists where $T_3 = T_1^{-1}$.
+Then $T = T_3T_2T_1$ where $T_1, T_2, T_3$ are linear transformations such that:
+
+* $T_1: U \mapsto F^m$ where $T_1(u) = [u]_P$.
+* $T_2: F^m \mapsto F^n$
+* $T_3: F^n \mapsto V$ where $T_3([a_1, a_2, \ldots, a_n]) = \sum_{i=1}^n a_iv_i$.
+
+If $U = V$ and $P = Q$, then $T_1 = T_3^{-1}$.
 
 ## Proof
 
-Let $P = [u_1, u_2, \ldots, u_m]$ be a basis of $U$ and $Q = [v_1, v_2, \ldots, v_n]$ be a basis of $V$.
-
-Since $\dim(U) = \dim(F^m) = m$,
-\[ T_1\left(\sum_{i=1}^m a_iu_i\right) = [a_1, a_2, \ldots, a_m] \]
-is an isomorphism.
-
-Since $\dim(F^n) = \dim(V) = n$,
-\[ T_3([b_1, b_2, \ldots, b_n]) = \sum_{i=1}^n b_iv_i \]
-is an isomorphism.
+Since $T_1$ and $T_3$ are basis-changers over vector spaces with the same dimension,
+they are isomorphic linear transformations.
 
 When $U = V$ and $u_i = v_i$, $T_1$ is an inverse of $T_3$.
 

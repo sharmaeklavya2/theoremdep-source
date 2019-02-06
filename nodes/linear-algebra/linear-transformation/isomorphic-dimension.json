@@ -1,11 +1,8 @@
 {
     "deps": [
         "/linear-algebra/linear-transformation/linear-transformation",
-        "/linear-algebra/vector-spaces/basis/all-bases-have-same-size",
-        "/linear-algebra/linear-transformation/basis-of-range",
-        "/linear-algebra/linear-transformation/kernel-is-subspace",
         "/linear-algebra/vector-spaces/basis/coordinatization",
-        "/linear-algebra/linear-transformation/isomorphism-equiv"
+        "/linear-algebra/vector-spaces/basis/basis-change"
     ],
     "metadata": {
         "type": "theorem",
