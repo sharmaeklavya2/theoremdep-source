@@ -7,7 +7,7 @@
     "metadata": {
         "type": "theorem",
         "title": "Minimally spanning iff basis",
-        "description": "A set of vectors S minimally spans V iff S is a basis."
+        "description": "A finite set of vectors S minimally spans V iff S is a basis."
     },
     "document": {
         "type": "include",

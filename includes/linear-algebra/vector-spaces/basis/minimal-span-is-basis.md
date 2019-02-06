@@ -1,4 +1,4 @@
-A set $S$ minimally spans $V$ iff it is a basis.
+A finite set $S$ minimally spans $V$ iff it is a basis.
 
 ## Proof
 

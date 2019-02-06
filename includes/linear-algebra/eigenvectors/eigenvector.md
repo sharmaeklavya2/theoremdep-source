@@ -5,10 +5,10 @@ If $T(x) = \lambda x$ is true for some $\lambda \in F$ and some $x \neq 0 \in V$
 then $\lambda$ is called an eigenvalue of $T$
 and $x$ is called an eigenvector of $T$.
 
-If $V$ is finite-dimensional,
+If $V$ is finite-dimensional and $\dim(V) = n$,
 the eigenvalues and eigenvectors of $T$ can be found
-by finding the eigenvalues and eigenvectors of another transformation $T_2(x) = Ax$,
-where $A$ is a square matrix over $F$.
+by finding the eigenvalues and eigenvectors of another transformation
+$T_2: F^n \mapsto F^n$ where $T_2(x) = Ax$ and $A$ is a square matrix over $F$.
 
 Consequently, the eigenvalues and eigenvectors of a matrix $A$
 are defined as solutions to $Ax = \lambda x$.

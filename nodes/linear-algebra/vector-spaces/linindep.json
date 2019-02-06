@@ -5,7 +5,7 @@
     "metadata": {
         "type": "theoremdef",
         "title": "Linear independence",
-        "description": "A set of vectors are linearly independent iff no linear combination of them with some positive coefficients is 0."
+        "description": "A set of vectors are linearly independent iff no finite linear combination of them with some positive coefficients is 0."
     },
     "document": {
         "type": "include",

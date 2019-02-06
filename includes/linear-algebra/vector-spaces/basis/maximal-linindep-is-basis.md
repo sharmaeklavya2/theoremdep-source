@@ -1,4 +1,4 @@
-A set $S$ is maximally linearly independent iff it is a basis.
+A finite set $S$ is maximally linearly independent iff it is a basis.
 
 ## Proof
 

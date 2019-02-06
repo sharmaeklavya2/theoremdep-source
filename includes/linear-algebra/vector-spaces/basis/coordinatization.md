@@ -9,10 +9,17 @@ This means that the function $R: F^n \mapsto V$ where
 $R([a_1, a_2, \ldots, a_n]) = \sum_{i=1}^n a_iu_i$ is a bijection
 and $R^{-1}(v) = [v]_B$.
 
+If $B$ is infinite-sized, every vector $v \in V$ can be uniquely expressed as a linear combination
+of a finite subset of $B$ (uniqueness is up to the ordering of elements in $V$).
+
+In this case, coordinates can't be expressed as a sequence.
+The coordinates of $v$ are expressed by the coordinate function
+$f_{v, B}: B \mapsto F$.
+
 ## Proof
 
 Let $v \in V$.
-Since $B$ spans $V$, every v can be represented as a linear combination of vectors in $B$.
+Since $B$ spans $V$, every v can be represented as a finite linear combination of vectors in $B$.
 
 Suppose there are 2 such linear combinations,
 \[ v = \sum_{i=1}^n a_iu_i = \sum_{i=1}^n b_iu_i \]

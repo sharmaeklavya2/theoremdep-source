@@ -13,6 +13,8 @@ $v$ is said to be linearly dependent in $S$.
 
 An empty set is defined to be linearly independent.
 
+When $S$ is of infinite size, then it is linearly dependent iff it has a subset of finite size which is linearly dependent.
+
 ## Proof
 
 Let $S$ be linearly dependent.
