@@ -46,12 +46,14 @@ On comparing coefficients of $A[*, j]$, we get
 
 * Invertibility:
 
-    Let $R$ be the matrix corresponding to an elementary row operation.
-    Since every row operation has an inverse, let $S$ be the matrix of that inverse operation.
+    Every elementary row operation is its own inverse.
 
-    Since $S$ represents the inverse operation of $R$, $S(RA) = A$ for all $A$.
+    Let $R$ be the matrix corresponding to an elementary row operation.
+    Let $S$ be the matrix of its inverse operation.
+
+    * Since $S$ represents the inverse operation of $R$, $S(RA) = A$ for all $A$.
     For $A = I_m$, we get $SR = I_m$.
-    Since $R$ represents the inverse operation of $S$, $R(SA) = A$ for all $A$.
+    * Since $R$ represents the inverse operation of $S$, $R(SA) = A$ for all $A$.
     For $A = I_m$, we get $RS = I_m$.
 
     Therefore, $R$ is invertible and its inverse is $S$.
