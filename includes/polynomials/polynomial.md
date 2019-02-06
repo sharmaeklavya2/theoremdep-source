@@ -1,4 +1,4 @@
-Let $R$ be a ring. A polynomial $p$ in $R$ of degree $n$ is a sequence of length $n+1$
+Let $R$ be a commutative ring. A polynomial $p$ in $R$ of degree $n$ is a sequence of length $n+1$
 where the elements of the sequence are in $R$ and the last element is non-zero.
 The elements of $p$ are indexed from 0 to $n$ and the $i^{\textrm{th}}$ element is denoted by $p_i$.
 The elements of $p$ are called the coefficients of $p$.

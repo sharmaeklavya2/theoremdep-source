@@ -1,4 +1,4 @@
-$R[x]$ is a ring if $R$ is a ring.
+Let $R$ be a commutative ring. Then $R[x]$ is a commutative ring.
 
 ## Proof
 
@@ -47,6 +47,16 @@ Therefore, $R[x]$ is an abelian group under addition.
     \\ &= \sum_{k=0}^i p_k \left( \sum_{t=0}^{i-k} q_t r_{i-k-t} \right) \tag{distributivity in $R$}
     \\ &= \sum_{k=0}^i p_k (qr)_{i-k}
     \\ &= (p(qr))_i
+    \end{align}
+
+* Commutativity of multiplication:
+
+    \begin{align}
+    & (ab)_i
+    \\ &= \sum_{j=0}^i a_jb_{i-j}
+    \\ &= \sum_{j=0}^i b_{i-j}a_j \tag{$\because$ $R$ is commutative}
+    \\ &= \sum_{k=0}^i b_ka_{i-k} \tag{$k = i - j$}
+    \\ &= (ba)_i
     \end{align}
 
 * Distributivity:
