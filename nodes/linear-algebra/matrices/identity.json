@@ -1,6 +1,7 @@
 {
     "deps": [
-        "/linear-algebra/matrices/matrix"
+        "/linear-algebra/matrices/matrix",
+        "/polynomials/compare-coeff-disjoint-var"
     ],
     "metadata": {
         "type": "theoremdef",

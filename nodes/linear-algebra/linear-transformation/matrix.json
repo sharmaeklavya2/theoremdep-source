@@ -1,7 +1,8 @@
 {
     "deps": [
         "/linear-algebra/linear-transformation/linear-transformation",
-        "/linear-algebra/vector-spaces/basis/basis-of-fn"
+        "/linear-algebra/vector-spaces/basis/basis-of-fn",
+        "/polynomials/compare-coeff-disjoint-var"
     ],
     "metadata": {
         "type": "theorem",

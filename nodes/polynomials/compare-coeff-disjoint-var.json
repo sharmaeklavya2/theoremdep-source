@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/intdom",
+        "/polynomials/polynomial"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Comparing coefficients of a polynomial with disjoint variables",
+        "description": "Let there be a (possibly multi-variate) polynomial over an integral domain where each variable is present in at most one term. If the polynomial evaluates to 0 for all inputs, then all coefficients of the polynomial are zero."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/compare-coeff-disjoint-var.md"
+    }
+}

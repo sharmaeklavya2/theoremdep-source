@@ -3,6 +3,7 @@
         "/abstract-algebra/rings/field",
         "/linear-algebra/matrices/elementary-rowop-inv",
         "/linear-algebra/matrices/identity",
+        "/polynomials/compare-coeff-disjoint-var",
         "/linear-algebra/matrices/inverse"
     ],
     "metadata": {
