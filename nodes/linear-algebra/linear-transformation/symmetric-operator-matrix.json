@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/basis/basis",
+        "/linear-algebra/inner-product-spaces/gram-schmidt-process",
+        "/linear-algebra/linear-transformation/symmetric-operator",
+        "/linear-algebra/linear-transformation/canonical-decomposition",
+        "/linear-algebra/linear-transformation/matrix",
+        "/linear-algebra/matrices/inner-product-space",
+        "/linear-algebra/matrices/transpose-of-product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matrix of symmetric operator is symmetric",
+        "description": "Let L: V to V be a linear transformation and A be the square matrix associated with L. Then L is symmetric iff A is symmetric."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/linear-transformation/symmetric-operator-matrix.md"
+    }
+}

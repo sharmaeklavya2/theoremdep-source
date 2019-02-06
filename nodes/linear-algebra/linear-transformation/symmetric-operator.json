@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/linear-transformation/linear-transformation",
+        "/linear-algebra/inner-product-spaces/inner-product-space"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Symmetric operator",
+        "description": "A linear transformation L is a symmetric operator iff L(u)v = uL(v)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/linear-transformation/symmetric-operator.md"
+    }
+}
