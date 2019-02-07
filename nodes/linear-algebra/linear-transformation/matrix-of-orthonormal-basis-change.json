@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/inner-product-space",
+        "/linear-algebra/linear-transformation/basis-change",
+        "/linear-algebra/linear-transformation/matrix",
+        "/linear-algebra/matrices/orthogonal",
+        "/linear-algebra/vector-spaces/basis/basis-of-fn",
+        "/linear-algebra/matrices/transpose-of-product",
+        "/linear-algebra/matrices/conjugation-is-homomorphic"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matrix of orthonormal basis change",
+        "description": "Let P and Q be orthonormal bases of U and V respectively. Then the transformation matrix of the basis-changer from P to Q is orthogonal."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/linear-transformation/matrix-of-orthonormal-basis-change.md"
+    }
+}

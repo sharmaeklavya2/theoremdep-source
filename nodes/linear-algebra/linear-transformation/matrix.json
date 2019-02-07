@@ -7,7 +7,7 @@
     "metadata": {
         "type": "theorem",
         "title": "Matrix of linear transformation",
-        "description": "Every linear transformation from F^m to F^n can be expressed as a matrix pre-multiplication."
+        "description": "Every linear transformation from F^m to F^n can be expressed as a matrix pre-multiplication. Conversely, a pre-multiplication by a matrix forms a linear transformation."
     },
     "document": {
         "type": "include",

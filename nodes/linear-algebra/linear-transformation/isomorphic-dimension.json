@@ -2,7 +2,7 @@
     "deps": [
         "/linear-algebra/linear-transformation/linear-transformation",
         "/linear-algebra/vector-spaces/basis/coordinatization",
-        "/linear-algebra/vector-spaces/basis/basis-change"
+        "/linear-algebra/linear-transformation/basis-change"
     ],
     "metadata": {
         "type": "theorem",

@@ -10,8 +10,8 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Matrix of symmetric operator is symmetric",
-        "description": "Let L: V to V be a linear transformation and A be the square matrix associated with L. Then L is symmetric iff A is symmetric."
+        "title": "Symmetric operator iff hermitian",
+        "description": "Let L: V to V be a linear transformation and A be the square matrix associated with L. Then L is symmetric iff A is hermitian. Also, if T(u) = Au, then A is hermitian iff T is a symmetric operator."
     },
     "document": {
         "type": "include",

@@ -12,6 +12,9 @@ matrix pre-multiplication, $T(x) = Ax$.
 Then $L$ is symmetric iff $A = A^*$
 ($A^*$ is the conjugate transpose of $A$).
 
+Conversely, let $A$ be a square matrix.
+Then $T(u) = Au$ is a symmetric linear operator iff $A = A^*$.
+
 ## Proof
 
 Define $\langle x, y \rangle = y^*x$ to be the inner product on $F^n$.
@@ -70,5 +73,22 @@ Therefore, $(\forall x, y \in F^n, y^*Ax = 0) \iff A = 0$.
 & \forall u, v \in V, \langle L(u), v \rangle = \langle u, L(v) \rangle
 \\ &\iff \forall x, y \in F^n, y^*Ax = y^*A^*x \tag{by lemma 2 and $\because R$ is a bijection}
 \\ &\iff \forall x, y \in F^n, y^*(A^*-A)x = 0
+\\ &\iff A = A^* \tag{by lemma 3}
+\end{align}
+
+### Converse
+
+Let $A$ be an $n$ by $n$ matrix. Then $T(u) = Au$ is a linear transformation.
+
+\[ \langle T(u), v \rangle - \langle u, T(v) \rangle
+= \langle Au, v \rangle - \langle u, Av \rangle
+= v^*(Au) - (Av)^*u
+= v^*Au - v^*A^*u
+= v^*(A - A^*)u \]
+
+\begin{align}
+& T \textrm{ is symmetric}
+\\ &\iff \forall u, v \in F^n, \langle T(u), v \rangle = \langle u, T(v) \rangle
+\\ &\iff \forall u, v \in F^n, v^*(A - A^*)u = 0
 \\ &\iff A = A^* \tag{by lemma 3}
 \end{align}

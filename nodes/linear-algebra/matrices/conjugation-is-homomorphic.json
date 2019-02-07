@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix",
+        "/complex-numbers/conjugation-is-homomorphic"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Conjugation of matrices is homomorphic"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/conjugation-is-homomorphic.md"
+    }
+}

@@ -12,26 +12,9 @@ since there cannot be a bijection from a finite basis to an infinite basis.
 
 Let $P$ be a basis of $U$ and $Q$ be a basis of $V$.
 Let $\phi$ be a bijection from $P$ to $Q$.
-This means that a basis-changer bijection $T$ exists from $P$ to $Q$.
-
-\begin{align}
-& T\left(\left(\sum_{p \in P} a_p p\right) + \left(\sum_{p \in P} b_p p \right)\right)
-\\ &= T\left( \sum_{p \in P} (a_p+b_p)p\right)
-\\ &= \sum_{p \in P} (a_p+b_p)\phi(p)
-\\ &= \sum_{p \in P} a_p \phi(p) + \sum_{p \in P} b_p \phi(p)
-\\ &= T\left(\sum_{p \in P} a_p p\right) + T\left(\sum_{p \in P} b_p p\right)
-\end{align}
-\begin{align}
-& T\left(c\left(\sum_{p \in P} a_p p\right)\right)
-\\ &= T\left(\sum_{p \in P} (ca_p) p\right)
-\\ &= \sum_{p \in P} (ca_p)\phi(p)
-\\ &= c\left(\sum_{p \in P} a_p \phi(p)\right)
-\\ &= cT\left(\sum_{p \in P} a_p p\right)
-\end{align}
-
-Therefore, $T$ is a linear transformation.
-Since $T$ is a bijection, it is an isomorphism,
-which means $U$ and $V$ are isomorphic.
+This means that a basis-changer $T: U \mapsto V$ exists from $P$ to $Q$.
+The basis changer is an isomorphic linear transformation.
+Therefore, $U$ is isomorphic to $V$.
 
 ## Proof of 'if' part
 
@@ -56,7 +39,7 @@ Therefore, $T(U) \subseteq \operatorname{span}(T(B))$.
 Let $\sum_{b \in B} a_b T(b)$ be an element of $\operatorname{span}(T(B))$.
 Then \[ \sum_{b \in B} a_b T(b) = T\left( \sum_{b \in B} a_b b \right) \in T(U) \]
 
-Therefore, $\operatorname{span}(T(B)) \in T(U) \Rightarrow \operatorname{span}(T(B)) = T(U)$.
+Therefore, $\operatorname{span}(T(B)) \subseteq T(U) \Rightarrow \operatorname{span}(T(B)) = T(U)$.
 
 ### Part 2: $T(B)$ is linearly independent
 

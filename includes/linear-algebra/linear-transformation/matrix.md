@@ -4,6 +4,9 @@ Formally,
 \[ \exists A \in \mathbb{M}_{m, n}(F), \forall u \in U, T(u) = A^Tu \]
 where $u$ is treated as a column vector of length $m$ and $A$ is unique.
 
+Conversely, if $A$ is an $m$ by $n$ matrix,
+$T(u) = Au$ is a linear transformation from $F^n$ to $F^m$.
+
 ## Proof
 
 Let $E = \{e_1 = (1, 0, \ldots, 0), e_2 = (0, 1, \ldots, 0), \ldots, e_m = (0, 0, \ldots, 1) \}$ be a basis of $F^m$.
@@ -33,3 +36,10 @@ Comparing the coefficient of $u_j$, we get $(A-B)^T[i, j] = 0$.
 This means $(A-B)^T = 0 \Rightarrow A = B$.
 
 Therefore, $T$ has a unique matrix associated with it.
+
+Conversely, let $A$ be an $m$ by $n$ matrix. Let $T(u) = Au$.
+
+\[ T(u + v) = A(u + v) = Au + Av = T(u) + T(v) \]
+\[ T(cv) = A(cv) = c(Av) = cT(v) \]
+
+Therefore, $T$ is a linear transformation.

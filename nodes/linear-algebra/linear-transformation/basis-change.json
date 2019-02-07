@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/basis/basis-change",
+        "/linear-algebra/linear-transformation/linear-transformation",
+        "/linear-algebra/vector-spaces/basis/coordinatization"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Basis change is an isomorphic linear transformation"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/linear-transformation/basis-change.md"
+    }
+}
