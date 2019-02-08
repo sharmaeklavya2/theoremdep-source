@@ -1,4 +1,4 @@
-Let $V$ be an inner product space on $\mathbb{C}$.
+Let $V$ be an inner product space on field $F$ where $F$ is either $\mathbb{R}$ or $\mathbb{C}$.
 Let $L: V \mapsto V$ be a symmetric operator.
 
 Then there is a basis of $V$ consisting of orthonormal eigenvectors of $V$ with real eigenvalues.
@@ -29,6 +29,11 @@ $A$ has an eigenvalue-eigenvector pair.
 Therefore, $L$ has an eigenvalue-eigenvector pair $(\lambda, u)$.
 Since all eigenvectors of a symmetric operator are real,
 $\lambda \in \mathbb{R}$.
+
+If $F = \mathbb{R}$, $A$ is a real matrix.
+Since $\lambda$ is real, the corresponding eigenvector $x$ can be chosen to be real.
+Therefore, $x \in F^n$ and a corresponding eigenvector $u$ of $L$ exists in $V$.
+
 Since $u \neq 0$, and $\left(\lambda, \frac{u}{\|u\|}\right)$ is also an eigenvalue-eigenvector pair,
 we can assume without loss of generality that $\|u\|^2 = 1$.
 

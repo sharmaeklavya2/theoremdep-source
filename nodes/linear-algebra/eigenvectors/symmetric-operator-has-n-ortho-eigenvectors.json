@@ -7,6 +7,7 @@
         "/linear-algebra/linear-transformation/matrix",
         "/linear-algebra/eigenvectors/every-complex-matrix-has-eigenvalue",
         "/linear-algebra/eigenvectors/symmetric-real",
+        "/linear-algebra/eigenvectors/real-matrix-with-real-eigenvalue-has-real-eigenvectors",
         "/linear-algebra/vector-spaces/basis/n-linindep-is-basis",
         "/linear-algebra/vector-spaces/basis/expand-linindep-to-basis",
         "/linear-algebra/inner-product-spaces/gram-schmidt-process",

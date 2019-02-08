@@ -5,6 +5,7 @@
         "/linear-algebra/linear-transformation/symmetric-operator-matrix",
         "/linear-algebra/eigenvectors/symmetric-operator-has-n-ortho-eigenvectors",
         "/linear-algebra/eigenvectors/symmetric-real",
+        "/linear-algebra/eigenvectors/real-matrix-with-real-eigenvalue-has-real-eigenvectors",
         "/linear-algebra/eigenvectors/diagonalization"
     ],
     "metadata": {
