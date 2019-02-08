@@ -2,6 +2,7 @@
     "deps": [
         "/linear-algebra/linear-transformation/symmetric-operator",
         "/linear-algebra/eigenvectors/eigenvector",
+        "/linear-algebra/inner-product-spaces/antilin-in-2nd",
         "/abstract-algebra/rings/field-is-integral-domain"
     ],
     "metadata": {

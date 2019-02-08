@@ -6,6 +6,7 @@
         "/linear-algebra/linear-transformation/canonical-decomposition",
         "/linear-algebra/linear-transformation/matrix",
         "/linear-algebra/matrices/inner-product-space",
+        "/linear-algebra/inner-product-spaces/antilin-in-2nd",
         "/linear-algebra/matrices/transpose-of-product"
     ],
     "metadata": {
