@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/eigenvectors/char-poly"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Degree and monicness of a characteristic polynomial",
+        "description": "Let A be an n by n matrix. The characteristic polynomial of A is a monic polynomial of degree n."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/char-poly-degree-monic.md"
+    }
+}

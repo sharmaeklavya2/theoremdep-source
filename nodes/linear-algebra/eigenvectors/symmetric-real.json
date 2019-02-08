@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/linear-transformation/symmetric-operator",
+        "/linear-algebra/eigenvectors/eigenvector",
+        "/abstract-algebra/rings/field-is-integral-domain"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "All eigenvalues of a symmetric operator are real"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/symmetric-real.md"
+    }
+}

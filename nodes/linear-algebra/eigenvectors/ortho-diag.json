@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/orthogonal",
+        "/linear-algebra/matrices/transpose-of-product",
+        "/linear-algebra/linear-transformation/symmetric-operator-matrix",
+        "/linear-algebra/eigenvectors/symmetric-operator-has-n-ortho-eigenvectors",
+        "/linear-algebra/eigenvectors/symmetric-real",
+        "/linear-algebra/eigenvectors/diagonalization"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Orthogonally diagonalizable iff hermitian",
+        "description": "A matrix A is said to be orthogonally diagonalizable iff it can be expressed as PDP*, where P is orthogonal. Then A is orthogonally diagonalizable iff A = A*."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/ortho-diag.md"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix",
+        "/linear-algebra/eigenvectors/eigenvector",
+        "/linear-algebra/eigenvectors/char-poly-degree-monic",
+        "/misc/fundamental-theorem-of-algebra",
+        "/linear-algebra/eigenvectors/cayley-hamilton-theorem",
+        "/linear-algebra/matrices/determinants/product",
+        "/abstract-algebra/rings/field-is-integral-domain",
+        "/linear-algebra/matrices/determinants/rank",
+        "/linear-algebra/system-of-linear-equations/rank-homogenous"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Every complex matrix has an eigenvalue"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/every-complex-matrix-has-eigenvalue.md"
+    }
+}
