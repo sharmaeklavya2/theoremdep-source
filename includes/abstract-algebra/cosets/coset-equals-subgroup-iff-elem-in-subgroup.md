@@ -4,7 +4,13 @@ Then $gH = H \iff g \in H$.
 ## Proof
 
 $g \in H \Rightarrow gH \subseteq H$, because of closure in $H$.
-Since $|gH| = |H|$, $gH = H$.
+
+Since inverse of $g$ is unique
+and $H$ is a group, $g^{-1} \in H$.
+Therefore, $\forall h \in H, g^{-1}h \in H$ by closure of $H$.
+
+$h \in H \Rightarrow h = g(g^{-1}h) \in gH \Rightarrow H \subseteq gH$.
+Therefore, $H = gH$.
 
 Let $H$ be a subset of $G$ such that $gH = H$.
 \begin{align}

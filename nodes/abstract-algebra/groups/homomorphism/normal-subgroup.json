@@ -1,7 +1,6 @@
 {
     "deps": [
-        "/abstract-algebra/groups/homomorphism/subgroup",
-        "/abstract-algebra/cosets/size"
+        "/abstract-algebra/groups/homomorphism/subgroup"
     ],
     "metadata": {
         "type": "theorem",

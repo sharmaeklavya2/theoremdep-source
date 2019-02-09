@@ -27,9 +27,14 @@ Let $g_1 \in G_1$ and $h_1 \in \phi^{-1}(H_2)$.
 & \phi(g_1)\phi(h_1)\phi(g_1)^{-1} = \phi(h_1) \tag{since $H_2$ is normal in $G_2$}
 \\ &\Rightarrow \phi(g_1 h_1 g_1^{-1}) = \phi(h_1) \in H_2
 \\ &\Rightarrow g_1 h_1 g_1^{-1} \in \phi^{-1}(H_2)
+\\ &\Rightarrow \forall g_1 \in G_1, g_1 \phi^{-1}(H_2) g_1^{-1} \subseteq \phi^{-1}(H_2)
+\\ &\Rightarrow \forall g_1 \in G_1, \phi^{-1}(H_2) \subseteq g_1^{-1}\phi^{-1}(H_2)g_1
+\\ &\Rightarrow \forall g_1 \in G_1, \phi^{-1}(H_2) \subseteq g_1\phi^{-1}(H_2)g_1^{-1} \tag{$g_1 \in G_1 \iff g_1^{-1} \in G_1$}
 \end{align}
 
-Therefore, $\forall g_1 \in G_1, g_1 \phi^{-1}(H_2) g_1^{-1} \subseteq \phi^{-1}(H_2)$.
-Since $|g_1 \phi^{-1}(H_2) g_1^{-1}| = |\phi^{-1}(H_2)|$, $g_1 \phi^{-1}(H_2) g_1^{-1} = \phi^{-1}(H_2)$.
+Since $\forall g_1 \in G_1, g_1 \phi^{-1}(H_2) g_1^{-1} \subseteq \phi^{-1}(H_2)$
+and $\forall g_1 \in G_1, \phi^{-1}(H_2) \subseteq g_1\phi^{-1}(H_2)g_1^{-1}$,
+$\forall g_1 \in G_1, g_1 \phi^{-1}(H_2) g_1^{-1} = \phi^{-1}(H_2)$.
+Therefore, $\phi^{-1}(H_2)$ is a normal subgroup.
 
 Therefore, $\phi^{-1}(H_2)$ is normal in $G_1$.

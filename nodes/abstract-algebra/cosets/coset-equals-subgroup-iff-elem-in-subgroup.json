@@ -1,7 +1,7 @@
 {
     "deps": [
         "/abstract-algebra/cosets/coset",
-        "/abstract-algebra/cosets/size"
+        "/abstract-algebra/groups/inverse-is-unique"
     ],
     "metadata": {
         "type": "theorem",
