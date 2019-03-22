@@ -1,7 +1,10 @@
 {
-    "ID": "theorems",
+    "ID": "theoremdep",
     "NAME": "TheoremDep",
-    "DESCRIPTION": "Track dependencies between theorems and definitions.",
+    "DESCRIPTION": "Track dependencies between theorems.",
+    "REPO": "https://github.com/sharmaeklavya2/theoremdep-source",
+    "LONG_DESCRIPTION": "TheoremDep contains many theorems and shows you the dependencies for each theorem. Theorem X is said to be dependent on theorem Y iff Y is used as a lemma in the proof of X. Therefore, this website presents proofs in a way which simultaneously achieves the goals of not assuming any prior knowledge and making it easy to skip parts you already know.",
+
     "ASYNC_JS": [
         "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
     ],
