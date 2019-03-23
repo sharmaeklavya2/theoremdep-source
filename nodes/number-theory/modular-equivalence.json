@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "type": "definition",
+        "type": "def",
         "title": "Modular Equivalence",
         "description": "a is equivalent to b mod n iff n divides (a-b)."
     },

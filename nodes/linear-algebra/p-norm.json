@@ -3,7 +3,7 @@
         "/linear-algebra/vector"
     ],
     "metadata": {
-        "type": "definition",
+        "type": "def",
         "title": "p-norm",
         "description": "The p-norm is a function which maps a vector to a number"
     },

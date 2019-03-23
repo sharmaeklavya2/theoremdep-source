@@ -3,7 +3,7 @@
         "/abstract-algebra/rings/ring": "optional"
     },
     "metadata": {
-        "type": "definition",
+        "type": "def",
         "title": "Vector",
         "description": "A vector is a sequence of numbers with an element-wise addition operation and a scalar multiplication operation."
     },

@@ -4,7 +4,7 @@
         "/abstract-algebra/groups/factor-groups/factor-group"
     ],
     "metadata": {
-        "type": "deftheorem",
+        "type": "theoremdef",
         "title": "Quotient Ring",
         "description": "Let I be an ideal of R. The quotient ring R/I is the set of all additive cosets of I."
     },

@@ -3,7 +3,7 @@
         "/abstract-algebra/cosets/product-of-normal-cosets"
     ],
     "metadata": {
-        "type": "deftheorem",
+        "type": "theoremdef",
         "title": "Factor group",
         "description": "The group of all cosets of a normal subgroup is called the factor group or quotient group."
     },

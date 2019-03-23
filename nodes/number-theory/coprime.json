@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "type": "definition",
+        "type": "def",
         "title": "Coprime",
         "description": "Two numbers are coprime iff 1 is the only positive number which divides both of them."
     }

@@ -5,7 +5,7 @@
         "/linear-algebra/matrices/gauss-jordan-algo"
     ],
     "metadata": {
-        "theorem": "theorem",
+        "type": "theorem",
         "title": "RREF is unique",
         "description": "Every matrix is row equivalent to a unique matrix in RREF."
     },
