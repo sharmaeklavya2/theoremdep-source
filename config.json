@@ -18,7 +18,7 @@
         "def": "Used in definition",
         "proof": "Used in proof"
     },
-    "SEARCH_FIELDS": ["title", "description"],
+    "SEARCH_FIELDS": ["title", "description", "keywords"],
     "SEARCH_SYNC_JS": [
         "https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.js"
     ]

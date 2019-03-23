@@ -7,7 +7,8 @@
     "metadata": {
         "type": "theoremdef",
         "title": "Permutation group",
-        "description": "A permutation group on a finite set X is a group of bijections on X, where the group operator is function composition."
+        "description": "A permutation group on a finite set X is a group of bijections on X, where the group operator is function composition.",
+        "keywords": ["permutation", "symmetric group", "cycle", "transposition"]
     },
     "document": {
         "type": "include",
