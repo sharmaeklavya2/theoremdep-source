@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/trees/tree"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Tree iff acyclic and adding edge creates cycle",
+        "description": "A graph is a tree iff it is acyclic and adding an edge to it creates a cycle."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/trees/adding-edge-creates-cycle.md"
+    }
+}

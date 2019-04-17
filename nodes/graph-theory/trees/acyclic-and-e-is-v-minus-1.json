@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/trees/tree",
+        "/graph-theory/path",
+        "/graph-theory/trees/e-is-v-minus-1"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "G = (V, E) is a tree iff G is acyclic and |E| = |V|-1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/trees/acyclic-and-e-is-v-minus-1.md"
+    }
+}

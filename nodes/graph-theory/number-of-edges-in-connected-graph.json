@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/graph-theory/path"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "In a connected graph (V, E), |E| ≥ |V| - 1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/number-of-edges-in-connected-graph.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/trees/tree"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Deleting edge from tree gives 2 trees",
+        "description": "If an edge is deleted from a tree, the resulting graph contains 2 connected components which are trees."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/trees/deleting-edge-gives-2-trees.md"
+    }
+}

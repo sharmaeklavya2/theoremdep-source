@@ -2,7 +2,7 @@
     "deps": [
         "/abstract-algebra/groups/group",
         "/misc/composition-of-bijections-is-a-bijection",
-        "/misc/function-composition-is-associative"
+        "/misc/relation-composition-is-associative"
     ],
     "metadata": {
         "type": "theoremdef",

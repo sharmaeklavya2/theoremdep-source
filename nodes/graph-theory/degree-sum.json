@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/graph"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Degree sum and number of edges",
+        "description": "In an undirected graph, the sum of degree of every vertex equals twice the number of edges. In a directed graph, the sum of in-degree of every vertex equals the sum of out-degree of every vertex which equals the number of edges."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/degree-sum.md"
+    }
+}

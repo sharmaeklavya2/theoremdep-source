@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/graph-theory/trees/tree",
+        "/graph-theory/degree-sum",
+        "/graph-theory/trees/e-is-v-minus-1"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Tree has at least 2 leaves",
+        "description": "In a tree with at least 2 vertices, there are at least 2 leaves."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/trees/at-least-2-leaves.md"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "deps": [
+        "/graph-theory/graph"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Adjacency matrix",
+        "description": "The adjacency matrix of a graph is a boolean matrix whose (i, j)th entry is true iff there is an edge from the ith vertex to the jth vertex."
+    }
+}

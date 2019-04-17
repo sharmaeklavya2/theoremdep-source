@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/trees/tree"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Tree iff connected and deleting edge disconnects",
+        "description": "A graph is a tree iff it is connected and deleting an edge from it disconnects it."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/trees/deleting-edge-disconnects.md"
+    }
+}

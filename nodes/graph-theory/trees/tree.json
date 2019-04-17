@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/path"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Tree",
+        "description": "A tree is an undirected acyclic connected graph. It can also be defined as a graph where any 2 vertices have a unique simple path between them."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/trees/tree.md"
+    }
+}

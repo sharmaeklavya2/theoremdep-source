@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/trees/tree",
+        "/graph-theory/trees/rooted-tree",
+        "/graph-theory/degree-sum"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "The undirected version of a rooted tree is a free tree"
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/trees/undirected-rooted-tree-is-free-tree.md"
+    }
+}

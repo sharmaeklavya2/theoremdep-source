@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/graph-theory/trees/deleting-edge-gives-2-trees"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "|E| = |V| - 1 in trees"
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/trees/e-is-v-minus-1.md"
+    }
+}

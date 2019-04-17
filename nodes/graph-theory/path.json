@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/misc/relation-composition-is-associative",
+        "/misc/equivalence-classes",
+        "/graph-theory/graph"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Path in Graph",
+        "description": "In a graph, a path is a sequence of vertices such that all pairs of consecutive vertices are edges.",
+        "keywords": ["path", "simple path", "walk", "cycle", "circuit", "cyclic"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/path.md"
+    }
+}

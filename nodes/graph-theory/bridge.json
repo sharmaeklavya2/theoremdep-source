@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/path"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Bridge in graph",
+        "keywords": ["bridge", "cut-edge"],
+        "description": "An edge in an undirected connected graph is called a bridge (or cut-edge) iff deleting that edge disconnects the graph."
+    },
+    "document": {
+        "type": "meta",
+        "key": "description"
+    }
+}

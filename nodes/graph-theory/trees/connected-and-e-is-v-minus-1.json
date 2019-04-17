@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/trees/e-is-v-minus-1",
+        "/graph-theory/number-of-edges-in-connected-graph",
+        "/graph-theory/trees/deleting-edge-disconnects"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "G = (V, E) is a tree iff G is connected and |E| = |V|-1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/trees/connected-and-e-is-v-minus-1.md"
+    }
+}

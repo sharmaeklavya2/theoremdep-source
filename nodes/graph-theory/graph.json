@@ -1,0 +1,12 @@
+{
+    "metadata": {
+        "type": "def",
+        "title": "Graph",
+        "description": "A graph G(V, E) is a pair of vertices V and a relation E from V to V.",
+        "keywords": ["graph", "multigraph", "vertices", "edges", "adjacent", "loop", "simple graph", "subgraph", "source", "destination"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/graph.md"
+    }
+}
