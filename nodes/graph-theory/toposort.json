@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/graph"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Topological sort",
+        "description": "A topological ordering of a directed graph is an ordering of its vertices such that if (u, v) is an edge then u precedes v in the ordering. The process of finding such an ordering is called topological sorting."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/toposort.md"
+    }
+}

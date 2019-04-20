@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/dfs/edge-classification",
+        "/graph-theory/dfs/parens-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "DFS: Online edge classification",
+        "description": "When an edge is explored during DFS, it can be classified as a tree edge, back edge, forward edge or a cross edge in constant time."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/dfs/online-edge-classification.md"
+    }
+}

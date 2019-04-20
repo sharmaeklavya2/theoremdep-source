@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/dfs/dfs"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "DFS: Parenthesis theorem",
+        "description": "The DFS start and end times of vertices follow parenthesis structure."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/dfs/parens-theorem.md"
+    }
+}

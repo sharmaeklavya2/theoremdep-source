@@ -6,7 +6,7 @@
         "type": "def",
         "title": "Bridge in graph",
         "keywords": ["bridge", "cut-edge"],
-        "description": "An edge in an undirected connected graph is called a bridge (or cut-edge) iff deleting that edge disconnects the graph."
+        "description": "An edge in an undirected graph is called a bridge (or cut-edge) iff deleting that edge disconnects the connected component to which that edge belongs."
     },
     "document": {
         "type": "meta",

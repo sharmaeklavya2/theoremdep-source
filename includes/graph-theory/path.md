@@ -2,9 +2,16 @@ For a graph $G = (V, E)$, a **walk** of length $n$ is a sequence of vertices $[v
 such that $\forall 1 \le i \le n, (v_{i-1}, v_i) \in E$.
 Such a walk is said to be 'from $v_0$ to $v_n$'.
 
+In a weighted graph, the length of a walk usually means the sum of weights of edges in the path
+instead of the number of edges in it.
+
 A **simple path** is a walk where $v_i \neq v_j$ for all $(i, j)$ except possibly $(0, n)$.
 
 A **path** can refer to either a walk or a simple path, depending on the author.
+
+A 'shorted-path' generally refers to a walk with the smallest length.
+The length of the shortest path between $u$ and $v$ in $G$ is denoted as $\delta_G(u, v)$.
+If there is no path from $u$ to $v$, $\delta_G(u, v) = \infty$.
 
 A **circuit** is a walk of positive length where $v_0 = v_n$.
 A **cycle** is a simple path of positive length where $v_0 = v_n$.
@@ -29,4 +36,4 @@ In an undirected graph, if $u$ is reachable from $v$, then $u$ and $v$ are said 
 If all vertices in an undirected graph are reachable from each other, the graph is said to be **connected**.
 If all vertices in a directed graph are reachable from each other, the graph is said to be **strongly-connected**.
 The equivalence classes of the 'reachable' relation are called **connected components**.
-The equivalence classes of the 'strongly-connected' relation are called **strongly-connected components**.
+The equivalence classes of the 'strongly-connected' relation are called **strongly-connected components** (SCCs).

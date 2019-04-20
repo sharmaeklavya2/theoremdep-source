@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/dfs/dfs",
+        "/graph-theory/dfs/online-edge-classification"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "DFS: low"
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/dfs/low.md"
+    }
+}

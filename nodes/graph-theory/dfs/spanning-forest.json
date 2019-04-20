@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/spanning-forest",
+        "/graph-theory/dfs/white-path-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "DFS on undirected graph gives spanning forest",
+        "description": "Running DFS on an undirected graph can be used to find a spanning forest of that graph."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/dfs/spanning-forest.md"
+    }
+}

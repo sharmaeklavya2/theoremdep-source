@@ -1,0 +1,10 @@
+{
+    "deps": [
+        "/graph-theory/path"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Forest",
+        "description": "A forest is an undirected acyclic graph."
+    }
+}

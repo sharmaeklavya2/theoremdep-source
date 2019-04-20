@@ -1,6 +1,8 @@
 {
     "deps": [
-        "/graph-theory/trees/tree"
+        "/graph-theory/trees/tree",
+        "/graph-theory/bridge",
+        "/graph-theory/deleting-bridge-gives-2-components"
     ],
     "metadata": {
         "type": "theorem",

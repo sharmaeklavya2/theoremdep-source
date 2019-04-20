@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/graph"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Transpose of a graph",
+        "description": "The transpose of a directed graph is the graph obtained by flipping the direction of every edge."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/transpose.md"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/graph-theory/scc-graph-is-acyclic",
+        "/graph-theory/dfs/white-path-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Kosaraju's Algorithm",
+        "description": "Kosaraju's algorithm uses 2 depth first searches to find the strongly connected components of a graph in linear time.",
+        "keywords": ["SCC", "Kosaraju"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/kosaraju-algo.md"
+    }
+}

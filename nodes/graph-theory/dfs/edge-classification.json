@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/dfs/dfs"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "DFS: Edge classification",
+        "description": "After performing DFS on a graph, the edges of the graph can be partitioned into 4 classes: tree edges, back edges, forward edges and cross edges.",
+        "keywords": ["tree edge", "back edge", "forward edge", "cross edge"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/dfs/edge-classification.md"
+    }
+}

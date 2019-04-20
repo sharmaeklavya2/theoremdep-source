@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/graph-theory/path"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "SCC graph is acyclic"
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/scc-graph-is-acyclic.md"
+    }
+}

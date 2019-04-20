@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/graph",
+        "/graph-theory/trees/rooted-tree"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Properties of BFS",
+        "description": "Properties of Breadth-first search in a graph."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/bfs.md"
+    }
+}

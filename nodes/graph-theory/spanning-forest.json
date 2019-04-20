@@ -1,0 +1,11 @@
+{
+    "deps": [
+        "/graph-theory/forest",
+        "/graph-theory/trees/spanning-tree"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Spanning forest",
+        "description": "The spanning forest of an undirected graph G is the union of the spanning trees of the connected components of G. This means that the spanning forest of a graph exists iff the spanning tree of every connected component exists."
+    }
+}

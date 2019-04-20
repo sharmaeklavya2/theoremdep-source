@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/dfs/dfs",
+        "/graph-theory/dfs/parens-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "DFS: White-path theorem",
+        "description": "In the depth-first forest of a graph, v is a descendant of u iff at the time when u is visited, there is a path from u to v consisting entirely of white vertices."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/dfs/white-path-theorem.md"
+    }
+}

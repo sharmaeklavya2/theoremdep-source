@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/dfs/edge-classification",
+        "/graph-theory/dfs/undirected-edge-classification"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Undirected graph is cyclic iff DFS gives back edges",
+        "description": "An undirected graph contains a cycle iff DFS on that graph classifies some edges as back edges."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/dfs/cycle-iff-back-edges-undirected.md"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/path",
+        "/graph-theory/bridge"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Deleting bridge from graph gives 2 components",
+        "description": "If a bridge is deleted from a connected graph, the resulting graph contains 2 connected components."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/deleting-bridge-gives-2-components.md"
+    }
+}

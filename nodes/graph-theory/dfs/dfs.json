@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/graph-theory/graph",
+        "/graph-theory/transpose",
+        "/graph-theory/forest",
+        "/graph-theory/trees/rooted-tree"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Properties of DFS",
+        "description": "Properties of Depth-first search in a graph.",
+        "keywords": ["DFS", "depth-first search", "parenthesis theorem", "depth-first forest", "start time", "finish time"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/dfs/dfs.md"
+    }
+}

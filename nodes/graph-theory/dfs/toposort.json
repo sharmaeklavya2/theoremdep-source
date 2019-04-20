@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/toposort",
+        "/graph-theory/dfs/edge-classification"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "DFS: Reverse sorting by finish time gives topological ordering",
+        "description": "Performing DFS on a directed acyclic graph and sorting the vertices in descending order of finish times gives a topological ordering of vertices."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/dfs/toposort.md"
+    }
+}

@@ -15,10 +15,16 @@ we get directed multigraphs or undirected multigraphs.
 $u$ and $v$ are said to be **neighbors**.
 * The edge $(u, v)$ is called a **loop** iff $u = v$.
 A graph with no loops is called **loop-free** or **simple**.
-* $G' = (V', E')$ is a **subgraph** of $G = (V, E)$ iff
+* $G' = (V', E')$ is a **subgraph** of $G = (V, E)$ (denoted as $G' \subseteq G$) iff
 $G'$ is a graph and $V' \subseteq V$ and $E' \subseteq E$.
 * If $G = (V, E)$ and $V' \subseteq V$, the **subgraph of $G$ induced by $V'$**
 is the subgraph $G' = (V', E \cap (V' \times V'))$.
+* An **edge-labeled** graph is a graph where each edge has a corresponding **label**.
+When the labels are numbers, the labels are called **weights** and the graph
+is said to be **edge-weighted** (or simply weighted).
+* A **vertex-labeled** graph is a graph where each vertex has a corresponding **label**.
+When the labels are numbers, the labels are called **weights** and the graph
+is said to be **vertex-weighted**.
 
 #### Definitions for directed graphs
 
@@ -42,3 +48,5 @@ by removing the direction of every edge in the directed graph.
 * $e = (u, v) \in E$ means $e$ is **incident on** $u$ and $v$.
 * The number of edges incident on $v$ is called the **degree** of $v$,
 denoted as $\operatorname{deg}_G(v)$.
+* The **directed version** of an undirected graph $G$ is the directed graph
+which contains both $(u, v)$ and $(v, u)$ for every edge $(u, v)$ in $G$.

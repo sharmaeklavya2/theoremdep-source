@@ -1,0 +1,10 @@
+{
+    "deps": [
+        "/graph-theory/trees/tree"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Spanning tree",
+        "description": "The spanning tree of a graph G is a subgraph which is a tree and contains all the vertices of G."
+    }
+}

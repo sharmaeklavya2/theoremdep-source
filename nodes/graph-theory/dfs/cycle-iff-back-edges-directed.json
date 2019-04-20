@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/dfs/edge-classification",
+        "/graph-theory/dfs/white-path-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Directed graph is cyclic iff DFS gives back edges",
+        "description": "A directed graph contains a cycle iff DFS on that graph classifies some edges as back edges."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/dfs/cycle-iff-back-edges-directed.md"
+    }
+}

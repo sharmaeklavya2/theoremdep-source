@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/path"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "SCC graph",
+        "description": "Let G be a directed graph. The SCC graph of G, denoted as SCC(G), is a directed graph whose vertices correspond to strongly connected components of G. Let C1 and C2 be two SCCs of G. C1 and C2 will have an edge in SCC(G) iff there is an edge in G from some vertex in C1 to some vertex in C2."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/scc-graph.md"
+    }
+}
