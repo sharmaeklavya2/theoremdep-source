@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/graph-theory/spanning-trees/spanning-forest",
+        "/graph-theory/cut",
+        "/graph-theory/trees/deleting-edge-gives-2-trees",
+        "/graph-theory/trees/joining-2-trees-gives-tree"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Edge replacement in spanning forest using a cut",
+        "description": "Let e be an edge crossing a cut of a graph G. Let F be a spanning forest of G which does not contain e. Then we can obtain a different spanning forest of G by replacing an edge in F which crosses the cut by e. Consequently, if e is a light edge of the cut, the weight of the new spanning forest either reduces or stays the same."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/spanning-trees/edge-replacement.md"
+    }
+}

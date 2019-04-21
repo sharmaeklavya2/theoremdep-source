@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/graph-theory/spanning-trees/spanning-forest",
+        "/graph-theory/cut",
+        "/graph-theory/spanning-trees/edge-replacement"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Generic Greedy MSF Growth Algorithm (GGMSFGA)",
+        "description": "The Generic Greedy MSF Growth Algorithm (GGMSFGA) is a generic algorithm for finding the MSF of an undirected graph. GGMSFA maintains a forest F which is a subgraph of some MSF. In each iteration, it chooses a cut C which respects F and adds a light edge of C to F."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/spanning-trees/ggmsfga.md"
+    }
+}

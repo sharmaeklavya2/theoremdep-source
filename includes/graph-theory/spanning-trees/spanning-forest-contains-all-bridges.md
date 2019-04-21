@@ -1,6 +1,9 @@
-Let $G$ be an undirected connected graph. Every spanning tree of $G$ contains all the bridges in $G$.
+Let $G$ be an undirected graph. Every spanning forest of $G$ contains all the bridges in $G$.
 
 ## Proof
+
+We will prove this theorem for a special case, where $G$ is connected.
+Then applying this theorem to each connected component of $G$ will prove the general form of the theorem.
 
 Let $(u, v)$ be a bridge in $G$ and $T$ be a spanning tree of $G$ such that $(u, v) \not\in T$.
 

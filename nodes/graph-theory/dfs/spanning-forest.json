@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/graph-theory/spanning-forest",
+        "/graph-theory/spanning-trees/spanning-forest",
         "/graph-theory/dfs/white-path-theorem"
     ],
     "metadata": {

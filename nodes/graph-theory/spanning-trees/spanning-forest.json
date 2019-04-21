@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/forest",
+        "/graph-theory/spanning-trees/spanning-tree"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Spanning forest",
+        "description": "The spanning forest of an undirected graph G is the union of the spanning trees of the connected components of G."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/spanning-trees/spanning-forest.md"
+    }
+}

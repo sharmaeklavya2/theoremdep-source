@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/bridge",
+        "/graph-theory/spanning-trees/spanning-forest"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Spanning forest contains all bridges",
+        "description": "Let G be an undirected graph. Every spanning forest of G contains all the bridges in G."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/spanning-trees/spanning-forest-contains-all-bridges.md"
+    }
+}

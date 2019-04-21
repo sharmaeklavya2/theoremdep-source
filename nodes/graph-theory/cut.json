@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/graph"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Cut in a graph",
+        "description": "In a graph, a cut is a partition of the vertices into 2 sets. A multiway cut is a partition of the vertices into 2 or more sets.",
+        "keywords": ["cut", "multiway cut", "min-cut", "max-cut", "light edge"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/cut.md"
+    }
+}
