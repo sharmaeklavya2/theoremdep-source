@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/path"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Removing cycles can make a path shorter",
+        "description": "Let p be a path from u to v which does not contain any negative cycles. Then there exists a simple path p' from u to v such that w(p') ≤ w(p)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/simple-path-of-lower-weight.md"
+    }
+}

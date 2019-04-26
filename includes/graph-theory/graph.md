@@ -22,6 +22,7 @@ is the subgraph $G' = (V', E \cap (V' \times V'))$.
 * An **edge-labeled** graph is a graph where each edge has a corresponding **label**.
 When the labels are numbers, the labels are called **weights** and the graph
 is said to be **edge-weighted** (or simply weighted).
+The weight of the edge $(u, v)$ is generally denoted as $w(u, v)$.
 * A **vertex-labeled** graph is a graph where each vertex has a corresponding **label**.
 When the labels are numbers, the labels are called **weights** and the graph
 is said to be **vertex-weighted**.

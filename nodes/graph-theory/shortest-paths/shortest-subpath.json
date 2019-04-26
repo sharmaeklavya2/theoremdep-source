@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/path"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Subpath of shortest path is shortest path",
+        "description": "Let p be a shortest path from u to v. Let q be a subpath of p from x to y. Then q is a shortest path from x to y."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/shortest-paths/shortest-subpath.md"
+    }
+}

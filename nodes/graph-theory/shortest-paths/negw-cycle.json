@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/path",
+        "/graph-theory/simple-path-of-lower-weight"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Shortest path weight is -∞ iff there is a negative-weight cycle",
+        "description": "δ(u, v) = -∞ iff there is some path from u to v containing a negative-weight cycle."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/shortest-paths/negw-cycle.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/path"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Triangle inequality of shortest paths",
+        "description": "δ(u, v) + δ(v, w) ≥ δ(u, w)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/shortest-paths/triangle-inequality.md"
+    }
+}

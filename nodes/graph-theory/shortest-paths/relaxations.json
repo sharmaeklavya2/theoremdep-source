@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/shortest-paths/triangle-inequality"
+    ],
+    "metadata": {
+        "type": "deftheorem",
+        "title": "Shortest path: Edge relaxations",
+        "description": "A generic algorithm for finding shortest paths from a single source involves keeping an upper bound on the shortest-path-length to each vertex and successively updating it using operations called edge-relaxations."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/shortest-paths/relaxations.md"
+    }
+}
