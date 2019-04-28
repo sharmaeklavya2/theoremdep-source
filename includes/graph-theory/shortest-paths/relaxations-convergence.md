@@ -3,8 +3,9 @@ Let $s$ be the source vertex from which we wish to find the shortest path to eve
 
 While relaxations are iteratively applied to $G$, the following properties hold:
 
-* **Convergence**: If $π_{\delta}(v) = u$ and $d(u) = \delta(u)$, then after relaxing $(u, v)$,
-$d(v) = \delta(v)$. By the monotonocity and upper-bound properties, $d(v) = \delta(v)$ forever after.
+* **Convergence**: If $u$ is a predecessor of $v$ in some shortest path to $v$,
+and $d(u) = \delta(u)$, then after relaxing $(u, v)$, $d(v) = \delta(v)$.
+By the monotonocity and upper-bound properties, $d(v) = \delta(v)$ forever after.
 * **Path-relaxation property**: If $p = [v_0, v_1, \ldots, v_k]$ is a shortest path
 from $s = v_0$ to $v_k$, and we relax the edges of $p$ in the order
 $[(v_0, v_1), (v_1, v_2), \ldots, (v_{k-1}, v_k)]$, then $d(v_k) = \delta(v_k)$ forever after.
@@ -20,7 +21,8 @@ there is a cycle with only negative-weight edges).
 
 ### Convergence
 
-$π_{\delta}(v) = u \implies \delta(v) = \delta(u) + w(u, v)$.
+Since $u$ is a predecessor of $v$ in a shortest path to $v$,
+$\delta(v) = \delta(u) + w(u, v)$.
 
 After relaxing $(u, v)$,
 \[ d(v) \le d(u) + w(u, v) = \delta(u) + w(u, v) = \delta(v) \]

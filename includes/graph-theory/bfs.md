@@ -4,9 +4,6 @@ from a source vertex $s$ and computes:
 * A shortest-path tree rooted at $s$.
 * $\delta_G(s, v)$.
 
-A shortest-path tree is a tree rooted as $s$ where the unique path from $s$ to $v$
-is a shortest path in $G$ from $s$ to $v$.
-
 ## The algorithm
 
 BFS maintains three attributes for every vertex:

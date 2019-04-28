@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/graph-theory/path",
+        "/graph-theory/shortest-paths/relaxations",
+        "/graph-theory/trees/rooted-tree",
+        "/graph-theory/trees/acyclic-predecessor-graph-is-union-of-rooted-trees"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Edge relaxations: Predecessor subgraph is a rooted tree",
+        "description": "During relaxations from source s on a weighted graph, the predecessor subgraph is a rooted tree if there are no negative-weight cycles reachable from s."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/shortest-paths/relaxations-tree.md"
+    }
+}

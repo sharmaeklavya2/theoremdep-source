@@ -1,29 +1,36 @@
-Let $G = (V, E)$ be a weighted graph.
+Let $G = (V, E)$ be a weighted graph. Also assume that $(u, v) \in E \implies w(u, v) \neq \infty$.
 Let $s$ be a source vertex from which we wish to find the shortest path to every vertex.
 Let $\delta(v)$ be the weight of the shortest path from $s$ to $v$.
-Let $π_{\delta}(v)$ be the predecessor of $v$ in the shortest path from $s$ to $v$
-($π_{\delta}(s) = \textrm{null}$).
 
-Let $d: V \mapsto \mathbb{R}$ and $π_d: V \mapsto V \cup \{\textrm{null}\}$
+Let $d: V \mapsto \mathbb{R}$ and $π: V \mapsto V \cup \{\textrm{null}\}$
 be attributes that we will maintain for every vertex.
-Initially, $π_d(v) = \textrm{null}$ and $d(v) = \begin{cases} 0 & v = s \\ \infty & v \neq s \end{cases}$.
+Initially, $π(v) = \textrm{null}$ and $d(v) = \begin{cases} 0 & v = s \\ \infty & v \neq s \end{cases}$.
 
 Relaxation of the edge $(u, v)$ is the following operation:
-If $d(v) > d(u) + w(u, v)$, set $d(v)$ to $d(u) + w(u, v)$ and $π_d(v)$ to $u$.
+If $d(v) > d(u) + w(u, v)$, set $d(v)$ to $d(u) + w(u, v)$ and $π(v)$ to $u$.
 It is easy to see that right after relaxing $(u, v)$, $d(v) \le d(u) + w(u, v)$.
 
 When $G$ is undirected, relaxation of $(u, v)$ means relaxing in both the $(u, v)$ and $(v, u)$ directions.
+
+Let $G_π = (V_π, E_π)$ where $V_π = \{v \in V: π(v) \neq \textrm{null}\} \cup \{s\}$
+and $E_π = \{(π(v), v): v \in V \wedge π(v) \neq \textrm{null} \}$.
+We will soon prove that $v \in V_π \implies π(v) \implies V_π$,
+which is necessary and sufficient for $G_π$ to be a valid graph.
+$G_π$ is a subgraph of $G$, since
+$(u, v) \in E_π$ $\implies π(v) = u$ $\implies (u, v)$ was relaxed $\implies (u, v) \in E$.
+Therefore, $G_π$ is called a **predecessor subgraph** of $G$ with source $s$.
 
 While relaxations are iteratively applied to $G$, the following properties hold:
 
 * **Monotonicity**: $d$ never increases with time.
 * **Upper-bound property**: $d$ upper-bounds $\delta$.
+* **Reachability**: $v$ is not reachable from $s$ $\implies \delta(v) = \infty$
+$\implies d(v) = \infty$ by the upper-bound property.
+* $v \in V_π \iff d(v) \neq \infty$.
+* $v \in V_π \implies π(v) \implies V_π$,
 
 Since $d$ is an upper-bound on $\delta$,
 it is called the shortest-path-length estimate of $v$.
-
-If there is no path from $s$ to $v$, $\delta(v) = \infty$.
-By the upper-bound property, this means that $d(v) = \infty$.
 
 ## Proof
 
@@ -48,4 +55,29 @@ d(v) &= d(u) + w(u, v)
 \\ &\ge \delta(u) + \delta(u, v)
 \\ &\ge \delta(v) \tag{triangle inequality of $\delta$}
 \end{align}
-This is true even if $\delta(u) = \infty$.
+
+### Membership in $V_π$
+
+$v \in V_π \iff (v = s \vee π(v) \neq \textrm{null})$.
+
+$v = s \implies d(v) = 0 \neq \infty$.
+<br/>$π(v) \neq \textrm{null} \implies (u, v)$ was relaxed for some $u$.
+This can only happen if $d(u) + w(u, v) \neq \infty$.
+Therefore, after $(u, v)$ is relaxed, $d(v) \le d(u) + w(u, v) \neq \infty$.
+<br/>Therefore, $v \in V_π \implies d(v) \neq \infty$.
+
+$v \not\in V_π$
+<br/>$\implies (v \neq s \wedge π(v) = \textrm{null})$
+<br/>$\implies (u, v)$ was never relaxed for any $u$ and $v \neq s$.
+<br/>$\implies d(v) = \infty$.
+
+Therefore, $v \in V_π \iff d(v) \neq \infty$.
+
+### $v \in V_π \implies π(v) \in V_π$
+
+Let $π(v) = u \neq \textrm{null}$. This means $(u, v)$ was relaxed.
+This could have only happened if $d(u) \neq \infty$.
+This is only possible if $(w, u)$ was relaxed for some $w \in V$,
+which means
+We know that $\forall v \in V, v \in V_π \iff d(v) \neq \infty$.
+Therefore, $v \in V_π \implies π(v) \in V_π$.

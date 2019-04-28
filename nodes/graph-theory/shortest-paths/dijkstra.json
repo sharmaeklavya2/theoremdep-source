@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/graph-theory/shortest-paths/relaxations",
+        "/graph-theory/shortest-paths/relaxations-convergence",
+        "/graph-theory/shortest-paths/relaxations-sp-tree",
+        "/graph-theory/shortest-paths/shortest-subpath"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Dijkstra's algorithm",
+        "description": "For a weighted graph without negative-weight edges, Dijkstra's algorithm finds a shortest-path tree."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/shortest-paths/dijkstra.md"
+    }
+}

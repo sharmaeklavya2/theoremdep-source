@@ -4,7 +4,7 @@
     ],
     "metadata": {
         "type": "deftheorem",
-        "title": "Shortest path: Edge relaxations",
+        "title": "Edge relaxations",
         "description": "A generic algorithm for finding shortest paths from a single source involves keeping an upper bound on the shortest-path-length to each vertex and successively updating it using operations called edge-relaxations."
     },
     "document": {

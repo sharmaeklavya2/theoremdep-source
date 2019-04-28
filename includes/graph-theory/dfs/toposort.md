@@ -4,7 +4,7 @@ descending order of finish times gives a topological ordering of vertices.
 ## Proof
 
 Suppose $G$ has a back edge $(v, u)$.
-Then $v$ is a descendant of $u$ in the DFS forest $G_π^T$.
+Then $v$ is a descendant of $u$ in the DFS forest $G_π$.
 Therefore, a cycle from $u$ to $v$ in $G$ can be obtained by
 going from $u$ to $v$ via tree edges and then going from $v$ to $u$ via $(v, u)$.
 Since we know that $G$ is acyclic, it cannot have a back edge.

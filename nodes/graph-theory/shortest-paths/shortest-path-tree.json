@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/graph-theory/path",
+        "/graph-theory/trees/rooted-tree"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Shortest-path tree",
+        "description": "For a graph G, a shortest-path tree T is a tree rooted at a vertex s such that the unique path from s to v in T is a shortest path from s to v in G."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/shortest-paths/shortest-path-tree.md"
+    }
+}

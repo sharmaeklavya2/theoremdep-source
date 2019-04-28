@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/graph-theory/shortest-paths/shortest-path-tree",
+        "/graph-theory/shortest-paths/relaxations",
+        "/graph-theory/shortest-paths/relaxations-tree"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Edge relaxations: Predecessor subgraph is a shortest-path tree after convergence",
+        "description": "After relaxations from source s on a weighted graph converge, the predecessor subgraph is a rooted tree."
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/shortest-paths/relaxations-sp-tree.md"
+    }
+}

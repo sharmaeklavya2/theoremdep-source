@@ -1,5 +1,5 @@
-Let $G_π^T$ be the DFS forest of $G$.
-$v$ is a descendant of $u$ in $G_π^T$ when DFS terminates iff
+Let $G_π$ be the DFS forest of $G$.
+$v$ is a descendant of $u$ in $G_π$ when DFS terminates iff
 at the time when `visit(u)` is called, there is a white path from $u$ to $v$ in $G$.
 (i.e. a path consisting entirely of white vertices).
 
@@ -26,7 +26,7 @@ Without loss of generality, assume all vertices in the path from $u$ to $w$
 become descendants of $u$ when DFS terminates.
 
 * $v$ was white when `visit(u)` was called $\implies s(u) < s(v)$.
-* $w$ is a descendant of $u$ in $G_π^T$, so $[s(w), f(w)]$ lies within $[s(u), f(u)]$
+* $w$ is a descendant of $u$ in $G_π$, so $[s(w), f(w)]$ lies within $[s(u), f(u)]$
 by the parenthesis theorem.
 * $v$ is not a descendant of $u \implies u$ was already non-white when `visit(w)` was called.
 Therefore, $s(v) < s(w)$.

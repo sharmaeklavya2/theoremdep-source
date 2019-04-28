@@ -56,7 +56,7 @@ When DFS terminates, root vertices are the only vertices to have $\pi(u) = \text
 since $\pi(v)$ is set to a vertex before all non-root `visit(v)` calls.
 
 When DFS terminates, $\pi$ can be interpreted as a graph $G_π = (V, E_π)$
-where $(u, v) \in E_π \iff (π(u) = v \wedge v \in V)$.
+where $(u, v) \in E_π \iff π(v) = u \neq \textrm{null}$.
 Since $\pi(v)$ is set to $u$ only for $v \in \operatorname{adj}(u)$, $G_π \subseteq G$.
 Therefore, $G_π$ is called the **predecessor subgraph** of $G$.
 
@@ -73,20 +73,17 @@ and `visit(u)` makes $u$ gray before any recursive calls.
 
 * $G_π$ is acyclic because for every edge $(v, u)$ in $G_π$,
 $\operatorname{depth}(v) = \operatorname{depth}(u) + 1$.
-Since every non-root vertex $u$ has a predecessor at depth $\operatorname{depth}(u)-1$,
-every vertex has a path in $G_π$ of length $\operatorname{depth}(u)$ to a root vertex.
-Since $G_π$ is acyclic and the out-degree of every vertex in $G_π$ is 1, this path is unique.
-Therefore, $G_π^T$ is a union of trees rooted at root vertices.
-Therefore, $G_π^T$ is also called the **DFS forest** of $G$.
+Since $G_π$ is an acyclic predecessor graph, it is a union of rooted trees.
+Therefore, $G_π$ is also called the **DFS forest** of $G$.
 
-* `visit(v)` was called during `visit(u)` iff $v$ is a descendant of $u$ in $G_π^T$. Proof: \begin{align}
+* `visit(v)` was called during `visit(u)` iff $v$ is a descendant of $u$ in $G_π$. Proof: \begin{align}
     & \operatorname{visit}(v) \textrm{ was called during } \operatorname{visit}(u)
     \\ &\iff \exists w_0, w_1, \ldots, w_k, \textrm{ such that } (
         w_0 = u \wedge w_k = v \wedge (\forall 1 \le i < k,
             \operatorname{visit}(w_i) \textrm{ made a direct call to } \operatorname{visit}(w_{i+1})))
     \\ &\iff \exists w_0, w_1, \ldots, w_k, \textrm{ such that } (
         w_0 = u \wedge w_k = v \wedge (\forall 1 \le i < k, \pi(w_{i+1}) = w_i))
-    \\ &\iff \textrm{ there is a path in } G_π^T \textrm{ from } u \textrm{ to } v
+    \\ &\iff \textrm{ there is a path in } G_π \textrm{ from } u \textrm{ to } v
     \end{align}
 
 * DFS takes $\Theta(|V| + |E|)$ time to run, because it visits each vertex exactly once

@@ -1,9 +1,9 @@
 Let $G_π$ be the DFS forest obtained by performing DFS on $G$.
 The edges of $G$ can be partitioned into 4 classes:
 
-1.   **tree edges** - $(u, v)$ is a tree edge iff $(v, u) \in G_π$.
-2.   **back edges** - edges connecting a vertex to itself or to one of its ancestors in $G_π^T$.
-3.   **forward edges** - edges connecting a vertex to one of its descendants in $G_π^T$.
+1.   **tree edges** - $(u, v)$ is a tree edge iff $(u, v) \in G_π$.
+2.   **back edges** - edges connecting a vertex to itself or to one of its ancestors in $G_π$.
+3.   **forward edges** - edges connecting a vertex to one of its descendants in $G_π$.
 4.   **cross edges** - the rest of the edges.
 
 When $G$ is an undirected graph, we classify edges by running DFS on the directed version of $G$.

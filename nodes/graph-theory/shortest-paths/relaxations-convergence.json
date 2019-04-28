@@ -4,7 +4,7 @@
     ],
     "metadata": {
         "type": "deftheorem",
-        "title": "Shortest path: Convergence of edge relaxations",
+        "title": "Convergence of edge relaxations",
         "description": "Intelligently choosing the order of relaxations can make the shortest-path-length estimate converge to the shortest-path-length."
     },
     "document": {

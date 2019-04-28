@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/graph-theory/trees/rooted-tree",
+        "/graph-theory/transpose"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Acyclic predecessor graph is union of rooted trees"
+    },
+    "document": {
+        "type": "include",
+        "path": "/graph-theory/trees/acyclic-predecessor-graph-is-union-of-rooted-trees.md"
+    }
+}

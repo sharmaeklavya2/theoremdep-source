@@ -1,11 +1,12 @@
 {
     "deps": [
         "/graph-theory/graph",
-        "/graph-theory/trees/rooted-tree"
+        "/graph-theory/shortest-paths/shortest-path-tree",
+        "/graph-theory/trees/acyclic-predecessor-graph-is-union-of-rooted-trees"
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Properties of BFS",
+        "title": "Breadth-first search",
         "description": "Properties of Breadth-first search in a graph."
     },
     "document": {
