@@ -134,7 +134,7 @@ If $v$ was added before $x$, $\delta(v) \le \delta(x)$,
 since $u$ is the first vertex to not satisfy the monotonicity property.
 Therefore $\delta(v) \le \delta(x) \le \delta(u)$.
 
-If $v$ was added after $x$, $\delta(x) \le \delta(x)$.
+If $v$ was added after $x$ and before $u$, $\delta(x) \le \delta(v)$.
 Consider the time just before $v$ is added to $S$.
 By that time $(x, u)$ was relaxed, so $\delta(u) = d(u)$.
 Since $v$ was chosen instead of $u$, $d(v) \le d(u)$.

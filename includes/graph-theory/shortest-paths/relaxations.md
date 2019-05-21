@@ -14,8 +14,9 @@ When $G$ is undirected, relaxation of $(u, v)$ means relaxing in both the $(u, v
 
 Let $G_π = (V_π, E_π)$ where $V_π = \{v \in V: π(v) \neq \textrm{null}\} \cup \{s\}$
 and $E_π = \{(π(v), v): v \in V \wedge π(v) \neq \textrm{null} \}$.
-We will soon prove that $v \in V_π \implies π(v) \implies V_π$,
+We will soon prove that $(v \in V \wedge π(v) \neq \textrm{null}) \implies π(v) \in V_π$,
 which is necessary and sufficient for $G_π$ to be a valid graph.
+
 $G_π$ is a subgraph of $G$, since
 $(u, v) \in E_π$ $\implies π(v) = u$ $\implies (u, v)$ was relaxed $\implies (u, v) \in E$.
 Therefore, $G_π$ is called a **predecessor subgraph** of $G$ with source $s$.
@@ -27,7 +28,7 @@ While relaxations are iteratively applied to $G$, the following properties hold:
 * **Reachability**: $v$ is not reachable from $s$ $\implies \delta(v) = \infty$
 $\implies d(v) = \infty$ by the upper-bound property.
 * $v \in V_π \iff d(v) \neq \infty$.
-* $v \in V_π \implies π(v) \implies V_π$,
+* $(v \in V \wedge π(v) \neq \textrm{null}) \implies π(v) \in V_π$.
 
 Since $d$ is an upper-bound on $\delta$,
 it is called the shortest-path-length estimate of $v$.
@@ -73,11 +74,8 @@ $v \not\in V_π$
 
 Therefore, $v \in V_π \iff d(v) \neq \infty$.
 
-### $v \in V_π \implies π(v) \in V_π$
+### Proof of $(v \in V \wedge π(v) \neq \textrm{null}) \implies π(v) \in V_π$
 
 Let $π(v) = u \neq \textrm{null}$. This means $(u, v)$ was relaxed.
 This could have only happened if $d(u) \neq \infty$.
-This is only possible if $(w, u)$ was relaxed for some $w \in V$,
-which means
-We know that $\forall v \in V, v \in V_π \iff d(v) \neq \infty$.
-Therefore, $v \in V_π \implies π(v) \in V_π$.
+Therefore, $u \in V_π$.
