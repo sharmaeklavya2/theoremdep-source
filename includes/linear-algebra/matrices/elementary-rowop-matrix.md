@@ -1,7 +1,8 @@
 Let $A$ be a $m$ by $n$ matrix over a field.
 Let $f$ be an elementary row operation.
-Then there exists a unique invertible $m$ by $m$ matrix $R$
+Then there exists a unique $m$ by $m$ matrix $R$
 such that $f(A) = RA$.
+$R$ is also invertible.
 
 By plugging in $A = I_m$ (identity matrix), we get $R = f(I_m)$.
 Therefore, the maxtrix associated with a row operation is the one obtained
@@ -46,10 +47,9 @@ On comparing coefficients of $A[*, j]$, we get
 
 * Invertibility:
 
-    Every elementary row operation is its own inverse.
-
-    Let $R$ be the matrix corresponding to an elementary row operation.
-    Let $S$ be the matrix of its inverse operation.
+    We know that every elementary row operation has a unique inverse.
+    Let $R$ be the matrix corresponding to an elementary row operation
+    and let $S$ be the matrix of its inverse operation.
 
     * Since $S$ represents the inverse operation of $R$, $S(RA) = A$ for all $A$.
     For $A = I_m$, we get $SR = I_m$.

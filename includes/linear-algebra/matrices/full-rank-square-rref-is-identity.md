@@ -1,5 +1,5 @@
 Let $A$ be an $n$ by $n$ matrix in RREF.
-Then all rows of $A$ are non-zero iff A = I_n$ (identity matrix).
+Then all rows of $A$ are non-zero iff $A = I_n$ (identity matrix).
 
 ## Proof
 

@@ -30,7 +30,7 @@ Consider the $i^{\textrm{th}}$ equation in $RX = 0$:
 \\ &= \sum_{\alpha_k \in P} \begin{Bmatrix} 0 & i \neq k \\ 1 & i = k \end{Bmatrix} X[\alpha_k, 1]
     + \sum_{j \in Q} R[i, j] X[j, 1]
 \\ &= X[\alpha_i, 1] + \sum_{j \in Q} R[i, j] X[j, 1]
-\\ &\Rightarrow X[\alpha_i, 1] = - \sum_{j \in Q} R[i, j] X[j, 1]
+\\ &\iff X[\alpha_i, 1] = - \sum_{j \in Q} R[i, j] X[j, 1]
 \end{align}
 
 Therefore, by fixing arbitrary values for non-pivot variables,

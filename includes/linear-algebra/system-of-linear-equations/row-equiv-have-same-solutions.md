@@ -1,4 +1,7 @@
 Let $AX = B$ and $CX = D$ be systems of $m$ linear equations in $n$ variables.
+Then if $[A|B]$ is row equivalent to $[C|D]$, then $AX = B$ and $CX = D$ have the same solution set.
+
+## Proof
 
 Since $[A|B]$ is row equivalent to $[C|D]$,
 there is an invertible matrix $R$ such that $R[A|B] = [C|D]$.
