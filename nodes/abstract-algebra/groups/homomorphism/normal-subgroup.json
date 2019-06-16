@@ -1,5 +1,7 @@
 {
     "deps": [
+        "/abstract-algebra/groups/homomorphism/homomorphism",
+        "/abstract-algebra/groups/normal-subgroup",
         "/abstract-algebra/groups/homomorphism/subgroup"
     ],
     "metadata": {

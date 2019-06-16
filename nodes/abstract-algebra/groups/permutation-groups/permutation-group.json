@@ -1,6 +1,7 @@
 {
     "deps": [
         "/abstract-algebra/groups/group",
+        "/abstract-algebra/groups/subgroup",
         "/misc/composition-of-bijections-is-a-bijection",
         "/misc/relation-composition-is-associative"
     ],

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/cosets/coset",
+        "/abstract-algebra/groups/subgroup"
+    ],
+    "metadata": {
+        "type": "definition",
+        "title": "Normal Subgroup",
+        "description": "H is a normal subgroup of G iff gH = Hg for all g in G."
+    },
+    "document": {
+        "type": "meta",
+        "key": "description"
+    }
+}

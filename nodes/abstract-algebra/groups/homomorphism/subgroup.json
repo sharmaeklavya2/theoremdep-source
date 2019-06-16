@@ -1,6 +1,8 @@
 {
     "deps": [
+        "/abstract-algebra/groups/subgroup",
         "/abstract-algebra/groups/subgroup-condition-2",
+        "/abstract-algebra/groups/homomorphism/homomorphism",
         "/abstract-algebra/groups/homomorphism/mapping-of-power-is-power-of-mapping"
     ],
     "metadata": {

@@ -1,6 +1,7 @@
 {
     "deps": [
-        "/abstract-algebra/groups/group",
+        "/abstract-algebra/groups/subgroup",
+        "/abstract-algebra/groups/cyclic-groups/cyclic-group",
         "/number-theory/gcd/gcd-is-min-lincomb"
     ],
     "metadata": {

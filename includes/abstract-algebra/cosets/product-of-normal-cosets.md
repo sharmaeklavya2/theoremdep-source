@@ -1,4 +1,5 @@
 Let $N$ be a normal subgroup of $G$. This means that $gN = Ng$ for all $g \in G$.
+The coset of a normal subgroup is called a normal coset.
 
 Define the product of cosets $aN$ and $bN$ as
 \[ (aN)(bN) = (ab)N \]

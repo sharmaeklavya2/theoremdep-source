@@ -1,6 +1,7 @@
 {
     "deps": [
         "/abstract-algebra/groups/group",
+        "/abstract-algebra/groups/cyclic-groups/cyclic-group",
         "/abstract-algebra/groups/order-of-element-divides-order-of-group"
     ],
     "metadata": {

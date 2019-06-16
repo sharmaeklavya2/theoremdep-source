@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/cyclic-groups/cyclic-group",
+        "/abstract-algebra/groups/order-of-element-in-finite-group-is-finite",
+        "/number-theory/integer-division-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Order of cyclic subgroup is order of generator",
+        "description": "Let g be an element of the group G. Then |<g>| = order(g)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/cyclic-groups/order-of-cyclic-group.md"
+    }
+}

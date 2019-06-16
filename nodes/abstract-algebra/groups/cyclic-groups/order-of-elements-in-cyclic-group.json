@@ -1,6 +1,7 @@
 {
     "deps": [
         "/number-theory/gcd/gcd-divide",
+        "/abstract-algebra/groups/cyclic-groups/cyclic-group",
         "/number-theory/if-coprime-to-first-then-divides-second"
     ],
     "metadata": {

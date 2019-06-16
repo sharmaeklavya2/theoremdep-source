@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/abstract-algebra/groups/subgroup",
         "/abstract-algebra/cosets/product-of-normal-cosets"
     ],
     "metadata": {

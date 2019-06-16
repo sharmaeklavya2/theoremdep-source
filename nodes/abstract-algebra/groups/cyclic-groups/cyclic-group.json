@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/subgroup",
+        "/abstract-algebra/groups/subgroup-condition"
+    ],
+    "metadata": {
+        "type": "definition",
+        "title": "Cyclic Group",
+        "description": "A cyclic group with generator g is the group of all powers of g."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/cyclic-groups/cyclic-group.md"
+    }
+}

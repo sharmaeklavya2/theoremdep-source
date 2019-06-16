@@ -1,6 +1,7 @@
 {
     "deps": [
         "/abstract-algebra/groups/group",
+        "/abstract-algebra/groups/cyclic-groups/order-of-cyclic-group",
         "/abstract-algebra/cosets/lagranges-theorem"
     ],
     "metadata": {

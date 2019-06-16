@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/group"
+    ],
+    "metadata": {
+        "type": "definition",
+        "title": "Subgroup",
+        "description": "If H is a subset of a group G and H is also a group, then H is said to be a subgroup of G."
+    },
+    "document": {
+        "type": "meta",
+        "key": "description"
+    }
+}

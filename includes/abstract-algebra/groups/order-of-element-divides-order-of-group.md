@@ -1,4 +1,4 @@
-Let $G$ be a group and $g \in G$. Then $\operatorname{order}(g) \mid |G|$.
+Let $G$ be a finite group and $g \in G$. Then $\operatorname{order}(g) \mid |G|$.
 
 ## Proof
 

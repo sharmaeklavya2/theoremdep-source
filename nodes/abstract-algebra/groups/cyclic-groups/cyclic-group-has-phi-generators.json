@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/abstract-algebra/groups/cyclic-groups/cyclic-group",
         "/number-theory/eulers-totient-function",
         "/abstract-algebra/groups/cyclic-groups/order-of-elements-in-cyclic-group"
     ],

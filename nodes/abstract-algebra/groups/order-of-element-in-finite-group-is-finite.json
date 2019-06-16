@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/abstract-algebra/groups/group"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Order of element in finite group is finite",
+        "description": "Let g be an element of the group G. If G is finite, then order(g) is finite."
+    },
+    "document": {
+        "type": "include",
+        "path": "/abstract-algebra/groups/order-of-element-in-finite-group-is-finite.md"
+    }
+}
