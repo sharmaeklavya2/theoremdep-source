@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/field",
+        "/polynomials/factor-theorem",
+        "/polynomials/product-of-linear-factors-is-factor",
+        "/polynomials/degree-of-factor"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "A polynomial of degree n has at most n zeros",
+        "description": "A polynomial over a field with degree n has at most n zeros"
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/at-most-degree-zeros.md"
+    }
+}

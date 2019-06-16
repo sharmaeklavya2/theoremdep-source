@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/number-theory/eulers-totient-function",
+        "/number-theory/gcd-partitioning-of-zn"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Sum of ϕ of divisors",
+        "description": "The sum of ϕ(d) for all divisors d of n equals n.",
+        "keywords": ["phi", "totient", "ETF"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/sum-of-phi-of-divisors.md"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/abstract-algebra/rings/field-is-integral-domain",
+        "/polynomials/divisibility",
+        "/polynomials/factor-theorem",
+        "/polynomials/zero-divisors"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Product of linear factors is a factor",
+        "description": "If (x-a1), (x-a2), ..., (x-an) are factors of p(x), then (x-a1)(x-a2)...(x-an) is a factor of p(x)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/polynomials/product-of-linear-factors-is-factor.md"
+    }
+}

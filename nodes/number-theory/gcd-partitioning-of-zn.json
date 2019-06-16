@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/number-theory/gcd/gcd-divide"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "GCD partitioning of Zn",
+        "description": "Zn equals union of dZ(n/d)* for all divisors d of n."
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/gcd-partitioning-of-zn.md"
+    }
+}

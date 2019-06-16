@@ -1,4 +1,5 @@
 If $R$ is a field then it is also an integral domain.
+This means $R$ has no zero-divisors, i.e. the product of two non-zero numbers is always non-zero.
 
 ## Proof by contradiction
 

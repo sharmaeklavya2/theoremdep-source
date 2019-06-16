@@ -5,12 +5,14 @@ The elements of $p$ are called the coefficients of $p$.
 $p_n$ is called the leading coefficient.
 The degree of $p$ is denoted as $\deg(p)$.
 
-Additionally, the zero of $R$ is defined to be a polynomial corresponding to an empty sequence.
+Additionally, the zero polynomial in $R$ is defined to be a polynomial corresponding to an empty sequence.
 It has no leading coefficient. Its degree is defined to be $-\infty$.
 
 Equivalently, a polynomial $p$ in $R$ of degree $n$ is a function from $R$ to $R$ of the form
 \[ p(x) = \sum_{i=0}^n p_i x^i \]
 where $p_i \in R \forall 0 \le i < n$, $p_n \neq 0$ and $p_i = 0 \forall n < i$.
+
+If $p(a) = 0$ for some $a \in R$, then $a$ is said to be a 'zero' of $p$.
 
 The set of all polynomials in $R$ is denoted as $R[x]$.
 
