@@ -12,7 +12,7 @@
     },
 
     "ASYNC_JS": [
-        "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+        "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js"
     ],
     "DEP_REASON_MAP": {
         "def": "Used in definition",
