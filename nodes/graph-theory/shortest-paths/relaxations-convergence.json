@@ -3,7 +3,7 @@
         "/graph-theory/shortest-paths/relaxations"
     ],
     "metadata": {
-        "type": "deftheorem",
+        "type": "theoremdef",
         "title": "Convergence of edge relaxations",
         "description": "Intelligently choosing the order of relaxations can make the shortest-path-length estimate converge to the shortest-path-length."
     },
