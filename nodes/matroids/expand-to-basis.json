@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/matroids/basis",
+        "/matroids/basis-iff-size-is-rank"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matroid: expanding to basis",
+        "description": "Every independent set can be expanded to a basis."
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/expand-to-basis.md"
+    }
+}

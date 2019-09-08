@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/matroids/matroid"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Uniform matroid",
+        "description": "Matroid where a set is independent iff its cardinality is less than a threshold."
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/examples/uniform.md"
+    }
+}

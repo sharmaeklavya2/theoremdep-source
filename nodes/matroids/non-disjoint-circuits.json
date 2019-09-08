@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/matroids/circuit",
+        "/matroids/expand-to-basis",
+        "/matroids/dependent-iff-has-circuit"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matroid: non-disjoint circuits",
+        "description": "If C1 and C2 are distinct non-disjoint circuits in a matroid and x ∈ C1 ∩ C2, then C1 ∪ C2 - x is dependent."
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/non-disjoint-circuits.md"
+    }
+}

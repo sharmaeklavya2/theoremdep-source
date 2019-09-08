@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/matroids/matroid"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Matroid: basis",
+        "description": "The basis of a matroid is a maximal independent set."
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/basis.md"
+    }
+}

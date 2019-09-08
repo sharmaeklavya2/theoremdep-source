@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/matroids/matroid",
+        "/linear-algebra/vector-spaces/vector-space",
+        "/linear-algebra/vector-spaces/linindep",
+        "/linear-algebra/vector-spaces/span",
+        "/linear-algebra/vector-spaces/linindep-is-smaller-than-span"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Vector matroid",
+        "description": "A finite set of vectors from a vector space form a matroid under linear independence.",
+        "keywords": ["vector matroid", "matric matroid"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/examples/vector.md"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/matroids/matroid"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Restriction of a matroid"
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/restriction.md"
+    }
+}

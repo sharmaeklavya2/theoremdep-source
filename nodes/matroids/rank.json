@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/matroids/matroid"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Matroid: rank",
+        "description": "Rank of a matroid is the size of the largest independent set."
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/rank.md"
+    }
+}

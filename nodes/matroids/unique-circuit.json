@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/matroids/circuit",
+        "/matroids/non-disjoint-circuits",
+        "/matroids/dependent-iff-has-circuit"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matroid: unique circuit",
+        "description": "If A is an independent set and A + e is dependent, then A + e contains a unique circuit C. Moreover, we can remove an element f ≠ e from C such that A + e - f is independent."
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/unique-circuit.md"
+    }
+}

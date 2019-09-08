@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/matroids/basis",
+        "/matroids/rank"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matroid: basis iff size is rank",
+        "keywords": ["all bases have same size"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/basis-iff-size-is-rank.md"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/matroids/matroid"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Matroid: circuit",
+        "description": "In a matroid, a circuit is a minimally dependent set.",
+        "keywords": ["circuit", "loop"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/circuit.md"
+    }
+}

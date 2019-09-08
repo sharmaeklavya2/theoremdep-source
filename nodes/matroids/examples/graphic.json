@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/matroids/matroid",
+        "/graph-theory/path",
+        "/graph-theory/trees/tree",
+        "/graph-theory/trees/e-is-v-minus-1"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Graphic matroid",
+        "description": "The edges of a graph form a matroid where the independent sets are acyclic subsets."
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/examples/graphic.md"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "deps": {},
+    "metadata": {
+        "type": "def",
+        "title": "Matroid",
+        "description": "A matroid is the generalization of linear independence from linear algebra.",
+        "keywords": ["matroid", "hereditary", "exchange", "independent", "dependent"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/matroid.md"
+    }
+}
