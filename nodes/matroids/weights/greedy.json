@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/matroids/weights/weight-function",
+        "/matroids/basis-iff-size-is-rank"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matroid: greedy algorithm",
+        "description": "A greedy algorithm can compute the max-weight independent set of X."
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/weights/greedy.md"
+    }
+}

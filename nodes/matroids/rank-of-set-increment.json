@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/matroids/rank",
+        "/matroids/basis",
+        "/matroids/basis-iff-size-is-rank"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matroid: rank of set increment",
+        "description": "rank(X) ≤ rank(X + e) ≤ rank(X) + 1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/rank-of-set-increment.md"
+    }
+}

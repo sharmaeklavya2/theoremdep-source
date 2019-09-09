@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/matroids/weights/weight-function",
+        "/matroids/weights/greedy",
+        "/matroids/unique-circuit",
+        "/matroids/rank-of-set-increment",
+        "/matroids/basis-of-set-increment"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Incremental max-weight basis"
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/weights/incremental.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/matroids/matroid"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Matroid: weight function",
+        "description": "A weight function assigns a weight to every element of a matroid."
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/weights/weight-function.md"
+    }
+}
