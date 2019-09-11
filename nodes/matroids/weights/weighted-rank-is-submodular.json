@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/matroids/matroid",
+        "/matroids/weights/weight-function",
+        "/misc/submodular-func",
+        "/matroids/restricted-rank-is-submodular",
+        "/matroids/weights/greedy",
+        "/misc/sum-of-submodular-funcs-is-submodular"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matroid: weighted rank is submodular",
+        "description": "The weighted rank of X is the weight of the max-weight basis of X. The weighted rank function is submodular."
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/weights/weighted-rank-is-submodular.md"
+    }
+}

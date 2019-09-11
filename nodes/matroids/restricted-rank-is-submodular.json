@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/matroids/rank-is-submodular"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matroid: restricted rank is submodular"
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/restricted-rank-is-submodular.md"
+    }
+}

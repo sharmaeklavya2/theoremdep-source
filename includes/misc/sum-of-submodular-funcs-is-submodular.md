@@ -1,6 +1,6 @@
 Let $f$ and $g$ be submodular functions. Then $f + g$ is also submodular.
 
-This result can be easily extended to weighted sum of multiple functions.
+This result can be easily extended to positively weighted sum of multiple functions.
 
 ## Proof
 
