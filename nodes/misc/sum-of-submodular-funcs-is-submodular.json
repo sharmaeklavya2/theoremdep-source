@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/misc/submodular-func"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Sum of submodular functions is submodular"
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/sum-of-submodular-funcs-is-submodular.md"
+    }
+}

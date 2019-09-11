@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Submodular function",
+        "description": "A function is submodular iff its marginal decreases with the size of the set."
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/submodular-func.md"
+    }
+}

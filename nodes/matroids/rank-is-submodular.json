@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/matroids/rank",
+        "/misc/submodular-func",
+        "/matroids/rank-of-set-increment",
+        "/matroids/basis-of-set-increment",
+        "/matroids/expand-to-basis"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Matroid: rank is submodular"
+    },
+    "document": {
+        "type": "include",
+        "path": "/matroids/rank-is-submodular.md"
+    }
+}
