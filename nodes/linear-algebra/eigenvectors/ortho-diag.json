@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/linear-algebra/matrices/hermitian",
         "/linear-algebra/matrices/orthogonal",
         "/linear-algebra/matrices/transpose-of-product",
         "/linear-algebra/linear-transformation/symmetric-operator-matrix",

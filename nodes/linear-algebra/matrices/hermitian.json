@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Conjugate Transpose and Hermitian",
+        "description": "The conjugate transpose of a matrix is the complex conjugate of its transpose. A matrix is defined to be hermitian iff it equals its conjugate transpose."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/hermitian.md"
+    }
+}

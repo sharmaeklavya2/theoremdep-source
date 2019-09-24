@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/linear-algebra/matrices/matrix",
         "/linear-algebra/linear-transformation/linear-transformation",
         "/linear-algebra/vector-spaces/basis/basis-of-fn",
         "/polynomials/compare-coeff-disjoint-var"

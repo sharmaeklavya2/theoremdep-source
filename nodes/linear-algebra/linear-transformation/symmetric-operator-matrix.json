@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/linear-algebra/matrices/hermitian",
         "/linear-algebra/vector-spaces/basis/basis",
         "/linear-algebra/inner-product-spaces/gram-schmidt-process",
         "/linear-algebra/linear-transformation/symmetric-operator",
