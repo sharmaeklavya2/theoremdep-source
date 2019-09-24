@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix",
+        "/linear-algebra/eigenvectors/eigenvector",
+        "/linear-algebra/eigenvectors/hermitian-real",
+        "/linear-algebra/eigenvectors/ortho-diag",
+        "/linear-algebra/matrices/mult-assoc",
+        "/linear-algebra/matrices/transpose-of-product"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bounding matrix quadratic form using eigenvalues",
+        "description": "Let A be a real symmetric matrix. Then u^TAu/∥u∥^2 lies between the minimum and maximum eigenvalues"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/bounding-quadratic-form-using-eigenvalues.md"
+    }
+}

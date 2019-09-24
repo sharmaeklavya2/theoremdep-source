@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Positive definite",
+        "description": "A real square matrix A is positive definite iff for all non-0 u, u^TAu > 0."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/positive-definite.md"
+    }
+}

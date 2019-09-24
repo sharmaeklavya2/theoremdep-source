@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Positive semidefiniteness",
+        "description": "A real square matrix A is positive semidefinite iff for every row vector u, u^TAu ≥ 0."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/positive-semidefinite.md"
+    }
+}
