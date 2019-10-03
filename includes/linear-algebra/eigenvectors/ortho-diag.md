@@ -16,7 +16,7 @@ Also, if $A$ is real, then $P$ is real.
 
 Let $A$ be orthogonally diagonalizable.
 
-\[ A = P^*DP \implies A^* = (P^*DP)^* = P^*D^*P = P^*DP = A \]
+\[ A = PDP^* \implies A^* = (PDP^*)^* = PD^*P^* = PDP^* = A \]
 
 ## Proof of 'if' part
 
