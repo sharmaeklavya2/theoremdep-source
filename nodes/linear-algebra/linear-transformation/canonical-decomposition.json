@@ -2,6 +2,7 @@
     "deps": [
         "/linear-algebra/vector-spaces/basis/basis-of-fn",
         "/linear-algebra/vector-spaces/basis/coordinatization",
+        "/linear-algebra/linear-transformation/basis-change",
         "/linear-algebra/linear-transformation/isomorphic-dimension",
         "/linear-algebra/linear-transformation/composition",
         "/linear-algebra/linear-transformation/isomorphism-equiv"
