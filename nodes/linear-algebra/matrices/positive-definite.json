@@ -5,7 +5,8 @@
     "metadata": {
         "type": "def",
         "title": "Positive definite",
-        "description": "A real square matrix A is positive definite iff for all non-0 u, u^TAu > 0."
+        "description": "A real square matrix A is positive definite iff for all non-0 u, u^TAu > 0. A is positive semidefinite iff for all u, u^TAu ≥ 0.",
+        "keywords": ["positive", "negative", "definite", "semidefinite", "PSD", "PD", "NSD", "ND"]
     },
     "document": {
         "type": "include",
