@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/positive-definite",
+        "/linear-algebra/eigenvectors/eigenvector",
+        "/linear-algebra/eigenvectors/hermitian-real",
+        "/linear-algebra/matrices/bounding-quadratic-form-using-eigenvalues"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Positive definite iff eigenvalues are positive",
+        "description": "A matrix A is positive definite iff all its eigenvalues are positive. It is positive semidefinite iff all its eigenvalues are non-negative."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/pd-iff-pos-eigens.md"
+    }
+}

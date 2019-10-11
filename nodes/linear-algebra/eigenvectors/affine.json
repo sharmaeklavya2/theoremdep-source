@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix",
+        "/linear-algebra/eigenvectors/eigenvector",
+        "/linear-algebra/matrices/identity"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Eigenpair of affine transformation",
+        "description": "If (λ, v) is an eigenpair of matrix A, then (aλ+b, v) is an eigenpair of aA+bI."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/eigenvectors/affine.md"
+    }
+}

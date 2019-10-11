@@ -1,9 +1,21 @@
 Let $A$ be a $n$ by $n$ real symmetric matrix.
 Let $\lambda_{\textrm{min}}$ and $\lambda_{\textrm{max}}$
-be the minimum and maximum eigenvalues of $A$. Then
+be the minimum and maximum eigenvalues of $A$
+and $v_{\textrm{min}}$ and $v_{\textrm{max}}$ be the corresponding eigenvectors. Then
 \[ \forall u \in \mathbb{R}^n, \lambda_{\textrm{min}}u^Tu \le u^TAu \le \lambda_{\textrm{max}}u^Tu \]
+Also,
+\[ v_{\textrm{min}}^TAv_{\textrm{min}} = \lambda_{\textrm{min}}v_{\textrm{min}}^Tv_{\textrm{min}}
+\bigwedge v_{\textrm{max}}^TAv_{\textrm{max}} = \lambda_{\textrm{max}}v_{\textrm{max}}^Tv_{\textrm{max}} \]
+so the above bound is tight.
 
 ## Proof
+
+\[ v_{\textrm{min}}^TAv_{\textrm{min}}
+= v_{\textrm{min}}^T(\lambda_{\textrm{min}}v_{\textrm{min}})
+= \lambda_{\textrm{min}}v_{\textrm{min}}^Tv_{\textrm{min}} \]
+\[ v_{\textrm{max}}^TAv_{\textrm{max}}
+= v_{\textrm{max}}^T(\lambda_{\textrm{max}}v_{\textrm{max}})
+= \lambda_{\textrm{max}}v_{\textrm{max}}^Tv_{\textrm{max}} \]
 
 Since $A$ is real and symmetric, it is orthogonally diagonalizable.
 Specifically, let $[v_1, v_2, \ldots, v_n]$ be $n$ orthonormal eigenvectors of $A$
