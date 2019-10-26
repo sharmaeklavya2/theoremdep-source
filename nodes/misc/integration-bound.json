@@ -1,0 +1,13 @@
+{
+    "deps": [
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Integration bound",
+        "description": "Bounding a sum using integration."
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/integration-bound.md"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "deps": [
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bound on log",
+        "description": "(x-1)/x ≤ ln(x) ≤ x-1."
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/log-bound.md"
+    }
+}

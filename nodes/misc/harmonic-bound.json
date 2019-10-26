@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/misc/log-bound"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bound on harmonic sum",
+        "description": "H(n) = ln n + 𝛾 + [0, 1/n]."
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/harmonic-bound.md"
+    }
+}
