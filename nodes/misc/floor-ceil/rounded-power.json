@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/misc/floor-ceil/log"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Exponentiation of log of floor and ceil",
+        "description": "(a+1)/b ≤ b^floor(log_b(a)) ≤ a"
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/floor-ceil/rounded-power.md"
+    }
+}

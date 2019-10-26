@@ -1,0 +1,13 @@
+{
+    "deps": [
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Floor and ceil of fraction",
+        "description": "Let a and b be integers. Then ceil(a/b) = floor((a-1)/b) + 1. Equivalently, floor(a/b) = ceil((a+1)/b) - 1."
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/floor-ceil/fraction.md"
+    }
+}

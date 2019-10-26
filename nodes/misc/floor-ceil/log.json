@@ -1,0 +1,13 @@
+{
+    "deps": [
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Floor and ceil of log",
+        "description": "floor(log_b(a)) = ceil(log_b(a+1)) - 1 and ceil(log_b(a)) = floor(log_b(a-1)) + 1."
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/floor-ceil/log.md"
+    }
+}

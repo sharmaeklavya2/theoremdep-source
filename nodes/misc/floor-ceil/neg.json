@@ -1,0 +1,13 @@
+{
+    "deps": [
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Negation of floor",
+        "description": "floor(-x) = -ceil(x)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/floor-ceil/neg.md"
+    }
+}
