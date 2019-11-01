@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/number-theory/integer-division-theorem",
+        "/number-theory/gcd/gcd-is-min-lincomb"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Product of coprime divisors is divisor",
+        "description": "If a|x and b|x and gcd(a, b) = 1, then ab|x."
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/product-of-coprime-divisors-is-divisor.md"
+    }
+}

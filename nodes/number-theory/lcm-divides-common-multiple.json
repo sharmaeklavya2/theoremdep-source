@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/number-theory/integer-division-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "LCM divides common multiple",
+        "description": "lcm(a, b) divides every common multiple of a and b."
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/lcm-divides-common-multiple.md"
+    }
+}

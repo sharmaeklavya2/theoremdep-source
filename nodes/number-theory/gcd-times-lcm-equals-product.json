@@ -1,8 +1,14 @@
 {
     "deps": [
-        "/number-theory/prime-factorization/pfel-of-product-is-sum-of-pfel",
-        "/number-theory/prime-factorization/pfel-of-gcd-is-min-of-pfel",
-        "/number-theory/prime-factorization/pfel-of-lcm-is-max-of-pfel"
+        {
+        "/number-theory/prime-factorization/pfel-of-product-is-sum-of-pfel": null,
+        "/number-theory/prime-factorization/pfel-of-gcd-is-min-of-pfel": null,
+        "/number-theory/prime-factorization/pfel-of-lcm-is-max-of-pfel": null
+        }, {
+        "/number-theory/gcd/gcd-divide": null,
+        "/number-theory/product-of-coprime-divisors-is-divisor": null,
+        "/number-theory/lcm-divides-common-multiple": null
+        }
     ],
     "metadata": {
         "type": "theorem",
