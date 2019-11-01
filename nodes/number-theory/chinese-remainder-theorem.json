@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/number-theory/mod-inv-existence",
+        "/number-theory/ab-coprime-to-x-iff-a-and-b-coprime-to-x",
+        "/number-theory/product-of-coprime-divisors-is-divisor"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Chinese remainder theorem",
+        "description": "Helps find x such that x % m = a and x % n = b."
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/chinese-remainder-theorem.md"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/number-theory/eulers-totient-function",
+        "/number-theory/integer-division-theorem",
+        "/number-theory/ab-coprime-to-x-iff-a-and-b-coprime-to-x",
+        "/number-theory/euclids-lemma"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "ϕ is multiplicative",
+        "description": "Euler's totient function is multiplicative. This means that if a and b are coprime, then ϕ(ab) = ϕ(a)ϕ(b)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/number-theory/phi-is-multiplicative.md"
+    }
+}
