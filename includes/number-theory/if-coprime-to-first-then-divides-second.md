@@ -11,4 +11,4 @@ Assume $x \not\mid b$.
 \\ &\Rightarrow x \mid b \Rightarrow \bot
 \end{align}
 
-This is a contradiction, which means $p \mid b$.
+This is a contradiction, which means $x \mid b$.

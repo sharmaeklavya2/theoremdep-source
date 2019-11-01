@@ -21,7 +21,7 @@ Let
 
 $$
 (g, h)^l = (g^l, h^l) = (g^{o_gk_g}, h^{o_hk_h}) = (e_G, e_H)
-\implies l \mid o \implies l \le o
+\implies o \mid l \implies o \le l
 $$
 
 Therefore, $l = o \implies \operatorname{order}_{G \times H}((g, h)) = \operatorname{lcm}(\operatorname{order}_G(g), \operatorname{order}_H(h))$.
