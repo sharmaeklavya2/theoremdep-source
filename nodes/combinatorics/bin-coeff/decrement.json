@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/combinatorics/bin-coeff/bin-coeff"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Binomial coefficient: Decrement identities",
+        "description": "We can compute C(n, k) in 1 step if we know one of C(n-1, k), C(n, k-1) or C(n-1, k-1)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/combinatorics/bin-coeff/decrement.md"
+    }
+}

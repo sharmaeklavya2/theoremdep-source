@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/combinatorics/bin-coeff/bin-coeff",
+        "/combinatorics/bin-coeff/binomial-theorem"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Binomial coefficient: Sum",
+        "description": "sum(i from 0 to n, C(n, i)) = 2^n"
+    },
+    "document": {
+        "type": "include",
+        "path": "/combinatorics/bin-coeff/sum.md"
+    }
+}

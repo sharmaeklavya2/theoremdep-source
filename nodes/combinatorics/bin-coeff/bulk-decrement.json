@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/combinatorics/bin-coeff/bin-coeff",
+        "/combinatorics/bin-coeff/decrement"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Binomial coefficient: Bulk decrement",
+        "description": "C(n, i) * C(i, k) = C(n, k) * C(n-k, i-k)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/combinatorics/bin-coeff/bulk-decrement.md"
+    }
+}

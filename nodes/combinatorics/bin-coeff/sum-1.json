@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/combinatorics/bin-coeff/bin-coeff",
+        "/combinatorics/bin-coeff/bulk-decrement",
+        "/combinatorics/bin-coeff/sum"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Binomial coefficient: Sum 1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/combinatorics/bin-coeff/sum-1.md"
+    }
+}

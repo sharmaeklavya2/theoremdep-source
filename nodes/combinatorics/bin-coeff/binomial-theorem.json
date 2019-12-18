@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/abstract-algebra/semiring",
+        "/combinatorics/bin-coeff/bin-coeff"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Binomial theorem",
+        "description": "(a+b)^n = sum(i from 0 to n, C(n,i)*a^(n-i)*b^i)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/combinatorics/bin-coeff/binomial-theorem.md"
+    }
+}

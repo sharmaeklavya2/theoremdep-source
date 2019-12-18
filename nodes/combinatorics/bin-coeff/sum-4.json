@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/combinatorics/bin-coeff/bin-coeff",
+        "/combinatorics/bin-coeff/add-recursion",
+        "/combinatorics/bin-coeff/sum-2"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Binomial coefficient: Sum 4"
+    },
+    "document": {
+        "type": "include",
+        "path": "/combinatorics/bin-coeff/sum-4.md"
+    }
+}
