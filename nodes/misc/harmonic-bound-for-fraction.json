@@ -1,0 +1,13 @@
+{
+    "deps": [
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Harmonic bound for fraction",
+        "description": "H(a+b-1) - H(b-1) ≤ a/b ≤ H(b) - H(b-a)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/harmonic-bound-for-fraction.md"
+    }
+}
