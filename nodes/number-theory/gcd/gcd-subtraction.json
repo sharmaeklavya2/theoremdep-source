@@ -1,4 +1,5 @@
 {
+    "deps": [],
     "metadata": {
         "type": "theorem",
         "title": "gcd(a, b) = gcd(a-b, b)",

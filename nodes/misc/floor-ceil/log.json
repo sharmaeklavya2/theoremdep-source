@@ -1,6 +1,5 @@
 {
-    "deps": [
-    ],
+    "deps": [],
     "metadata": {
         "type": "theorem",
         "title": "Floor and ceil of log",

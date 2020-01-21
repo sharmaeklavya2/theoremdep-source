@@ -1,6 +1,5 @@
 {
-    "deps": [
-    ],
+    "deps": [],
     "metadata": {
         "type": "theoremdef",
         "title": "Binomial Coefficient",
