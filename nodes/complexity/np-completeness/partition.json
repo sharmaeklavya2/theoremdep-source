@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/complexity/np-completeness/subset-sum"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Partition problem is NP-complete"
+    },
+    "document": {
+        "type": "include",
+        "path": "/complexity/np-completeness/partition.md"
+    }
+}
