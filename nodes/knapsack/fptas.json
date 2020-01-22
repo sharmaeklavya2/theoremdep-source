@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/knapsack/dp-algo"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "FPTAS for knapsack",
+        "description": "FPTAS for knapsack which rounds down profits and uses the exact DP algorithm as subroutine."
+    },
+    "document": {
+        "type": "include",
+        "path": "/knapsack/fptas.md"
+    }
+}

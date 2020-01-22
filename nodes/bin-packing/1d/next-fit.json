@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "1D bin-packing: next-fit(S) < 2size(S)+1",
+        "description": "The next-fit algorithm's output is at most twice the sum of sizes of items plus 1. This gives us an asymptotic 2-approx algorithm for 1D bin-packing."
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/1d/next-fit.md"
+    }
+}

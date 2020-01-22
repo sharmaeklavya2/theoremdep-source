@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/combinatorics/tuples-with-bounded-sum"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bin-packing: config-enum algorithm",
+        "description": "An algorithm for bin-packing that enumerates all bin configurations and then considers all combinations of those combinations."
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/brute-algo.md"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/complexity/np-completeness/partition"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "1D bin-packing is (1.5-ε)-inapprox",
+        "description": "There is no (1.5-ε)-approx algorithm for 1D bin-packing unless P=NP.",
+        "keywords": ["inapproximability", "hardness"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/1d/1.5-inapprox.md"
+    }
+}
