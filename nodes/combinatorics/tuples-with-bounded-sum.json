@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/combinatorics/bin-coeff/sum-2"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Number of tuples with bounded sum",
+        "description": "The number of tuples of length n of non-negative numbers whose sum is at most s is C(s+n, n)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/combinatorics/tuples-with-bounded-sum.md"
+    }
+}

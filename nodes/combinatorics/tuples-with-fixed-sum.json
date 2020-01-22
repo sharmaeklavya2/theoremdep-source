@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/combinatorics/bin-coeff/sum-2"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Number of tuples with fixed sum",
+        "description": "The number of tuples of length n of non-negative numbers whose sum is s is C(s+n-1, n-1)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/combinatorics/tuples-with-fixed-sum.md"
+    }
+}
