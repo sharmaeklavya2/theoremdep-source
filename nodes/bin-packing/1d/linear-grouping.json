@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/bin-packing/predecessor",
+        "/bin-packing/union"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "1D bin-packing: linear grouping",
+        "description": "Linear grouping is a transformation on an input instance that gives us a predecessor and a successor."
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/1d/linear-grouping.md"
+    }
+}
