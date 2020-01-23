@@ -4,7 +4,7 @@
         "/abstract-algebra/groups/subgroup-condition"
     ],
     "metadata": {
-        "type": "definition",
+        "type": "def",
         "title": "Cyclic Group",
         "description": "A cyclic group with generator g is the group of all powers of g."
     },

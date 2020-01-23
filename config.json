@@ -21,5 +21,20 @@
     "SEARCH_FIELDS": ["title", "description", "keywords"],
     "SEARCH_SYNC_JS": [
         "https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.js"
-    ]
+    ],
+
+    "METADATA_VALIDATION": {
+        "type": {
+            "required": true,
+            "type": "string",
+            "in": ["theorem", "def", "theoremdef"]
+        },
+        "title": {
+            "required": true,
+            "type": "string"
+        },
+        "keywords": {
+            "type": "list"
+        }
+    }
 }
