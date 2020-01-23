@@ -6,7 +6,8 @@ A configuration is to be a $k$-tuple $(m_1, m_2, \ldots, m_k)$
 such that it is possible to pack $m_i$ copies of items of type $i$ for all $i$ in a single bin.
 Let there be $R$ possible configurations.
 
-Any bin-packing instance can be solved exactly using the config-enum algorithm.
+Any bin-packing instance can be solved exactly using the 'config-enum algorithm',
+also known as 'exact algorithm' or 'brute-force algorithm'.
 This algorithm first enumerates all possible configurations.
 Then it looks at all possible combinations of configurations that can give a valid bin-packing.
 Out of these, we pick the combination with the least number of bins.
@@ -14,7 +15,7 @@ Out of these, we pick the combination with the least number of bins.
 Let $m$ be a known upper-bound on the number of bins in the optimal solution.
 A naive upper-bound is $m \le n$, since we can pack each item in its own bin.
 
-The config-enum algorithm is a $O(kRm^R)$-time algorithm.
+The config-enum algorithm is a $O\left(\frac{k(m+R)^R}{(R-1)!}\right)$-time algorithm.
 We can prove that $R \le \binom{k+t}{t}$.
 So when $k$ and $t$ are constants, this is a polynomial-time algorithm.
 
@@ -32,7 +33,7 @@ Assign an integer identifier from 1 to $R$ to each configuration.
 To enumerate all possible combinations of configurations,
 iterate over all $R$-tuples with sum at most $m$.
 Here the $i^{\textrm{th}}$ element of the $R$-tuple is the number of bins of configuration $i$.
-This gives us $\binom{m+R}{R} \in \Theta(m^R)$ tuples.
+This gives us $\binom{m+R}{R} \in O\left(\frac{(m+R)^R}{R!}\right)$ tuples.
 
 To check if a combination is a valid bin-packing,
 find the number of items of type $i$ across all bins.

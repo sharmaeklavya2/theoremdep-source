@@ -3,7 +3,8 @@ Let $I$ be an input instance for 1D bin-packing.
 The linear grouping scheme is an algorithm parametrized by an integer $k$.
 It first splits $I$ into disjoint instances $I'$ and $I_2$
 such that $I_2$ has at most $k$ items.
-It then increases the item sizes in $I'$ to get $I_1$.
+It then increases the item sizes in $I'$ to get $I_1$
+such that $I_1$ has at most $\lceil \frac{n}{k} \rceil - 1$ distinct item-sizes.
 The algorithm outputs $(I_1, I_2)$.
 
 It can be proven that $I_1 \preceq I \preceq I_1 + I_2$.
@@ -19,6 +20,7 @@ The linear grouping scheme first orders the items in non-increasing order of siz
 It then splits them into groups:
 the group $G_1$ consists of the first $k$ items, $G_2$ consists of the next $k$ items and so on.
 The last group, $G_t$ may contain less than $k$ items.
+Here $t = \lceil \frac{n}{k} \rceil$.
 
 For all $i \ge 2$, the instance $G_i'$ is obtained by transforming $G_i$:
 each item's size is increased to $\max(G_i)$.
@@ -41,3 +43,5 @@ I_1 + I_2 &= G_1 + G_2' + G_3' + \ldots + G_t'
 \\ &= I
 \end{align}
 Therefore, $I_1 \preceq I \preceq I_1 + I_2$.
+
+Because all items in $G_i'$ have the same size, $I_1$ has $t-1$ distinct item-sizes.
