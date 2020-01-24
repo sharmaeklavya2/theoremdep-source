@@ -13,8 +13,8 @@ Algorithm $\operatorname{bin-pack}(I, \epsilon)$:
 * if $k \texttt{ == } 0$:
     * $P = \operatorname{exact-bin-pack}(I_L)$.
 * else:
-    * $(I_1, I_2) = \operatorname{linear-grouping}(I, k)$.
-    * $P_1 = \operatorname{exact-bin-pack}(I_S)$.
+    * $(I_1, I_2) = \operatorname{linear-grouping}(I_L, k)$.
+    * $P_1 = \operatorname{exact-bin-pack}(I_1)$.
     * Pack each item in $I_2$ in a separate bin. Let $P_2$ be the resulting packing.
     * $P' = P_1 + P_2$ (i.e. pack $I_1 + I_2$ using $|P_1| + |P_2|$ bins).
     * Use $P'$, which is a packing of $I_1 + I_2$, to get a packing $P$ for $I_L$.
