@@ -1,0 +1,13 @@
+{
+    "deps": null,
+    "metadata": {
+        "type": "theorem",
+        "title": "Linear programming: separation equals optimization",
+        "description": "In linear programming, the optimization problem is to find a point with optimal value that satisfies a set of constraints. In the separation problem, given a point, we have to find out if it satisfies all the constraints, and if it doesn't, find a violated constraint. It can be proven that the two problems are polynomial-time reducible to each other via the Ellipsoid algorithm. There are weak versions of the problems which are also equivalent.",
+        "keywords": ["ellipsoid", "khachiyan"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/optimization/linear-prog/sep-eq-opt.md"
+    }
+}
