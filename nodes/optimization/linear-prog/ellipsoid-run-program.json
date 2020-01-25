@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/optimization/linear-prog/ellipsoid",
+        "/linear-algebra/inner-product-spaces/cauchy-schwarz-inequality"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Linear programming: linear program of ellipsoid run"
+    },
+    "document": {
+        "type": "include",
+        "path": "/optimization/linear-prog/ellipsoid-run-program.md"
+    }
+}

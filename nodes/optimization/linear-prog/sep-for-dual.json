@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/optimization/linear-prog/dual",
+        "/optimization/linear-prog/strong-duality",
+        "/optimization/linear-prog/ellipsoid-run-program"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Linear programming: Solving dual using separation oracle for primal",
+        "description": "How to solve a dual linear program using a separation oracle for the primal."
+    },
+    "document": {
+        "type": "include",
+        "path": "/optimization/linear-prog/sep-for-dual.md"
+    }
+}

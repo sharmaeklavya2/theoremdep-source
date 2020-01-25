@@ -1,0 +1,13 @@
+{
+    "deps": null,
+    "metadata": {
+        "type": "theorem",
+        "title": "Linear programming: Ellipsoid method",
+        "description": "In linear programming, the optimization problem is to find a point with optimal value that satisfies a set of constraints. In the separation problem, given a point, we have to find out if it satisfies all the constraints, and if it doesn't, find a violated constraint. It can be proven that a polynomial time algorithm for the separation problem can be used to solve the optimization problem in polynomial time via the Ellipsoid algorithm.",
+        "keywords": ["ellipsoid", "khachiyan"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/optimization/linear-prog/ellipsoid.md"
+    }
+}
