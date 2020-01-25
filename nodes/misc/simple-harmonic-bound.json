@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/misc/integration-bound"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Simple bound on harmonic sum",
+        "description": "ln(n) + 1/n ≤ H(n) ≤ ln(n) + 1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/simple-harmonic-bound.md"
+    }
+}

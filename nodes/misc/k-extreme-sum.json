@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bound on k extreme values",
+        "description": "Let s be the sum of n values. The sum of the smallest k values is at most sk/n."
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/k-extreme-sum.md"
+    }
+}
