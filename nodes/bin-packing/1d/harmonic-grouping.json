@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/bin-packing/predecessor",
+        "/bin-packing/union",
+        "/misc/harmonic-bound-for-fraction",
+        "/misc/simple-harmonic-bound",
+        "/misc/k-extreme-sum"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "1D bin-packing: harmonic grouping"
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/1d/harmonic-grouping.md"
+    }
+}
