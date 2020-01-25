@@ -1,0 +1,11 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "def",
+        "title": "Optimization: Dual and Lagrangian "
+    },
+    "document": {
+        "type": "include",
+        "path": "/optimization/dual.md"
+    }
+}

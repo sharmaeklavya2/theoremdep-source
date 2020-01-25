@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/optimization/weak-duality",
+        "/optimization/linear-prog/dual"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Linear programming: weak duality",
+        "description": "The optimal objective value of a maximization linear program is at most the optimal objective value of its dual."
+    },
+    "document": {
+        "type": "inline",
+        "text": "The optimal objective value of a maximization linear program is at most the optimal objective value of its dual. This is a direct consequence of weak duality in general optimization programs is that weak duality also holds for linear programs."
+    }
+}

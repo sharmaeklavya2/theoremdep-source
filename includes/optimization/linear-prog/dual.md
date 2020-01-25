@@ -7,3 +7,7 @@ Also, the dual of $D$ is $P$.
 For other kinds of linear programs, the dual can either be obtained by
 first converting to standard form, or by applying this method:
 <http://www.cs.columbia.edu/coms6998-3/lpprimer.pdf>.
+
+This can be proven by a straightforward application of the definition
+of duality for general optimization problems.
+The proof is too tedious to write, so I'm omitting it here.

@@ -1,7 +1,9 @@
 {
-    "deps": [],
+    "deps": [
+        "/optimization/dual"
+    ],
     "metadata": {
-        "type": "def",
+        "type": "theorem",
         "title": "Dual of a linear program",
         "description": "The dual of a linear program is another linear program obtained by applying a transformation to the original linear program."
     },

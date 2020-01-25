@@ -1,0 +1,8 @@
+{
+    "deps": null,
+    "metadata": {
+        "type": "theorem",
+        "title": "Linear programming: strong duality",
+        "description": "The optimal objective value of a linear program and its dual are equal."
+    }
+}
