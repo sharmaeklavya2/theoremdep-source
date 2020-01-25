@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Geometric bin-packing: size",
+        "description": "In a d-dimensional geometric bin-packing instance, size of an item is the product of all dimensions of the item. Size of an instance is the sum of sizes of items. Size lower-bounds the minimum number of bins."
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/d-geom/size.md"
+    }
+}

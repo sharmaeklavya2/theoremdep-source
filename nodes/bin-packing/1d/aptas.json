@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/bin-packing/d-geom/size",
         "/bin-packing/brute-algo",
         "/bin-packing/predecessor",
         "/bin-packing/1d/linear-grouping",

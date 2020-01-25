@@ -1,5 +1,5 @@
 {
-    "deps": null,
+    "deps": [],
     "metadata": {
         "type": "theorem",
         "title": "1D bin-packing: extending by small items",
