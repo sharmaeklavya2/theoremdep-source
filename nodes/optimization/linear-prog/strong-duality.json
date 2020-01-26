@@ -1,5 +1,9 @@
 {
-    "deps": null,
+    "deps": [
+        "/optimization/linear-prog/dual"
+    ],
+    "deps_status": "incomplete",
+    "status": "incomplete",
     "metadata": {
         "type": "theorem",
         "title": "Linear programming: strong duality",

@@ -1,5 +1,7 @@
 {
-    "deps": null,
+    "deps": [],
+    "deps_status": "incomplete",
+    "status": "incomplete",
     "metadata": {
         "type": "theorem",
         "title": "Linear programming: Ellipsoid method",
