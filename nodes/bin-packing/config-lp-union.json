@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/bin-packing/config-lp",
+        "/bin-packing/union"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bin-packing: config LP of union",
+        "description": "Let I and J be bin-packing input instances. Then lin(I+J) ≤ lin(I) + lin(J)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/config-lp-union.md"
+    }
+}

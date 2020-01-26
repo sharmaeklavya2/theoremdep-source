@@ -1,8 +1,10 @@
 {
     "deps": [
         "/bin-packing/config-lp",
-        "/optimization/linear-prog/sep-for-dual"
+        "/optimization/linear-prog/sep-for-dual",
+        "/optimization/linear-prog/rank-lemma"
     ],
+    "status": "incomplete",
     "metadata": {
         "type": "theorem",
         "title": "Bin-packing: Solving fractional config LP using FPTAS for knapsack",
