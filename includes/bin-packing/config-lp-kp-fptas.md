@@ -19,6 +19,8 @@ Furthermore, we can obtain a solution with at most $m$ non-zero entries.
 * Prove that an FPTAS for knapsack problem can be used to construct a weak separation oracle.
 Specifically, a $(1+\frac{\epsilon}{\sqrt{m}})$-approx algorithm for knapsack gives us
 an $\epsilon$-weak separation oracle.
+* Find out how a weakly-feasible weak-minimizer for the primal can be used to construct
+a feasible weak-minimizer for the primal.
 
 A $\frac{\epsilon}{1+\|b\|}$-weak separation oracle gives us a solution
 of objective value at most $\epsilon$ more than the optimum.
