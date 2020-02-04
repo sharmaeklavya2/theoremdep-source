@@ -1,0 +1,19 @@
+{
+    "deps": [],
+    "deps_status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "2D knapsack: PTAS for density-restricted knapsack",
+        "description": "When the profit-to-area ratio is upper-bounded and lower-bounded by a constant, then there is a PTAS for the knapsack problem."
+    },
+    "document": [
+        {
+            "type": "include",
+            "path": "/knapsack/2D/ptas-for-density-restr.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/bin-packing/bansal2009structural.html"
+        }
+    ]
+}

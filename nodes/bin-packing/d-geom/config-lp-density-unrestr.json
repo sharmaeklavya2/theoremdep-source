@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/bin-packing/d-geom/size",
+        "/bin-packing/config-lp",
+        "/bin-packing/d-geom/density-restr-config-lp"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Geometric bin-packing: removing density restriction",
+        "description": "Assuming the presence of a suitable primitive bin-packing algorithm, we can solve the config LP almost optimally by solving the density-restricted config LP almost optimally."
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/d-geom/config-lp-density-unrestr.md"
+    }
+}
