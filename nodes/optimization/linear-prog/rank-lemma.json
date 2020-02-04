@@ -7,8 +7,14 @@
         "title": "Linear programming: rank lemma",
         "description": "For an extreme-point solution, the maximum number of linearly independent tight constraints equals the number of non-zero variables."
     },
-    "document": {
-        "type": "include",
-        "path": "/optimization/linear-prog/rank-lemma.md"
-    }
+    "document": [
+        {
+            "type": "include",
+            "path": "/optimization/linear-prog/rank-lemma.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/book/iterative-methods.html"
+        }
+    ]
 }
