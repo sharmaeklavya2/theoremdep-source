@@ -1,6 +1,7 @@
 {
     "deps": [
         "/bin-packing/config-lp",
+        "/bin-packing/config-lp-dual",
         "/optimization/linear-prog/sep-for-dual",
         "/optimization/linear-prog/rank-lemma"
     ],
