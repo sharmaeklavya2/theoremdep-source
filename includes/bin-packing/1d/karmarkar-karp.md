@@ -1,11 +1,13 @@
-The Karmarkar-Karp algorithm is a polynomial-time algorithm for 1D bin-packing
-that achieves an additive approximation of $O(\log(I)^2)$.
+The Karmarkar-Karp algorithm is a polynomial-time algorithm for 1D bin-packing.
 $\newcommand{\Size}{\operatorname{size}}$
 $\newcommand{\floor}[1]{\left\lfloor{#1}\right\rfloor}$
 $\newcommand{\lin}{\operatorname{lin}}$
 $\newcommand{\LP}{\operatorname{LP}}$
 $\newcommand{\Opt}{\operatorname{opt}}$
 $\newcommand{\Sum}{\operatorname{sum}}$
+
+Its output's cost is at most $\lin(I) + O(\log^2(\Size(I)))$.
+This makes it achieve an additive approximation of $O(\log^2(\Opt(I)))$.
 
 ## Algorithm
 
