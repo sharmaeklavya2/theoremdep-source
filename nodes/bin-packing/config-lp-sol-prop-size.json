@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/bin-packing/config-lp-dual"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bin-packing: config LP dual solution increases with size",
+        "description": "Let y be the optimal solution to the dual of the config LP of a bin-packing instance. If item i is at least as large as item j then y_i is at least as large as y_j."
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/config-lp-sol-prop-size.md"
+    }
+}
