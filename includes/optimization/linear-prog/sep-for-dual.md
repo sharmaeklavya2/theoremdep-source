@@ -4,7 +4,7 @@ and let $L'$ be the ellipsoid run program of $L$ which looks like
 \[ \max \left\{ c^Tx: Ax \le h, x \ge 0 \right\} \]
 
 Let $D$ and $D'$ be the duals of $L$ and $L'$ respectively.
-It can be proven that $D'$ and $D$ have the same number of constraints
+It can be proven that $D'$ and $D$ have the same number of constraints.
 Since the ellipsoid algorithm runs in polynomial-time,
 $L'$ and $D'$ have polynomial size.
 
@@ -20,7 +20,7 @@ and with the same number of non-zero entries.
 Let $\delta = \epsilon(\|c\|+1)$.
 We know that $\Opt(L) \le \Opt(L') \le \Opt(L) + \delta$.
 By strong duality of linear programming, $\Opt(D) = \Opt(L)$ and $\Opt(D') = \Opt(L')$.
-Therefore, $\Opt(D) = \Opt(D') = \Opt(D) + \delta$.
+Therefore, $\Opt(D) \le \Opt(D') \le \Opt(D) + \delta$.
 
 $D$ looks like this:
 \[ \min \left\{ h^Ty + g^Tz: A^Ty + B^Tz \ge c, y \ge 0 \right\} \]
