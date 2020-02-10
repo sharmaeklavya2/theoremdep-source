@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "def",
+        "title": "Dual-feasible function",
+        "description": "A function f from (0, 1] to (0, 1] is a dual-feasible function (DFF) iff for every vector x ∈ (0, 1]^*, sum(x) ≤ 1 implies sum(f(x)) ≤ 1."
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/dual-feasible-func.md"
+    }
+}
