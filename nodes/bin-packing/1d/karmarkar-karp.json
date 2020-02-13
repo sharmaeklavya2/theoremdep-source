@@ -6,6 +6,7 @@
         "/bin-packing/config-lp-kp-fptas",
         "/knapsack/fptas",
         "/bin-packing/config-lp-prec",
+        "/bin-packing/1d/harmonic-grouping",
         "/bin-packing/d-geom/size-lb-config-lp"
     ],
     "metadata": {
