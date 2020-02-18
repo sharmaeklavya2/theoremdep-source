@@ -9,7 +9,7 @@ $\frac{1}{1-\epsilon}\Opt(I) + 1$ bins.
 Algorithm $\operatorname{bin-pack}(I, \epsilon)$:
 
 * $I_S = \{s \in I: s < \epsilon\}$ and $I_L = \{s \in I: s \ge \epsilon\}$.
-* $k = \lfloor \epsilon \Size(I) \rfloor$.
+* $k = \lfloor \epsilon \Size(I_L) \rfloor$.
 * if $k \texttt{ == } 0$:
     * $P = \operatorname{exact-bin-pack}(I_L)$.
 * else:
@@ -26,10 +26,10 @@ In this algorithm, $P$ is a packing of $I_L$ and $Q$ is a packing of $I$.
 ## Running time and approximation ratio
 
 Since $I_L$ has items of size $\ge \epsilon$,
-\[ \Size(I_L) \ge \epsilon n \implies n \le \frac{\Size(I)}{\epsilon} \]
+\[ \Size(I_L) \ge \epsilon |I_L| \implies |I_L| \le \frac{\Size(I_L)}{\epsilon} \]
 
-When $k = 0$, then $\epsilon \Size(I_L) < 1 \implies n < \frac{1}{\epsilon^2}$.`
-Therefore, there are a constant number of items.
+When $k = 0$, then $\epsilon \Size(I_L) < 1 \implies |I_L| < \frac{1}{\epsilon^2}$.`
+Therefore, there are a constant number of items in $I_L$.
 The exact-bin-pack algorithm will run in constant time.
 $|P| = \Opt(I_L) < \Opt(I) + k$.
 
@@ -37,14 +37,14 @@ When $k > 0$, then $\epsilon \Size(I_L) \ge 1$.
 Using the fact that for $x \ge 1, \lfloor x \rfloor \ge \frac{x}{2}$, we get
 \[ k = \lfloor \epsilon \Size(I_L) \rfloor \ge \frac{\epsilon \Size(I_L)}{2} \]
 The number of distinct items in $I_1$ is
-\[ \frac{n}{k} \le \frac{\frac{\Size(I)}{\epsilon}}{\frac{\epsilon \Size(I_L)}{2}}
+\[ \frac{|I_L|}{k} \le \frac{\frac{\Size(I_L)}{\epsilon}}{\frac{\epsilon \Size(I_L)}{2}}
 = \frac{2}{\epsilon^2} \]
 Therefore, there is a constant number of distinct item types.
 The maximum number of items a bin can accommodate is $\frac{1}{\epsilon}$, which is also a constant.
 So the exact-bin-pack algorithm runs in polynomial time.
 
-We get $|P_1| = \Opt(I_1)$ and $|P_2| = k$.
-$|P| = \Opt(I_1) + k \le \Opt(I) + k$ because $I_1 \preceq I_L$ and $\Opt(I_L) \le \Opt(I)$.
+We get $|P_1| = \Opt(I_1)$ and $|P_2| \le k$.
+$|P| \le \Opt(I_1) + k \le \Opt(I) + k$ because $I_1 \preceq I_L$ and $\Opt(I_L) \le \Opt(I)$.
 So for both cases, $k=0$ and $k>0$, we get
 \[ |P| \le \Opt(I) + k \le \Opt(I) + \epsilon \Size(I) \le (1+\epsilon)\Opt(I) \]
 
