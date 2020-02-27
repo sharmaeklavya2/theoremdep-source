@@ -2,7 +2,7 @@ Let $I$ be a $d$-dimensional geometric bin-packing instance.
 Let $s_i$ be the size of item $i$.
 Then the density-restricted configuration LP parametrized by $\lambda$ is given by
 
-\[ \min\left\{ \sum_{C \in \mathcal{C}} x_C + \lambda s_iy_i:
+\[ \min\left\{ \sum_{C \in \mathcal{C}} x_C + \lambda \sum_{i \in I} s_iy_i:
 \left( \forall i \in I, \sum_{C \ni i} x_C + y_i \ge 1 \right)
 \wedge x \ge 0 \wedge y \ge 0 \right\} \]
 
