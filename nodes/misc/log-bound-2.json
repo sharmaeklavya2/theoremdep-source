@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bound on log 2",
+        "description": "ln(1+x) ≥ 2x/(2+x) for x ≥ 0."
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/log-bound-2.md"
+    }
+}

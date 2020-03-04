@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bound on exponential",
+        "description": "e^x ≥ 1+x"
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/exp-bound.md"
+    }
+}

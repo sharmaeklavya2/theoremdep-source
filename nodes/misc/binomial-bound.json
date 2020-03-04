@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/combinatorics/bin-coeff/bin-coeff",
+        "/misc/stirlings-approx"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bound on binomial coefficient",
+        "description": "(n/k)^k ≤ C(n,k) ≤ (ne/k)^k"
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/binomial-bound.md"
+    }
+}

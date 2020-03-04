@@ -1,0 +1,14 @@
+{
+    "deps": [],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Stirling's approximation",
+        "description": "Upper and lower bounds for factorial."
+    },
+    "document": {
+        "type": "include",
+        "path": "/misc/stirlings-approx.md"
+    }
+}
