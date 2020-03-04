@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "Markov's bound",
+        "description": "Let X be a non-negative random variable. Then P(X ≥ a) ≤ E(X)/a."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-bound.md"
+    }
+}

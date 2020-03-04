@@ -1,0 +1,14 @@
+{
+    "deps": [],
+    "status": "incomplete",
+    "deps_status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Expectation of product of independent random variables",
+        "description": "Let X and Y be independent random variables. Then E(XY) = E(X)E(Y)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/indep-prod-expec.md"
+    }
+}

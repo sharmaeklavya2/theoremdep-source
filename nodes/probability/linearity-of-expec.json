@@ -1,0 +1,14 @@
+{
+    "deps": [],
+    "status": "incomplete",
+    "deps_status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Linearity of expectation",
+        "description": "Expectation of sum of random variables is sum of expectation of those random variables."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/linearity-of-expec.md"
+    }
+}

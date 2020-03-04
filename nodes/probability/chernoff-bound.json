@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/probability/markov-bound",
+        "/probability/indep-prod-expec",
+        "/probability/linearity-of-expec",
+        "/misc/exp-bound",
+        "/misc/log-bound-2"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Chernoff bound",
+        "description": "Chernoff bound gives concentration result for the sum of independent bernouilli random variables."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/chernoff-bound.md"
+    }
+}
