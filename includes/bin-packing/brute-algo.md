@@ -2,9 +2,12 @@ For a bin-packing problem, suppose we have $k$ different types of items
 and there are $n_i$ items of each type.
 We are also given that a bin can accommodate at most $t$ items (regardless of the types of the items).
 
-A configuration is to be a $k$-tuple $(m_1, m_2, \ldots, m_k)$
+A configuration is defined to be a $k$-tuple $(m_1, m_2, \ldots, m_k)$
 such that it is possible to pack $m_i$ copies of items of type $i$ for all $i$ in a single bin.
 Let there be $R$ possible configurations.
+Assume that we have an algorithm that given a $k$-tuple,
+decides whether it is a configuration or not
+(for 1D bin-packing, this algorithm simply checks that the sum of the items is at most 1).
 
 Any bin-packing instance can be solved exactly using the 'config-enum algorithm',
 also known as 'exact algorithm' or 'brute-force algorithm'.
@@ -24,7 +27,8 @@ So when $k$ and $t$ are constants, this is a polynomial-time algorithm.
 ### Enumerating configurations
 
 To enumerate all possible configurations, iterate over all $k$-tuples with sum at most $t$
-and check if those items can fit in a bin. If yes, that is a valid configuration.
+and where the $i^{\textrm{th}}$ element of the tuple is at most $n_i$.
+Then check if the tuple is a valid configuration.
 Since there can be at most $\binom{t+k}{k}$ such tuples, $R \le \binom{t+k}{k}$.
 Assign an integer identifier from 1 to $R$ to each configuration.
 
