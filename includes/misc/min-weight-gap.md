@@ -1,4 +1,4 @@
-Let $f: [a, b] \mapsto [a, b]$ be a (strictly) decreasing function.
+Let $f: [a, b] \mapsto [a, b]$ be a function such that $\forall x, f(x) < x$.
 Let $\epsilon \in (0, 1)$. Let $k = \lceil d/\epsilon \rceil$.
 Let $\epsilon_0 \in [a, b]$ and define $\epsilon_j = f(\epsilon_{j-1})$
 and $I_j = [\epsilon_j, \epsilon_{j-1}]$ for $1 \le j \le k$.
@@ -11,12 +11,14 @@ For $Y \subseteq X$, define $w(Y) = \sum_{x \in Y} w(x)$.
 Then
 \[ \min_{j=1}^k w(Y_j) \le \epsilon w(X) \]
 
-Let $|X| = n$. Then such a $Y_j$ can be found in $O(k + nd\lg k)$ time and $O(k)$ extra space
+Let $|X| = n$. Then such a $Y_j$ can be found in $\Theta(k + nd\lg k)$ time and $\Theta(k)$ extra space
 (assuming constant time for arithmetic operations and constant space for numbers).
 
 Intuitively, this means that we can remove a subset $Y$ from $X$
 such that the weight doesn't decrease much and there is a gap
 in each coordinate of each $x \in X-Y$.
+
+Function signature: <code>min_gap(f, X, w, &epsilon;, &epsilon;0)</code>.
 
 ## Proof
 
@@ -40,4 +42,4 @@ To find such a $Y_j$, first compute all $\epsilon_j$.
 Then for each coordinate of each vector, identify the interval that it belongs to using binary search.
 For each interval $I_j$, maintain $w(Y_j)$ as vectors are added.
 Then find the interval with the maximum weight and the vectors belonging to it.
-This takes $\Theta(nd\lg k)$ time and $O(k)$ space.
+This takes $\Theta(nd\lg k)$ time and $\Theta(k)$ space.
