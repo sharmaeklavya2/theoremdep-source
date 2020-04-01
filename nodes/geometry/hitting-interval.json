@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "def",
+        "title": "Hitting interval problem",
+        "description": "Given several input intervals with costs and a value δ, find x that minimizes the cost of the input intervals that intersect the interval (x, x+δ)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/geometry/hitting-interval.md"
+    }
+}

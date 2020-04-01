@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/geometry/hitting-interval"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Hitting interval problem: upper bound for small intervals",
+        "description": "For the hitting interval problem, if all input intervals are small, then it is possible to find a solution with bounded cost."
+    },
+    "document": {
+        "type": "include",
+        "path": "/geometry/hitting-interval-ub-for-small-intervals.md"
+    }
+}
