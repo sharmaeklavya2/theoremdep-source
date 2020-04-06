@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "Minimize maximum coordinate over hyperplane",
+        "description": "Consider the problem of minimizing max(x) where a^Tx = b. Here a is a vector with non-negative coordinates and max(x) is the maximum coordinate of x. Then the optimal solution is where each coordinate is b/sum(a)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/optimization/min-max-coord.md"
+    }
+}
