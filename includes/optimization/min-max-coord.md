@@ -9,6 +9,11 @@ Then the solution to these optimization problems
 \[ \max_{x \in \mathbb{R}^d} \min(x) \textrm{ where } a^Tx = b  \tag{Problem $Q_1$} \]
 is $\frac{b}{a^T\vecone} \vecone$.
 
+Equivalently, the solution to these optimization problems
+\[ \min_{y \in \mathbb{R}^d} \max_{i=1}^d \frac{y_i}{a_i} \textrm{ where } \vecone^Ty = b \]
+\[ \max_{y \in \mathbb{R}^d} \min_{i=1}^d \frac{y_i}{a_i} \textrm{ where } \vecone^Ty = b \]
+is $\frac{b}{a^T\vecone} a$ and the optimal objective value is $\frac{b}{a^T\vecone}$.
+
 ## Proof
 
 For a problem $P$, we say that $x \in P$ iff $x$ is a feasible solution to $P$.
@@ -63,3 +68,8 @@ $\frac{b}{a^T\vecone}\vecone$ is feasible for $P_1$ and has objective value $c^*
 so it is an optimal solution to $P_1$ as per lemma 2.
 
 We can similary prove that $\frac{b}{a^T\vecone}\vecone$ is an optimal solution to $Q_1$.
+
+It is also easy to prove that the problems
+\[ \min_{y \in \mathbb{R}^d} \max_{i=1}^d \frac{y_i}{a_i} \textrm{ where } \vecone^Ty = b \]
+\[ \max_{y \in \mathbb{R}^d} \min_{i=1}^d \frac{y_i}{a_i} \textrm{ where } \vecone^Ty = b \]
+are equivalent to $P_1$ and $Q_1$ respectively via the transformation $y_i = a_ix_i$.
