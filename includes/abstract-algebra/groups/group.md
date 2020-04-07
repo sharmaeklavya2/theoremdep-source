@@ -19,3 +19,12 @@ g*g*\ldots*g \; (k \textrm{ times}) & \textrm{if } k > 0
 
 $\operatorname{order}(g)$ is the smallest positive integer $k$ such that $g^k = e$.
 If such a $k$ does not exist, $\operatorname{order}(g) = \infty$.
+
+$G$ is said to be commutative or abelian iff $\forall a, b \in G, a*b = b*a$.
+
+The following are very common examples of abelian groups
+(which is trivial to prove):
+
+* Empty group: has only 1 element, which is identity.
+* $(\mathbb{Z}, +)$, $(\mathbb{Q}, +)$, $(\mathbb{R}, +)$, $(\mathbb{C}, +)$.
+* $(\mathbb{Q}-\{0\}, \times)$, $(\mathbb{R}-\{0\}, \times)$, $(\mathbb{C}-\{0\}, \times)$.
