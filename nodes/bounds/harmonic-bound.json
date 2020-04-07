@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/misc/log-bound"
+        "/bounds/log-bound"
     ],
     "metadata": {
         "type": "theorem",
@@ -9,6 +9,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/misc/harmonic-bound.md"
+        "path": "/bounds/harmonic-bound.md"
     }
 }

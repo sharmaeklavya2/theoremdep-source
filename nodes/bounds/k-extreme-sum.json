@@ -7,6 +7,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/misc/k-extreme-sum.md"
+        "path": "/bounds/k-extreme-sum.md"
     }
 }

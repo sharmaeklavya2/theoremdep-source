@@ -7,6 +7,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/misc/log-bound-2.md"
+        "path": "/bounds/log-bound-2.md"
     }
 }

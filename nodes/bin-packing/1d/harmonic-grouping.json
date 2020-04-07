@@ -2,9 +2,9 @@
     "deps": [
         "/bin-packing/predecessor",
         "/bin-packing/union",
-        "/misc/harmonic-bound-for-fraction",
-        "/misc/simple-harmonic-bound",
-        "/misc/k-extreme-sum"
+        "/bounds/harmonic-bound-for-fraction",
+        "/bounds/simple-harmonic-bound",
+        "/bounds/k-extreme-sum"
     ],
     "metadata": {
         "type": "theoremdef",

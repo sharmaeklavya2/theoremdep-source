@@ -7,6 +7,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/misc/exp-bound.md"
+        "path": "/bounds/exp-bound.md"
     }
 }

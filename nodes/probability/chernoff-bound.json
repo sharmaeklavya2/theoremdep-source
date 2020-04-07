@@ -3,8 +3,8 @@
         "/probability/markov-bound",
         "/probability/indep-prod-expec",
         "/probability/linearity-of-expec",
-        "/misc/exp-bound",
-        "/misc/log-bound-2"
+        "/bounds/exp-bound",
+        "/bounds/log-bound-2"
     ],
     "metadata": {
         "type": "theorem",

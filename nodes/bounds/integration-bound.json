@@ -7,6 +7,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/misc/integration-bound.md"
+        "path": "/bounds/integration-bound.md"
     }
 }

@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/misc/integration-bound"
+        "/bounds/integration-bound"
     ],
     "metadata": {
         "type": "theorem",
@@ -9,6 +9,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/misc/simple-harmonic-bound.md"
+        "path": "/bounds/simple-harmonic-bound.md"
     }
 }

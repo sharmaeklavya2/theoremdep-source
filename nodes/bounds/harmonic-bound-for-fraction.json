@@ -7,6 +7,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/misc/harmonic-bound-for-fraction.md"
+        "path": "/bounds/harmonic-bound-for-fraction.md"
     }
 }

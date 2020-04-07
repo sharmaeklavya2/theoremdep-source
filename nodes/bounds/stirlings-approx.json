@@ -9,6 +9,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/misc/stirlings-approx.md"
+        "path": "/bounds/stirlings-approx.md"
     }
 }
