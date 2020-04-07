@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/bounds/log-bound",
+        "/bounds/exp-bound",
+        "/analysis/nonneg-dd-func-with-2-zeros"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bounds on (1+x)^a for 0 ≤ a ≤ 1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/bounds/power-bound.md"
+    }
+}
