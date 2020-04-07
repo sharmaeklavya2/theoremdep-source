@@ -1,0 +1,14 @@
+{
+    "deps": [],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Function with non-negative second derivative and 2 zeros",
+        "description": "Let f be a function with f''(x) ≥ 0 and f(a) = f(b) = 0. Then for x ∈ [a, b], f(x) ≤ 0."
+    },
+    "document": {
+        "type": "include",
+        "path": "/analysis/nonneg-dd-func-with-2-zeros.md"
+    }
+}

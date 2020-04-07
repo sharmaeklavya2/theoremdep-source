@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/vector-space",
+        "/analysis/convex-set"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Convex function",
+        "description": "A function f is convex iff the line segment joining (x, f(x)) and (y, f(y)) lies completely above the function surface."
+    },
+    "document": {
+        "type": "include",
+        "path": "/analysis/convex-function.md"
+    }
+}

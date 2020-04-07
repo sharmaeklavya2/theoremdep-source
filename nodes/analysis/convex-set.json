@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/vector-space"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Convex set",
+        "description": "A set S in the vector space V is convex iff (x ∈ S and y ∈ S and t ∈ [0, 1]) implies (1-t)x + ty ∈ S."
+    },
+    "document": {
+        "type": "include",
+        "path": "/analysis/convex-set.md"
+    }
+}
