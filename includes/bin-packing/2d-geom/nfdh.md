@@ -1,10 +1,10 @@
-Next-fit Decreasing Height (NFDH) is an algorithm for 2D bin-packing.
+Next-fit Decreasing Height (NFDH) is an algorithm for 2D geometric bin-packing.
 $\newcommand{\Size}{\operatorname{size}}$
 It sorts items in decreasing order of height and packs them into 'shelves'.
 See section 1.5 in <a href="#cite-bansal2009structural" class="cite-ref">[bansal2009structural]</a>
 for a complete description of the algorithm.
 
-Let $I$ be a 2D bin-packing instance.
+Let $I$ be a 2D geometric bin-packing instance.
 Suppose NFDH packs them into $m$ bins.
 Let $S_i$ be the set of items in the $i^{\textrm{th}}$ bin.
 Then all of these hold true:

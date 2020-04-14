@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/bin-packing/config-lp",
+        "/bin-packing/d-geom/config-lp-density-unrestr",
+        "/knapsack/2d-geom/ptas-for-density-restr",
+        "/optimization/linear-prog/ellipsoid",
+        "/bin-packing/2d-geom/nfdh"
+    ],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "2D geometric bin-packing: APTAS for config LP",
+        "description": "An APTAS exists for solving the fractional 2D geometric bin-packing problem, i.e. obtaining a fractional solution to the 2D geometric configuration LP."
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/2d-geom/aptas-for-config-lp.md"
+    }
+}

@@ -4,13 +4,13 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "2D bin-packing: NFDH",
-        "description": "Next-fit decreasing height algorithm for 2D bin-packing."
+        "title": "2D geometric bin-packing: NFDH",
+        "description": "Next-fit decreasing height algorithm for 2D geometric bin-packing."
     },
     "document": [
         {
             "type": "include",
-            "path": "/bin-packing/2D/nfdh.md"
+            "path": "/bin-packing/2d-geom/nfdh.md"
         },
         {
             "type": "include",

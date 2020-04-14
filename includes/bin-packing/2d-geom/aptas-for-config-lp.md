@@ -1,5 +1,5 @@
-An APTAS exists for solving the fractional 2D bin-packing problem,
-i.e. obtaining a fractional solution to the 2D configuration LP.
+An APTAS exists for solving the fractional 2D geometric bin-packing problem,
+i.e. obtaining a fractional solution to the 2D geometric configuration LP.
 $\newcommand{\Opt}{\operatorname{opt}}$
 $\newcommand{\LP}{\operatorname{LP}}$
 $\newcommand{\Lin}{\operatorname{lin}}$
