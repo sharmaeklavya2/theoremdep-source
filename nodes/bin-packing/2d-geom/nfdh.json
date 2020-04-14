@@ -1,6 +1,7 @@
 {
     "deps": [
-        "/bin-packing/d-geom/size"
+        "/bin-packing/d-geom/size",
+        "/misc/floor-ceil/fraction"
     ],
     "metadata": {
         "type": "theorem",
