@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/packing/config-lp/config-lp",
+        "/packing/config-lp/dual",
+        "/optimization/linear-prog/sep-for-dual",
+        "/optimization/linear-prog/rank-lemma"
+    ],
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Bin-packing: Solving fractional config LP using FPTAS for knapsack",
+        "description": "The fractional bin-packing problem can be approximately solved in polynomial time if a FPTAS is available for the corresponding knapsack problem."
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/config-lp/kp-fptas.md"
+    }
+}

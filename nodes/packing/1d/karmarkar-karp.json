@@ -1,0 +1,21 @@
+{
+    "deps": [
+        "/packing/1d/extend-by-small",
+        "/packing/1d/next-fit",
+        "/packing/config-lp/config-lp",
+        "/packing/config-lp/kp-fptas",
+        "/packing/1d/ks-fptas",
+        "/packing/config-lp/prec",
+        "/packing/1d/harmonic-grouping",
+        "/packing/d-geom/size-lb-config-lp"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "1D bin-packing: Karmarkar-Karp algorithm",
+        "description": "The Karmarkar-Karp algorithm is an algorithm for 1D bin-packing that achieves an additive approximation of O(log(I)^2)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/1d/karmarkar-karp.md"
+    }
+}

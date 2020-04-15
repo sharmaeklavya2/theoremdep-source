@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/misc/dual-feasible-func",
+        "/packing/config-lp/dual"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "1D bin-packing: config LP's dual gives a DFF"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/1d/config-lp-dual-gives-dff.md"
+    }
+}

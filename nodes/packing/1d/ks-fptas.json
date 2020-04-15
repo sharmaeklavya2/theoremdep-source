@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/packing/1d/ks-dp-algo"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "FPTAS for 1D knapsack",
+        "description": "FPTAS for knapsack which rounds down profits and uses the exact DP algorithm as subroutine."
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/1d/ks-fptas.md"
+    }
+}

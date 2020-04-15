@@ -1,0 +1,22 @@
+{
+    "deps": [
+        "/misc/dual-feasible-func"
+    ],
+    "status": "incomplete",
+    "deps_status": "incomplete",
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Geometric bin-packing: DFF transform",
+        "description": "Let I be a d-dimensional geometric bin-packing instance. Let f1, f2, ..., fd be DFFs. Let J be the instance where for each item, ith dimension x is replaced by fi(x). J is called the DFF transform of I. If I can fit in 1 bin, then so can J."
+    },
+    "document": [
+        {
+            "type": "include",
+            "path": "/packing/d-geom/dff-transform.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/packing/caprara2008packing.html"
+        }
+    ]
+}

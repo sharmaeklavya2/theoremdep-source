@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/packing/d-geom/size",
+        "/packing/config-lp/config-lp"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Geometric bin-packing: size(I) lower-bounds lin(I)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/d-geom/size-lb-config-lp.md"
+    }
+}

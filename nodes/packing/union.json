@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "def",
+        "title": "Bin-packing: union of input instances",
+        "description": "The union of I and J, denoted as I+J, is the input instance which contains items from both I and J (with duplication)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/union.md"
+    }
+}

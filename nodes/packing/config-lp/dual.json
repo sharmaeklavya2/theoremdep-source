@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/packing/config-lp/config-lp",
+        "/optimization/linear-prog/dual"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bin-packing: dual of config LP"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/config-lp/dual.md"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/packing/d-geom/size",
+        "/packing/bp-brute-algo",
+        "/packing/predecessor",
+        "/packing/1d/linear-grouping",
+        "/packing/1d/extend-by-small"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "1D bin-packing: APTAS"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/1d/aptas.md"
+    }
+}

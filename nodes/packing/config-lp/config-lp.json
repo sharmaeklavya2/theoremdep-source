@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "def",
+        "title": "Bin-packing: configuration LP",
+        "description": "Representation of the bin-packing problem as an integer linear program. Each variable corresponds to a configuration, which is a feasible packing of a subset of items in 1 bin."
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/config-lp/config-lp.md"
+    }
+}

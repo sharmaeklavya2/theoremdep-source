@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/packing/config-lp/config-lp",
+        "/packing/predecessor"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bin-packing: config LP of predecessor",
+        "description": "Let I be the predecessor of J. Then lin(I) ≤ lin(J)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/config-lp/prec.md"
+    }
+}
