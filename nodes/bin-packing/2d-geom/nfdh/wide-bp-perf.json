@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/bin-packing/nfdh/algo",
+        "/bin-packing/d-geom/size"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "2D geometric bin-packing: NFDH for wide items",
+        "description": "Analysis of performance of NFDH for bin-packing when each item's width is larger than or equal to its height."
+    },
+    "document": {
+        "type": "include",
+        "path": "/bin-packing/2d-geom/nfdh/wide-bp-perf.md"
+    }
+}

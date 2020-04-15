@@ -1,20 +1,18 @@
-Next-fit Decreasing Height (NFDH) is an algorithm for 2D geometric bin-packing.
-It sorts items in decreasing order of height and packs them into 'shelves'.
-See section 1.5 in <a href="#cite-bansal2009structural" class="cite-ref">[bansal2009structural]</a>
-for a complete description of the algorithm.
 $\newcommand{\Size}{\operatorname{size}}$
 $\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}$
 $\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}$
 $\newcommand{\th}{^{\textrm{th}}}$
-
 Let $I$ be a 2D geometric bin-packing instance.
-Item $i$ has width $w_i$ and height $h_i$ and $w_i \ge h_i$.
-Suppose NFDH packs them into $m$ bins of width $W$ and height $H$.
+Item $i$ has width $w_i$ and height $h_i$.
+It is given that all items are wide, i.e. $w_i \ge h_i$ for each item $i$.
+
+Suppose NFDH packs into $m$ bins of width $W$ and height $H$.
 Without loss of generality, assume $H = 1$.
-Let $S_i$ be (the set of items in) the $i^{\textrm{th}}$ bin.
+Let $S_i$ be (the set of items in) the $i^\th$ bin.
+For any set $S \subseteq I$, let $a(S)$ denote the sum of areas of all items in $S$.
 
 * **Theorem 1**: If $m \ge 2$, then $\forall i \le m-1$,
-\[ \frac{a(S_i)}{WH} > \rho(W) = \begin{cases}
+\[ \Size(S_i) = \frac{a(S_i)}{W} > \rho(W) = \begin{cases}
 \frac{1}{3}\left(1 - \frac{W}{4}\right) & 0 < W \le 1
 \\ \frac{1}{4W} & W \ge 1 \end{cases} \]
 * **Theorem 2**:
@@ -38,7 +36,6 @@ $S_i$ is the first bin.
 
 Let there be $p$ shelves in $S_1$. Let $V_j$ be the $j\th$ shelf in $S_1$.
 Denote the first shelf of $S_2$ as $V_{p+1}$.
-For any set $S \subseteq I$, let $a(S)$ denote the sum of areas of all items in $S$.
 
 Let $H_i$ be the height of the first item in $V_i$.
 Let $W_i$ be the sum of widths of items in $V_i$.
