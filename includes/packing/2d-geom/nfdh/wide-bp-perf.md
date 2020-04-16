@@ -1,14 +1,14 @@
+Let $I$ be a 2D geometric bin-packing instance.
+Item $i$ has width $w_i$ and height $h_i$.
+It is given that all items are wide, i.e. $w_i \ge h_i$ for each item $i$.
 $\newcommand{\Size}{\operatorname{size}}$
 $\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}$
 $\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}$
 $\newcommand{\th}{^{\textrm{th}}}$
-Let $I$ be a 2D geometric bin-packing instance.
-Item $i$ has width $w_i$ and height $h_i$.
-It is given that all items are wide, i.e. $w_i \ge h_i$ for each item $i$.
 
 Suppose NFDH packs into $m$ bins of width $W$ and height $H$.
 Without loss of generality, assume $H = 1$.
-Let $S_i$ be (the set of items in) the $i^\th$ bin.
+Let $S_i$ be (the set of items in) the $i\th$ bin.
 For any set $S \subseteq I$, let $a(S)$ denote the sum of areas of all items in $S$.
 
 * **Theorem 1**: If $m \ge 2$, then $\forall i \le m-1$,
