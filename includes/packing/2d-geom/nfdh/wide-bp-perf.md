@@ -19,6 +19,14 @@ For any set $S \subseteq I$, let $a(S)$ denote the sum of areas of all items in 
 * **Theorem 2**:
 \[ m \le \ceil{\frac{\Rsize(I)}{\rho(W)}} \]
 
+In a 2D geometric bin-packing problem when rotations are allowed,
+we can assume without loss of generality that $w_i \ge h_i$ for each item $i$
+and that $W \le H = 1$.
+
+When $W \le 1$, $\rho(W)$ is minimized at $W = 1$ and $\rho(1) = 1/4$.
+Therefore, when rotations are allowed, each bin is more than $1/4$-full
+and NFDH is an asymptotic 4-approx algorithm.
+
 ## Proof of theorem 2 using theorem 1
 
 Since $m-1$ bins are more than $\rho(W)$-filled,
