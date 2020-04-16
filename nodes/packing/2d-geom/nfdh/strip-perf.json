@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/packing/d-geom/size",
+        "/packing/2d-geom/nfdh/algo"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "2D geometric strip packing: nfdh(I) < 2rsize(I) + hmax",
+        "description": "NFDH is an asymptotic 2-approx algorithm for strip packing."
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/2d-geom/nfdh/strip-perf.md"
+    }
+}
