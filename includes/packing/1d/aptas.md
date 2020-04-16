@@ -1,5 +1,6 @@
 $\newcommand{\Size}{\operatorname{size}}\newcommand{\Opt}{\operatorname{opt}}$
 Let $I$ be a 1D bin-packing instance.
+Without loss of generality, assume bins have size 1.
 Let $\Opt(I)$ be the minimum number of bins needed to pack $I$.
 Then for any constant $\epsilon$, there is a polynomial-time algorithm which packs $I$ in
 $\frac{1}{1-\epsilon}\Opt(I) + 1$ bins.

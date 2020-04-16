@@ -1,5 +1,5 @@
 Let $I$ be a $d$-dimensional geometric bin-packing instance.
-Let $s_i$ be the size of item $i$.
+Let $s_i$ be the size of item $i$ (relative to the bin).
 Then the density-restricted configuration LP parametrized by $\lambda$ is given by
 
 \[ \min\left\{ \sum_{C \in \mathcal{C}} x_C + \lambda \sum_{i \in I} s_iy_i:

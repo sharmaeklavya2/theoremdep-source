@@ -1,5 +1,6 @@
 Let $S = \{s_1, s_2, \ldots, s_n\}$ be a 1D bin-packing instance.
 Let $\operatorname{size}(S) = \sum_{i=1}^n s_i$.
+Assume WLoG that bins have size 1.
 
 The next-fit algorithm keeps one open bin at all times.
 For every item, it tries to fit the item in the open bin.

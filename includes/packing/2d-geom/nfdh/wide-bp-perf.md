@@ -2,6 +2,7 @@ Let $I$ be a 2D geometric bin-packing instance.
 Item $i$ has width $w_i$ and height $h_i$.
 It is given that all items are wide, i.e. $w_i \ge h_i$ for each item $i$.
 $\newcommand{\Size}{\operatorname{size}}$
+$\newcommand{\Rsize}{\operatorname{rsize}}$
 $\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}$
 $\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}$
 $\newcommand{\th}{^{\textrm{th}}}$
@@ -12,20 +13,18 @@ Let $S_i$ be (the set of items in) the $i\th$ bin.
 For any set $S \subseteq I$, let $a(S)$ denote the sum of areas of all items in $S$.
 
 * **Theorem 1**: If $m \ge 2$, then $\forall i \le m-1$,
-\[ \Size(S_i) = \frac{a(S_i)}{W} > \rho(W) = \begin{cases}
+\[ \Rsize(S_i) = \frac{a(S_i)}{W} > \rho(W) = \begin{cases}
 \frac{1}{3}\left(1 - \frac{W}{4}\right) & 0 < W \le 1
 \\ \frac{1}{4W} & W \ge 1 \end{cases} \]
 * **Theorem 2**:
-\[ m \le \ceil{\frac{\Size(I)}{\rho(W)}} \]
+\[ m \le \ceil{\frac{\Rsize(I)}{\rho(W)}} \]
 
 ## Proof of theorem 2 using theorem 1
 
-Let
-\[ \Size(I) = \sum_{i \in I} \frac{w_ih_i}{WH} \]
 Since $m-1$ bins are more than $\rho(W)$-filled,
-\[ \Size(I) > (m-1)\rho(W)
-\implies m < \frac{\Size(I)}{\rho(W)} + 1 \]
-Since $m \in \mathbb{Z}$, $m \le \ceil{\frac{\Size(I)}{\rho(W)}}$.
+\[ \Rsize(I) > (m-1)\rho(W)
+\implies m < \frac{\Rsize(I)}{\rho(W)} + 1 \]
+Since $m \in \mathbb{Z}$, $m \le \ceil{\frac{\Rsize(I)}{\rho(W)}}$.
 
 ## Proof of theorem 1
 
