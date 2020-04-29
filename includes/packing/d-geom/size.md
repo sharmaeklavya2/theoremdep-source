@@ -17,10 +17,10 @@ For 1D items, $S$ can fit in a bin iff $\Rsize(S) \le 1$.
 For a set $S$ of items that can fit in a strip of height $h$,
 $\Rsize(S) \le h$.
 
-$\ceil{\Size(I)}$ lower-bounds the minimum number of bins needed to pack $I$.
+$\ceil{\Rsize(I)}$ lower-bounds the minimum number of bins needed to pack $I$.
 
 ## Proof
 
 Let the optimal packing have $m$ bins.
 Let $J_k$ be the items in the $k^{\textrm{th}}$ bin.
-\[ \ceil{\Size(I)} = \ceil{\sum_{k=1}^m \Size(J_k)} \le \ceil{\sum_{k=1}^m 1} = m \]
+\[ \ceil{\Rsize(I)} = \ceil{\sum_{k=1}^m \Rsize(J_k)} \le \ceil{\sum_{k=1}^m 1} = m \]
