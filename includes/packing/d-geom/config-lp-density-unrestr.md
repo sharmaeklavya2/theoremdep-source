@@ -1,5 +1,6 @@
 Let there be a polynomial-time $d$-dimensional geometric bin-packing algorithm $A$
 whose output satisfies one of these conditions:
+$\newcommand{\Rsize}{\operatorname{rsize}}$
 
 * There is some bin for which total rsize of items is at least $\frac{1}{\lambda}$.
 * The number of bins is at most a constant $c$.
