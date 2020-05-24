@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/probability/probability"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Conditional probability and independence of events",
+        "description": "The probability of event A conditioned on event B is denoted as P(A|B). A and B are independent when conditioned on C iff P(A|B∩C) = P(A|C)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/cond-prob.md"
+    }
+}
