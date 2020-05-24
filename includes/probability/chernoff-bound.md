@@ -1,6 +1,6 @@
 Let $X_1, X_2, \ldots, X_n$
 $\newcommand{\E}{\operatorname{E}}$
-be Bernoulli random variables, where $\Pr(X_i=1) = p_i$.
+be independent Bernoulli random variables, where $\Pr(X_i=1) = p_i$.
 
 Let $X = \sum_{i=1}^n X_i$. Let $\mu = \E(X)$. Let $\delta > 0$.
 
