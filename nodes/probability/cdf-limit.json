@@ -1,0 +1,21 @@
+{
+    "deps": [
+        "/probability/rand-var"
+    ],
+    "deps_status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Probability: limit of CDF",
+        "description": "Let F be a CDF of a real random variable. Then F(-∞) = 0 and F(∞) = 1."
+    },
+    "document": [
+        {
+            "type": "include",
+            "path": "/probability/cdf-limit.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/book/prob-and-rand-proc.html"
+        }
+    ]
+}
