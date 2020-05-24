@@ -1,5 +1,8 @@
 {
-    "deps": [],
+    "deps": [
+        "/probability/rand-var",
+        "/probability/cond-expec-decomp"
+    ],
     "metadata": {
         "type": "theorem",
         "title": "Markov's bound",

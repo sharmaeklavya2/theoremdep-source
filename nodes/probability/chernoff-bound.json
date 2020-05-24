@@ -1,5 +1,9 @@
 {
     "deps": [
+        "/probability/rand-var",
+        "/probability/bernoulli",
+        "/probability/rand-var-ind",
+        "/probability/expected-value",
         "/probability/markov-bound",
         "/probability/indep-prod-expec",
         "/probability/linearity-of-expec",

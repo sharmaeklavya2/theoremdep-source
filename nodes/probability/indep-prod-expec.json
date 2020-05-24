@@ -1,5 +1,9 @@
 {
-    "deps": [],
+    "deps": [
+        "/probability/rand-var",
+        "/probability/expected-value",
+        "/probability/rand-var-ind"
+    ],
     "status": "incomplete",
     "deps_status": "incomplete",
     "metadata": {
