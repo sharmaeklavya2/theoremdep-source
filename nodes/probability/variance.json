@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/probability/rand-var",
+        "/probability/expected-value",
+        "/probability/linearity-of-expec"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Variance of a random variable",
+        "description": "The variance of a random variable X is Var(X) = E((X-E(X))^2)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/variance.md"
+    }
+}

@@ -1,7 +1,11 @@
 {
-    "deps": [],
-    "status": "incomplete",
-    "deps_status": "incomplete",
+    "deps": [
+        "/linear-algebra/vector-spaces/vector-space",
+        "/probability/probability",
+        "/probability/rand-var",
+        "/probability/expected-value",
+        "/analysis/linearity-of-lebesgue-integral"
+    ],
     "metadata": {
         "type": "theorem",
         "title": "Linearity of expectation",
