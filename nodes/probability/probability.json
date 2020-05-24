@@ -1,0 +1,23 @@
+{
+    "deps": [
+        "/sets-and-relations/sigma-algebra",
+        "/analysis/measure",
+        "/sets-and-relations/sigma-algebra-closed-under-intersection"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Probability",
+        "description": "Definition of some basic concents in probability theory: events, sample space, probability space, probability measure.",
+        "keywords": ["event", "sample space", "sigma algebra", "σ-algebra", "probability", "probability measure", "probability space"]
+    },
+    "document": [
+        {
+            "type": "include",
+            "path": "/probability/probability.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/lec-notes/prob-and-rand-proc.html"
+        }
+    ]
+}

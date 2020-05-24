@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/sets-and-relations/sigma-algebra"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Measure",
+        "description": "A measure on a set is a systematic way to assign a number to each suitable subset of that set, intuitively interpreted as its size."
+    },
+    "document": {
+        "type": "include",
+        "path": "/analysis/measure.md"
+    }
+}

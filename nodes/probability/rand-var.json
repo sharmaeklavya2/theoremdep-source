@@ -1,0 +1,10 @@
+{
+    "deps": [],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "def",
+        "title": "Random variable",
+        "description": "A random variable maps each element of a probability space to a number (or more generally, a vector space)."
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/sets-and-relations/sigma-algebra",
+        "/sets-and-relations/countable-set",
+        "/sets-and-relations/de-morgan-laws"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "σ-algebra is closed under countable intersections",
+        "description": "Let (X, F) be a σ-algebra. Then the intersection of a countable number of sets from F lies in F."
+    },
+    "document": {
+        "type": "include",
+        "path": "/sets-and-relations/sigma-algebra-closed-under-intersection.md"
+    }
+}

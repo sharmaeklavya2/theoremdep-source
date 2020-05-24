@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/sets-and-relations/countable-set"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "σ-algebra",
+        "description": "Let F be a subset of the power-set of X. F is said to be a σ-algebra over X iff F satisfies certain axioms."
+    },
+    "document": {
+        "type": "include",
+        "path": "/sets-and-relations/sigma-algebra.md"
+    }
+}
