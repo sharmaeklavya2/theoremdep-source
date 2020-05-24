@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/probability/rand-var",
+        "/probability/cond-expec"
+    ],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Conditional decomposition of expectation"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/cond-expec-decomp.md"
+    }
+}

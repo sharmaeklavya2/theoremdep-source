@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/probability",
+        "/probability/cond-prob",
+        "/sets-and-relations/de-morgan-laws"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Conditional decomposition"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/cond-decomp.md"
+    }
+}
