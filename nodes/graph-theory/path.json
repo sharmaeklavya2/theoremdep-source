@@ -1,7 +1,8 @@
 {
     "deps": [
-        "/misc/relation-composition-is-associative",
-        "/misc/equivalence-classes",
+        "/sets-and-relations/relation-composition-is-associative",
+        "/sets-and-relations/equivalence-relation",
+        "/sets-and-relations/equivalence-classes",
         "/graph-theory/graph"
     ],
     "metadata": {

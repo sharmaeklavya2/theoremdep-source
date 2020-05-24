@@ -2,7 +2,8 @@
     "deps": [
         "/abstract-algebra/groups/isomorphism/group-isomorphism",
         "/abstract-algebra/groups/isomorphism/inverse",
-        "/misc/composition-of-bijections-is-a-bijection"
+        "/sets-and-relations/equivalence-relation",
+        "/sets-and-relations/composition-of-bijections-is-a-bijection"
     ],
     "metadata": {
         "type": "theorem",

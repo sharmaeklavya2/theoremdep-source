@@ -2,8 +2,8 @@
     "deps": [
         "/abstract-algebra/groups/group",
         "/abstract-algebra/groups/subgroup",
-        "/misc/composition-of-bijections-is-a-bijection",
-        "/misc/relation-composition-is-associative"
+        "/sets-and-relations/composition-of-bijections-is-a-bijection",
+        "/sets-and-relations/relation-composition-is-associative"
     ],
     "metadata": {
         "type": "theoremdef",
