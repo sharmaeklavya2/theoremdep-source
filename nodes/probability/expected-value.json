@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/probability",
+        "/probability/rand-var",
+        "/linear-algebra/vector-spaces/vector-space",
+        "/analysis/lebesgue-integral"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Expected value of a random variable",
+        "description": "The expected value of a random variable is its (Lebesgue) integral over the sample space."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/expected-value.md"
+    }
+}

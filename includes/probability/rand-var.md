@@ -33,8 +33,16 @@ Since $F_X$ is non-decreasing, $f_X$ is non-negative.
 Sometimes, we work the other way round, i.e. we define $X$ by its PDF $f_X$
 such that $F_X(x) = \int_{-\infty}^{\infty} f_X(x) \mathrm{d}x = 1$.
 
-If $F_X$ is continuous and differentiable, then $X$ is called a continuous random variable
+If $F_X$ is continuous and differentiable, then $X$ is called a (univariate) continuous random variable
 (there may also be other kinds of random variables which are called continuous;
 I'm not sure of the definition).
 
 $f_X(x)$ is sometimes denoted as $\mathrm{d}\Pr(x \le X \le x+\mathrm{d}x)/\mathrm{d}x$.
+
+## Multivariate continuous random variables
+
+Let $X$ be a random variable with support $\mathbb{R}^n$.
+Let $X_i$ be the $i^{\textrm{th}}$ component of $X$.
+Then $X_1, X_2, \ldots, X_n$ are $n$ univariate random variables.
+
+The PDF of a multivariate random variable is the vector of PDFs of the components.
