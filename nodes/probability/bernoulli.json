@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/probability/rand-var"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Bernoulli random variable",
+        "description": "A random variable which takes at most 2 possible values is called a Bernoulli random variable."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/bernoulli.md"
+    }
+}
