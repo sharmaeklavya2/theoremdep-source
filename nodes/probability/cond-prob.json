@@ -1,7 +1,12 @@
 {
     "deps": [
-        "/probability/probability"
+        "/probability/probability",
+        "/analysis/measure",
+        "/sets-and-relations/de-morgan-laws",
+        "/sets-and-relations/sigma-algebra-closed-under-intersection"
     ],
+    "deps_status": "incomplete",
+    "status": "incomplete",
     "metadata": {
         "type": "theoremdef",
         "title": "Conditional probability and independence of events",

@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/probability/probability",
+        "/sets-and-relations/sigma-algebra",
+        "/probability/rand-var",
+        "/probability/cond-prob"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Independence of random variables"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-var-ind.md"
+    }
+}
