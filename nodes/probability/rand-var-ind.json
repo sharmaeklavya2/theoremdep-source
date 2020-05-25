@@ -3,10 +3,13 @@
         "/probability/probability",
         "/measure-theory/sigma-algebra",
         "/probability/rand-var",
-        "/probability/cond-prob"
+        "/probability/ind-events",
+        "/measure-theory/generated-sigma-algebra"
     ],
+    "deps_status": "incomplete",
+    "status": "incomplete",
     "metadata": {
-        "type": "def",
+        "type": "theoremdef",
         "title": "Independence of random variables"
     },
     "document": {
