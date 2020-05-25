@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/measure-theory/sigma-algebra"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Generated σ-algebra",
+        "description": "Let F be a subset of the power-set of X. Define σ(F) as the set containing all the subsets of X that can be made from elements of F by a countable number of complement, union and intersection operations. Then σ(F) is a σ-algebra."
+    },
+    "document": {
+        "type": "include",
+        "path": "/measure-theory/generated-sigma-algebra.md"
+    }
+}
