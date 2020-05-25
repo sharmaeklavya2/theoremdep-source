@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/probability/rand-var",
+        "/probability/expected-value",
+        "/probability/variance",
+        "/analysis/gaussian-integral",
+        "/probability/linearity-of-expec",
+        "/analysis/integration-by-parts",
+        "/analysis/exponential-grows-superpolynomially"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Normal distribution"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/normal-distr/normal-distr.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Gaussian integral",
+        "description": "The integral of e^(-x^2) from -∞ to ∞ is √π."
+    },
+    "document": {
+        "type": "include",
+        "path": "/analysis/gaussian-integral.md"
+    }
+}

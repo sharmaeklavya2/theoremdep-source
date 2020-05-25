@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/variance",
+        "/probability/linearity-of-expec"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Var(aX + b) = a^2 Var(X)",
+        "keywords": ["variance", "affine", "linear"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/variance-of-affine.md"
+    }
+}
