@@ -1,7 +1,7 @@
 {
     "deps": [
         "/probability/probability",
-        "/sets-and-relations/sigma-algebra",
+        "/measure-theory/sigma-algebra",
         "/probability/rand-var",
         "/probability/cond-prob"
     ],

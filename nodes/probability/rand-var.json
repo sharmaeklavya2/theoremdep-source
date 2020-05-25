@@ -1,7 +1,7 @@
 {
     "deps": [
         "/probability/probability",
-        "/analysis/measurable-func"
+        "/measure-theory/measurable-func"
     ],
     "metadata": {
         "type": "def",

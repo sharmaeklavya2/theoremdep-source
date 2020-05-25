@@ -1,8 +1,8 @@
 {
     "deps": [
-        "/sets-and-relations/sigma-algebra",
-        "/analysis/measure",
-        "/sets-and-relations/sigma-algebra-closed-under-intersection"
+        "/measure-theory/sigma-algebra",
+        "/measure-theory/measure",
+        "/measure-theory/sigma-algebra-closed-under-intersection"
     ],
     "metadata": {
         "type": "def",

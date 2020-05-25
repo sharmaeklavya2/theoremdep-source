@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/sets-and-relations/sigma-algebra"
+        "/measure-theory/sigma-algebra"
     ],
     "metadata": {
         "type": "def",
@@ -9,6 +9,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/analysis/measurable-func.md"
+        "path": "/measure-theory/measurable-func.md"
     }
 }

@@ -9,6 +9,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/sets-and-relations/sigma-algebra.md"
+        "path": "/measure-theory/sigma-algebra.md"
     }
 }

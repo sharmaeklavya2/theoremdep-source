@@ -4,7 +4,7 @@
         "/probability/probability",
         "/probability/rand-var",
         "/probability/expected-value",
-        "/analysis/linearity-of-lebesgue-integral"
+        "/measure-theory/linearity-of-lebesgue-integral"
     ],
     "metadata": {
         "type": "theorem",

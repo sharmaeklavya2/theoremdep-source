@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/sets-and-relations/sigma-algebra",
+        "/measure-theory/sigma-algebra",
         "/sets-and-relations/countable-set",
         "/sets-and-relations/de-morgan-laws"
     ],
@@ -11,6 +11,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/sets-and-relations/sigma-algebra-closed-under-intersection.md"
+        "path": "/measure-theory/sigma-algebra-closed-under-intersection.md"
     }
 }

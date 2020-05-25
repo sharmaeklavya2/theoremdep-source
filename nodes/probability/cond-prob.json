@@ -1,9 +1,9 @@
 {
     "deps": [
         "/probability/probability",
-        "/analysis/measure",
+        "/measure-theory/measure",
         "/sets-and-relations/de-morgan-laws",
-        "/sets-and-relations/sigma-algebra-closed-under-intersection"
+        "/measure-theory/sigma-algebra-closed-under-intersection"
     ],
     "deps_status": "incomplete",
     "status": "incomplete",

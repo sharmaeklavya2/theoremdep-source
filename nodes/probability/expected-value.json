@@ -3,7 +3,7 @@
         "/probability/probability",
         "/probability/rand-var",
         "/linear-algebra/vector-spaces/vector-space",
-        "/analysis/lebesgue-integral"
+        "/measure-theory/lebesgue-integral"
     ],
     "metadata": {
         "type": "def",
