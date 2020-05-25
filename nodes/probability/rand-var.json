@@ -1,10 +1,14 @@
 {
     "deps": [
         "/probability/probability",
-        "/measure-theory/measurable-func"
+        "/measure-theory/measurable-func",
+        "/measure-theory/measure",
+        "/measure-theory/generated-sigma-algebra",
+        "/measure-theory/borel-algebra",
+        "/measure-theory/real-borel-algebra-generators"
     ],
     "metadata": {
-        "type": "def",
+        "type": "theoremdef",
         "title": "Random variable",
         "description": "A random variable is a measurable function that maps each element of the sample space to an element in some set."
     },
