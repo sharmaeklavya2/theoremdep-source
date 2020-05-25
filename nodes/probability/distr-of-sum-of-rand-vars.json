@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/rand-var",
+        "/abstract-algebra/groups/group",
+        "/probability/cond-decomp"
+    ],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Distribution of sum of random variables"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/distr-of-sum-of-rand-vars.md"
+    }
+}
