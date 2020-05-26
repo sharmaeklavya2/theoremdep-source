@@ -27,6 +27,7 @@ Then $\bigcap_{A \in S} A \in \mathcal{F}$.
 * Let $A$ be an event. Define $\overline{A} = \Omega - A$. Then
 $P(\overline{A}) = 1 - P(A)$ (since $A$ and $\overline{A}$ are disjoint and $A \cup \overline{A} = \Omega$).
 * $A \subseteq B \implies P(A) \le P(B)$.
+* $A \subseteq B \implies P(B-A) = P(B) - P(A)$ (because $A$ and $B-A$ are disjoint).
 * $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.
 
 ## References

@@ -1,8 +1,7 @@
 {
     "deps": [
         "/probability/rand-var",
-        "/abstract-algebra/groups/group",
-        "/probability/cond-decomp"
+        "/abstract-algebra/groups/group"
     ],
     "deps_status": "incomplete",
     "status": "incomplete",

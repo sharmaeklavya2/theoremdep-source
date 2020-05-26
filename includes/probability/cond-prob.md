@@ -6,18 +6,27 @@ We'll prove that $\Pr_{|B}$ is also a probability measure.
 When $B = \{\}$, $\Pr_{|B}$ is not defined (or invalid).
 
 It is sometimes possible to extend the definition of $\Pr_{|B}$
-to the case where $B \neq \{\}$ and $\Pr(B) = 0$ and prove that $\Pr_{|B}$ is a probability measure.
-Such a definition requires that $\forall X \in \mathcal{F}$,
-$\Pr(X \cap B) = \Pr_{|B}(X) \Pr(B)$.
-There may be other requirements of such a definition
-but <span class="text-danger">I don't know about them</span>.
-Maybe it's done using
+to the case where $B \neq \{\}$ and $\Pr(B) = 0$ and prove that $\Pr_{|B}$ is a probability measure,
+but <span class="text-danger">I don't know when it's possible
+and how it is defined in that case</span>
+(maybe it's done using
 <a href="https://en.wikipedia.org/wiki/Regular_conditional_probability">
-regular conditional probability</a>.
+regular conditional probability</a>)
+Intuitively, $\Pr_{|B}$ is defined iff $B$ is not 'impossible' as per $\Pr$
+(<span class="text-warning">rigor needed</span>).
 
-If $\Omega$ is countable, $\Pr_{|B}$ is defined iff $\Pr(B) > 0$.
+Despite my unsurity of the exact definition of $\Pr_{|B}$, I know that
+(<span class="text-danger">proof/citation needed</span>) $\Pr_{|B}$ satisfies these properties:
 
-$\Pr_{|B}(X)$ is usually denoted as $\Pr(X \mid B)$.
+* If $\Pr_{|B}$ is defined, $\Pr_{|B}(X)\Pr(B) = \Pr(X \cap B)$.
+* If $\Pr_{|B}$ is defined and $B \subseteq C$, then $\Pr_{|C}$ is defined.
+* If $\Pr_{|B}$ is not defined and $C \subseteq B$, then $\Pr_{|C}$ is not defined.
+* If $\Pr_{|A}$ is not defined and $\Pr_{|B}$ is defined,
+then $\Pr_{|B}(A) = 0$.
+* If $\Omega$ is countable, $\Pr_{|B}$ is defined iff $\Pr(B) > 0$.
+
+$\Pr_{|B}(X)$ is usually denoted as $\Pr(X \mid B)$
+and is called 'probability of $X$ given $B$' or 'probability of $X$ conditioned on $B$'.
 Often, $\Pr(A \mid B_1 \cap B_2 \cap \ldots \cap B_m)$ is denoted as $\Pr(A \mid B_1, B_2, \ldots, B_m)$.
 $\Pr(A) = \Pr(A \mid \Omega)$.
 

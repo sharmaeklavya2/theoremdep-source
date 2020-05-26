@@ -2,12 +2,10 @@
     "deps": [
         "/probability/cond-prob"
     ],
-    "deps_status": "incomplete",
-    "status": "incomplete",
     "metadata": {
         "type": "theoremdef",
         "title": "Independence of events",
-        "description": "A and B are independent iff P(A|B) = P(A)."
+        "description": "A and B are independent iff P(A∩B) = P(A)P(B)."
     },
     "document": {
         "type": "include",

@@ -4,7 +4,9 @@
         "/measure-theory/sigma-algebra",
         "/probability/rand-var",
         "/probability/ind-events",
-        "/measure-theory/generated-sigma-algebra"
+        "/probability/ind-of-comp-events",
+        "/measure-theory/generated-sigma-algebra",
+        "/measure-theory/real-borel-algebra-generators"
     ],
     "deps_status": "incomplete",
     "status": "incomplete",
