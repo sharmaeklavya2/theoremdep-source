@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/normal-distr/normal-distr",
+        "/probability/rand-var-ind",
+        "/probability/distr-of-sum-of-rand-vars"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Sum of independent normal random variables is normal"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/normal-distr/distr-of-sum-of-rand-vars.md"
+    }
+}
