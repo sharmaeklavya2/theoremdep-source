@@ -13,3 +13,5 @@ There are easier-to-comprehend equivalent definitions for simpler cases:
 * When $D = \mathbb{R}$,
 \[ \operatorname{E}(X) = \int_{-\infty}^{\infty} x f_X(x) \mathrm{d}x \]
 Here $f_X$ is the probability density function of $X$.
+
+It is easy to see that if $X$ is a matrix, then $\E(X)_{i, j} = \E(X_{i, j})$.

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/rand-var",
+        "/probability/linearity-of-expec"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Linearity of expectation for matrices",
+        "description": "If A is a matrix and X is a random matrix, then E(AX) = AE(X) and E(XA) = E(X)A."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/linearity-of-expec-for-matrices.md"
+    }
+}

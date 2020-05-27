@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/rand-var",
+        "/probability/covariance",
+        "/probability/linearity-of-expec-for-matrices"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Cross-covariance matrix"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/cross-covariance-matrix.md"
+    }
+}

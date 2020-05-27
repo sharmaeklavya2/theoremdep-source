@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/probability/rand-var",
+        "/probability/cross-covariance-matrix"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Covariance matrix"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/covariance-matrix.md"
+    }
+}

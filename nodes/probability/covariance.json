@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/probability/rand-var",
+        "/probability/expected-value",
+        "/probability/linearity-of-expec"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Covariance of 2 random variables",
+        "description": "Cov(X, Y) = E((X - E(X))(Y - E(Y)))."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/covariance.md"
+    }
+}
