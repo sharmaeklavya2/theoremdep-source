@@ -1,20 +1,34 @@
-Let $X$ be a continuous random variable with probability density function
+Let $\mu \in \mathbb{R}$ and $\sigma \in \mathbb{R}_{>0}$.
+Define $\phi_{\mu, \sigma^2}: \mathbb{R} \mapsto \mathbb{R}_{>0}$ as
+\[ \phi_{\mu, \sigma^2}(x) = \frac{1}{\sqrt{2\pi}\sigma} \exp\left( -\frac{(x-\mu)^2}{2\sigma^2} \right) \]
+Define $\phi = \phi_{0, 1}$.
 $\newcommand{\E}{\operatorname{E}}$
-\[ f_X(x) = \frac{1}{\sqrt{2\pi}\sigma} \exp\left( -\frac{(x-\mu)^2}{2\sigma^2} \right) \]
-Then the probability distribution of $X$ is called the normal distribution
-with parameters $\mu$ and $\sigma^2$. This is denoted by
-$X \sim \mathcal{N}(\mu, \sigma^2)$.
+$\newcommand{\Var}{\operatorname{Var}}$
+
+We'll prove that $\int_{-\infty}^{\infty} \phi_{\mu, \sigma^2}(x) dx = 1$,
+so $\phi_{\mu, \sigma^2}$ can be used as a valid probability density function.
+
+Let $X$ be a continuous real-valued random variable.
+Let $X \sim \mathcal{N}(\mu, \sigma^2)$ denote
+'$X$ follows the normal distribution with parameters $\mu$ and $\sigma^2$'.
+There are 2 equivalent definitions for normal distribution:
+
+* $X \sim \mathcal{N}(\mu, \sigma^2) \iff f_X = \phi_{\mu, \sigma^2}$.
+* $X \sim \mathcal{N}(\mu, \sigma^2) \iff f_{\frac{X-\mu}{\sigma}} = \phi$.
+
+We'll also prove that
+\[ X \sim \mathcal{N}(\mu, \sigma^2) \implies aX + b \sim \mathcal{N}(a\mu + b, a^2\sigma^2) \]
+\begin{align}
+\E(X) &= \mu & \Var(X) &= \sigma^2
+\end{align}
+Therfore, the parameters $\mu$ and $\sigma^2$ are called mean and variance respectively.
 
 $\mathcal{N}(0, 1)$ is called the standard normal distribution.
-It probability density function is denoted by $\phi$
-and its cumulative distribution function is denoted by $\Phi$.
 
-**Theorem 1**: $\int_{-\infty}^{\infty} f_X(x) = 1$,
-so $f_X$ is a valid probability density function.
+## Proof that $\phi_{\mu, \sigma^2}$ is a valid probability density function
 
-**Proof**:
 \begin{align}
-& \int_{-\infty}^{\infty} f_X(x)dx
+& \int_{-\infty}^{\infty} \phi_{\mu, \sigma^2}(x)dx
 \\ &= \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi}\sigma}
 \exp\left( -\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^2 \right) dx
 \\ &= \int_{-\infty}^{\infty} \frac{1}{\sqrt{\pi}} e^{-y^2} dy
@@ -23,38 +37,42 @@ so $f_X$ is a valid probability density function.
 \\ &= 1  \tag*{$\square$}
 \end{align}
 
-**Theorem 2**: Let $Y = aX + b$. Then $Y \sim \mathcal{N}(a\mu + b, a^2\sigma^2)$.
+## Proof of equivalence of definitions
 
+**Lemma 1**:
+\[ f_X = \phi_{\mu, \sigma^2}(x) \implies f_{aX+b} = \phi_{a\mu + b, a^2\sigma^2} \]
 **Proof**:
+Let $Y = aX + b$.
 \begin{align}
 F_Y(z) &= \Pr(Y \le z)
-\\ &= \Pr\left(X \le \frac{z-a}{b}\right)
-\\ &= \int_{-\infty}^{\frac{z-a}{b}} f_X(x) dx
-\\ &= \int_{-\infty}^{\frac{z-a}{b}} \frac{1}{\sqrt{2\pi}\sigma}
+\\ &= \Pr\left(X \le \frac{z-b}{a}\right)
+\\ &= \int_{-\infty}^{\frac{z-b}{a}} f_X(x) dx
+\\ &= \int_{-\infty}^{\frac{z-b}{a}} \frac{1}{\sqrt{2\pi}\sigma}
 \exp\left( -\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^2 \right) dx
 \\ &= \int_{-\infty}^{z} \frac{1}{\sqrt{2\pi}a\sigma}
 \exp\left(-\frac{1}{2}\left(\frac{y - (b + a\mu)}{a\sigma}\right)^2\right) dy
 \tag{$y = ax + b$}
+\\ &= \int_{-\infty}^{z} \phi_{a\mu + b, a^2\sigma^2}(y) dy
 \end{align}
 By the definition of probability density function, we get that
-\[ f_Y(y) = \frac{1}{\sqrt{2\pi}a\sigma} \exp\left(-\frac{y - (b + a\mu)^2}{2a^2\sigma^2}\right) \]
-Therefore, $Y \sim \mathcal{N}(a\mu + b, a^2\sigma^2)$.
-\[ \tag*{$\square$} \]
+\[ f_{aX+b} = f_Y = \phi_{a\mu + b, a^2\sigma^2} \tag*{$\square$} \]
 
-As a corollary $Z = (X-\mu)/\sigma \sim \mathcal{N}(0, 1)$.
+Let $Z = (X - \mu) / \sigma$.
+Therefore, $f_X = \phi_{\mu, \sigma^2} \implies f_Z = \phi$
+and $f_Z = \phi \implies f_X = \phi_{\mu, \sigma^2}$.
+Therefore, the two definitions are equivalent.
 
-**Theorem 3**: $\E(X) = \mu$.
+Lemma 1 also gives us that
+\[ X \sim \mathcal{N}(\mu, \sigma^2) \implies aX + b \sim \mathcal{N}(a\mu + b, a^2\sigma^2) \]
 
-**Proof**:
+## $\E(X)$ and $\Var(X)$
+
 Let $Z = (X - \mu)/\sigma$.
 \[ \E(Z) = \int_{-\infty}^{\infty} z f_Z(z) dz \]
 Since $f_Z(z)$ is an even function of $z$, this integral is 0.
-\[ \E(X) = \E(\mu + \sigma Z) = \mu + \sigma \E(Z) = \mu
-\tag*{$\square$} \]
+\[ \E(X) = \E(\mu + \sigma Z) = \mu + \sigma \E(Z) = \mu \]
 
-**Theorem 4**: $\operatorname{Var}(X) = \sigma^2$.
-
-**Proof**: <https://proofwiki.org/wiki/Variance_of_Gaussian_Distribution/Proof_1>
-
-Because of theorems 3 and 4, the parameters $\mu$ and $\sigma^2$ are called
-mean and variance respectively.
+The proof of $\Var(X) = \sigma^2$ can be found here:
+<https://proofwiki.org/wiki/Variance_of_Gaussian_Distribution/Proof_1>.
+It uses integration by parts, gaussian integral
+and that $\lim_{x \rightarrow \infty} xe^{-x^2} = 0$.
