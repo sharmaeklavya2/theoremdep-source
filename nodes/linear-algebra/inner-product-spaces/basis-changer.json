@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/basis/basis",
+        "/linear-algebra/inner-product-spaces/orthogonality",
+        "/linear-algebra/matrices/orthogonal"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Orthonormal basis change matrix",
+        "description": "Let U and V be 2 orthonormal bases. Then the basis change matrix from U to V is orthogonal."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/basis-changer.md"
+    }
+}
