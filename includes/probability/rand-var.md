@@ -3,7 +3,7 @@ Let $E$ be a $\sigma$-algebra over a set $D$.
 Then any measurable function $X: \Omega \mapsto D$
 is said to be a random variable with support $D$.
 
-For $S \in E$, define $X^{-1}(E) = \{\omega \in \Omega: X(\omega) \in S\}$
+For $S \in E$, define $X^{-1}(S) = \{\omega \in \Omega: X(\omega) \in S\}$
 and define $\Pr(X \in S) = \Pr(X^{-1}(S))$.
 Define $\Pr_X: E \mapsto [0, 1]$ as $\Pr_X(S) = \Pr(X \in S)$.
 $\Pr_X$ is called the probability distribution of $X$.
