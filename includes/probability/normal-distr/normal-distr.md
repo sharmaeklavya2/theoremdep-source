@@ -6,6 +6,8 @@ with parameters $\mu$ and $\sigma^2$. This is denoted by
 $X \sim \mathcal{N}(\mu, \sigma^2)$.
 
 $\mathcal{N}(0, 1)$ is called the standard normal distribution.
+It probability density function is denoted by $\phi$
+and its cumulative distribution function is denoted by $\Phi$.
 
 **Theorem 1**: $\int_{-\infty}^{\infty} f_X(x) = 1$,
 so $f_X$ is a valid probability density function.
@@ -21,22 +23,25 @@ so $f_X$ is a valid probability density function.
 \\ &= 1  \tag*{$\square$}
 \end{align}
 
-**Theorem 2**: Let $Z = (X-\mu)/\sigma$. Then $Z \sim \mathcal{N}(0, 1)$.
+**Theorem 2**: Let $Y = aX + b$. Then $Y \sim \mathcal{N}(a\mu + b, a^2\sigma^2)$.
 
 **Proof**:
 \begin{align}
-F_Z(z) &= \Pr(Z \le z)
-\\ &= \Pr(X \le \mu + \sigma z)
-\\ &= \int_{-\infty}^{\mu + \sigma z} \frac{1}{\sqrt{2\pi}\sigma}
+F_Y(z) &= \Pr(Y \le z)
+\\ &= \Pr\left(X \le \frac{z-a}{b}\right)
+\\ &= \int_{-\infty}^{\frac{z-a}{b}} f_X(x) dx
+\\ &= \int_{-\infty}^{\frac{z-a}{b}} \frac{1}{\sqrt{2\pi}\sigma}
 \exp\left( -\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^2 \right) dx
-\\ &= \int_{-\infty}^{z} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}y^2} dy
+\\ &= \int_{-\infty}^{z} \frac{1}{\sqrt{2\pi}a\sigma}
+\exp\left(-\frac{1}{2}\left(\frac{y - (b + a\mu)}{a\sigma}\right)^2\right) dy
+\tag{$y = ax + b$}
 \end{align}
 By the definition of probability density function, we get that
-\[ f_Z(z) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}z^2} \]
-Therefore, $Z \sim \mathcal{N}(0, 1)$.
+\[ f_Y(y) = \frac{1}{\sqrt{2\pi}a\sigma} \exp\left(-\frac{y - (b + a\mu)^2}{2a^2\sigma^2}\right) \]
+Therefore, $Y \sim \mathcal{N}(a\mu + b, a^2\sigma^2)$.
 \[ \tag*{$\square$} \]
 
-Usually $f_Z$ is denoted by $\phi$ and $F_Z$ is denoted by $\Phi$.
+As a corollary $Z = (X-\mu)/\sigma \sim \mathcal{N}(0, 1)$.
 
 **Theorem 3**: $\E(X) = \mu$.
 
