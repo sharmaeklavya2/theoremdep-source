@@ -1,0 +1,26 @@
+{
+    "deps": [
+        "/probability/rand-var",
+        "/probability/normal-distr/normal-distr",
+        "/probability/rand-var-ind",
+        "/probability/normal-distr/distr-of-sum-of-rand-vars",
+        "/probability/variance-of-affine-form-of-matrix",
+        "/probability/linearity-of-expec-for-matrices",
+        "/probability/var-matrix-is-psd",
+        "/probability/moment-generating-function",
+        "/probability/mgf-gives-distr",
+        "/probability/normal-distribution/mgf",
+        "/linear-algebra/matrices/identity",
+        "/linear-algebra/matrices/sqrt-of-symm-matrix",
+        "/linear-algebra/matrices/full-rank-inv",
+        "/linear-algebra/matrices/psd-full-rank"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Multivariate normal distribution"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/normal-distr/multivariate.md"
+    }
+}
