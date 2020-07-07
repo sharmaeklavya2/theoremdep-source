@@ -1,10 +1,10 @@
 Let $I$ be an input instance for 1D bin-packing.
 
-The linear grouping scheme is an algorithm parametrized by an integer $k$.
+The linear grouping scheme is an algorithm parametrized by an integer $k \ge 1$.
 It first splits $I$ into disjoint instances $I'$ and $I_2$
-such that $I_2$ has at most $k$ items.
+such that $I_2$ has at most $k-1$ items.
 It then increases the item sizes in $I'$ to get $I_1$
-such that $I_1$ has at most $\lceil \frac{n}{k} \rceil - 1$ distinct item-sizes.
+such that $I_1$ has at most $\lceil \frac{n}{k} \rceil$ distinct item-sizes.
 The algorithm outputs $(I_1, I_2)$.
 
 It can be proven that $I_1 \preceq I \preceq I_1 + I_2$.
@@ -21,27 +21,22 @@ It then splits them into groups:
 the group $G_1$ consists of the first $k$ items, $G_2$ consists of the next $k$ items and so on.
 The last group, $G_t$ may contain less than $k$ items.
 Here $t = \lceil \frac{n}{k} \rceil$.
+The first item in each group, that has the maximum size, is called the leader of that group.
 
-For all $i \ge 2$, the instance $G_i'$ is obtained by transforming $G_i$:
-each item's size is increased to $\max(G_i)$.
+For all $j \ge 2$, the instance $G_j'$ is obtained by transforming $G_j$:
+each item's size is increased to $\max(G_j)$.
+For an item $i$, let $g(i)$ be the transformed item.
+Note that for leaders, $g(i) = i$.
 
-Since each item in $G_i'$ is at least as large as the corresponding item in $G_i$, $G_i' \succeq G_i$.
-Since $\max(G_i) \le j$ for every $j \in G_{i-1}$ and $|G_i| \le |G_{i-1}|$, $G_{i-1} \succeq G_i'$.
-Therefore, $G_1 \succeq G_2' \succeq G_2 \succeq G_3' \succeq \ldots \succeq G_t' \succeq G_t$.
+Define $I_2$ as all non-leader items in $G_1$. Then $|I_2| \le k-1$.
+Define $I'$ as $I - I_2$. Define $I_1 = \{g(i): i \in I'\}$.
+Since we rounded up some items, $I \preceq I_1 + I_2$.
 
-Let $I' = G_2 + G_3 + \ldots + G_t$, $I_2 = G_1$ and $I_1 = G_2' + G_3' + \ldots + G_t'$.
+Suppose a non-leader item $i$ is the $k^{\textrm{th}}$ item in group $G_j$, for $j \ge 2$.
+Then define the predecessor of $i$, denoted as $\operatorname{prec}(i)$,
+as the $k^{\textrm{th}}$ item in group $G_{j-1}$.
+For leader items, define $\operatorname{prec}(i) = i$.
+So $\forall i \in I', i \le g(i) \le \operatorname{prec}(i)$.
+Therefore, $I_1 \preceq I$.
 
-\begin{align}
-I_1 &= G_2' + G_3' + \ldots + G_t'
-\\ &\preceq G_1 + G_2 + \ldots + G_{t-1}
-\\ &\preceq G_1 + G_2 + \ldots + G_{t-1} + G_t
-\\ &= I
-\end{align}
-\begin{align}
-I_1 + I_2 &= G_1 + G_2' + G_3' + \ldots + G_t'
-\\ &\succeq G_1 + G_2 + G_3 + \ldots + G_t
-\\ &= I
-\end{align}
-Therefore, $I_1 \preceq I \preceq I_1 + I_2$.
-
-Because all items in $G_i'$ have the same size, $I_1$ has $t-1$ distinct item-sizes.
+Because all rounded items in a group have the same size, $I_1$ has $t$ distinct item-sizes.
