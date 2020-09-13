@@ -11,6 +11,7 @@
         "ProofWiki": "https://proofwiki.org/wiki/Main_Page",
         "Metamath": "http://us.metamath.org/index.html"
     },
+    "DEFAULT_LANG": "en",
 
     "ASYNC_JS": [
         "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js"
