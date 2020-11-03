@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "Sum of ceilings",
+        "description": "∑⌈aᵢ⌉ ≤ ⌈∑aᵢ⌉ + (n-1)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/bounds/sum-of-ceil.md"
+    }
+}
