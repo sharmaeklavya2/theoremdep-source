@@ -25,6 +25,8 @@
         "https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.js"
     ],
 
+    "DISABLE": ["dot"],
+
     "METADATA_VALIDATION": {
         "type": {
             "required": true,
