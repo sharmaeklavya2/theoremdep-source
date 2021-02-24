@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/probability/normal-distr/normal-distr",
+        "/probability/rand-vars/rand-var-ind",
+        "/probability/rand-vars/covariance-matrix",
+        "/linear-algebra/matrices/identity"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Standard multivariate normal distribution"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/normal-distr/std-multivariate.md"
+    }
+}

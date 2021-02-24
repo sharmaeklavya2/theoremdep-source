@@ -1,30 +1,17 @@
-Let $X = [X_1, X_2, \ldots, X_n]$ and $Z = [Z_1, Z_2, \ldots, Z_k]$
-be sequences of random variables.
+<span class="invisible">
 $\newcommand{\E}{\operatorname{E}}$
 $\newcommand{\Var}{\operatorname{Var}}$
 $\newcommand{\Cov}{\operatorname{Cov}}$
+</span>
 
-$Z$ is said to follow the standard multivariate normal distribution
-(or more simply, $Z$ is standard normal)
-iff all $Z_i$ are pairwise independent and each $Z_i \sim \mathcal{N}(0, 1)$.
-There is a unique standard multivariate normal distribution
-because there is a unique probability density associated with it:
-$f_Z(z) = \prod_{i=1}^n \phi(z_i)$.
-This is because the joint probability density of independent random
-variables is the product of the probability densities of the components.
-
-$\E(Z) = 0$.
-When $i \neq j$, $\Var(Z)_{i, j} = \Cov(Z_i, Z_j) = 0$.
-$\Var(Z)_{i, i} = \Var(Z_i) = 1$.
-Therefore, $\Var(Z) = I$.
-
-There is a certain class of probability distributions called multivariate normal distributions.
+There is a class of probability distributions called multivariate normal distributions.
+Let $X = [X_1, X_2, \ldots, X_n]$ be a sequence of random variables.
 $X$ is said to follow a multivariate normal distribution
 (or more simply, $X$ is normal) iff
 \[ \forall a \in \mathbb{R}^n, \exists (\mu, \sigma), a^TX \sim \mathcal{N}(\mu, \sigma^2) \]
 
 For a $k$-by-$n$ matrix $A$, $X$ is said to be $(\mu, A)$-normal iff
-$\exists$ a standard multivariate normal random variable $Z$ such that $X = \mu + AZ$.
+$\exists Z \sim \mathcal{N}(0, 1)^k$ such that $X = \mu + AZ$.
 
 We can prove that $X$ is normal iff
 $\exists \mu \in \mathbb{R}^n, \exists A \in \mathbb{R}^{k \times n}$
@@ -41,7 +28,8 @@ Denote this distribution by $\mathcal{N}(\mu, \Sigma)$.
 The standard normal distribution is therefore, $\mathcal{N}(0, I)$.
 
 This finally gives us that $X \sim \mathcal{N}(\mu, \Sigma)$ iff
-\[ \exists A \in \mathbb{R}^{n \times k}, \exists Z \sim \mathcal{N}(0, I), X = \mu + AZ \]
+\[ \exists A, (\Sigma = AA^T \textrm{ and }
+\exists Z \sim \mathcal{N}(0, I), X = \mu + AZ) \]
 
 When $\Sigma$ is positive definite, $X \sim \mathcal{N}(\mu, \Sigma)$ has a density function given by
 \[ f_X(x) = \frac{1}{\sqrt{(2\pi)^k |\Sigma|}}

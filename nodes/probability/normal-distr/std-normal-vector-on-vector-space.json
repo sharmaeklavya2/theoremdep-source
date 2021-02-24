@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/probability/normal-distr/multivariate",
+        "/probability/normal-distr/std-multivariate",
         "/linear-algebra/vector-spaces/basis/basis",
         "/linear-algebra/matrices/identity",
         "/linear-algebra/matrices/stacking/product",
