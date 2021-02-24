@@ -2,8 +2,7 @@
     "deps": [
         "/probability/prob-and-events/probability",
         "/probability/prob-and-events/ind-events",
-        "/sets-and-relations/de-morgan-laws",
-        "/probability/prob-and-events/cond-prob"
+        "/sets-and-relations/de-morgan-laws"
     ],
     "metadata": {
         "type": "theorem",

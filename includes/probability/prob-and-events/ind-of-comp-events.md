@@ -37,20 +37,9 @@ Therefore, $A_2 - A_1$ is independent of $B$.
 \end{align}
 Therefore, $\bigcup_{A \in S} A$ is independent of $B$.
 
+## Counterexample
+
 Let $\Omega = \{1, 2, 3, 4\}$, $\Pr(X) = |X|/4$, $B = \{2, 4\}$,
 $A_1 = \{1, 4\}$, $A_2 = \{3, 4\}$ and $S = \{A_1, A_2\}$.
 Then $A_1$ and $A_2$ are not disjoint, $A_1$ is independent of $B$,
 $A_2$ is independent of $B$ and $A_1 \cup A_2$ is not independent of $B$.
-
-## Proof for alternative definition of independence
-
-If $\Pr_{|B}$ is not defined, then the theorems are trivially true.
-So let $\Pr_{|B}$ be defined, then we can use the fact that it is a probability measure.
-
-\[ \Pr_{|B}(A_2 - A_1) &= \Pr_{|B}(A_2) - \Pr_{|B}(A_1)
-= \Pr(A_2) - \Pr(A_1) = \Pr(A_2 - A_1) \]
-
-\[ \Pr_{|B}\left(\bigcup_{A \in S} A \right)
-= \sum_{A \in S} \Pr_{|B}(A)
-= \sum_{A \in S} \Pr(A)
-= \Pr\left(\bigcup_{A \in S} A\right) \]

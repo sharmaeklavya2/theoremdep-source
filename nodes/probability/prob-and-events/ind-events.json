@@ -3,7 +3,7 @@
         "/probability/prob-and-events/cond-prob"
     ],
     "metadata": {
-        "type": "theoremdef",
+        "type": "def",
         "title": "Independence of events",
         "description": "A and B are independent iff P(A∩B) = P(A)P(B)."
     },
