@@ -1,5 +1,4 @@
-Let $X_1, X_2, \ldots, X_n$ be independent random variables from a set
-where the product of elements is defined (i.e. X_iX_j is valid).
+Let $X_1, X_2, \ldots, X_n$ be independent real-valued random variables.
 Then $\newcommand{\E}{\operatorname{E}}$
 \[ \E\left( \prod_{i=1}^n X_i \right) = \prod_{i=1}^n \E(X_i) \]
 

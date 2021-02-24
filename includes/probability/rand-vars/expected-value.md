@@ -1,6 +1,6 @@
-Let $(\Sigma, \mathcal{F}, \Pr)$ be a probability space.
+Let $(\Omega, \mathcal{F}, \Pr)$ be a probability space.
 Let $V$ be a vector space over $\mathbb{R}$ and let $D \subseteq V$.
-Let $X: \Sigma \mapsto D$ be a random variable.
+Let $X: \Omega \mapsto D$ be a random variable.
 
 Then the expected value of $X$, denoted as $\operatorname{E}(X)$, is
 \[ \operatorname{E}(X) = \int_{\omega \subseteq \Omega} X(\omega) \Pr(\omega) \]
@@ -14,4 +14,5 @@ There are easier-to-comprehend equivalent definitions for simpler cases:
 \[ \operatorname{E}(X) = \int_{-\infty}^{\infty} x f_X(x) \mathrm{d}x \]
 Here $f_X$ is the probability density function of $X$.
 
-It is easy to see that if $X$ is a matrix, then $\E(X)_{i, j} = \E(X_{i, j})$.
+It is easy to see that if $X$ is a matrix, then
+$\operatorname{E}(X)_{i, j} = \operatorname{E}(X_{i, j})$.
