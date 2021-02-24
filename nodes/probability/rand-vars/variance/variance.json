@@ -6,11 +6,11 @@
     ],
     "metadata": {
         "type": "theoremdef",
-        "title": "Covariance of 2 random variables",
-        "description": "Cov(X, Y) = E((X - E(X))(Y - E(Y)))."
+        "title": "Variance of a random variable",
+        "description": "The variance of a random variable X is Var(X) = E((X-E(X))^2)."
     },
     "document": {
         "type": "include",
-        "path": "/probability/rand-vars/covariance.md"
+        "path": "/probability/rand-vars/variance/variance.md"
     }
 }

@@ -1,7 +1,7 @@
 {
     "deps": [
         "/probability/rand-vars/rand-var",
-        "/probability/rand-vars/cross-covariance-matrix"
+        "/probability/rand-vars/variance/cross-covariance-matrix"
     ],
     "metadata": {
         "type": "def",
@@ -9,6 +9,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/rand-vars/covariance-matrix.md"
+        "path": "/probability/rand-vars/variance/covariance-matrix.md"
     }
 }

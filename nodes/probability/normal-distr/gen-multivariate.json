@@ -3,7 +3,7 @@
         "/probability/normal-distr/std-multivariate",
         "/probability/rand-vars/rand-var-ind",
         "/probability/normal-distr/distr-of-sum-of-rand-vars",
-        "/probability/rand-vars/variance-of-affine-form-of-matrix",
+        "/probability/rand-vars/variance/variance-of-affine-form-of-matrix",
         "/probability/rand-vars/linearity-of-expec-for-matrices",
         "/probability/rand-vars/var-matrix-is-psd",
         "/probability/rand-vars/moment-generating-function",

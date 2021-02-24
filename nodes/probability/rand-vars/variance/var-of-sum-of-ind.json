@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/probability/rand-vars/variance",
+        "/probability/rand-vars/variance/variance",
         "/probability/rand-vars/rand-var-ind",
         "/probability/rand-vars/linearity-of-expec",
         "/probability/rand-vars/indep-prod-expec"
@@ -12,6 +12,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/rand-vars/var-of-sum-of-ind.md"
+        "path": "/probability/rand-vars/variance/var-of-sum-of-ind.md"
     }
 }

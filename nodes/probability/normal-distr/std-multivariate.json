@@ -3,7 +3,7 @@
         "/probability/rand-vars/rand-var",
         "/probability/normal-distr/normal-distr",
         "/probability/rand-vars/rand-var-ind",
-        "/probability/rand-vars/covariance-matrix",
+        "/probability/rand-vars/variance/covariance-matrix",
         "/linear-algebra/matrices/identity"
     ],
     "metadata": {

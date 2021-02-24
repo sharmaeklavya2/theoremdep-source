@@ -1,7 +1,7 @@
 {
     "deps": [
         "/probability/rand-vars/expected-value",
-        "/probability/rand-vars/variance",
+        "/probability/rand-vars/variance/variance",
         "/probability/conc-ineq/markov"
     ],
     "metadata": {

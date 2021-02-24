@@ -1,7 +1,7 @@
 {
     "deps": [
         "/probability/rand-vars/rand-var",
-        "/probability/rand-vars/covariance",
+        "/probability/rand-vars/variance/covariance",
         "/probability/rand-vars/linearity-of-expec-for-matrices"
     ],
     "metadata": {
@@ -10,6 +10,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/rand-vars/cross-covariance-matrix.md"
+        "path": "/probability/rand-vars/variance/cross-covariance-matrix.md"
     }
 }
