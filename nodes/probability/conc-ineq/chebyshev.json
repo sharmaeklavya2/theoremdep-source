@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/variance",
+        "/probability/conc-ineq/markov"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Chebyshev's inequality",
+        "description": "For a real random variable X, Pr(|X - E(X)| ≥ a) ≤ Var(X)/a^2."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/conc-ineq/chebyshev.md"
+    }
+}

@@ -4,7 +4,7 @@
         "/probability/distrs/bernoulli",
         "/probability/rand-vars/rand-var-ind",
         "/probability/rand-vars/expected-value",
-        "/probability/conc-ineq/markov-bound",
+        "/probability/conc-ineq/markov",
         "/probability/rand-vars/indep-prod-expec",
         "/probability/rand-vars/linearity-of-expec",
         "/bounds/exp-bound",
@@ -17,6 +17,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/conc-ineq/chernoff-bound.md"
+        "path": "/probability/conc-ineq/chernoff.md"
     }
 }

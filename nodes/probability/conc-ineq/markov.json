@@ -1,7 +1,8 @@
 {
     "deps": [
         "/probability/rand-vars/rand-var",
-        "/probability/rand-vars/cond-expec-decomp"
+        "/probability/rand-vars/expected-value",
+        "/measure-theory/lebesgue-integral"
     ],
     "metadata": {
         "type": "theorem",
@@ -10,6 +11,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/conc-ineq/markov-bound.md"
+        "path": "/probability/conc-ineq/markov.md"
     }
 }
