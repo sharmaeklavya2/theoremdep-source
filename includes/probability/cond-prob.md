@@ -1,29 +1,16 @@
 Let $\Pr$ be a probability measure over the $\sigma$-algebra $(\Omega, \mathcal{F})$.
-For $B \in \Omega$ such that $\Pr(B) > 0$, define $\Pr_{|B}: \Omega \mapsto [0, 1]$ as
+For $B \in \mathcal{F}$ such that $\Pr(B) > 0$, define $\Pr_{|B}: \Omega \mapsto [0, 1]$ as
 \[ \Pr_{|B}(X) = \frac{\Pr(X \cap B)}{\Pr(B)} \]
-We'll prove that $\Pr_{|B}$ is also a probability measure.
+We'll prove that $\Pr_{|B}$ is also a probability measure over $(\Omega, \mathcal{F})$.
 
 When $B = \{\}$, $\Pr_{|B}$ is not defined (or invalid).
-
 It is sometimes possible to extend the definition of $\Pr_{|B}$
 to the case where $B \neq \{\}$ and $\Pr(B) = 0$ and prove that $\Pr_{|B}$ is a probability measure,
 but <span class="text-danger">I don't know when it's possible
 and how it is defined in that case</span>
 (maybe it's done using
 <a href="https://en.wikipedia.org/wiki/Regular_conditional_probability">
-regular conditional probability</a>)
-Intuitively, $\Pr_{|B}$ is defined iff $B$ is not 'impossible' as per $\Pr$
-(<span class="text-warning">rigor needed</span>).
-
-Despite my unsurity of the exact definition of $\Pr_{|B}$, I know that
-(<span class="text-danger">proof/citation needed</span>) $\Pr_{|B}$ satisfies these properties:
-
-* If $\Pr_{|B}$ is defined, $\Pr_{|B}(X)\Pr(B) = \Pr(X \cap B)$.
-* If $\Pr_{|B}$ is defined and $B \subseteq C$, then $\Pr_{|C}$ is defined.
-* If $\Pr_{|B}$ is not defined and $C \subseteq B$, then $\Pr_{|C}$ is not defined.
-* If $\Pr_{|A}$ is not defined and $\Pr_{|B}$ is defined,
-then $\Pr_{|B}(A) = 0$.
-* If $\Omega$ is countable, $\Pr_{|B}$ is defined iff $\Pr(B) > 0$.
+regular conditional probability</a>).
 
 $\Pr_{|B}(X)$ is usually denoted as $\Pr(X \mid B)$
 and is called 'probability of $X$ given $B$' or 'probability of $X$ conditioned on $B$'.
