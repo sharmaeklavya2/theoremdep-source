@@ -1,10 +1,9 @@
 {
     "deps": [
         "/probability/rand-vars/rand-var",
-        "/probability/rand-vars/cond-expec"
+        "/probability/rand-vars/cond-expec",
+        "/measure-theory/linearity-of-lebesgue-integral"
     ],
-    "deps_status": "incomplete",
-    "status": "incomplete",
     "metadata": {
         "type": "theorem",
         "title": "Conditional decomposition of expectation"
