@@ -17,7 +17,8 @@ Let $X = \sum_{i=1}^n X_i$. Let $\mu = \E(X)$. Let $\delta > 0$.
 
 \[ \Pr(\lvert X - \mu \rvert > \delta\mu)
 \le 2\left(\frac{e^{\delta}}{(1+\delta)^{1+\delta}}\right)^{\mu}
-\le 2\exp\left(-\frac{\mu\delta^2}{3}\right) \]
+\le 2\exp\left(-\frac{\mu\delta^2}{3}\right)
+\quad \textrm{where } \delta < 1 \]
 
 ## Proof
 

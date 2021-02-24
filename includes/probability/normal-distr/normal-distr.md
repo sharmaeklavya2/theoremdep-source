@@ -40,7 +40,7 @@ $\mathcal{N}(0, 1)$ is called the standard normal distribution.
 ## Proof of equivalence of definitions
 
 **Lemma 1**:
-\[ f_X = \phi_{\mu, \sigma^2}(x) \implies f_{aX+b} = \phi_{a\mu + b, a^2\sigma^2} \]
+\[ f_X = \phi_{\mu, \sigma^2} \implies f_{aX+b} = \phi_{a\mu + b, a^2\sigma^2} \]
 **Proof**:
 Let $Y = aX + b$.
 \begin{align}
