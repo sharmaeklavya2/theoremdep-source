@@ -1,7 +1,7 @@
 {
     "deps": [
-        "/probability/rand-var",
-        "/probability/cond-expec"
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/cond-expec"
     ],
     "deps_status": "incomplete",
     "status": "incomplete",
@@ -11,6 +11,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/cond-expec-decomp.md"
+        "path": "/probability/rand-vars/cond-expec-decomp.md"
     }
 }

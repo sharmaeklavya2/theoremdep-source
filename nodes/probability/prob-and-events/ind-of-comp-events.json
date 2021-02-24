@@ -1,9 +1,9 @@
 {
     "deps": [
-        "/probability/probability",
-        "/probability/ind-events",
+        "/probability/prob-and-events/probability",
+        "/probability/prob-and-events/ind-events",
         "/sets-and-relations/de-morgan-laws",
-        "/probability/cond-prob"
+        "/probability/prob-and-events/cond-prob"
     ],
     "metadata": {
         "type": "theorem",
@@ -12,6 +12,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/ind-of-comp-events.md"
+        "path": "/probability/prob-and-events/ind-of-comp-events.md"
     }
 }

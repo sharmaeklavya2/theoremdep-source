@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/probability/probability",
+        "/probability/prob-and-events/probability",
         "/measure-theory/measurable-func",
         "/measure-theory/measure",
         "/measure-theory/generated-sigma-algebra",
@@ -14,6 +14,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/rand-var.md"
+        "path": "/probability/rand-vars/rand-var.md"
     }
 }

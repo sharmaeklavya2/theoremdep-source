@@ -13,7 +13,7 @@
     "document": [
         {
             "type": "include",
-            "path": "/probability/probability.md"
+            "path": "/probability/prob-and-events/probability.md"
         },
         {
             "type": "include",

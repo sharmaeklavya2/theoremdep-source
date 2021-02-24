@@ -1,8 +1,8 @@
 {
     "deps": [
         "/probability/normal-distr/normal-distr",
-        "/probability/rand-var-ind",
-        "/probability/distr-of-sum-of-rand-vars"
+        "/probability/rand-vars/rand-var-ind",
+        "/probability/rand-vars/distr-of-sum-of-rand-vars"
     ],
     "metadata": {
         "type": "theorem",

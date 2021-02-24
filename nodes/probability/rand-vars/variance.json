@@ -1,8 +1,8 @@
 {
     "deps": [
-        "/probability/rand-var",
-        "/probability/expected-value",
-        "/probability/linearity-of-expec"
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/linearity-of-expec"
     ],
     "metadata": {
         "type": "theoremdef",
@@ -11,6 +11,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/variance.md"
+        "path": "/probability/rand-vars/variance.md"
     }
 }

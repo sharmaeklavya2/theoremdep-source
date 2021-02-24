@@ -1,7 +1,7 @@
 {
     "deps": [
-        "/probability/rand-var",
-        "/probability/linearity-of-expec"
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/linearity-of-expec"
     ],
     "metadata": {
         "type": "theorem",
@@ -10,6 +10,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/linearity-of-expec-for-matrices.md"
+        "path": "/probability/rand-vars/linearity-of-expec-for-matrices.md"
     }
 }

@@ -1,7 +1,7 @@
 {
     "deps": [
-        "/probability/rand-var",
-        "/probability/cond-expec-decomp"
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/cond-expec-decomp"
     ],
     "metadata": {
         "type": "theorem",
@@ -10,6 +10,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/markov-bound.md"
+        "path": "/probability/conc-ineq/markov-bound.md"
     }
 }

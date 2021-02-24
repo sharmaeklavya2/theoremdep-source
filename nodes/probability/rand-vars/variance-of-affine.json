@@ -1,7 +1,7 @@
 {
     "deps": [
-        "/probability/variance",
-        "/probability/linearity-of-expec"
+        "/probability/rand-vars/variance",
+        "/probability/rand-vars/linearity-of-expec"
     ],
     "metadata": {
         "type": "theorem",
@@ -10,6 +10,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/variance-of-affine.md"
+        "path": "/probability/rand-vars/variance-of-affine.md"
     }
 }

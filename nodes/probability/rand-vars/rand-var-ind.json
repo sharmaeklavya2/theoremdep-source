@@ -1,10 +1,10 @@
 {
     "deps": [
-        "/probability/probability",
+        "/probability/prob-and-events/probability",
         "/measure-theory/sigma-algebra",
-        "/probability/rand-var",
-        "/probability/ind-events",
-        "/probability/ind-of-comp-events",
+        "/probability/rand-vars/rand-var",
+        "/probability/prob-and-events/ind-events",
+        "/probability/prob-and-events/ind-of-comp-events",
         "/measure-theory/generated-sigma-algebra",
         "/measure-theory/real-borel-algebra-generators"
     ],
@@ -16,6 +16,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/rand-var-ind.md"
+        "path": "/probability/rand-vars/rand-var-ind.md"
     }
 }

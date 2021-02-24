@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/probability/rand-var",
+        "/probability/rand-vars/rand-var",
         "/abstract-algebra/groups/group"
     ],
     "deps_status": "incomplete",
@@ -11,6 +11,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/distr-of-sum-of-rand-vars.md"
+        "path": "/probability/rand-vars/distr-of-sum-of-rand-vars.md"
     }
 }

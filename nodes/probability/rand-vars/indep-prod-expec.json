@@ -1,8 +1,8 @@
 {
     "deps": [
-        "/probability/rand-var",
-        "/probability/expected-value",
-        "/probability/rand-var-ind"
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/rand-var-ind"
     ],
     "status": "incomplete",
     "deps_status": "incomplete",
@@ -13,6 +13,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/indep-prod-expec.md"
+        "path": "/probability/rand-vars/indep-prod-expec.md"
     }
 }

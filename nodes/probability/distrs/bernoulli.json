@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/probability/rand-var"
+        "/probability/rand-vars/rand-var"
     ],
     "metadata": {
         "type": "def",
@@ -9,6 +9,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/bernoulli.md"
+        "path": "/probability/distrs/bernoulli.md"
     }
 }

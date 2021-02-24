@@ -1,10 +1,10 @@
 {
     "deps": [
-        "/probability/rand-var",
-        "/probability/expected-value",
-        "/probability/variance",
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/variance",
+        "/probability/rand-vars/linearity-of-expec",
         "/analysis/gaussian-integral",
-        "/probability/linearity-of-expec",
         "/analysis/integration-by-parts",
         "/analysis/exponential-grows-superpolynomially"
     ],

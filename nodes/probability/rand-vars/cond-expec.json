@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/probability/prob-and-events/probability",
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/probability/prob-and-events/cond-prob"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Conditional expectation"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/cond-expec.md"
+    }
+}

@@ -1,7 +1,7 @@
 {
     "deps": [
-        "/probability/probability",
-        "/probability/rand-var",
+        "/probability/prob-and-events/probability",
+        "/probability/rand-vars/rand-var",
         "/linear-algebra/vector-spaces/vector-space",
         "/measure-theory/lebesgue-integral"
     ],
@@ -12,6 +12,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/expected-value.md"
+        "path": "/probability/rand-vars/expected-value.md"
     }
 }
