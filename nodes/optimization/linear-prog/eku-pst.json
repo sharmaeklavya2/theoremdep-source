@@ -1,0 +1,24 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix",
+        "/bounds/log-bound",
+        "/bounds/upper-exp-bound",
+        "/optimization/lin-func-is-max-at-extreme-point-of-polytope"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Approximation algorithm for covering LPs",
+        "description": "An α(1 + ε)-approximation algorithm for solving covering LPs, assuming the presence of a (1/α)-approximation algorithm for a certain optimization problem",
+        "keywords": ["eku", "pst", "covering-lp", "approx", "index-finding"]
+    },
+    "document": [
+        {
+            "type": "include",
+            "path": "/optimization/linear-prog/eku-pst.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/optimization/eku-pst.html"
+        }
+    ]
+}
