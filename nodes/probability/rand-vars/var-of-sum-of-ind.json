@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/rand-vars/variance",
+        "/probability/rand-vars/rand-var-ind",
+        "/probability/rand-vars/linearity-of-expec",
+        "/probability/rand-vars/indep-prod-expec"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Variance of sum of independent random variables",
+        "description": "If X_1, X_2, ..., X_n are independent random variables, then Var(X_1 + X_2 + ... + X_n) = Var(X_1) + Var(X_2) + ... + Var(X_n)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/var-of-sum-of-ind.md"
+    }
+}
