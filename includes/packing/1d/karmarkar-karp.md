@@ -1,10 +1,12 @@
-The Karmarkar-Karp algorithm is a polynomial-time algorithm for 1D bin packing.
+<span class="invisible">
 $\newcommand{\Size}{\operatorname{size}}$
 $\newcommand{\floor}[1]{\left\lfloor{#1}\right\rfloor}$
 $\newcommand{\lin}{\operatorname{lin}}$
 $\newcommand{\LP}{\operatorname{LP}}$
 $\newcommand{\Opt}{\operatorname{opt}}$
 $\newcommand{\Sum}{\operatorname{sum}}$
+</span>
+The Karmarkar-Karp algorithm is a polynomial-time algorithm for 1D bin packing.
 
 Its output's cost is at most $\lin(I) + O(\log^2(\Size(I)))$.
 This makes it achieve an additive approximation of $O(\log^2(\Opt(I)))$.
@@ -21,10 +23,10 @@ Let $\delta = 1 / \Size(I)$.
 Algorithm $\operatorname{large-bin-pack}(I)$:
 
 * if $\Size(I) < 10$:
-    * Pack $I$ using next-fit algorithm.
+    * Pack $I$ using Next-Fit algorithm.
 * else:
     * $(I', J) = \operatorname{harmonic-grouping}(I)$
-    * Pack $J$ using next-fit algorithm (packing discards).
+    * Pack $J$ using Next-Fit algorithm (packing discards).
     * $x = \operatorname{approx-solve-config-lp}(I', \delta)$.
     * For each config $C$, pack $\floor{x_C}$ bins of $C$ (integral packing).
       Call the packed items $I_1$ and the remaining items $I_2$.
@@ -95,7 +97,7 @@ Therefore, cost of packing discards over all invocations of large-bin-pack is at
 ### Running time and total cost
 
 There are $O(\lg(\Size(I))) \subseteq O(\lg(n))$ iterations
-and each iteration takes polynomial time, since harmonic grouping, next-fit
+and each iteration takes polynomial time, since harmonic grouping, Next-Fit
 and solving the config LP can be done in polynomial time.
 
 The cost of packing in the base case ($\Size(I) < 10$) is at most 21.

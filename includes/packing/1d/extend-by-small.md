@@ -1,5 +1,4 @@
 Let $I$ be a 1D bin packing instance.
-Let $\operatorname{size}(S) = \sum_{i=1}^n s_i$.
 
 Let $I_L = \{s \in I: s > \epsilon\}$ and $I_S = \{s \in I: s \le \epsilon\}$.
 Let there be a packing of $I_L$ into $m$ bins.

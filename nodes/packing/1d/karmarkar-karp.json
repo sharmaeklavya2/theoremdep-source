@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/packing/bp-and-ks",
         "/packing/1d/extend-by-small",
         "/packing/1d/next-fit",
         "/packing/config-lp/config-lp",
@@ -9,6 +10,7 @@
         "/packing/1d/harmonic-grouping",
         "/packing/d-geom/size-lb-config-lp"
     ],
+    "deps_status": "broken",
     "metadata": {
         "type": "theorem",
         "title": "1BP: Karmarkar-Karp algorithm",

@@ -1,5 +1,7 @@
 {
-    "deps": [],
+    "deps": [
+        "/packing/bp-and-ks"
+    ],
     "metadata": {
         "type": "theorem",
         "title": "1BP: extending by small items",

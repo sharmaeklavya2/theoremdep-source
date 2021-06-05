@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/packing/bp-and-ks",
         "/packing/1d/ks-dp-algo"
     ],
     "metadata": {

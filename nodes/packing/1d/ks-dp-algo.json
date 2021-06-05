@@ -1,5 +1,7 @@
 {
-    "deps": [],
+    "deps": [
+        "/packing/bp-and-ks"
+    ],
     "metadata": {
         "type": "theorem",
         "title": "Pseudo-polynomial time algorithm for 1D knapsack",
