@@ -1,5 +1,5 @@
 Let $f(n, s)$ be the number of $n$-tuples of non-negative integers whose sum is at most $s$. Then
-\[ f(n, s) = \binom{s+n}{n} \]
+\[ f(n, s) = \binom{s+n}{n} \le (s+1)^n \]
 
 ## Proof
 
@@ -17,3 +17,6 @@ This recurrence is satisfied by
 because
 \[ \sum_{i=0}^s f(n-1, s-i) = \sum_{i=0}^s \binom{s-i+n-1}{n-1}
 = \sum_{j=n-1}^{s+n-1} \binom{j}{n-1} = \binom{s+n}{n} \]
+
+There are $(s+1)^n$ tuples for which each entry lies in $[0, s]$.
+Therefore, $f(n, s) \le (s+1)^n$.

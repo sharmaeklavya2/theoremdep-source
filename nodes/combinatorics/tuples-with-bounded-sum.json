@@ -5,7 +5,7 @@
     "metadata": {
         "type": "theorem",
         "title": "Number of tuples with bounded sum",
-        "description": "The number of tuples of length n of non-negative numbers whose sum is at most s is C(s+n, n)."
+        "description": "The number of tuples of length n of non-negative numbers whose sum is at most s is C(s+n, n) ≤ (s+1)^n."
     },
     "document": {
         "type": "include",
