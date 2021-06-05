@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/packing/bp-and-ks",
+        "/packing/config-lp/config-lp",
+        "/packing/config-lp/ks-approx",
+        "/packing/1d/ks-fptas"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "1BP: FPTAS for config LP"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/1d/fptas-for-config-lp.md"
+    }
+}

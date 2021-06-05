@@ -1,0 +1,21 @@
+{
+    "deps": [
+        "/packing/bp-and-ks",
+        "/packing/config-lp/config-lp",
+        "/optimization/linear-prog/eku-pst"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "BP: α(1+ε)-approx solution to config LP using α-approx algorithm for knapsack"
+    },
+    "document": [
+        {
+            "type": "include",
+            "path": "/packing/config-lp/ks-approx.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/optimization/eku-pst.html"
+        }
+    ]
+}
