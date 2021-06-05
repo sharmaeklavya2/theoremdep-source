@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/combinatorics/bin-coeff/add-recursion",
+        "/combinatorics/tuples-with-bounded-sum"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Algorithm for enumerating tuples with bounded sum",
+        "description": "An algorithm that outputs all n-tuples of non-negative integers having sum at most s in time O(C(n+s,n))."
+    },
+    "document": {
+        "type": "include",
+        "path": "/combinatorics/enum-tuples-with-bounded-sum.md"
+    }
+}
