@@ -1,4 +1,4 @@
-Let $I$ be a bin-packing instance with $n$ items and $m$ distinct items.
+Let $I$ be a bin packing instance with $n$ items and $m$ distinct items.
 Let $b_i$ be the number of items of type $i$.
 Let $P$ be the config LP and $T$ be the configuration matrix.
 
@@ -7,7 +7,7 @@ Given a vector $y \in \mathbb{R}^m$, find a configuration $j$ such that
 $\sum_{i=1}^m T[i, j]y_i$ is maximized.
 Here $y$ is said to be the profit of an item of type $i$.
 
-If we have an FPTAS for this knapsack problem, then the fractional bin-packing problem
+If we have an FPTAS for this knapsack problem, then the fractional bin packing problem
 can be solved to an additive error of $\epsilon$,
 where the running time is polynomial in $n$ and $\frac{1}{\epsilon}$.
 

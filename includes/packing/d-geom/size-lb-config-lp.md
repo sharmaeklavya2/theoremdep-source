@@ -1,4 +1,4 @@
-Let $I$ be a $d$-dimensional geometric bin-packing instance.
+Let $I$ be a $d$-dimensional geometric bin packing instance.
 Then $\operatorname{rsize}(I) \le \operatorname{lin}(I)$.
 
 ## Proof

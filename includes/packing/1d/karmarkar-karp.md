@@ -1,4 +1,4 @@
-The Karmarkar-Karp algorithm is a polynomial-time algorithm for 1D bin-packing.
+The Karmarkar-Karp algorithm is a polynomial-time algorithm for 1D bin packing.
 $\newcommand{\Size}{\operatorname{size}}$
 $\newcommand{\floor}[1]{\left\lfloor{#1}\right\rfloor}$
 $\newcommand{\lin}{\operatorname{lin}}$
@@ -11,7 +11,7 @@ This makes it achieve an additive approximation of $O(\log^2(\Opt(I)))$.
 
 ## Algorithm
 
-Let $I$ be a bin-packing instance with $m$ distinct items.
+Let $I$ be a bin packing instance with $m$ distinct items.
 Let there be $b_i$ items of type $I$.
 Call $b$ the item frequency vector of $I$.
 Let $L$ be the config LP, let $T$ be the configuration matrix

@@ -1,4 +1,4 @@
-Let $I$ and $J$ be bin-packing instances such that $I \preceq J$.
+Let $I$ and $J$ be bin packing instances such that $I \preceq J$.
 $\newcommand{\lin}{\operatorname{lin}}\newcommand{\LP}{\operatorname{LP}}$
 
 Then $\lin(I) \le \lin(J)$.

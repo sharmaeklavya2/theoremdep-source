@@ -10,8 +10,8 @@
     "status": "incomplete",
     "metadata": {
         "type": "theorem",
-        "title": "2D geometric bin-packing: APTAS for config LP",
-        "description": "An APTAS exists for solving the fractional 2D geometric bin-packing problem, i.e. obtaining a fractional solution to the 2D geometric configuration LP."
+        "title": "2D geometric bin packing: APTAS for config LP",
+        "description": "An APTAS exists for solving the fractional 2D geometric bin packing problem, i.e. obtaining a fractional solution to the 2D geometric configuration LP."
     },
     "document": {
         "type": "include",

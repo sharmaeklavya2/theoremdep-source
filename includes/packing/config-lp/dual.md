@@ -1,4 +1,4 @@
-Let $I$ be a bin-packing instance with $n$ items such that there are $m$ distinct items
+Let $I$ be a bin packing instance with $n$ items such that there are $m$ distinct items
 Let $b_i$ be the number of items of type $i$,
 $\mathcal{C}$ be the set of all configurations
 and $T$ be the configuration matrix.

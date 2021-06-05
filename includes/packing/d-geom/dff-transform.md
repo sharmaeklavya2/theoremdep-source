@@ -1,6 +1,6 @@
-Let $I$ be a $d$-dimensional geometric bin-packing instance.
+Let $I$ be a $d$-dimensional geometric bin packing instance.
 Let $f_1, f_2, ..., f_d$ be DFFs.
-Let $J$ be the bin-packing instance where for each item in $I$,
+Let $J$ be the bin packing instance where for each item in $I$,
 its $i^{\textrm{th}}$ dimension $x$ is replaced by $f_i(x)$.
 $J$ is called the DFF transform of $I$.
 

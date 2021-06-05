@@ -19,7 +19,7 @@ Denote this covering LP by $\operatorname{covLP}(A, b, c)$.
 
 An implicit covering LP is one where $A$ and $c$ are not given to us explicitly.
 Instead, we are given an input $I$, and $A$, $b$, $c$ are defined in terms of $I$.
-(The configuration LP for bin-packing, for example, is defined implicitly.)
+(The configuration LP for bin packing, for example, is defined implicitly.)
 Such an implicit definition is helpful when $N$, the number of columns in $A$,
 is super-polynomial in the input size $|I|$.
 We assume that $m$, the number of rows in $A$, is polynomial in $|I|$

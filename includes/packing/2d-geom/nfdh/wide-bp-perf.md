@@ -1,4 +1,4 @@
-Let $I$ be a 2D geometric bin-packing instance.
+Let $I$ be a 2D geometric bin packing instance.
 Item $i$ has width $w_i$ and height $h_i$.
 It is given that all items are wide, i.e. $w_i \ge h_i$ for each item $i$.
 $\newcommand{\Size}{\operatorname{size}}$
@@ -19,7 +19,7 @@ For any set $S \subseteq I$, let $a(S)$ denote the sum of areas of all items in 
 * **Theorem 2**:
 \[ m \le \ceil{\frac{\Rsize(I)}{\rho(W)}} \]
 
-In a 2D geometric bin-packing problem when rotations are allowed,
+In a 2D geometric bin packing problem when rotations are allowed,
 we can assume without loss of generality that $w_i \ge h_i$ for each item $i$
 and that $W \le H = 1$.
 

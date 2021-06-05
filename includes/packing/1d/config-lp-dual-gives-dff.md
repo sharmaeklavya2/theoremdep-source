@@ -1,4 +1,4 @@
-Let $I$ be a 1D bin-packing instance with $m$ distinct item sizes:
+Let $I$ be a 1D bin packing instance with $m$ distinct item sizes:
 $s_1 \ge s_2 \ge \ldots \ge s_m$.
 Let there be $b_i$ items of size $s_i$.
 Let $y$ be a feasible solution to the dual config LP

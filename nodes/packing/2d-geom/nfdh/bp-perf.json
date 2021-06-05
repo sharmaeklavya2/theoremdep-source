@@ -6,8 +6,8 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "2D geometric bin-packing: NFDH performance",
-        "description": "Analysis of performance of NFDH for bin-packing."
+        "title": "2D geometric bin packing: NFDH performance",
+        "description": "Analysis of performance of NFDH for bin packing."
     },
     "document": [
         {

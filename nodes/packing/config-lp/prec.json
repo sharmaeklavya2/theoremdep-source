@@ -5,7 +5,7 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Bin-packing: config LP of predecessor",
+        "title": "Bin packing: config LP of predecessor",
         "description": "Let I be the predecessor of J. Then lin(I) ≤ lin(J)."
     },
     "document": {

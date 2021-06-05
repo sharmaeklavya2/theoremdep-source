@@ -5,7 +5,7 @@
     ],
     "metadata": {
         "type": "def",
-        "title": "Geometric bin-packing: density-restricted config LP",
+        "title": "Geometric bin packing: density-restricted config LP",
         "description": "The density-restricted config LP is one where in the dual the profits have an upper-limit that is proportional to density."
     },
     "document": {

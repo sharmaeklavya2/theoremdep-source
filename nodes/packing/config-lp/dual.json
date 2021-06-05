@@ -5,7 +5,7 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Bin-packing: dual of config LP"
+        "title": "Bin packing: dual of config LP"
     },
     "document": {
         "type": "include",

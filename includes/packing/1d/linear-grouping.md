@@ -1,4 +1,4 @@
-Let $I$ be an input instance for 1D bin-packing.
+Let $I$ be an input instance for 1D bin packing.
 
 The linear grouping scheme is an algorithm parametrized by an integer $k \ge 1$.
 It first splits $I$ into disjoint instances $I'$ and $I_2$

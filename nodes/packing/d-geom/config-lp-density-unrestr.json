@@ -6,8 +6,8 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Geometric bin-packing: removing density restriction",
-        "description": "Assuming the presence of a suitable primitive bin-packing algorithm, we can solve the config LP almost optimally by solving the density-restricted config LP almost optimally."
+        "title": "Geometric bin packing: removing density restriction",
+        "description": "Assuming the presence of a suitable primitive bin packing algorithm, we can solve the config LP almost optimally by solving the density-restricted config LP almost optimally."
     },
     "document": {
         "type": "include",

@@ -5,7 +5,7 @@
     ],
     "metadata": {
         "type": "theoremdef",
-        "title": "1D bin-packing: linear grouping",
+        "title": "1BP: linear grouping",
         "description": "Linear grouping is a transformation on an input instance that gives us a predecessor and a successor."
     },
     "document": {

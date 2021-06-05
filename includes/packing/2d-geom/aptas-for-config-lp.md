@@ -1,4 +1,4 @@
-An APTAS exists for solving the fractional 2D geometric bin-packing problem,
+An APTAS exists for solving the fractional 2D geometric bin packing problem,
 i.e. obtaining a fractional solution to the 2D geometric configuration LP.
 $\newcommand{\Opt}{\operatorname{opt}}$
 $\newcommand{\LP}{\operatorname{LP}}$
@@ -36,4 +36,4 @@ We can therefore use NFDH to get a solution $\widetilde{x}$ to the config LP
 with objective value at most $\Lin'_4(I) + 2 + \epsilon$.
 Since any solution to the config LP is also a solution to the density-restricted config LP,
 $\Lin'_4(I) \le \Lin(I)$. Therefore, $\widetilde{x}$ is a solution of objective value
-at most $\Lin(I) + 2 + \epsilon$. This gives us an APTAS for fractional 2D bin-packing.
+at most $\Lin(I) + 2 + \epsilon$. This gives us an APTAS for fractional 2D bin packing.

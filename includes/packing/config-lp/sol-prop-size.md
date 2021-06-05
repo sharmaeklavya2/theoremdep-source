@@ -1,7 +1,7 @@
-Let $I$ be a bin-packing instance with $m$ distinct items.
+Let $I$ be a bin packing instance with $m$ distinct items.
 Let $b_i$ be the number of items of type $i$.
 
-Let $y$ be an optimal solution to the dual of the config LP of a bin-packing instance.
+Let $y$ be an optimal solution to the dual of the config LP of a bin packing instance.
 If item $i$ is at least as large as item $j$ then $y_i^* \ge y_j^*$ (given $b_i > 0$).
 
 ## Proof

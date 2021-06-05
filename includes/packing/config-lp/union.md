@@ -1,4 +1,4 @@
-Let $I$ and $J$ be bin-packing input instances.
+Let $I$ and $J$ be bin packing input instances.
 $\newcommand{\lin}{\operatorname{lin}}$
 Then $\lin(I+J) ≤ \lin(I) + \lin(J)$.
 

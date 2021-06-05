@@ -1,4 +1,4 @@
-Let $I$ be a 2D geometric bin-packing instance.
+Let $I$ be a 2D geometric bin packing instance.
 Suppose NFDH packs them into $m$ bins of width and height 1.
 Let $S_i$ be the set of items in the $i^{\textrm{th}}$ bin.
 Then,

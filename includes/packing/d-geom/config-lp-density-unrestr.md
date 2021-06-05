@@ -1,11 +1,11 @@
-Let there be a polynomial-time $d$-dimensional geometric bin-packing algorithm $A$
+Let there be a polynomial-time $d$-dimensional geometric bin packing algorithm $A$
 whose output satisfies one of these conditions:
 $\newcommand{\Rsize}{\operatorname{rsize}}$
 
 * There is some bin for which total rsize of items is at least $\frac{1}{\lambda}$.
 * The number of bins is at most a constant $c$.
 
-Let $I$ be a $d$-dimensional geometric bin-packing instance.
+Let $I$ be a $d$-dimensional geometric bin packing instance.
 Given a feasible solution $(\widehat{x}, \widehat{y})$ of objective value $v$
 to the $\lambda$-density-restricted config LP, we can get in polynomial time
 a feasible solution to the config LP of objective value at most $v + c$.

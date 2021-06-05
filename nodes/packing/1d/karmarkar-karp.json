@@ -11,8 +11,8 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "1D bin-packing: Karmarkar-Karp algorithm",
-        "description": "The Karmarkar-Karp algorithm is an algorithm for 1D bin-packing that achieves an additive approximation of O(log(I)^2)."
+        "title": "1BP: Karmarkar-Karp algorithm",
+        "description": "The Karmarkar-Karp algorithm is an algorithm for 1BP that achieves an additive approximation of O(log(I)^2)."
     },
     "document": {
         "type": "include",

@@ -1,13 +1,13 @@
 Let $I$ be a set of rectangles.
-Without loss of generality, assume that for bin-packing, bins have width and height 1
-and for strip-packing, the strip has width 1.
+Without loss of generality, assume that for bin packing, bins have width and height 1
+and for strip packing, the strip has width 1.
 Let $w_{\max}$ and $h_{\max}$ be the maximum width and maximum height of items in $I$.
 $\newcommand{\rsize}{\operatorname{rsize}}$
 $\newcommand{\nfdhsp}{\operatorname{nfdh}_{\mathrm{SP}}}$
 $\newcommand{\nfdhbp}{\operatorname{nfdh}_{\mathrm{BP}}}$
 $\newcommand{\ceil}[1]{\left\lceil{#1}\right\rceil}$
 
-Let $\nfdhsp(I)$ be the height of the strip-packing solution produced by NFDH on $I$.
+Let $\nfdhsp(I)$ be the height of the strip packing solution produced by NFDH on $I$.
 Let $\nfdhbp(I)$ be the number of bins used by NFDH to pack $I$. Then
 \[ \nfdhsp(I) < \frac{\rsize(I)}{1 - w_{\max}} + h_{\max} \]
 \[ \nfdhbp(I) \le \ceil{\frac{\rsize(I)}{(1-w_{\max})(1-h_{\max})}} \]

@@ -8,7 +8,7 @@
     ],
     "metadata": {
         "type": "theoremdef",
-        "title": "1D bin-packing: harmonic grouping"
+        "title": "1BP: harmonic grouping"
     },
     "document": {
         "type": "include",

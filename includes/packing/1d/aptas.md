@@ -3,7 +3,7 @@ $\newcommand{\Size}{\operatorname{size}}\newcommand{\Opt}{\operatorname{opt}}$
 $\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}$
 $\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}$
 </span>
-Let $I$ be a 1D bin-packing instance.
+Let $I$ be a 1D bin packing instance.
 Without loss of generality, assume bins have size 1.
 Let $\Opt(I)$ be the minimum number of bins needed to pack $I$.
 Then for any constant $\epsilon$, there is a polynomial-time algorithm which packs $I$ in

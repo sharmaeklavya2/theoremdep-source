@@ -1,4 +1,4 @@
-Let $I$ be a 2D geometric bin-packing instance
+Let $I$ be a 2D geometric bin packing instance
 where rotation of items is forbidden.
 Assume without loss of generality that bins have width and height 1.
 $\newcommand{\size}{\operatorname{size}}$
@@ -10,15 +10,15 @@ is at most $\ceil{4\size(I)} + 1 < 4\size(I) + 2$.
 
 ## Proof
 
-Using NFDH for bin-packing is equivalent to using NFDH
+Using NFDH for bin packing is equivalent to using NFDH
 for packing items into shelves and then packing the shelves
 into 1D bins via the next-fit algorithm.
 
 Let there be $p$ shelves and let $V_i$ be the $i\th$ shelf.
 Let $H_i$ be the height of the first item in $V_i$.
 
-Define $I' = \{H_i: 1 \le i \le p\}$. Then $I'$ is a 1D bin-packing instance.
-The height of the strip-packing is $\size(I')$,
+Define $I' = \{H_i: 1 \le i \le p\}$. Then $I'$ is a 1D bin packing instance.
+The height of the strip packing is $\size(I')$,
 so $\size(I') < 2\size(I) + H_1$.
 
 Let $m$ be the number of bins used by next-fit.

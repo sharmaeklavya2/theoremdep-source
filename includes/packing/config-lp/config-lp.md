@@ -1,4 +1,4 @@
-Let $I$ be a bin-packing instance with $n$ items such that there are $m$ distinct items
+Let $I$ be a bin packing instance with $n$ items such that there are $m$ distinct items
 (we may either treat items of different sizes as distinct
 or we may treat all items as distinct, as per convenience).
 Let $b_i$ be the number of items of type $i$.
@@ -18,7 +18,7 @@ Then the linear program
 is called the configuration LP of $I$.
 Here the constraint $Tx \ge b$ implies that each item should be covered.
 The integer configuration LP's optimal solution gives us the best bin packing.
-The real-valued relaxation of this LP is called the fractional bin-packing problem.
+The real-valued relaxation of this LP is called the fractional bin packing problem.
 The optimal value of the relaxed LP is denoted by $\operatorname{lin}(I)$.
 
 When all items are considered distinct ($m = n, b_i = 1$), we get this LP:

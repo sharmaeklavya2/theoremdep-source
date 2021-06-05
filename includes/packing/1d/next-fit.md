@@ -1,4 +1,4 @@
-Let $S = \{s_1, s_2, \ldots, s_n\}$ be a 1D bin-packing instance.
+Let $S = \{s_1, s_2, \ldots, s_n\}$ be a 1D bin packing instance.
 Let $\operatorname{size}(S) = \sum_{i=1}^n s_i$.
 Assume WLoG that bins have size 1.
 
@@ -15,7 +15,7 @@ $\operatorname{next-fit}(S) \le \lceil 2\operatorname{size}(S) \rceil$.
 
 Let $\operatorname{opt}(S)$ be the minimum number of bins that $S$ can be packed into.
 Then $\operatorname{size}(S)$ is a lower-bound on $\operatorname{opt}(S)$.
-This tells us that the next-fit algorithm is an asymptotic 2-approx algorithm for bin-packing.
+This tells us that the next-fit algorithm is an asymptotic 2-approx algorithm for bin packing.
 
 ## Proof
 

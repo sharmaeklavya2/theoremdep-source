@@ -1,4 +1,4 @@
-Let $I$ be a $d$-dimensional geometric bin-packing instance.
+Let $I$ be a $d$-dimensional geometric bin packing instance.
 Let $s_i$ be the size of item $i$ (relative to the bin).
 Then the density-restricted configuration LP parametrized by $\lambda$ is given by
 

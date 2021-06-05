@@ -1,4 +1,4 @@
-Let $I$ be an input instance for 1D bin-packing
+Let $I$ be an input instance for 1D bin packing
 $\newcommand{\Size}{\operatorname{size}}$
 such that $\Size(I) - \min(I) \ge 2$.
 
