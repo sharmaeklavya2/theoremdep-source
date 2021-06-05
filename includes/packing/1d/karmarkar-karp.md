@@ -28,6 +28,7 @@ Algorithm $\operatorname{large-bin-pack}(I)$:
     * $(I', J) = \operatorname{harmonic-grouping}(I)$
     * Pack $J$ using Next-Fit algorithm (packing discards).
     * $x = \operatorname{approx-solve-config-lp}(I', \delta)$.
+    In the configuration LP, items have the same type iff they have the same size.
     * For each config $C$, pack $\floor{x_C}$ bins of $C$ (integral packing).
       Call the packed items $I_1$ and the remaining items $I_2$.
     * $\operatorname{large-bin-pack}(I_2)$.
@@ -65,6 +66,8 @@ Therefore, $x - \floor{x}$ is a feasible solution to $\LP(I_2)$.
 \\ &\le (\lin(I') + \delta) - \lin(I_2)  \tag{$x$ is approx optimal for $\LP(I')$}
 \\ &\le \lin(I) - \lin(I_2) + \delta  \tag{$I' \preceq I$}
 \end{align}
+<span class="text-danger">How can we compare configuration LPs of $I'$ and $I$
+if they categorize items into types differently?</span>
 
 $I_2$ in a certain invocation of large-bin-pack becomes $I$ in the next invocation.
 This implies that the cost of packing items as per $\floor{x}$

@@ -1,14 +1,14 @@
 {
     "deps": [
-        "/packing/d-geom/size",
+        "/packing/bp-and-ks",
         "/packing/config-lp/config-lp"
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Geometric bin packing: rsize(I) lower-bounds lin(I)"
+        "title": "1BP: size(I) ≤ lin(I)"
     },
     "document": {
         "type": "include",
-        "path": "/packing/d-geom/size-lb-config-lp.md"
+        "path": "/packing/config-lp/size-lb.md"
     }
 }

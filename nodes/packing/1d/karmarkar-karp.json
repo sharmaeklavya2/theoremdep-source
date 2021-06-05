@@ -8,9 +8,9 @@
         "/packing/1d/ks-fptas",
         "/packing/config-lp/prec",
         "/packing/1d/harmonic-grouping",
-        "/packing/d-geom/size-lb-config-lp"
+        "/packing/config-lp/size-lb"
     ],
-    "deps_status": "broken",
+    "status": "broken",
     "metadata": {
         "type": "theorem",
         "title": "1BP: Karmarkar-Karp algorithm",

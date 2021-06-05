@@ -3,6 +3,7 @@
         "/packing/config-lp/config-lp",
         "/packing/predecessor"
     ],
+    "status": "broken",
     "metadata": {
         "type": "theorem",
         "title": "Bin packing: config LP of predecessor",

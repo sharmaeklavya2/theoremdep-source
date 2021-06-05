@@ -3,6 +3,9 @@ $\newcommand{\lin}{\operatorname{lin}}\newcommand{\LP}{\operatorname{LP}}$
 
 Then $\lin(I) \le \lin(J)$.
 
+<span class="text-danger">It's not clear how items are categorized into types,
+so the theorem's statement isn't clear.</span>
+
 ## Proof
 
 Let $\sigma$ be the mapping from $I$ to $J$.
@@ -12,8 +15,4 @@ and for the other items each item $j$ is replaced by item $\sigma^{-1}(i)$.
 Therefore, $\sigma^{-1}(C)$ is a configuration of items in $I$.
 $\sigma^{-1}(C)$ is a valid configuration because each item either gets removed or decreases in size.
 
-Therefore, the set of configurations of $I$ is a superset of the set of configurations of $J$.
-Since $I$ has at most as many items as $J$, the set of constraints
-of $\LP(I)$ has at most as many constraints as $J$.
-Therefore, $\LP(I)$ is a relaxation of $\LP(J)$.
-So $\lin(I) \le \lin(J)$.
+<span class="text-danger">(incomplete)</a>
