@@ -1,6 +1,7 @@
 {
     "deps": [
-        "/packing/bp-and-ks"
+        "/packing/bp-and-ks",
+        "/packing/1d/size-le-opt"
     ],
     "metadata": {
         "type": "theorem",

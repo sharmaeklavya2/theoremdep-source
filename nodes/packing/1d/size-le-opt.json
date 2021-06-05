@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/packing/bp-and-ks"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "1BP: ⌈size(I)⌉ ≤ opt(I)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/1d/size-le-opt.md"
+    }
+}
