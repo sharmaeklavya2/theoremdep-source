@@ -1,11 +1,11 @@
 {
     "deps": [
         "/packing/bp-and-ks",
+        "/packing/1d/size-le-opt",
         "/packing/1d/extend-by-small",
         "/packing/1d/next-fit",
         "/packing/config-lp/config-lp",
-        "/packing/config-lp/kp-fptas",
-        "/packing/1d/ks-fptas",
+        "/packing/1d/fptas-for-config-lp",
         "/packing/config-lp/prec",
         "/packing/1d/harmonic-grouping",
         "/packing/config-lp/size-lb"

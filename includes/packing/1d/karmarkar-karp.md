@@ -41,7 +41,9 @@ Algorithm $\operatorname{bin-pack}(I)$:
 
 ## Correctness, running time and approximation
 
-Since an FPTAS exists for 1D knapsack, it is possible to approximately fractionally solve the config LP.
+Since an FPTAS exists for the configuration LP,
+we can obtain a feasible solution to the configuration LP of objective value
+at most $\lin(I) + 1$.
 
 Let there be $t$ invocations of large-bin-pack
 where $\Size(I) \ge 10$.
@@ -68,6 +70,9 @@ Therefore, $x - \floor{x}$ is a feasible solution to $\LP(I_2)$.
 \end{align}
 <span class="text-danger">How can we compare configuration LPs of $I'$ and $I$
 if they categorize items into types differently?</span>
+
+<span class="text-danger">It looks like we have assumed that we can solve
+the configuration LP of $I$ exactly. We should fix this.</span>
 
 $I_2$ in a certain invocation of large-bin-pack becomes $I$ in the next invocation.
 This implies that the cost of packing items as per $\floor{x}$
