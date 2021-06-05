@@ -2,8 +2,8 @@
     "deps": [],
     "metadata": {
         "type": "theorem",
-        "title": "Quasi-polynomial time algorithm for 1D knapsack",
-        "description": "Quasi-polynomial time exact algorithm for knapsack using dynamic programming."
+        "title": "Pseudo-polynomial time algorithm for 1D knapsack",
+        "description": "Pseudo-polynomial time exact algorithm for knapsack using dynamic programming."
     },
     "keywords": ["knapsack", "dp", "qptime", "exact"],
     "document": {
