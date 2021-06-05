@@ -1,6 +1,7 @@
 {
     "deps": [
-        "/packing/d-geom/size",
+        "/packing/bp-and-ks",
+        "/packing/1d/size-le-opt",
         "/packing/bp-brute-algo",
         "/packing/predecessor",
         "/packing/1d/linear-grouping",
