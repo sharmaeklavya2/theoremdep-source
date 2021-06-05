@@ -1,8 +1,10 @@
 {
-    "deps": [],
+    "deps": [
+        "/packing/bp-and-ks"
+    ],
     "metadata": {
         "type": "def",
-        "title": "Bin-packing: predecessor of an input instance",
+        "title": "Bin packing: predecessor of an input instance",
         "description": "Input instance I is said to be a predecessor of input instance J iff each item in I has a corresponding item in J which is at least as large in every dimension."
     },
     "document": {

@@ -1,0 +1,13 @@
+{
+    "deps": [
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Bin packing and Knapsack",
+        "description": "In the bin packing problem, we are given a set of items and an infinite supply of identical bins. Our task is to pack the items into the minimum number of bins. In the knapsack problem, we are given a set of items, and each item has a non-negative profit associated with it. Our task is to pack a maximum-profit subset of the items into a single bin."
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/bp-and-ks.md"
+    }
+}
