@@ -1,9 +1,11 @@
 {
-    "deps": [],
+    "deps": [
+        "/packing/bp-and-ks"
+    ],
     "metadata": {
         "type": "theorem",
-        "title": "1BP: next-fit(S) < 2size(S)+1",
-        "description": "The next-fit algorithm's output is at most twice the sum of sizes of items plus 1. This gives us an asymptotic 2-approx algorithm for 1BP."
+        "title": "1BP: NextFit(S) ≤ ⌈2size(S)⌉",
+        "description": "The number of bins used by the Next-Fit algorithm to pack a set S of items is at most ⌈2size(S)⌉. This gives us a 2-approx algorithm for 1BP."
     },
     "document": {
         "type": "include",
