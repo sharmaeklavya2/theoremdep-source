@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/packing/bp-and-ks"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Geometric packing problems (BP, KS, SP) and rvol",
+        "description": "Definitions of geometric bin packing, geometric knapsack, strip packing (SP), vol and rvol."
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/geometric/bp-ks-sp.md"
+    }
+}
