@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/packing/bp-and-ks",
+        "/packing/1d/size-le-opt"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "1BP: NextFit(I) ≤ ⌈size(I)/(1-ε)⌉ for ε-small items",
+        "description": "The number of bins used by the Next-Fit algorithm to pack a set I of items is at most ⌈size(I)/(1-ε)⌉ when each item has size ≤ ε"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/1d/next-fit-small.md"
+    }
+}
