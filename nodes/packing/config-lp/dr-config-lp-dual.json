@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/packing/config-lp",
+        "/packing/dr-config-lp",
+        "/optimization/linear-prog/dual"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bin packing: dual of the density-restricted config LP"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/config-lp/dr-config-lp-dual.md"
+    }
+}

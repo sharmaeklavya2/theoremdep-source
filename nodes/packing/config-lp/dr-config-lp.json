@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/packing/bp-and-ks",
+        "/packing/config-lp/config-lp"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Bin packing: density-restricted config LP"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/config-lp/dr-config-lp.md"
+    }
+}

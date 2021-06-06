@@ -2,6 +2,7 @@
 $\newcommand{\opt}{\operatorname{opt}}$
 $\newcommand{\lin}{\operatorname{lin}}$
 $\newcommand{\Ccal}{\mathcal{C}}$
+$\newcommand{\Th}{^{\textrm{th}}}$
 </span>
 Let $I$ be a bin packing instance with $n$ items such that there are
 $m$ types of items, and all items of the same type are identical.
@@ -14,8 +15,9 @@ Here $t_i$ is the number of items of type $i$ in the bin.
 Let $\Ccal$ be the set of all configurations. Let $N = |\Ccal|$.
 Number the configurations from 1 to $N$.
 Let $T$ be an $m$ by $N$ matrix such that $T[i, j]$ is the number of items
-of type $i$ in the $j^{\textrm{th}}$ configuration.
+of type $i$ in the $j\Th$ configuration.
 $T$ is called the configuration matrix.
+(If $C$ is the $j\Th$ configuration, sometimes we write $T[i, C]$ instead of $T[i, j]$.)
 
 Then the linear program
 \[ \min_{x \in \mathbb{R}^N} \operatorname{sum}(x) \textrm{ where } Tx \ge b, x \ge 0 \]
