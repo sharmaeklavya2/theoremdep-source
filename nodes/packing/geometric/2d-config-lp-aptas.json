@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/packing/geometric/bp-ks-sp",
+        "/packing/geometric/nfdh/bp-adj",
+        "/packing/geometric/2d-dr-ks-ptas",
+        "/packing/config-lp/dr-config-lp",
+        "/packing/config-lp/dr-ks-approx",
+        "/packing/config-lp/density-unrestr"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "2D BP: APTAS for config LP"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/geometric/2d-config-lp-aptas.md"
+    }
+}

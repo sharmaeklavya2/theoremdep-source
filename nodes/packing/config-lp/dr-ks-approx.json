@@ -1,0 +1,24 @@
+{
+    "deps": [
+        "/packing/bp-and-ks",
+        "/packing/config-lp/dr-config-lp",
+        "/optimization/linear-prog/eku-pst",
+        "/linear-algebra/matrices/stacking/stacking",
+        "/linear-algebra/matrices/identity"
+    ],
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "BP: α(1+ε)-approx solution to density-restricted config LP using α-approx algorithm for density-restricted knapsack"
+    },
+    "document": [
+        {
+            "type": "include",
+            "path": "/packing/config-lp/dr-ks-approx.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/optimization/eku-pst.html"
+        }
+    ]
+}
