@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/packing/geometric/bp-ks-sp",
+        "/packing/geometric/nfdh/algo"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "2D BP: NFDH for small items"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/geometric/nfdh/bp-small.md"
+    }
+}

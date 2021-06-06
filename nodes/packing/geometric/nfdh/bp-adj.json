@@ -1,0 +1,21 @@
+{
+    "deps": [
+        "/packing/geometric/bp-ks-sp",
+        "/packing/geometric/nfdh/algo"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "NFDH: area of adjacent bins",
+        "description": "In the output of NFDH, for any pair of adjacent bins except the last, one of the bins has total rvol more than 1/4."
+    },
+    "document": [
+        {
+            "type": "include",
+            "path": "/packing/geometric/nfdh/bp-adj.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/packing/bansal2009structural.html"
+        }
+    ]
+}

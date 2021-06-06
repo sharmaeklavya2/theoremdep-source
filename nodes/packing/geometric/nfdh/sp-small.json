@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/packing/geometric/bp-ks-sp",
+        "/packing/geometric/nfdh/algo"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "2D SP: NFDH(I) < a(I)/(W-ε) + hmax for ε-small items"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/geometric/nfdh/sp-small.md"
+    }
+}

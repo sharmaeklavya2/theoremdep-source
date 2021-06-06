@@ -1,5 +1,9 @@
 {
-    "deps": [],
+    "deps": [
+        "/packing/geometric/bp-ks-sp",
+        "/packing/geometric/nfdh/algo",
+        "/packing/geometric/nfdh/bp-small"
+    ],
     "deps_status": "incomplete",
     "metadata": {
         "type": "theorem",
@@ -9,7 +13,7 @@
     "document": [
         {
             "type": "include",
-            "path": "/packing/2d-geom/ptas-for-density-restr-ks.md"
+            "path": "/packing/geometric/2d-dr-ks-ptas.md"
         },
         {
             "type": "include",

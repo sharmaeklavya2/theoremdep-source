@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/packing/geometric/bp-ks-sp"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "NFDH algorithm",
+        "description": "Next-Fit Decreasing Height (NFDH) is an algorithm for 2D geometric bin packing and 2D strip packing. It sorts items by height in descending order and packs them into shelves."
+    },
+    "document": [
+        {
+            "type": "include",
+            "path": "/packing/geometric/nfdh/algo.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/packing/bansal2009structural.html"
+        }
+    ]
+}

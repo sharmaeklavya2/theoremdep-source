@@ -1,17 +1,17 @@
 {
     "deps": [
-        "/packing/d-geom/size",
-        "/packing/2d-geom/nfdh/algo",
-        "/packing/2d-geom/nfdh/strip-perf",
+        "/packing/geometric/bp-ks-sp",
+        "/packing/geometric/nfdh/algo",
+        "/packing/geometric/nfdh/sp",
         "/packing/1d/next-fit"
     ],
     "metadata": {
         "type": "theorem",
-        "title": "2D geometric bin packing: nfdh(I) < 4rsize(I) + 2",
+        "title": "2D BP: NFDH(I) ≤ 4⌈rvol(I)⌉ + 1",
         "description": "NFDH is an asymptotic 4-approx algorithm for 2D geometric bin packing."
     },
     "document": {
         "type": "include",
-        "path": "/packing/2d-geom/nfdh/bp-perf2.md"
+        "path": "/packing/geometric/nfdh/bp.md"
     }
 }

@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/packing/geometric/bp-ks-sp",
+        "/packing/geometric/nfdh/algo",
+        "/packing/geometric/nfdh/sp",
+        "/packing/1d/next-fit-small"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "2D BP: NFDH for items of small height"
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/geometric/nfdh/bp-wide.md"
+    }
+}

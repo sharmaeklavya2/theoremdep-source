@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/packing/geometric/bp-ks-sp",
+        "/packing/geometric/nfdh/algo"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "2D SP: NFDH(I) < 2rvol(I) + hmax",
+        "description": "NFDH is an asymptotic 2-approx algorithm for 2D strip packing."
+    },
+    "document": {
+        "type": "include",
+        "path": "/packing/geometric/nfdh/sp.md"
+    }
+}
