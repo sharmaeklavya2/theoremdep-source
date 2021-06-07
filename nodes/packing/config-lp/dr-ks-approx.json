@@ -3,7 +3,8 @@
         "/packing/bp-and-ks",
         "/packing/config-lp/dr-config-lp",
         "/optimization/linear-prog/eku-pst",
-        "/linear-algebra/matrices/stacking/stacking"
+        "/linear-algebra/matrices/stacking/stacking",
+        "/linear-algebra/matrices/stacking/product"
     ],
     "status": "incomplete",
     "metadata": {

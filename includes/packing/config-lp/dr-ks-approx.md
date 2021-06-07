@@ -79,14 +79,66 @@ Very small items can cause problems, so we'll get rid of them.
 An item of type $i$ is called small iff $g(i) \le 1/(\lambda m b_i)$.
 Let $I_S$ be the set of small items. Let $I_L \defeq I - I_S$.
 
-**Lemma 2**: Let $(x^{(L)}, y)$ be a solution to the density-restricted configuration LP of $I_L$
-having objective value $v$. Then we can obtain a feasible solution to the
+**Lemma 2**: Let $(x^{(L)}, y^{(L)})$ be a solution to the
+density-restricted configuration LP of $I_L$ having objective value $v$.
+Then we can obtain a feasible solution to the
 density-restricted configuration LP of $I$ of objective value at most $v + c$.
 
 *Proof*. Observe that $g(I_S) \le 1/\lambda$.
 So $P$ can pack $I_S$ into at most $c$ bins.
-Let $x^{(S)}$ be the configurations in $P$'s solution.
-<span class="text-danger">(incomplete)</span> &emsp;□.
+
+Let $\Ccal$ be the set of all configurations of $I$.
+Let $\Ccal_L \subseteq \Ccal$ be the configurations that only contain items from $I_L$.
+Let $\Ccal_S \subseteq \Ccal$ be the configurations that only contain items from $I_S$.
+Let $\Ccal' \subseteq \Ccal$ be the configurations that contain items from both $I_L$ and $I_S$.
+Hence, $\Ccal = \Ccal_L \cup \Ccal_S \cup \Ccal'$.
+
+Let there be $m_S$ types of small items and $m_L$ types of large items.
+We can split the vector $b$ of length $m$ into two vectors $b^{(S)}$ and $b^{(L)}$
+of length $m_S$ and $m_L$ respectively.
+After renumbering the item types so that large item types appear first,
+we get that $b = \begin{bmatrix}b^{(L)} \\ \hline b^{(S)}\end{bmatrix}$
+(i.e., $b$ is obtained by vertically stacking $b^{(L)}$ and $b^{(S)}$).
+
+Let $A^{(L)}$ be an $m_L$-by-$|\Ccal_L|$ configuration matrix for $I_L$.
+Then the density-restricted configuration LP of $I_L$ is given by
+\[ \min\left\{ \sum_{C \in \Ccal_L} x_C + \lambda \sum_{i=1}^{m_L} g(i)y_i:
+A^{(L)}x + y \ge b^{(L)} \wedge x \ge 0 \wedge y \ge 0 \right\} \]
+Let $A^{(S)}$ be an $m_S$-by-$|\Ccal_S|$ configuration matrix for $I_S$.
+After renumbering the configurations, we get that $A$ is of the form
+\[ A = \left[\begin{array}{c|c|c} A^{(L)} & 0 & ?
+\\ \hline 0 & A^{(S)} & ? \end{array}\right] \]
+
+Let $\mathcal{B}$ be the configurations of the bins used by $P$ to pack $I_S$.
+Let $x^{(S)}$ be a vector of length $|\Ccal_S|$ where
+$x^{(S)}_C$ is the number of bins of config $C$ used by $P$'s output on $I_S$.
+Then $\sum_{C \in \mathcal{C}_S} x^{(S)}_C \le c$.
+Since $x^{(S)}$ is gives a feasible bin packing, we get $A^{(S)}x^{(S)} \ge b^{(S)}$.
+
+Let $x'$ be a vector of length $|\Ccal'|$ where each entry is 0.
+Let $y^{(S)}$ be a vector of length $m_S$ where each entry is 0.
+Let $\xhat = \begin{bmatrix}x^{(L)} \\ \hline x^{(S)} \\ \hline x'\end{bmatrix}$.
+Let $\yhat = \begin{bmatrix}y^{(L)} \\ \hline y^{(S)} \end{bmatrix}$.
+We will now show that $(\xhat, \yhat)$ is feasible for the density-restricted config LP of $I$
+and has objective value at most $v + c$.
+
+\begin{align}
+A\xhat + \yhat &=
+    \left[\begin{array}{c|c|c} A^{(L)} & 0 & ? \\ \hline 0 & A^{(S)} & ? \end{array}\right]
+    \left[\begin{array}{c} x^{(L)} \\ \hline x^{(S)} \\ \hline 0 \end{array}\right]
+    + \begin{bmatrix}y^{(L)} \\ \hline y^{(S)} \end{bmatrix}
+\\ &= \left[\begin{array}{c} A^{(L)}x^{(L)} + y^{(L)}
+    \\ \hline A^{(S)}x^{(S)} \end{array}\right]
+\\ &\ge \left[\begin{array}{c} b^{(L)} \\ \hline b^{(S)} \end{array}\right]
+= b
+\end{align}
+Therefore, $(\xhat, \yhat)$ is feasible for the config LP of $I$.
+\[ \sum_{C \in \Ccal} \xhat_C + \lambda \sum_{i=1}^m g(i)\yhat_i
+= \sum_{C \in \Ccal_L} x^{(L)}_C + \sum_{C \in \Ccal_S} x^{(S)}_C
+    + \lambda \sum_{i=1}^{m_L} g(i)y^{(L)}_i
+\le v + c \]
+Therefore, $(\xhat, \yhat)$ has objective value at most $v + c$.
+&emsp;□
 
 Thanks to Lemma 2, from now on, we'll assume that $I$ has no small items.
 
