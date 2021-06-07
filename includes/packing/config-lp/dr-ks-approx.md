@@ -10,6 +10,10 @@ $\newcommand{\opt}{\operatorname{opt}}$
 $\newcommand{\covLP}{\operatorname{covLP}}$
 $\newcommand{\defeq}{:=}$
 </span>
+
+(Original work by [Eklavya Sharma](https://sharmaeklavya2.github.io)
+and K.V.N. Sreenivas)
+
 Let $I$ be a bin packing instance with $n$ items such that there are
 $m$ types of items, and all items of the same type are identical.
 Let $b_i$ be the number of items of type $i$.
@@ -25,11 +29,11 @@ into $c$ bins if $g(X) \le 1/c$.
 
 For the knapsack problem, the density of an item $i$ is given by $p(i)/g(i)$.
 Here $p(i)$ is the profit of item $i$.
-The $(g, \lambda)$-density-restricted knapsack problem is like the knapsack problem,
+The $(g, \sigma)$-density-restricted knapsack problem is like the knapsack problem,
 except that we are promised that for each item, the ratio of the
-maximum density to the minimum density is upper-bounded by a constant $\lambda$.
-Let $Q$ be an $\eta$-approx algorithm for the $(g, \lambda)$-density-restricted
-knapsack problem that runs in time $T(m, n)$.
+maximum density to the minimum density is upper-bounded by a constant $\sigma$.
+Let $Q$ be an $\eta$-approx algorithm for the $(g, \sigma)$-density-restricted
+knapsack problem that runs in time $T(m, n)$ for any constant $\sigma$.
 
 Let $v^*$ be the optimal objective value of the
 $(g, \lambda)$-density-restricted configuration LP of $I$.
@@ -89,12 +93,16 @@ Thanks to Lemma 2, from now on, we'll assume that $I$ has no small items.
 We will try to use the `covLPsolve` algorithm from <a href="#cite-eku-pst">[eku-pst]</a>
 to solve the density-restricted configuration LP.
 To do this, we need to express the density-restricted configuration LP as a covering LP.
-Let $A' = [A, I_m]$, where $I_m$ is the $m$-by-$m$ identity matrix.
-Let $z = [x, y]$. Then $A'z = Ax + y$.
-Let $c \in \mathbb{R}_{\ge 0}^{|\Ccal|+m}$ be a vector
-whose first $|\Ccal|$ entries are 1
+
+* Let $A' = [A, I_m]$ (i.e., horizontally stack $A$ and $I_m$),
+where $I_m$ is the $m$-by-$m$ identity matrix
+(i.e., $I_m[i, j] = 1$ if $i = j$ and $I_m[i, j] = 0$ if $i \neq j$).
+* Let $z = \begin{bmatrix}x \\ y\end{bmatrix}$ (i.e., vertically stack $x$ and $y$).
+Then $A'z = Ax + y$.
+* Let $c \in \mathbb{R}_{\ge 0}^{|\Ccal|+m}$ be a vector whose first $|\Ccal|$ entries are 1
 and the $(|\Ccal|+j)\Th$ entry is $\lambda g(i)$.
 Then $c^Tz = \sum_C x_C + \lambda \sum_{i=1}^m g(i)y_i$.
+
 Therefore, the $(g, \lambda)$-density-restricted configuration LP can be
 represented as $\covLP(A', b, c)$.
 
@@ -127,6 +135,6 @@ For any $\delta > 0$, we can implement an $\eta(1-\delta)$-weak index-finding or
 using an $\eta$-approx algorithm for $(g, \lambda \beta / \delta)$-density-restricted knapsack.
 <span class="text-danger">(proof needed)</span>
 
-Hence, we can solve the densit-restricted config LP of $I$ using `covLPsolve`.
+Hence, we can solve the density-restricted config LP of $I$ using `covLPsolve`.
 The running time is
 \[ O\left( \frac{m^2n}{\eta\eps^3} \log\left(\frac{n}{\eps\eta}\right)^3 T(m, n)\right). \]

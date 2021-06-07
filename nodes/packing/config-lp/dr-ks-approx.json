@@ -3,13 +3,13 @@
         "/packing/bp-and-ks",
         "/packing/config-lp/dr-config-lp",
         "/optimization/linear-prog/eku-pst",
-        "/linear-algebra/matrices/stacking/stacking",
-        "/linear-algebra/matrices/identity"
+        "/linear-algebra/matrices/stacking/stacking"
     ],
     "status": "incomplete",
     "metadata": {
         "type": "theorem",
-        "title": "BP: α(1+ε)-approx solution to density-restricted config LP using α-approx algorithm for density-restricted knapsack"
+        "title": "BP: α(1+ε)-approx solution to density-restricted config LP using α-approx algorithm for density-restricted knapsack",
+        "authors": ["Eklavya Sharma", "K.V.N. Sreenivas"]
     },
     "document": [
         {
