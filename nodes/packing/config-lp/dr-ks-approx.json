@@ -6,7 +6,6 @@
         "/linear-algebra/matrices/stacking/stacking",
         "/linear-algebra/matrices/stacking/product"
     ],
-    "status": "incomplete",
     "metadata": {
         "type": "theorem",
         "title": "BP: α(1+ε)-approx solution to density-restricted config LP using α-approx algorithm for density-restricted knapsack",

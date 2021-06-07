@@ -3,10 +3,12 @@ $\newcommand{\eps}{\varepsilon}$
 $\newcommand{\ihat}{\widehat{\imath}}$
 $\newcommand{\xhat}{\widehat{x}}$
 $\newcommand{\yhat}{\widehat{y}}$
+$\newcommand{\Acal}{\mathcal{A}}$
 $\newcommand{\Ccal}{\mathcal{C}}$
 $\newcommand{\Chat}{\widehat{C}}$
 $\newcommand{\Th}{^{\textrm{th}}}$
 $\newcommand{\opt}{\operatorname{opt}}$
+$\newcommand{\optKS}{\operatorname{opt}_{\mathrm{KS}}}$
 $\newcommand{\covLP}{\operatorname{covLP}}$
 $\newcommand{\defeq}{:=}$
 </span>
@@ -33,7 +35,7 @@ The $(g, \sigma)$-density-restricted knapsack problem is like the knapsack probl
 except that we are promised that for each item, the ratio of the
 maximum density to the minimum density is upper-bounded by a constant $\sigma$.
 Let $Q$ be an $\eta$-approx algorithm for the $(g, \sigma)$-density-restricted
-knapsack problem that runs in time $T(m, n)$ for any constant $\sigma$.
+knapsack problem ($\eta \le 1$) that runs in time $T(m, n)$ for any constant $\sigma$.
 
 Let $v^*$ be the optimal objective value of the
 $(g, \lambda)$-density-restricted configuration LP of $I$.
@@ -183,9 +185,56 @@ Therefore, the index-finding oracle will either return a configuration $\Chat$
 such that $p(\Chat)$ is approximately $D(p)$ or return $\ihat \in [m]$ such that
 $(p_{\ihat}/\lambda g(\ihat))$ is approximately $D(p)$.
 
-For any $\delta > 0$, we can implement an $\eta(1-\delta)$-weak index-finding oracle
+**Lemma 3**: For any $\delta > 0$, we can implement an $\eta(1-\delta)$-weak index-finding oracle
 using an $\eta$-approx algorithm for $(g, \lambda \beta / \delta)$-density-restricted knapsack.
-<span class="text-danger">(proof needed)</span>
+
+*Proof*.
+Let $i^*$ be the highest-density item. Let $\sigma = p_{i^*}/(\lambda g(i^*)) = D_{i^*}(p)$.
+This means that the density of items is upper-bounded by $\sigma\lambda$.
+Let $I_S = \{i \in I: p_i/g(i) < \delta\sigma/\beta \}$ and $I_L = I - I_S$
+where $\delta$ is a (preferably small) positive constant.
+The density of items in $I_L$ ranges from $\sigma\delta/\beta$ to $\sigma\lambda$.
+The max-to-min density ratio is $\lambda\beta/\delta$, which is a constant.
+
+For a set $X$ of items, let $\optKS(X)$ denote the maximum profit attainable
+by packing a subset of $X$ into a bin, where the profit of an item of type $i$ is $p_i$.
+Since $g(I_S) \le \beta$, we get $\optKS(I_S) < \delta\sigma$.
+Let $\Acal$ be an $\eta$-approx algorithm for the density-restricted knapsack problem.
+Let $\Chat$ be the config returned by $\Acal(I_L)$.
+Since $\Acal$ is $\eta$-approx, $p(\Chat) \ge \eta\optKS(I_L)$.
+Let $C^*$ be the maximum-profit subset of $I$, so $p(C^*) = \optKS(I)$.
+
+Case 1: $p(\Chat) \le \sigma$
+\begin{align}
+\optKS(I) &= p(C^* \cap I_S) + p(C^* \cap I_L)
+\\ &\le \optKS(I_S) + \optKS(I_L)
+\\ &\le \delta\sigma + \frac{p(\Chat)}{\eta}
+\\ &\le \sigma\left(\delta + \frac{1}{\eta}\right)
+\end{align}
+Therefore,
+\begin{align}
+& D(p) = \max(\optKS(I), \sigma) \le \sigma \left(\delta + \frac{1}{\eta}\right)
+\\ &\implies D_{i^*}(p) = \sigma \ge \frac{\eta}{1 + \eta\delta} D(p)
+\end{align}
+So returning $i^*$ is an $\eta/(1 + \eta\delta)$-approx solution
+to the index-finding oracle.
+
+Case 2: $p(\Chat) \ge \sigma$<br>
+Hence, $\sigma \le p(\Chat) \le p(C^*) = \optKS(I)$ and $D(p) = \optKS(I)$.
+\begin{align}
+p(\Chat) &\ge \eta\optKS(I_L)
+\\ &\ge \eta(\optKS(I) - \optKS(I_S))
+\\ &\ge \eta(\optKS(I) - \sigma\delta)
+\\ &\ge \eta(1 - \delta)\optKS(I)
+\end{align}
+Therefore, returning $\Chat$ is a $\eta(1-\delta)$-approx solution
+to the index-finding oracle.
+
+If $p(\Chat) \le \sigma$, have the index-finding subroutine return $i^*$.
+Otherwise return $\Chat$.
+\[ \min\left(\frac{\eta}{1+\eta\delta}, \eta(1-\delta) \right) = \eta(1-\delta) \]
+Therefore, we get a $\eta(1-\delta)$-weak index-finding subroutine.
+&emsp;□
 
 Hence, we can solve the density-restricted config LP of $I$ using `covLPsolve`.
 The running time is
