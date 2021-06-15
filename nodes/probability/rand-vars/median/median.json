@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Median of a random variable",
+        "description": "For a real-valued random variable X, m is a median iff P(X ≤ m) ≥ 1/2 and P(X ≥ m) ≥ 1/2."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/median/median.md"
+    }
+}

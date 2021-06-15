@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/variance/variance",
+        "/probability/rand-vars/expec-le",
+        "/probability/rand-vars/linearity-of-expec",
+        "/probability/rand-vars/median/minimizer"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "|mean - median| ≤ stddev"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/median/close-to-mean.md"
+    }
+}

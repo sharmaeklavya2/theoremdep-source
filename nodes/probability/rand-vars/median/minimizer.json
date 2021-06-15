@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/rand-vars/median/median",
+        "/probability/rand-vars/median/multi",
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/linearity-of-expec",
+        "/measure-theory/lebesgue-integral"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Minimizer of f(z) = E(|X-z|) is median"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/median/minimizer.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/probability/rand-vars/median/median"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Random variables: multiple medians",
+        "description": "Let m1 and m2 be medians of a random variable X such that m1 < m2. Then P[X≤m1] = 1/2, P[m1<X<m2] = 0, and P[X≥m2] = 1/2."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/median/multi.md"
+    }
+}

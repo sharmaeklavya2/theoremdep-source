@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/measure-theory/lebesgue-integral"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "X ≤ Y ⟹ E(X) ≤ E(Y)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/expec-le.md"
+    }
+}
