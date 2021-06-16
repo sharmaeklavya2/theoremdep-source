@@ -1,36 +1,42 @@
-Let $(\Omega, F, \Pr)$ be a probability space.
-Let $(D, E)$ and $(D', E')$ be $\sigma$-algebras.
-Let $X$ and $Y$ be random variables from $(\Omega, F, \Pr)$ to
-$(D, E)$ and $(D', E')$ respectively.
+<span class="invisible">
+$\newcommand{\Fcal}{\mathcal{F}}$
+$\newcommand{\Ecal}{\mathcal{E}}$
+$\newcommand{\Tcal}{\mathcal{T}}$
+</span>
+Let $(\Omega, \Fcal, \Pr)$ be a probability space.
+Let $(D, \Ecal)$ and $(D', \Ecal')$ be $\sigma$-algebras.
+Let $X$ and $Y$ be random variables from $(\Omega, \Fcal, \Pr)$ to
+$(D, \Ecal)$ and $(D', \Ecal')$ respectively.
 
-Let $T \subseteq E$ and $T' \subseteq E'$.
+Let $\Tcal \subseteq \Ecal$ and $\Tcal' \subseteq \Ecal'$.
 
-$X$ is said to be $T$-independent of $A \in F$ iff $\forall B \in T$,
+$X$ is said to be $\Tcal$-independent of $A \in \Fcal$ iff $\forall B \in \Tcal$,
 the events $X \in B$ and $A$ are independent.
-$X$ is said to be independent of $A$ iff $X$ is $E$-independent of $A$.
+$X$ is said to be independent of $A$ iff $X$ is $\Ecal$-independent of $A$.
 
-$X$ is said to be $(T, T')$-independent of $Y$
-iff $\forall B \in T$ and $\forall B' \in T'$,
-the events $X \in T$ and $Y \in T'$ are independent.
-$X$ is said to be independent of $Y$ iff $X$ is $(E, E')$-independent of $Y$.
+$X$ is said to be $(\Tcal, \Tcal')$-independent of $Y$
+iff $\forall B \in \Tcal$ and $\forall B' \in \Tcal'$,
+the events $X \in B$ and $Y \in B'$ are independent.
+$X$ is said to be independent of $Y$ iff $X$ is $(\Ecal, \Ecal')$-independent of $Y$.
 
-We say that $A \in F$ is $T$-independent of $X$ iff $X$ is $T$-independent of $A$.
-It is easy to prove that $X$ is $(T, T')$-independent of $Y$
-iff $Y$ is $(T', T)$-independent of $X$, since independence of events is symmetric.
+We say that $A \in \Fcal$ is $\Tcal$-independent of $X$ iff $X$ is $\Tcal$-independent of $A$.
+It is easy to prove that $X$ is $(\Tcal, \Tcal')$-independent of $Y$
+iff $Y$ is $(\Tcal', \Tcal)$-independent of $X$, since independence of events is symmetric.
 
 ## Equivalent definition for discrete random variable
 
-Suppose $D$ is countable and $E$ is the power-set of $D$. So $X$ is discrete.
-Let $T = \{\{x\}: x \in D_1\}$.
-Let $T' \subseteq E'$ be an arbitrary set.
+Suppose $D$ is countable and $\Ecal$ is the power-set of $D$. So $X$ is discrete.
+Let $\Tcal = \{\{x\}: x \in D_1\}$.
+Let $\Tcal' \subseteq \Ecal'$ be an arbitrary set.
 
-**Theorem**: $X$ is independent of $A \in F$ iff $X$ is $T$-independent of $A$.
-$X$ is $(E, T')$-independent of $A$ iff $X$ is $(T, T')$-independent of $Y$.
+**Theorem**: $X$ is independent of $A \in \Fcal$ iff $X$ is $\Tcal$-independent of $A$.
+$X$ is $(\Ecal, \Tcal')$-independent of $Y$ iff $X$ is $(\Tcal, \Tcal')$-independent of $Y$.
 
-**Proof**: Let $S \in E$ and $S' \in T'$.
+**Proof**: Let $S \in \Ecal$ and $S' \in \Tcal'$.
 $X \in S = \bigcup_{x \in S} (X = x)$.
-Since $\forall x \in D, X = x$ is independent of $A$ and $Y \in S'$
-and independence is preserved by countable disjoint unions,
+$\forall x \in D$, the event $X = x$ is independent of $A$ and $Y \in S'$
+because $X$ is independent of $A$ and $Y$.
+Since independence is preserved by countable disjoint unions,
 $X \in S$ is independent of $A$ and $Y \in S'$.
 
 As a corollary, if $X$ and $Y$ are both discrete,
@@ -39,12 +45,12 @@ i.e. their joint probability mass function is equal to the product of their mass
 
 ## Equivalent definitions for real-valued random variables
 
-Suppose $D = \mathbb{R}$ and $T = \{(-\infty, x]: x \in \mathbb{R}\}$
-$E = \sigma(T) = \mathcal{B}(\mathbb{R})$.
-Let $T' \subseteq E'$ be an arbitrary set.
+Suppose $D = \mathbb{R}$ and $\Tcal = \{(-\infty, x]: x \in \mathbb{R}\}$
+$\Ecal = \sigma(\Tcal) = \mathcal{B}(\mathbb{R})$.
+Let $\Tcal' \subseteq \Ecal'$ be an arbitrary set.
 
-**Theorem**: $X$ is independent of $A \in F$ iff $X$ is $T$-independent of $A$.
-$X$ is $(E, T')$-independent of $A$ iff $X$ is $(T, T')$-independent of $Y$.
+**Theorem**: $X$ is independent of $A \in \Fcal$ iff $X$ is $\Tcal$-independent of $A$.
+$X$ is $(\Ecal, \Tcal')$-independent of $A$ iff $X$ is $(\Tcal, \Tcal')$-independent of $Y$.
 
 **Proof**: <span class="text-danger">(Pending)</span>
 
