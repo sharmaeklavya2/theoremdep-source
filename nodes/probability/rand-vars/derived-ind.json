@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var-ind",
+        "/measure-theory/sigma-algebra",
+        "/measure-theory/measurable-func"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "X and Y are independent implies X and f(Y) are independent"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/derived-ind.md"
+    }
+}
