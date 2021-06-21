@@ -38,7 +38,7 @@ Let $t = \ln(1+\delta)$, $a = \mu(1+\delta)$.
 Since $t > 0$, $\Pr(X \ge a) = \Pr(e^{tX} \ge e^{ta})$.
 \[ \Pr(X \ge (1+\delta)\mu) \le \exp(\mu(\delta - (1+\delta)\ln(1+\delta)))
 = \left(\frac{e^{\delta}}{(1+\delta)^{1+\delta}}\right)^{\mu} \]
-Using the bound $\ln(1+\delta) \ge \frac{2\delta}{1+\delta}$, we get
+Using the bound $\ln(1+\delta) \ge \frac{2\delta}{2+\delta}$, we get
 \[ \Pr(X \ge (1+\delta)\mu) \le \exp\left(-\frac{\mu\delta^2}{2+\delta}\right) \]
 
 We can further simplify this by considering the cases $\delta \le 1$ and $\delta \ge 1$ separately.
