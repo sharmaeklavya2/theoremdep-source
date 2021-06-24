@@ -1,17 +1,17 @@
 For a graph $G = (V, E)$, a **walk** of length $n$ is a sequence of vertices $[v_0, v_1, \ldots, v_n]$
 such that $\forall 1 \le i \le n, (v_{i-1}, v_i) \in E$.
 Such a walk is said to be 'from $v_0$ to $v_n$'.
-The length of a path is generally denoted as $|w|$.
+The length of a walk is generally denoted as $|w|$.
 
-The **reverse** of a path $[v_0, v_1, \ldots, v_n]$ is the path $[v_n, v_{n-1}, \ldots, v_0]$.
+The **reverse** of a walk $[v_0, v_1, \ldots, v_n]$ is the walk $[v_n, v_{n-1}, \ldots, v_0]$.
 
 If $p_1 = [v_0, v_1, \ldots, v_n]$ and $p_2 = [v_n, v_{n+1}, \ldots, v_{m+n}]$ are walks,
-then the **concatenation** of $p_1$ and $p_2$, denoted as $p_1 + p_2$ or $p_1p_2$ is the path
+then the **concatenation** of $p_1$ and $p_2$, denoted as $p_1 + p_2$ or $p_1p_2$ is the walk
 $[v_1, v_2, \ldots, v_{m+n}]$.
 
 If a walk $p$ is from a vertex $v$ to itself, $p$ can be **concatenated to itself**.
-For a non-negative integer $k$, $kp$ (or $p^k$) is the path $p + p + \ldots + p$ ($k$ times).
-For $k=0$, $kp$ is a path from $v$ to $v$ of length 0.
+For a non-negative integer $k$, $kp$ (or $p^k$) is the walk $p + p + \ldots + p$ ($k$ times).
+For $k=0$, $kp$ is a walk from $v$ to $v$ of length 0.
 This means that $|kp| = k|p|$.
 
 In a weighted graph, the **weight** of a walk $p$, denoted as $w(p)$,
@@ -23,10 +23,10 @@ A **simple path** is a walk where $v_i \neq v_j$ for all $(i, j)$.
 
 A **path** can refer to either a walk or a simple path, depending on the author.
 
-If $p = [v_0, v_1, \ldots, v_n]$ is a path then
-$q = [v_i, v_{i+1}, \ldots, v_{j}]$ is a **subpath** of $p$.
+If $p = [v_0, v_1, \ldots, v_n]$ is a walk/path then
+$q = [v_i, v_{i+1}, \ldots, v_{j}]$ is a **subwalk/subpath** of $p$.
 
-A **shortest-path** generally refers to a walk with the smallest weight.
+A **shortest path** generally refers to a path with the smallest weight.
 The weight of a shortest path between $u$ and $v$ in $G$ is denoted as $\delta_G(u, v)$.
 If there is no path from $u$ to $v$, $\delta_G(u, v) = \infty$.
 If there is no lower bound on the weight of a path from $u$ to $v$
