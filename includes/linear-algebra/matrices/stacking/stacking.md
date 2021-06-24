@@ -25,7 +25,7 @@ B_1[i, j] & 1 \le i \le m_1
 Let $A_{i, j}$ be an $m_i$ by $n_j$ matrix for $1 \le m_i \le p$ and $1 \le n_j \le q$.
 Then a $p$ by $q$ stacking of all $A_{i, j}$ is an $\sum_{r=1}^p m_r$ by $\sum_{r=1}^q n_s$ matrix:
 
-\[ \operatorname{stack}(A) = \begin{bmatrix}
+\[ \operatorname{stack}(A)_{i, j} = \begin{bmatrix}
    A_{1, 1} & A_{1, 2} & \cdots & A_{1, q}
 \\ A_{2, 1} & A_{2, 2} & \cdots & A_{2, q}
 \\ \vdots   & \vdots   & \ddots & \vdots
