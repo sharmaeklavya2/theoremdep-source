@@ -36,4 +36,5 @@ When all items have different types ($m = n, b_i = 1$), we get this LP:
 \end{align}
 
 We will get different LPs depending on which items are declared to be of the same type.
-I don't know whether this choice affects the value of $\lin(I)$.
+However, we can prove that <a href="identical.html">
+these LPs have the same optimal objective value</a>.
