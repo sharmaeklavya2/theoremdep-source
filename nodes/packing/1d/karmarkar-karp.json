@@ -6,6 +6,7 @@
         "/packing/1d/next-fit",
         "/packing/config-lp/config-lp",
         "/packing/1d/fptas-for-config-lp",
+        "/packing/config-lp/identical",
         "/packing/config-lp/prec",
         "/packing/1d/harmonic-grouping",
         "/packing/config-lp/size-lb"

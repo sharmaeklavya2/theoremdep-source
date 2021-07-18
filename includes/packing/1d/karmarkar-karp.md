@@ -68,8 +68,6 @@ Therefore, $x - \floor{x}$ is a feasible solution to $\LP(I_2)$.
 \\ &\le (\lin(I') + \delta) - \lin(I_2)  \tag{$x$ is approx optimal for $\LP(I')$}
 \\ &\le \lin(I) - \lin(I_2) + \delta  \tag{$I' \preceq I$}
 \end{align}
-<span class="text-danger">How can we compare configuration LPs of $I'$ and $I$
-if they categorize items into types differently?</span>
 
 <span class="text-danger">It looks like we have assumed that we can solve
 the configuration LP of $I$ exactly. We should fix this.</span>
