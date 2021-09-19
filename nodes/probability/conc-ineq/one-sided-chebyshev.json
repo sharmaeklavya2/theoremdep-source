@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/variance/variance",
+        "/probability/rand-vars/linearity-of-expec",
+        "/probability/rand-vars/cauchy-schwarz"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "One-sided Chebyshev's inequality",
+        "description": "Let X be a random variable with mean μ and variance σ². Then P(X ≥ μ + a) ≤ σ²/(σ²+a²)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/conc-ineq/one-sided-chebyshev.md"
+    }
+}

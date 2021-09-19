@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/linearity-of-expec",
+        "/linear-algebra/inner-product-spaces/inner-product-space",
+        "/linear-algebra/inner-product-spaces/cauchy-schwarz-inequality"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Cauchy-Schwarz inequality for random variables",
+        "description": "Let X and Y be two complex-valued random variables. Then |E(XY')|² ≤ E(|X|²)E(|Y|²)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/cauchy-schwarz.md"
+    }
+}
