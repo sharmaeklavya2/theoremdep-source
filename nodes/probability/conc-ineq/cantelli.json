@@ -4,15 +4,16 @@
         "/probability/rand-vars/expected-value",
         "/probability/rand-vars/variance/variance",
         "/probability/rand-vars/linearity-of-expec",
-        "/probability/rand-vars/cauchy-schwarz"
+        "/probability/conc-ineq/markov"
     ],
     "metadata": {
         "type": "theorem",
-        "title": "One-sided Chebyshev's inequality",
-        "description": "Let X be a random variable with mean μ and variance σ². Then P(X ≥ μ + a) ≤ σ²/(σ²+a²)."
+        "title": "Cantelli's inequality",
+        "keywords": ["one-sided", "chebyshev"],
+        "description": "Let X be a random variable with mean μ and variance σ². Then P(X ≥ μ + t) ≤ σ²/(σ²+t²)."
     },
     "document": {
         "type": "include",
-        "path": "/probability/conc-ineq/one-sided-chebyshev.md"
+        "path": "/probability/conc-ineq/cantelli.md"
     }
 }
