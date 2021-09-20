@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/basis/basis",
+        "/linear-algebra/vector-spaces/basis/n-linindep-is-basis"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Preserving a basis by replacing a vector"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/basis/replace-vector.md"
+    }
+}
