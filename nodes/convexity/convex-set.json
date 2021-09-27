@@ -1,7 +1,7 @@
 {
     "deps": [
         "/linear-algebra/vector-spaces/vector-space",
-        "/analysis/convex-combination"
+        "/convexity/convex-combination"
     ],
     "metadata": {
         "type": "def",
@@ -10,6 +10,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/analysis/convex-set.md"
+        "path": "/convexity/convex-set.md"
     }
 }

@@ -1,7 +1,7 @@
 {
     "deps": [
         "/linear-algebra/vector-spaces/vector-space",
-        "/analysis/convex-set"
+        "/convexity/convex-set"
     ],
     "metadata": {
         "type": "def",
