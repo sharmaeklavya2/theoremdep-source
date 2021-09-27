@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/vector-space"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Convex combination and convex hull"
+    },
+    "document": {
+        "type": "include",
+        "path": "/analysis/convex-combination.md"
+    }
+}

@@ -1,6 +1,7 @@
 {
     "deps": [
-        "/linear-algebra/vector-spaces/vector-space"
+        "/linear-algebra/vector-spaces/vector-space",
+        "/analysis/convex-combination"
     ],
     "metadata": {
         "type": "def",
