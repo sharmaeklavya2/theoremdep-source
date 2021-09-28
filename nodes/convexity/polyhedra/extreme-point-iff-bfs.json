@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/convexity/extreme-point",
+        "/convexity/polyhedra/bfs",
+        "/linear-algebra/matrices/rank",
+        "/linear-algebra/system-of-linear-equations/rank-homogenous"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Extreme point iff BFS",
+        "description": "x is an extreme point of polyhedron P iff x is a BFS of P."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/extreme-point-iff-bfs.md"
+    }
+}
