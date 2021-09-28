@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/convexity/convex-set",
+        "/convexity/direction"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Extreme directions of a convex set",
+        "description": "d is an extreme direction of a convex set S iff d cannot be written as a positive linear combination of two non-collinear directions of S."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/extreme-direction.md"
+    }
+}

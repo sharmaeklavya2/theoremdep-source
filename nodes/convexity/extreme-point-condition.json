@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/convexity/convex-set",
+        "/convexity/extreme-point"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Condition for a point to be extreme",
+        "description": "x is a non-extreme point of S iff there is a non-zero vector y such that x+y ∈ S and x-y ∈ S."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/extreme-point-condition.md"
+    }
+}

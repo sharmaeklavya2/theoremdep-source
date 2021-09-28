@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/vector-spaces/vector-space"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Cone",
+        "description": "A set S is a cone if any non-negative linear combination of elements from S is also an element of S."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/cone.md"
+    }
+}

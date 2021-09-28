@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/convexity/convex-set"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Direction of a convex set",
+        "description": "d is a direction of a convex set S iff d ≠ 0 and ∀ x ∈ S, {x + λd: λ ≥ 0} ⊆ S."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/direction.md"
+    }
+}

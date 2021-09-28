@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Vertex of a set",
+        "keywords": ["vertices"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/vertex.md"
+    }
+}

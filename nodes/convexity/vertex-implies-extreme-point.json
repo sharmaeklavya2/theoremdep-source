@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space",
+        "/convexity/vertex",
+        "/convexity/extreme-point"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Vertex implies extreme point"
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/vertex-implies-extreme-point.md"
+    }
+}
