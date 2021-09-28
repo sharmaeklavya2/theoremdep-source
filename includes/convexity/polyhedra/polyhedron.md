@@ -34,7 +34,6 @@ Hence, $z \in P$.
 ## Proof that a polyhedral cone is a cone
 
 Let $P = \{x: Ax \ge 0\}$.
-Let $x, y \in P$. Let $\alpha \ge 0$ and $\beta \ge 0$.
-Let $z = \alpha x + \beta y$. Then
-$Az = A(\alpha x + \beta y) = \alpha(Ax) + \beta(Ay) \ge 0$.
-Hence, $z \in P$. So $P$ is a cone.
+Let $x \in P$ and $\alpha \ge 0$.
+Then $A(\alpha x) = \alpha(Ax) \ge 0$, so $\alpha x \in P$.
+Hence, $P$ is a cone.

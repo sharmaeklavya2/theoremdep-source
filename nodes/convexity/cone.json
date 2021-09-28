@@ -5,7 +5,7 @@
     "metadata": {
         "type": "def",
         "title": "Cone",
-        "description": "A set S is a cone if any non-negative linear combination of elements from S is also an element of S."
+        "description": "A set S is a cone if for any non-negative α, x ∈ S ⟹ αx ∈ S."
     },
     "document": {
         "type": "include",
