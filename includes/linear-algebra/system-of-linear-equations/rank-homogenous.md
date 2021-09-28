@@ -1,5 +1,8 @@
 Let $AX = 0$ be a system of $m$ linear equations in $n$ variables.
 Then $\operatorname{rank}(A) = n \iff$ the only solution is $X = 0$.
+If $\operatorname{rank}(A) < n$, then $AX = 0$ has infinitely many solutions.
+($\operatorname{rank}(A) > n$ is not possible.)
+Also, $\dim(\{x: Ax = 0\}) = n - \operatorname{rank}(A)$.
 
 ## Proof
 
@@ -37,9 +40,20 @@ Therefore, by fixing arbitrary values for non-pivot variables,
 we can find a unique value of the $i^{\textrm{th}}$ pivot variable
 which satisfies the $i^{\textrm{th}}$ equation.
 
+If $z$ is a non-zero solution to $AX = 0$, then $\beta z$ is also a solution to $AX = 0$
+for any $\beta \in \mathbb{R}$. Hence, if $AX = 0$ has a non-zero solution,
+then there are an infinite number of solutions.
+
 If $\operatorname{rank}(A) < n$, then $Q \neq \{\}$.
-Therefore, a non-trivial solution exists because non-pivot variables can take on non-zero values.
+Therefore, a non-zero solution exists because non-pivot variables can take on non-zero values.
 
 If $\operatorname{rank}(A) = n$, every column is a pivot column, so $Q = \{\}$.
 \[ X[\alpha_i, 1] = - \sum_{j \in Q} R[i, j] X[j, 1] = 0 \]
 Therefore, $X = 0$.
+
+Let $z^{(i)}$ be a solution to $AX = 0$ where the $i^{\textrm{th}}$ non-pivot variable is 1
+and the other non-pivot variables are 0.
+Then any solution to $AX = 0$ can be written as a linear combination of
+$\{z^{(i)}: 1 \le i \le |Q|\}$.
+Furthermore, $\{z^{(i)}: 1 \le i \le |Q|\}$ is linearly independent.
+Hence, it is a basis of $\{x: Ax = 0\}$, and so $\dim(\{x: Ax = 0\}) = |Q| = n - \operatorname{rank}(A)$.
