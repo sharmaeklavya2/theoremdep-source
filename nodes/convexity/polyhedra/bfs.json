@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/convexity/polyhedra/polyhedron"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Basic feasible solutions",
+        "description": "Let P = {x: Ax ≤ b, Cx = d} be a polyhedron in R^n. Points in P for which at least n constraints are tight are called basic feasible solutions."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/bfs.md"
+    }
+}

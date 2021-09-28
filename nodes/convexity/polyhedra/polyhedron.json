@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/linear-algebra/matrices/matrix",
+        "/convexity/convex-set",
+        "/convexity/cone"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Polyhedral set",
+        "description": "A set defined as the intersection of halfspaces is a polyhedral set.",
+        "keywords": ["polyhedron", "polyhedral set", "polyhedral cone", "standard form"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/polyhedron.md"
+    }
+}
