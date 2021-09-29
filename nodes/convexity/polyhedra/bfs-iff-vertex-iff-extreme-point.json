@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/convexity/extreme-point",
+        "/convexity/vertex",
+        "/convexity/vertex-implies-extreme-point",
+        "/convexity/polyhedra/bfs",
+        "/convexity/polyhedra/extreme-point-iff-bfs",
+        "/convexity/polyhedra/bfs-is-vertex"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "BFS iff vertex iff extreme point",
+        "description": "For a polyhedron, the set of basic feasible solutions is the same as the set of vertices and is the same as the set of extreme points."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/bfs-iff-vertex-iff-extreme-point.md"
+    }
+}
