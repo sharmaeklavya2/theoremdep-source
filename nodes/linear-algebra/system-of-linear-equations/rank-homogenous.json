@@ -3,7 +3,8 @@
         "/linear-algebra/system-of-linear-equations/system-of-linear-equations",
         "/linear-algebra/matrices/rank",
         "/linear-algebra/matrices/unique-rref",
-        "/linear-algebra/system-of-linear-equations/row-equiv-have-same-solutions"
+        "/linear-algebra/system-of-linear-equations/row-equiv-have-same-solutions",
+        "/linear-algebra/vector-spaces/basis/basis"
     ],
     "metadata": {
         "type": "theorem",
