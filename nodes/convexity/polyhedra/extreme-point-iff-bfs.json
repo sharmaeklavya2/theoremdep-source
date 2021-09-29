@@ -2,6 +2,7 @@
     "deps": [
         "/convexity/extreme-point",
         "/convexity/polyhedra/bfs",
+        "/linear-algebra/vector-spaces/linindep",
         "/linear-algebra/matrices/rank",
         "/linear-algebra/system-of-linear-equations/rank-homogenous"
     ],
