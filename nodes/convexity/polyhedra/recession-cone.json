@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/convexity/cone",
+        "/convexity/direction",
+        "/convexity/polyhedra/polyhedron"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Recession cone of a polyhedron"
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/recession-cone.md"
+    }
+}
