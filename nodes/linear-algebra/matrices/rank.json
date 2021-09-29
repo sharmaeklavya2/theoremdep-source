@@ -1,7 +1,10 @@
 {
     "deps": [
         "/abstract-algebra/rings/field",
-        "/linear-algebra/matrices/unique-rref"
+        "/linear-algebra/matrices/unique-rref",
+        "/linear-algebra/matrices/row-space",
+        "/linear-algebra/vector-spaces/basis/basis",
+        "/linear-algebra/matrices/row-equiv-matrices-have-same-row-space"
     ],
     "metadata": {
         "type": "def",

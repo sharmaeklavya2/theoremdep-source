@@ -1,11 +1,14 @@
 {
     "deps": [
-        "/linear-algebra/matrices/matrix"
+        "/linear-algebra/matrices/matrix",
+        "/linear-algebra/vector-spaces/vector-space",
+        "/linear-algebra/matrices/vector-space",
+        "/linear-algebra/vector-spaces/condition-for-subspace"
     ],
     "metadata": {
-        "type": "def",
+        "type": "theoremdef",
         "title": "Row space",
-        "description": "The row space of a matrix is the set of all linear combinations of the rows of the matrix."
+        "description": "The row space of a matrix is the set of all linear combinations of the rows of the matrix. The row space is a vector space."
     },
     "document": {
         "type": "include",
