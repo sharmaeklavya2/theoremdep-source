@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/convexity/polyhedra/polyhedron",
+        "/convexity/extreme-direction",
+        "/convexity/extreme-point",
+        "/convexity/polyhedra/recession-cone"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Extreme directions of polyhedron in positive orthant",
+        "description": "Let P be a polyhedron in the positive orthant. Then the normalized extreme directions of P are the extreme points of another polytope."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/orth-extr-dir.md"
+    }
+}
