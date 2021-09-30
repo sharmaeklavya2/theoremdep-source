@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/convexity/polyhedra/bfs",
+        "/linear-algebra/matrices/rank",
+        "/linear-algebra/system-of-linear-equations/rank-homogenous"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Condition for existence of BFS in a polyhedron",
+        "description": "For a non-empty polyhedron P, a BFS exists in P iff there is no line in P iff the constraint matrix has full rank."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/bfs-existence.md"
+    }
+}

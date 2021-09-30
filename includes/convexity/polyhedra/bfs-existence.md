@@ -1,7 +1,6 @@
 <span class="invisible">
 $\newcommand{\eps}{\varepsilon}$
 $\newcommand{\xhat}{\widehat{x}}$
-$\newcommand{\xtild}{\widetilde{x}}$
 $\newcommand{\xstar}{x^*}$
 $\newcommand{\rank}{\operatorname{rank}}$
 </span>
