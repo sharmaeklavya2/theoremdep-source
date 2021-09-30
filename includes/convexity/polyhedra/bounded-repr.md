@@ -12,9 +12,13 @@ Let $S$ be the set of basic feasible solutions of $P$.
 
 Let $\xhat \in P$, and $B$ be a matrix whose rows are $\{a_i^T: a_i^T\xhat = b_i\}$.
 Then $\xhat \in P$ can be represented as a convex combination of
-at most $n + 1 - \rank(B)$ points.
+at most $n + 1 - \rank(B)$ points in $S$.
+(We can prove that $S$ is non-empty.)
 
 ## Proof
+
+Since $P$ is bounded, it cannot contain a line.
+Hence, $S$ is non-empty.
 
 We will prove this using induction on $\rank(B)$.
 If $\rank(B) = n$, then $\xhat$ is a BFS, so we are done.
@@ -60,9 +64,9 @@ Then $C$ contains the rows of $B$ and contains $a_k^T$.
 Hence, $\rank(C) > \rank(B) = r$.
 
 By the inductive hypothesis, $\xstar$ can be represented as a convex combination
-of at most $n - \rank(C) + 1 \le n - r$ extreme points of $P$.
+of at most $n - \rank(C) + 1 \le n - r$ basic feasible solutions of $P$.
 \[ \xstar = \xhat + \lambda^* (\xhat - y)
 \implies \xhat = \frac{1}{1 + \lambda^*}\xstar + \frac{\lambda^*}{1+\lambda^*}y. \]
 Since $\xhat$ is a convex combination of $\xstar$ and $y$,
 by the transitivity of convexity, we get that
-$\xhat$ is a convex combination of at most $n - r + 1$ points.
+$\xhat$ is a convex combination of at most $n - r + 1$ basic feasible solutions of $P$.
