@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/convexity/polyhedra/bfs",
+        "/linear-algebra/matrices/rank",
+        "/linear-algebra/system-of-linear-equations/rank-homogenous",
+        "/convexity/polyhedra/bfs-existence",
+        "/convexity/transitivity"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Point in polytope is convex combination of BFS",
+        "description": "Every point in a polytope can be expressed as a convex combination of basic feasible solutions of the polytope."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/bounded-repr.md"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/convexity/convex-combination"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Transitivity of convexity",
+        "description": "If x is a convex combination of set Y and each y_i ∈ Y is a convex combination of Z_i, then x is a convex combination of Z_1 ∪ Z_2 ∪ ..."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/transitivity.md"
+    }
+}
