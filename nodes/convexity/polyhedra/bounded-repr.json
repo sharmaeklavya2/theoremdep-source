@@ -9,7 +9,7 @@
     "metadata": {
         "type": "theorem",
         "title": "Point in polytope is convex combination of BFS",
-        "description": "Every point in a polytope can be expressed as a convex combination of basic feasible solutions of the polytope."
+        "description": "Let P be a polyhedron that doesn't contain a ray. Then every point in P can be expressed as a convex combination of basic feasible solutions of P."
     },
     "document": {
         "type": "include",

@@ -7,7 +7,9 @@ $\newcommand{\argmax}{\operatorname{argmax}}$
 $\newcommand{\argmin}{\operatorname{argmin}}$
 </span>
 Let $P = \{x: (a_i^Tx \ge b_i, \forall i \in I) \textrm{ and } (a_i^Tx = b_i, \forall i \in E)\}$
-be a non-empty bounded polyhedron in $\mathbb{R}^n$.
+be a non-empty polyhedron in $\mathbb{R}^n$ that does not contain a ray.
+A ray is a set of the form $\{z + \lambda d: \lambda \ge 0\}$,
+where $z \in \mathbb{R}^n$ and $d \in \mathbb{R}^n - \{0\}$.
 Let $S$ be the set of basic feasible solutions of $P$.
 
 Let $\xhat \in P$, and $B$ be a matrix whose rows are $\{a_i^T: a_i^T\xhat = b_i\}$.
@@ -17,7 +19,7 @@ at most $n + 1 - \rank(B)$ points in $S$.
 
 ## Proof
 
-Since $P$ is bounded, it cannot contain a line.
+Since $P$ does not contain a ray, it cannot contain a line.
 Hence, $S$ is non-empty.
 
 We will prove this using induction on $\rank(B)$.
@@ -40,7 +42,7 @@ When $i \in T$, $a_i^Td = 0$, so $a_i^T(\xhat + \lambda d) = a_i^T\xhat = b_i$.
 If $a_i^Td \ge 0$ for all $i$, then for all $\lambda \ge 0$, we get
 $a_i^T(\xhat + \lambda d) = a_i^T\xhat + \lambda a_i^Td \ge a_i^T\xhat \ge b_i$.
 Thus, $\xhat + \lambda d \in P'$ for all $\lambda \ge 0$.
-But this isn't possible since $P'$ is bounded.
+But this isn't possible since $P$ does not contain a ray.
 Hence, $\exists k$ such that $a_k^Td < 0$.
 In fact, choose $k$ as $\argmin_{i: a_i^Td < 0} (b_i - a_i^T\xhat)/(a_i^Td)$.
 Let $\lambda^* = (b_k - a_k^T\xhat)/(a_k^Td)$.

@@ -1,7 +1,10 @@
-Let $P = \{x: (a_i^Tx \ge b_i, \forall i \in I) \textrm{ and } (a_i^Tx = b_i, \forall i \in E)\}$.
+Let $P = \{x: (a_i^Tx \ge b_i, \forall i \in I) \textrm{ and } (a_i^Tx = b_i, \forall i \in E)\}$
+be a non-empty polyhedron.
 Let $Q$ be the set of all directions of $P$.
 Let $R = \{x: (a_i^Tx \ge 0, \forall i \in I) \textrm{ and } (a_i^Tx = 0, \forall i \in E)\}$.
 Then $Q = R$.
+$Q$ is called the recession cone of $P$,
+since $R$ is a cone.
 
 ## Proof that $R \subseteq Q$
 
