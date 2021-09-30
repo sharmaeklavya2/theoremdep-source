@@ -1,0 +1,12 @@
+{
+    "deps": [
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "min linear over sum=1 constraint"
+    },
+    "document": {
+        "type": "include",
+        "path": "/optimization/sum-1.md"
+    }
+}
