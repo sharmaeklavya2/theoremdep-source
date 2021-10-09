@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/cond-over-rand-var"
+    ],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Law of total probability: P(A) = E(P(A|X))"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/ltp2.md"
+    }
+}

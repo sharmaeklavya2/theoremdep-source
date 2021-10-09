@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/cond-expec"
+    ],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Law of total probability: E(Y) = E(E(Y|X))"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/ltp3.md"
+    }
+}
