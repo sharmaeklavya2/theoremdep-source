@@ -6,10 +6,10 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Conditional decomposition of expectation"
+        "title": "Law of total probability: decomposing expectation over countable events"
     },
     "document": {
         "type": "include",
-        "path": "/probability/rand-vars/cond-expec-decomp.md"
+        "path": "/probability/rand-vars/ltp1.md"
     }
 }
