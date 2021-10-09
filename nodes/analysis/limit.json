@@ -1,0 +1,12 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Limit of a function at a point",
+        "description": "Limit of a function at a point"
+    },
+    "document": {
+        "type": "include",
+        "path": "/analysis/limit.md"
+    }
+}
