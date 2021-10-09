@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/probability/prob-and-events/cond-prob"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Conditioning over random variable",
+        "description": "Let X be a random variable and A be an event. Let g(x) = P(A|X=x). Then P(A|X) is defined as g(X)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/cond-over-rand-var.md"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/prob-and-events/probability",
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/variance/variance",
+        "/probability/prob-and-events/cond-prob"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Conditional variance"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/variance/cond-var.md"
+    }
+}
