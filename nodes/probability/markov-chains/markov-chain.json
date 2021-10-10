@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/probability/prob-and-events/cond-prob",
+        "/linear-algebra/matrices/matrix"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Markov chain"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/markov-chain.md"
+    }
+}

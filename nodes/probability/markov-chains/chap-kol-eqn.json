@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain",
+        "/linear-algebra/matrices/matrix",
+        "/linear-algebra/matrices/identity"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Chapman-Kolmogorov equation",
+        "description": "Let P be the transition matrix of a markov chain. Then the probability of being in state j after t steps starting from state i is (P^t)[i,j]."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/chap-kol-eqn.md"
+    }
+}
