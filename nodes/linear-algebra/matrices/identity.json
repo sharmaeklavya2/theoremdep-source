@@ -1,12 +1,11 @@
 {
     "deps": [
-        "/linear-algebra/matrices/matrix",
-        "/polynomials/compare-coeff-disjoint-var"
+        "/abstract-algebra/semiring",
+        "/linear-algebra/matrices/matrix"
     ],
     "metadata": {
-        "type": "theoremdef",
-        "title": "Identity matrix",
-        "description": "The identity matrix is a matrix I such that AI = IA = A."
+        "type": "def",
+        "title": "Identity matrix"
     },
     "document": {
         "type": "include",

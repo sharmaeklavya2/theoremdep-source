@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/abstract-algebra/semiring",
+        "/linear-algebra/matrices/matrix",
+        "/linear-algebra/matrices/identity",
+        "/polynomials/compare-coeff-disjoint-var"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Identity matrix is identity of matrix product",
+        "description": "The identity matrix is the unique matrix I satisfying (∀A, I = IA = A)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/matrices/identity-condition.md"
+    }
+}
