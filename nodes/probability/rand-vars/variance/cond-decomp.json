@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/expected-value",
+        "/probability/rand-vars/variance/variance",
+        "/probability/rand-vars/cond-expec",
+        "/probability/rand-vars/variance/cond-var",
+        "/probability/rand-vars/linearity-of-expec",
+        "/probability/rand-vars/ltp3"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Var(Y) = Var(E(Y|X)) + E(Var(Y|X))"
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/variance/cond-decomp.md"
+    }
+}
