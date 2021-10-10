@@ -1,5 +1,5 @@
 Let $X = [X_0, X_1, \ldots]$ be a markov chain having transition matrix $P$.
-For any non-negative integer $n$, let $P^{(n)}(i, j) = \Pr(X_n = j \mid X_0 = i)$.
+Recall that for any non-negative integer $n$, we have $P^{(n)}(i, j) = \Pr(X_n = j \mid X_0 = i)$.
 Then for any $m \ge 0$ and $n \ge 0$, we get
 \[ P^{(m+n)}(i, j) = \sum_{k}P^{(m)}(i, k)P^{(n)}(k, j). \]
 This equation is called the *Chapman-Kolmogorov equation*.

@@ -16,9 +16,14 @@ $\Xvec$ is said to be *time-homogeneous* iff $\forall t \ge 0$, $\forall i \in D
 $\Pr(X_{t+2} = j \mid X_{t+1} = i) = \Pr(X_{t+1} = j \mid X_t = i)$.
 We will assume that markov chains are time-homogeneous unless specified otherwise.
 For a time-homogenous markov chain, let $P(i, j) = \Pr(X_1 = j \mid X_0 = i)$.
-Then $P$ is called the transition function of $\Xvec$.
-If $D$ is discrete, $P$ is often denoted as a matrix, where $P_{i,j} = P(i, j)$.
-This matrix is called the *single-step transition matrix* of $\Xvec$.
+Then $P$ is called the *single-step transition function* of $\Xvec$
+(usually just called *transition function*).
+For any non-negative integer $n$, define $P^{(n)}(i, j) = \Pr(X_n = j \mid X_0 = i)$.
+Then $P$ is called the *$n$-step transition function* of $\Xvec$.
+Note that $P^{(1)} = P$.
+If $D$ is discrete, $P^{(n)}$ is often denoted as a matrix,
+where $P^{(n)}_{i,j} = P^{(n)}(i, j)$.
+This matrix is called the *$n$-step transition matrix* of $\Xvec$.
 
 ## Basic facts about markov chains
 
