@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain",
+        "/probability/markov-chains/recurrence"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Markov chains: positive recurrence",
+        "description": "A recurrent state is called positive recurrent if the expected time to return to that state is finite."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/positive-rec.md"
+    }
+}
