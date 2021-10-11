@@ -1,0 +1,23 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain",
+        "/probability/markov-chains/state-classes",
+        "/probability/markov-chains/positive-rec",
+        "/probability/markov-chains/long-run-prop-vs-time-to-reenter"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Markov chains: positive recurrence is a class property",
+        "description": "If a state is positive recurrent, then all states in its class are positive recurrent."
+    },
+    "document": [
+        {
+            "type": "include",
+            "path": "/probability/markov-chains/pos-rec-class.md"
+        },
+        {
+            "type": "include",
+            "path": "/bib/book/intro-to-prob-models.html"
+        }
+    ]
+}

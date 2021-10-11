@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain",
+        "/probability/markov-chains/recurrence",
+        "/probability/markov-chains/state-classes",
+        "/probability/markov-chains/long-run-prop"
+    ],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Markov chains: long run proportion is inverse of time to reenter",
+        "description": "Let m_j be the expected time to return to state j starting from state j. Let i be a state that communicates with j. Then the long run proportion of state j starting from i is 1/m_j."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/long-run-prop-vs-time-to-reenter.md"
+    }
+}

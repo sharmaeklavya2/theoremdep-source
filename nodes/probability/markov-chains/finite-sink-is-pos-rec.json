@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain",
+        "/probability/markov-chains/state-classes",
+        "/probability/markov-chains/positive-rec",
+        "/probability/markov-chains/pos-rec-class"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Markov chains: finite sink is positive recurrent",
+        "description": "If no other state class is accessible from a finite state class J, then J is positive recurrent."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/finite-sink-is-pos-rec.md"
+    }
+}

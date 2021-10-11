@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Markov chains: long run proportion of a state",
+        "description": "The long run proportion of a state in a markov chain is the proportion of time spent in that state."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/long-run-prop.md"
+    }
+}
