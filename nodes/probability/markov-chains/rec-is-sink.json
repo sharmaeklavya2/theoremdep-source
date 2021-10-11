@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain",
+        "/probability/markov-chains/recurrence",
+        "/probability/markov-chains/state-classes",
+        "/probability/markov-chains/recurrence-class"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Markov chains: recurrent class is sink",
+        "description": "If a state class is recurrent, then no other class is accessible from it."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/rec-is-sink.md"
+    }
+}

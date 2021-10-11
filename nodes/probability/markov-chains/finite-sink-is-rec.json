@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain",
+        "/probability/markov-chains/recurrence",
+        "/probability/markov-chains/state-classes",
+        "/probability/markov-chains/recurrence-class",
+        "/probability/markov-chains/recurrence-n-visits"
+    ],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Markov chains: finite sink is recurrent",
+        "description": "In a markov chain, let I be a state class having a finite number of states. Then I is recurrent iff no other state class is accessible from I."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/finite-sink-is-rec.md"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain",
+        "/probability/markov-chains/recurrence",
+        "/probability/markov-chains/recurrence-infinite-visits"
+    ],
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Markov chains: recurrent state to acessible state",
+        "description": "If i is a recurrent state of a markov chain and state j is accessible from state i, then the marov chain will eventually reach j from i."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/rec-to-other.md"
+    }
+}
