@@ -1,10 +1,13 @@
-Let $X = [X_0, X_1, \ldots]$ be a markov chain with transition function $P$.
+Let $X = [X_0, X_1, \ldots]$ be a markov chain with transition function $P$ and state space $D$.
 
 State $j$ is said to be *accessible* from state $i$ iff
 $P^{(t)}(i, j) > 0$ for some $t \ge 0$.
-We can prove that accessibility is a reflexive and transitive relation.
+We can prove that $j$ is accessible from $i$ iff
+there exist states $k_0, k_2, \ldots, k_r$ such that
+$P(k_t, k_{t+1}) > 0, \forall 0 \le t < r$ and $k_0 = i$ and $k_r = j$.
+We can also prove that accessibility is a reflexive and transitive relation.
 
-States $i$ and $j$ are said to *commnicate* iff
+States $i$ and $j$ are said to *communicate* iff
 $i$ is accessible from $j$ and $j$ is accessible from $i$.
 We can prove that communication is an equivalence relation.
 Hence, communication partitions the state space into equivalence classes, called *state classes*.
@@ -15,6 +18,27 @@ State class $J$ is said to be accessible from state class $I$
 iff $\exists j \in J$ and $\exists i \in I$ such that $j$ is accessible from $i$.
 Then we can show that $\forall i \in I$ and $\forall j \in J$, $j$ is accessible from $i$.
 Furthermore, we can prove that accessibility induces a partial ordering on the state classes.
+
+## Intermediate transitions of accessibility
+
+$j$ is accessible from $i$ iff $\exists m \ge 0$ such that $P^{(m)}(i, j) > 0$.
+Let $k_0 = i$ and $k_m = j$.
+\begin{align}
+& P^{(m)}(i, j)
+\\ &= \Pr(X_m = j \mid X_0 = i)
+\\ &= \sum_{k_1 \in D} \sum_{k_2 \in D} \ldots \sum_{k_{m-1} \in D}
+    \Pr\left(\bigwedge_{t=1}^m X_t = k_t \mid X_0 = k_0\right)
+\\ &= \sum_{k_1 \in D} \sum_{k_2 \in D} \ldots \sum_{k_{m-1} \in D}
+    \prod_{t=1}^m \Pr\left(X_t = k_t \mid \bigwedge_{s=0}^{t-1} X_s = k_s\right)
+\\ &= \sum_{k_1 \in D} \sum_{k_2 \in D} \ldots \sum_{k_{m-1} \in D}
+    \prod_{t=1}^m \Pr\left(X_t = k_t \mid X_{t-1} = k_{t-1}\right)
+    \tag{by markov property}
+\\ &= \sum_{k_1 \in D} \sum_{k_2 \in D} \ldots \sum_{k_{m-1} \in D}
+    \prod_{t=1}^m P(k_{t-1}, k_t).
+\end{align}
+All these terms are non-negative.
+Hence, $P^{(m)}(i, j) > 0 \iff \exists k_0, k_2, \ldots, k_m$ such that
+$P(k_{t-1}, k_t) > 0, \forall 1 \le t \le m$ and $k_0 = i$ and $k_m = j$.
 
 ## Proof that accessibility of states is a reflexive and transitive relation
 

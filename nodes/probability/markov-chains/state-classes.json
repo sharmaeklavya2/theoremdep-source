@@ -7,7 +7,7 @@
     ],
     "metadata": {
         "type": "theoremdef",
-        "title": "Markov chains: state classes",
+        "title": "Markov chains: accessibility and state classes",
         "description": "Two states i and j in a markov chain are said to communicate iff P^n(i, j) > 0 and P^n(j, i) > 0. Communication is an equivalence relation, and the equivalence classes are called state classes.",
         "keywords": ["accessibility", "accessible", "communicate", "communicable", "irreducible", "irreducibility"]
     },
