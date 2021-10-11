@@ -5,7 +5,7 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Markov chain: recurrent iff infinite visits",
+        "title": "Markov chains: recurrent iff infinite visits",
         "description": "State i is recurrent iff we will visit it infinitely many times with probability 1."
     },
     "document": {
