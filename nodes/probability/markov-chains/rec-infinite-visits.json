@@ -10,6 +10,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/markov-chains/recurrence-infinite-visits.md"
+        "path": "/probability/markov-chains/rec-infinite-visits.md"
     }
 }

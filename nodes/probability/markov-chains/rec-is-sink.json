@@ -3,7 +3,7 @@
         "/probability/markov-chains/markov-chain",
         "/probability/markov-chains/recurrence",
         "/probability/markov-chains/state-classes",
-        "/probability/markov-chains/recurrence-class"
+        "/probability/markov-chains/rec-class"
     ],
     "metadata": {
         "type": "theorem",

@@ -2,7 +2,7 @@
     "deps": [
         "/probability/markov-chains/markov-chain",
         "/probability/markov-chains/recurrence",
-        "/probability/markov-chains/recurrence-infinite-visits"
+        "/probability/markov-chains/rec-infinite-visits"
     ],
     "status": "incomplete",
     "metadata": {

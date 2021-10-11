@@ -11,6 +11,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/probability/markov-chains/recurrence-n-visits.md"
+        "path": "/probability/markov-chains/rec-n-visits.md"
     }
 }
