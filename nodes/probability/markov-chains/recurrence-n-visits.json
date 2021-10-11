@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain",
+        "/probability/markov-chains/recurrence",
+        "/probability/rand-vars/linearity-of-expec"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Markov chains: recurrent iff expected number of visits is infinite",
+        "description": "State i is recurrent iff the expected number of times we visit it is infinite."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/recurrence-n-visits.md"
+    }
+}

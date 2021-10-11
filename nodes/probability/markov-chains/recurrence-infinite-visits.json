@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain",
+        "/probability/markov-chains/recurrence"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Markov chain: recurrent iff infinite visits",
+        "description": "State i is recurrent iff we will visit it infinitely many times with probability 1."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/recurrence-infinite-visits.md"
+    }
+}

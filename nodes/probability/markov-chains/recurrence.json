@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/probability/markov-chains/markov-chain"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Markov chain: recurrent states",
+        "description": "A state is recurrent iff the probability of returning to it is 1."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/markov-chains/recurrence.md"
+    }
+}
