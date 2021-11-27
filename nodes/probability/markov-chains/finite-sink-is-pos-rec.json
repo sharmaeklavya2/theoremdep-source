@@ -3,7 +3,9 @@
         "/probability/markov-chains/markov-chain",
         "/probability/markov-chains/state-classes",
         "/probability/markov-chains/positive-rec",
-        "/probability/markov-chains/pos-rec-class"
+        "/probability/markov-chains/pos-rec-class",
+        "/probability/markov-chains/long-run-prop",
+        "/probability/markov-chains/long-run-prop-vs-time-to-reenter"
     ],
     "metadata": {
         "type": "theorem",
