@@ -1,11 +1,12 @@
 {
     "deps": [
+        "/abstract-algebra/groups/group",
         "/abstract-algebra/rings/ring"
     ],
     "metadata": {
         "type": "def",
         "title": "Field",
-        "description": "(R, +, *) is a field iff (R, +) and (R, *) are abelian groups and the distributive property holds."
+        "description": "(R, +, *) is a field iff (R, +) and (R, *) are commutative groups and the distributive property holds."
     },
     "document": {
         "type": "include",

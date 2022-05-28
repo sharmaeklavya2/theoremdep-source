@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/abstract-algebra/groups/group",
         "/abstract-algebra/rings/field"
     ],
     "metadata": {

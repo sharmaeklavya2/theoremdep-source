@@ -5,7 +5,7 @@
     "metadata": {
         "type": "def",
         "title": "Ring",
-        "description": "A ring is a set with 2 operations (addition and multiplication) which satisfies certain properties."
+        "description": "A ring is a set with 2 operations (addition and multiplication) that satisfies certain properties."
     },
     "document": {
         "type": "include",

@@ -1,7 +1,7 @@
-$(R, +, \circ)$ is a field iff all of the following conditions are met:
+The ring $(R, +, \circ)$ is a field iff all of the following conditions are met:
 
-* $(R, +)$ is an abelian group (identity is denoted as 0).
-* $(R - \{0\}, \circ)$ is an abelian group (identity is denoted as 1).
+* $(R, +)$ is a commutative group (identity is denoted as 0).
+* $(R - \{0\}, \circ)$ is a commutative group (identity is denoted as 1).
 * Distributive property: $\forall a, b, c \in R, (a(b+c) = ab+ac \wedge (a+b)c = ac+bc)$.
 
 Consequently, a field is also a commutative ring.
