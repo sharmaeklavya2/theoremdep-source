@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/rand-vars/counting-process",
+        "/probability/distrs/poisson"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Poisson process",
+        "description": "A poisson process with parameter λ is a counting process with independent and stationary increments such that N(t) ~ Poisson(λt)."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/poisson-process/poisson-process.md"
+    }
+}

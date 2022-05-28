@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/analysis/exp-series"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Poisson distribution",
+        "description": "X is poisson distributed with parameter λ iff X is a non-negative integer and P(X = k) = e^(-λ)λ^k/k!."
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/distrs/poisson.md"
+    }
+}

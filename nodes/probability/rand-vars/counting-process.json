@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/probability/rand-vars/rand-var",
+        "/probability/rand-vars/rand-var-ind"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Counting process",
+        "description": "A counting process is a sequence of random variables that counts the number of events occuring over time.",
+        "keywords": ["independent", "stationary"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/probability/rand-vars/counting-process.md"
+    }
+}

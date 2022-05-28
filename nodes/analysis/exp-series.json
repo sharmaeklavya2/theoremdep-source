@@ -1,0 +1,13 @@
+{
+    "deps": [],
+    "deps_status": "incomplete",
+    "status": "incomplete",
+    "metadata": {
+        "type": "theorem",
+        "title": "Series expansion for e^x"
+    },
+    "document": {
+        "type": "include",
+        "path": "/analysis/exp-series.md"
+    }
+}
