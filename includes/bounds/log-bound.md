@@ -1,4 +1,4 @@
-\[ \forall x \in \mathbb{R}, \frac{x-1}{x} \le \ln x \le x-1 \]
+\[ \forall x > 0, \frac{x-1}{x} \le \ln x \le x-1 \]
 
 ## Proof
 
