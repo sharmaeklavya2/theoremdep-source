@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/linear-algebra/vector-spaces/vector-space",
         "/linear-algebra/vector-spaces/linindep",
         "/linear-algebra/vector-spaces/span"
     ],

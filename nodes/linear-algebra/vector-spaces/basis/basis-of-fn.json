@@ -1,5 +1,7 @@
 {
     "deps": [
+        "/abstract-algebra/rings/field",
+        "/linear-algebra/vector-spaces/vector-space",
         "/linear-algebra/matrices/vector-space",
         "/linear-algebra/vector-spaces/basis/basis"
     ],

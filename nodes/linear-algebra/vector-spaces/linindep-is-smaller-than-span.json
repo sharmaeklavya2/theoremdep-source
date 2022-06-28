@@ -8,7 +8,7 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Linearly independent set is smaller than a span",
+        "title": "Linearly independent set is not bigger than a span",
         "description": "The size of every finite linearly independent subset of a vector space is less than or equal to the size of every spanning set of that vector space."
     },
     "document": {
