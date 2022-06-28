@@ -1,10 +1,10 @@
 {
     "deps": [
+        "/linear-algebra/vector-spaces/vector-space",
         "/linear-algebra/vector-spaces/linindep",
         "/linear-algebra/vector-spaces/span",
-        "/linear-algebra/matrices/mult-assoc",
-        "/linear-algebra/system-of-linear-equations/more-variables-than-equations",
-        "/linear-algebra/matrices/transpose-of-product"
+        "/linear-algebra/matrices/matrix",
+        "/linear-algebra/system-of-linear-equations/more-variables-than-equations"
     ],
     "metadata": {
         "type": "theorem",
