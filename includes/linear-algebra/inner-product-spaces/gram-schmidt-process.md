@@ -1,14 +1,18 @@
-The Gram-Schmidt process takes a set of n linearly independent vectors as input and outputs a set of n orthogonal vectors which have the same span.
+<span class="invisible">
+$\newcommand{\Span}{\operatorname{span}}$
+</span>
+The Gram-Schmidt process takes a set of $n$ linearly independent vectors as input
+and outputs a set of $n$ orthogonal vectors which have the same span.
 
 Let $W = \{w_1, w_2, \ldots, w_n\}$ be a linearly independent set of vectors from an inner product space.
 Then the Gram-Schmidt process outputs $V = \{v_1, v_2, \ldots, v_n\}$ where
 
 \[ v_i = w_i - \sum_{j=1}^{i-1} c_{i, j} v_j
-\textrm{ where } c_{i, j} = \frac{\langle w_i, v_j \rangle}{\|v_j\|^2} \]
+\quad\textrm{where}\quad c_{i, j} = \frac{\langle w_i, v_j \rangle}{\|v_j\|^2} \]
 
 Then:
 
-* $\operatorname{span}(V) = \operatorname{span}(W)$.
+* $\Span(V) = \Span(W)$.
 * $\forall i, v_i \neq 0$.
 * $\forall i \neq j, \langle v_i, v_j \rangle = 0$.
 
@@ -20,7 +24,7 @@ Let $V_k = \{v_1, v_2, \ldots, v_k\}$ and $W_k = \{w_1, w_2, \ldots, w_k\}$.
 
 Let the predicate $P(k)$ be the 'logical and' of the following statements:
 
-1.  $\operatorname{span}(V_k) = \operatorname{span}(W_k)$.
+1.  $\Span(V_k) = \Span(W_k)$.
 2.  $\forall i \le k, v_i \neq 0$.
 3.  $\forall i < j \le k, \langle v_i, v_j \rangle = \langle v_j, v_i \rangle = 0$.
 
@@ -28,7 +32,7 @@ Base case:
 
 $v_1 = w_1$.
 
-1.  $\operatorname{span}(V_1) = \operatorname{span}(\{v_1\}) = \operatorname{span}(\{w_1\}) = \operatorname{span}(W_1)$.
+1.  $\Span(V_1) = \Span(\{v_1\}) = \Span(\{w_1\}) = \Span(W_1)$.
 2.  Since $W$ is linearly independent, $w_1 \neq 0 \Rightarrow v_1 \neq 0$.
 3.  The third part of $P(1)$ is trivially true.
 
@@ -40,35 +44,35 @@ Assume $P(k)$ is true (inductive hypothesis).
 
 ### Part 1
 
-\[ \forall i \le k, w_i \in \operatorname{span}(W_k) = \operatorname{span}(V_k) \subseteq \operatorname{span}(V_{k+1}) \]
+\[ \forall i \le k, w_i \in \Span(W_k) = \Span(V_k) \subseteq \Span(V_{k+1}) \]
 
-\[ w_{k+1} = v_{k+1} + \sum_{j=1}^k c_{k+1, j} v_j \in \operatorname{span}(V_{k+1}) \]
+\[ w_{k+1} = v_{k+1} + \sum_{j=1}^k c_{k+1, j} v_j \in \Span(V_{k+1}) \]
 
 Since, each of $w_1, w_2, \ldots, w_{k+1}$ is a linear combination of $V_{k+1}$.
 Their linear combination is also a linear combination of $V_{k+1}$.
-Therefore, $\operatorname{span}(W_{k+1}) \subseteq \operatorname{span}(V_{k+1})$.
+Therefore, $\Span(W_{k+1}) \subseteq \Span(V_{k+1})$.
 
-\[ \forall i \le k, v_i \in \operatorname{span}(V_k) = \operatorname{span}(W_k) \subseteq \operatorname{span}(W_{k+1}) \]
+\[ \forall i \le k, v_i \in \Span(V_k) = \Span(W_k) \subseteq \Span(W_{k+1}) \]
 
 \begin{align}
 & \sum_{j=1}^k c_{k+1, j} v_j
-    \in \operatorname{span}(V_k) = \operatorname{span}(W_k) \subseteq \operatorname{span}(W_{k+1})
+    \in \Span(V_k) = \Span(W_k) \subseteq \Span(W_{k+1})
 \\ &\Rightarrow v_{k+1} = w_{k+1} - \sum_{j=1}^k c_{k+1, j} v_j
-    \in \operatorname{span}(W_{k+1})
+    \in \Span(W_{k+1})
 \end{align}
 
 Since, each of $v_1, v_2, \ldots, v_{k+1}$ is a linear combination of $W_{k+1}$.
 Their linear combination is also a linear combination of $W_{k+1}$.
-Therefore, $\operatorname{span}(V_{k+1}) \subseteq \operatorname{span}(W_{k+1})$.
+Therefore, $\Span(V_{k+1}) \subseteq \Span(W_{k+1})$.
 
-Therefore, $\operatorname{span}(V_{k+1}) = \operatorname{span}(W_{k+1})$,
+Therefore, $\Span(V_{k+1}) = \Span(W_{k+1})$,
 which is part 1 of $P(k+1)$.
 
 ### Part 2
 
-\[ v_{k+1} = 0 \implies w_{k+1} = \sum_{i=1}^k c_{k+1, i} v_i \in \operatorname{span}(V_k) = \operatorname{span}(W_k) \]
+\[ v_{k+1} = 0 \implies w_{k+1} = \sum_{i=1}^k c_{k+1, i} v_i \in \Span(V_k) = \Span(W_k) \]
 
-$w_{k+1} \in \operatorname{span}(W_k)$ means $W_{k+1}$ is linearly dependent, which is a contradiction.
+$w_{k+1} \in \Span(W_k)$ means $W_{k+1}$ is linearly dependent, which is a contradiction.
 Therefore, $v_{k+1} \neq 0$.
 Combining this fact with part 2 of $P(k)$, we get $\forall i \le k+1, v_i \neq 0$,
 which is the part 2 of $P(k+1)$.

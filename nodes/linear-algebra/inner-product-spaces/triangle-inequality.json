@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/linear-algebra/inner-product-spaces/norm",
+        "/linear-algebra/inner-product-spaces/inner-product-space",
         "/linear-algebra/inner-product-spaces/cauchy-schwarz-inequality",
         "/complex-numbers/real-part-less-than-abs"
     ],

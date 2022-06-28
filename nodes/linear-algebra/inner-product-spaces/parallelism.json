@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space",
         "/linear-algebra/inner-product-spaces/antilin-in-2nd",
         "/linear-algebra/inner-product-spaces/zero"
     ],

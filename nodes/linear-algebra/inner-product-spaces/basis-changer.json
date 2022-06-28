@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space",
         "/linear-algebra/vector-spaces/basis/basis",
         "/linear-algebra/inner-product-spaces/orthogonality",
         "/linear-algebra/matrices/orthogonal"

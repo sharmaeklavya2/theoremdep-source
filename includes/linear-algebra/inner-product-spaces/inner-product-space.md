@@ -14,3 +14,4 @@ $V$ is an inner product space if it satisfies the following properties:
     * $\langle \mathbf{v}, \mathbf{v} \rangle = 0 \iff \mathbf{v} = 0$.
 
 $\langle \mathbf{v}, \mathbf{v} \rangle$ is also denoted as $\|\mathbf{v}\|^2$.
+Also, $\operatorname{norm}(\mathbf{v}) = \|\mathbf{v}\| = \sqrt{\langle \mathbf{v}, \mathbf{v} \rangle}$.

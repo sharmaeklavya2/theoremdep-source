@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/abstract-algebra/rings/field",
         "/linear-algebra/vector-spaces/vector-space"
     ],
     "metadata": {
