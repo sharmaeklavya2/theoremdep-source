@@ -3,7 +3,8 @@
         "/convexity/polyhedra/polyhedron",
         "/convexity/extreme-direction",
         "/convexity/extreme-point",
-        "/convexity/polyhedra/recession-cone"
+        "/convexity/polyhedra/recession-cone",
+        "/convexity/extdir-of-ccone-as-extp-of-inter"
     ],
     "metadata": {
         "type": "theorem",

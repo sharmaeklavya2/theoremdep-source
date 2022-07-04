@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space",
+        "/convexity/convex-set",
+        "/convexity/cone",
+        "/convexity/extreme-direction",
+        "/convexity/extreme-point",
+        "/convexity/convex-combination",
+        "/linear-algebra/inner-product-spaces/antilin-in-2nd"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Extreme direction of convex cone as extreme point of intersection with hyperplane",
+        "description": "Let C be a convex cone. Then for some hyperplane H, extreme directions of C correspond to extreme points of C∩H."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/extdir-of-ccone-as-extp-of-inter.md"
+    }
+}
