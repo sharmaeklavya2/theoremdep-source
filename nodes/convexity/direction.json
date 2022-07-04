@@ -4,9 +4,9 @@
         "/convexity/cone"
     ],
     "metadata": {
-        "type": "def",
-        "title": "Direction of a convex set",
-        "description": "d is a direction of a convex set S iff ∀ x ∈ S, {x + λd: λ ≥ 0} ⊆ S."
+        "type": "theoremdef",
+        "title": "Direction of a convex set and Recession cone",
+        "description": "d is a direction of a convex set S iff ∀ x ∈ S, {x + λd: λ ≥ 0} ⊆ S. The recession cone of S is the set of all directions of S. The recession cone is a convex cone."
     },
     "document": {
         "type": "include",
