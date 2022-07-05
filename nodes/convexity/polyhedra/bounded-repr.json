@@ -1,5 +1,6 @@
 {
     "deps": [
+        "/convexity/polyhedra/polyhedron",
         "/convexity/polyhedra/bfs",
         "/linear-algebra/matrices/rank",
         "/linear-algebra/system-of-linear-equations/rank-homogenous",

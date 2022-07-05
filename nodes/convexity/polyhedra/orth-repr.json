@@ -1,15 +1,14 @@
 {
     "deps": [
+        "/convexity/polyhedra/polyhedron",
         "/convexity/polyhedra/bfs",
+        "/convexity/direction",
         "/convexity/extreme-direction",
-        "/convexity/polyhedra/bfs-existence",
-        "/convexity/polyhedra/bounded-repr",
-        "/linear-algebra/vector-spaces/basis/basis",
         "/linear-algebra/matrices/rank",
-        "/convexity/polyhedra/extreme-point-iff-bfs",
-        "/convexity/polyhedra/recession-cone",
-        "/convexity/polyhedra/orth-extr-dir",
-        "/linear-algebra/system-of-linear-equations/rank-homogenous"
+        "/convexity/polyhedra/bfs-existence",
+        "/convexity/polyhedra/cone-repr",
+        "/convexity/polyhedra/bounded-repr",
+        "/convexity/transitivity"
     ],
     "metadata": {
         "type": "theorem",
