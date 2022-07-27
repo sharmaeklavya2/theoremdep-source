@@ -9,3 +9,11 @@ a static site generator which tracks dependencies between things.
 If you want to add a theorem, send me a pull request.
 You do not need to write the proof yourself; you can just link to a well-written proof.
 Make sure you mention all dependencies.
+
+## Freedom to use
+
+&copy; 2022 Eklavya Sharma
+
+All content (except `make_node.py`) is licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
+This roughly means that you are free to use, modify and distribute it.
