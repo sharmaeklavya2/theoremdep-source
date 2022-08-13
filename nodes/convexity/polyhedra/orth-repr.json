@@ -6,14 +6,16 @@
         "/convexity/extreme-direction",
         "/linear-algebra/matrices/rank",
         "/convexity/polyhedra/bfs-existence",
+        "/convexity/polyhedra/recession-cone",
+        "/convexity/polyhedra/pointed-cone-cond",
         "/convexity/polyhedra/cone-repr",
         "/convexity/polyhedra/bounded-repr",
         "/convexity/transitivity"
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Representing a point in polyhedron in positive orthant",
-        "description": "Let P be a non-empty polyhedron contained in the positive orthant of R^n. Then any point x ∈ P can be represented as a convex combination of the basic feasible solutions of P plus a non-negative combination of the extreme directions of P."
+        "title": "Representing a point in polyhedron",
+        "description": "Let P be a non-empty full-rank polyhedron. Then any point x ∈ P can be represented as a convex combination of the basic feasible solutions of P plus a non-negative combination of the extreme directions of P."
     },
     "document": {
         "type": "include",

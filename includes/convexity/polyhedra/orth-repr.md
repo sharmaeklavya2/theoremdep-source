@@ -9,7 +9,8 @@ $\newcommand{\argmax}{\operatorname{argmax}}$
 $\newcommand{\defeq}{=}$
 </span>
 Let $P = \{x \in \mathbb{R}^n: (a_i^Tx \ge b_i, \forall i \in I) \textrm{ and } (a_i^Tx = b_i, \forall i \in E)\}$
-be a non-empty polyhedron in $\mathbb{R}^n_{\ge 0}$.
+be a non-empty polyhedron. Let $A$ be the matrix whose rows are $\{a_i: i \in I \cup E\}$. Suppose $\rank(A) = n$.
+
 Let $\{x^{(1)}, x^{(2)}, \ldots, x^{(p)}\}$ be the set of basic feasible solutions of $P$.
 Let $\{d^{(1)}, d^{(2)}, \ldots, d^{(q)}\}$ be the set of extreme directions of $P$.
 Let $\xhat \in \mathbb{R}^n$ and $B \defeq \{a_i: a_i^T\xhat = b_i\}$.
@@ -25,26 +26,6 @@ A point $\xhat$ that can be represented this way lies in $P$
 by the definition of direction and by the convexity of $P$.
 We will now assume $\xhat \in P$ and show the existence of $\lambda$ and $\mu$.
 
-**Lemma 1**: Let $z \in \mathbb{R}^n$ and $d \in \mathbb{R}^n$.
-If $\{z + \alpha d: \alpha \ge 0\} \subseteq P$, then $d \ge 0$.
-
-*Proof*:
-Let $1 \le i \le n$. Since $P \subseteq \mathbb{R}^n_{\ge 0}$, we have $z_i + \alpha d_i \ge 0$.
-If $d_i < 0$, then for sufficiently large $\alpha$, we get $z_i + \alpha d_i < 0$,
-which is a contradiction. Hence, $d_i \ge 0$ for all $1 \le i \le n$.
-\[ \tag*{$\square$} \]
-
-Let $c = [1, 1, \ldots, 1] \in \mathbb{R}^n$.
-By Lemma 1, we get $c^Td^{(i)} > 0$ for all $1 \le i \le q$.
-Hence, we can assume without loss of generality that extreme directions are normalized,
-i.e., $c^Td^{(i)} = 1$ for all $1 \le i \le q$.
-
-Suppose $P$ contains the line $\{z + \alpha d: \alpha \in \mathbb{R}\}$,
-where $z \in \mathbb{R}^n$ and $d \in \mathbb{R}^n - \{0\}$.
-By applying Lemma 1 to $d$ and $-d$, we get $d = 0$, which is a contradiction.
-Hence, $P$ doesn't contain a line.
-Hence, $P$ contains at least one BFS, so $p \ge 1$.
-
 We will prove the main claim using induction on $\rank(B)$.
 If $\rank(B) = n$, then $\xhat$ is a BFS, so we are done.
 Now assume that this result is true for $\rank(B) \ge r+1$, where $r \le n-1$.
@@ -54,7 +35,7 @@ Since $\rank(B) = r \le n-1$, $\xhat$ is not a BFS.
 Let $T \defeq \{i: a_i^T\xhat = b_i\}$.
 Let $P' \defeq \{x: (a_i^Tx = b_i, \forall i \in T) \textrm{ and } (a_i^Tx \ge b_i, \forall i \in (I \cup E) - T)\}$.
 Then $P' \subseteq P$ and $\xhat \in P'$.
-Since $P'$ is non-empty and cannot contain a line, it contains a BFS $y$.
+Since $P'$ is non-empty and $\rank(A) = n$, $P'$ contains at least one BFS $y$.
 Since $y$ is tight at $n$ linearly independent constraints, it is also a BFS of $P$.
 
 Let $d = \xhat - y$. Since $\xhat$ is not a BFS of $P$, $d \neq 0$.
@@ -64,18 +45,12 @@ Hence, $Bd = 0$ and $d \neq 0$.
 
 ### Case 1: $y + \alpha d \in P'$ for all $\alpha \ge 0$.
 
-Let $D$ be the recession cone of $P$. Then
+Hence, $d$ is a direction of $P'$. Let $D$ be the recession cone of $P$. Then
 $D = \{x: (a_i^Tx = 0, \forall i \in E) \textrm{ and } (a_i^Tx \ge 0, \forall i \in I)\}$.
 Hence, $d \in D$.
 
-We will show that $d$ can be represented as a
-non-negative combination of $n - r$ extreme directions of $P$.
-
-By applying Lemma 1 to all directions of $P$, we get $D \subseteq \mathbb{R}^n_{\ge 0}$.
-Hence, $d \ge 0$ and $c^Td > 0$.
-Let $P'' = \{x \in D: c^Tx = 1\}$. Then $P'' \subseteq [0, 1]^d$,
-so $P''$ is bounded and hence doesn't contain a ray.
-$Bd = 0$, so $d$ is tight at $r$ linearly independent constraints of $D$.
+Since $\rank(A) = n$, $D$ is a pointed cone.
+Since $Bd = 0$, $d$ is tight at $r$ linearly independent constraints of $D$.
 Hence, $d$ can be represented as a non-negative combination of at most $n - r$
 extreme directions of $D$ (which are the same as the extreme directions of $P$).
 
