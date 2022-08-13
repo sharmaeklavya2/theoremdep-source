@@ -3,15 +3,19 @@ $\newcommand{\xhat}{\widehat{x}}$
 $\newcommand{\rank}{\operatorname{rank}}$
 $\newcommand{\argmin}{\operatorname{argmin}}$
 </span>
-Let $P = \{x: (a_i^Tx \ge b_i, \forall i \in I) \textrm{ and } (a_i^Tx = b_i, \forall i \in E) \textrm{ and } (x_i \ge 0, \forall 1 \le i \le n)\}$
-be a non-empty polyhedron in $\mathbb{R}^n$. Let $c \in \mathbb{R}^n$.
-The the linear program $\min_{x \in P} c^Tx$ either has optimal objective $-\infty$
-or has an optimal solution at a BFS of $P$.
+Let $P = \{x \in \mathbb{R}^n: (a_i^Tx \ge b_i, \forall i \in I) \textrm{ and } (a_i^Tx = b_i, \forall i \in E)\}$
+be a non-empty polyhedron. Let $c \in \mathbb{R}^n$.
+Let $A$ be the matrix whose rows are $\{a_i: i \in I \cup E\}$. Suppose $\rank(A) = n$.
+Then exactly one of the following hold for the linear program $\min_{x \in P} c^Tx$:
+
+1.  The LP has an optimal solution at a BFS of $P$,
+    and $c^Td \ge 0$ for each extreme direction $d$ of $P$.
+2.  The LP has optimal objective value $-\infty$,
+    and there is a non-zero extreme direction $d$ of $P$ such that $c^Td < 0$.
 
 ## Proof
 
-Since the last $n$ constraints of $P$ form a basis of $\mathbb{R}^n$,
-the constraints have rank $n$, so $P$ has at least one BFS.
+Since $\rank(A) = n$, $P$ has at least one BFS.
 If $c = 0$, then every point in $P$ is an optimal solution, so we can pick the BFS.
 Now assume $c \neq 0$.
 

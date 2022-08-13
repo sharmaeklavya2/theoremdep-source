@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/convexity/polyhedra/bfs",
+        "/convexity/extreme-direction",
+        "/linear-algebra/matrices/rank",
+        "/convexity/polyhedra/bfs-existence",
+        "/convexity/polyhedra/repr",
+        "/optimization/sum-1"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "LP is optimized at BFS",
+        "description": "A full-rank LP is either unbounded or has an optimal solution at a BFS."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/lp-opt-at-bfs.md"
+    }
+}
