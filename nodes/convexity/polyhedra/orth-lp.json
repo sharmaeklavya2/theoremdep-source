@@ -2,7 +2,7 @@
     "deps": [
         "/convexity/polyhedra/bfs",
         "/convexity/extreme-direction",
-        "/convexity/polyhedra/orth-repr",
+        "/convexity/polyhedra/repr",
         "/linear-algebra/vector-spaces/basis/basis",
         "/linear-algebra/matrices/rank",
         "/optimization/sum-1"

@@ -19,6 +19,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/convexity/polyhedra/orth-repr.md"
+        "path": "/convexity/polyhedra/repr.md"
     }
 }
