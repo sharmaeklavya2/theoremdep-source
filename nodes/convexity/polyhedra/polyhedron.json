@@ -6,7 +6,7 @@
     ],
     "metadata": {
         "type": "theoremdef",
-        "title": "Polyhedral set",
+        "title": "Polyhedral set and polyhedral cone",
         "description": "A set defined as the intersection of halfspaces is a polyhedral set.",
         "keywords": ["polyhedron", "polyhedral set", "polyhedral cone", "standard form"]
     },

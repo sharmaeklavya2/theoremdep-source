@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/convexity/polyhedra/polyhedron",
+        "/convexity/polyhedra/bfs",
+        "/convexity/extreme-point",
+        "/linear-algebra/matrices/rank",
+        "/convexity/polyhedra/bfs-existence",
+        "/convexity/extreme-point-condition"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Condition for polyhedral cone to be pointed",
+        "description": "A polyhedral cone C is pointed iff C contains a BFS iff C doesn't contain a line iff constraints of C have full rank."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/pointed-cone-cond.md"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/convexity/polyhedra/polyhedron",
+        "/convexity/direction",
+        "/convexity/polyhedra/bfs",
+        "/convexity/polyhedra/bounded-repr"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Polyhedron is unbounded iff it has direction"
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/unbounded-has-direction.md"
+    }
+}

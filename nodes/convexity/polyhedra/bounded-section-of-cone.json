@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/convexity/polyhedra/polyhedron",
+        "/linear-algebra/matrices/rank",
+        "/convexity/polyhedra/pointed-cone-cond",
+        "/linear-algebra/system-of-linear-equations/rank-homogenous",
+        "/convexity/direction",
+        "/convexity/polyhedra/unbounded-has-direction",
+        "/convexity/polyhedra/recession-cone"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Bounded section of pointed cone",
+        "description": "For a pointed cone C, we can find a vector b such that P = {x ∈ C: b^Tx = 1} is bounded and every element of C can be normalized to be in P."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/bounded-section-of-cone.md"
+    }
+}

@@ -23,6 +23,7 @@ A *polyhedral cone* is a polyhedron that is also a cone.
 Equivalently, a polyhedral cone is a set of the form $\{x: Ax \ge 0 \textrm{ and } Cx = 0\}$.
 We can assume without loss of generality that a polyhedral cone has the form
 $\{x: Ax \ge 0\}$, since $Cx = 0$ is the same as $Cx \ge 0 \wedge (-C)x \ge 0$.
+A polyhedral cone $C$ is called *pointed* iff $x \in C - \{0\} \implies x \not\in C$.
 
 A polyhedron of the form $\{x: Ax = b \textrm{ and } x \ge 0\}$
 is said to be in *standard form*.

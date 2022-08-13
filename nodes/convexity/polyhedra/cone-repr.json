@@ -3,7 +3,7 @@
         "/convexity/polyhedra/polyhedron",
         "/convexity/extreme-direction",
         "/linear-algebra/matrices/rank",
-        "/linear-algebra/system-of-linear-equations/rank-homogenous",
+        "/convexity/polyhedra/bounded-section-of-cone",
         "/convexity/polyhedra/bounded-repr",
         "/convexity/extdir-of-ccone-as-extp-of-inter",
         "/convexity/polyhedra/extreme-point-iff-bfs"
@@ -11,7 +11,7 @@
     "metadata": {
         "type": "theorem",
         "title": "Representing point in polyhedral cone",
-        "description": "A point in a polyhedral cone can be represented as a non-negative combination of extreme directions."
+        "description": "A point in a pointed polyhedral cone can be represented as a non-negative combination of extreme directions."
     },
     "document": {
         "type": "include",
