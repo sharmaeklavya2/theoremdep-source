@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/convexity/polyhedra/polyhedron"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Fourier-Motzkin Elimination",
+        "description": "An algorithm for projecting a polyhedron into one lower dimension.",
+        "keywords": ["FME", "projection", "projecting", "dimension reduction"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/fme.md"
+    }
+}
