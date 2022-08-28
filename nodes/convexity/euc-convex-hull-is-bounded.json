@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/convexity/convex-combination",
+        "/convexity/convex-set"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Convex hull of a finite number of points in Euclidean space is bounded"
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/euc-convex-hull-is-bounded.md"
+    }
+}

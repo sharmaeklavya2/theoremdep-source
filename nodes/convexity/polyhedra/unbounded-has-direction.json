@@ -3,7 +3,8 @@
         "/convexity/polyhedra/polyhedron",
         "/convexity/direction",
         "/convexity/polyhedra/bfs",
-        "/convexity/polyhedra/bounded-repr"
+        "/convexity/polyhedra/bounded-repr",
+        "/convexity/euc-convex-hull-is-bounded"
     ],
     "metadata": {
         "type": "theorem",

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/convexity/polyhedra/polyhedron",
+        "/convexity/polyhedra/fme",
+        "/convexity/euc-convex-hull-is-bounded"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Finitely generated set is polyhedron"
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/finite-gen.md"
+    }
+}

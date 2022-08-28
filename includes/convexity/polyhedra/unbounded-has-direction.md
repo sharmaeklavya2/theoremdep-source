@@ -15,11 +15,5 @@ Hence, $P$ is unbounded.
 
 Suppose $P$ doesn't have a non-zero direction. Then $P$ doesn't contain a ray.
 Hence, any point in $P$ can be represented as a convex combination of at most $n+1$ BFSes of $P$.
-Let $X$ be the set of BFSes of $P$. Then $|X|$ is finite.
-Let $\beta \defeq \max_{x \in X} \max_{i=1}^n |x_i|$.
-For any $\xhat \in P$, we have $\xhat = \sum_{x \in X} \alpha_x x$,
-where $\alpha_x \ge 0$ and $\sum_{x \in X} \alpha_x = 1$.
-Then for any $i \in [n]$, we have
-$|\xhat_i| \le \sum_{x \in X} \alpha_x |x_i| \le \sum_{x \in X} \alpha_x \beta = \beta$.
-Hence, for any $x \in P$, we have $\|x\| \le \beta\sqrt{n}$.
+Let $X$ be the set of BFSes of $P$. Then $P$ is the convex hull of $X$.
 Hence, $P$ is bounded.
