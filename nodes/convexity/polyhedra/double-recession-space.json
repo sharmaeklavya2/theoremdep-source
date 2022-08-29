@@ -1,0 +1,15 @@
+{
+    "status": "incomplete",
+    "deps": [
+        "/convexity/polyhedra/polyhedron",
+        "/convexity/double-direction"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Double directions of a polyhedron"
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/double-recession-space.md"
+    }
+}
