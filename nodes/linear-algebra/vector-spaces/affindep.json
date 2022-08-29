@@ -1,0 +1,15 @@
+{
+    "status": "incomplete",
+    "deps": [
+        "/linear-algebra/vector-spaces/vector-space",
+        "/linear-algebra/vector-spaces/linindep"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "Affine independence"
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/vector-spaces/affindep.md"
+    }
+}
