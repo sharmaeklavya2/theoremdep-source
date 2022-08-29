@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/convexity/polyhedra/polyhedron"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Implicit equality",
+        "description": "An inequality constraint a^Tx ≥ b in a polyhedron P is called an implicit equality for P if a^Tx = b for all x ∈ P."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/implicit-eq.md"
+    }
+}

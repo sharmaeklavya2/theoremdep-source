@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/convexity/polyhedra/polyhedron",
+        "/convexity/polyhedra/implicit-eq"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Interior point of polyhedron",
+        "description": "If there are no implicit equality constraints, there exists a point that is not tight at any inequality constraint."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/interior-point.md"
+    }
+}
