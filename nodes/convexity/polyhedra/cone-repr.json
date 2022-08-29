@@ -10,7 +10,7 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Representing point in polyhedral cone",
+        "title": "Representing point in pointed polyhedral cone",
         "description": "A point in a pointed polyhedral cone can be represented as a non-negative combination of extreme directions."
     },
     "document": {

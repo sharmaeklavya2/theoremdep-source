@@ -14,7 +14,7 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "Representing a point in polyhedron",
+        "title": "Representing point in full-rank polyhedron",
         "description": "Let P be a non-empty full-rank polyhedron. Then any point x ∈ P can be represented as a convex combination of the basic feasible solutions of P plus a non-negative combination of the extreme directions of P."
     },
     "document": {
