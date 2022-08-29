@@ -1,0 +1,22 @@
+{
+    "deps": [
+        "/convexity/polyhedra/polyhedron",
+        "/linear-algebra/vector-spaces/basis/basis",
+        "/linear-algebra/matrices/rank",
+        "/linear-algebra/vector-spaces/linindep",
+        "/convexity/polyhedra/double-recession-space",
+        "/linear-algebra/system-of-linear-equations/rank-homogenous",
+        "/linear-algebra/inner-product-spaces/ortho-joining",
+        "/linear-algebra/vector-spaces/basis/n-linindep-is-basis",
+        "/linear-algebra/vector-spaces/basis/basis-of-fn"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Pointing a polyhedron",
+        "description": "Pointing is the process of decomposing a polyhedron into a pointed polyhedron and a subspace."
+    },
+    "document": {
+        "type": "include",
+        "path": "/convexity/polyhedra/pointing.md"
+    }
+}

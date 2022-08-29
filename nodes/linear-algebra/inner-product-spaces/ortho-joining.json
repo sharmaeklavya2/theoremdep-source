@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/linear-algebra/inner-product-spaces/inner-product-space",
+        "/linear-algebra/vector-spaces/linindep",
+        "/linear-algebra/vector-spaces/span",
+        "/linear-algebra/inner-product-spaces/gram-schmidt-process",
+        "/linear-algebra/inner-product-spaces/ortho-vectors-are-linindep",
+        "/linear-algebra/inner-product-spaces/antilin-in-2nd"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Joining orthogonal linindep sets",
+        "description": "Let A and B be sets of linindep vectors such that ∀ (u, v) ∈ A × B, we have <u,v> = 0. Then A ∪ B is linindep."
+    },
+    "document": {
+        "type": "include",
+        "path": "/linear-algebra/inner-product-spaces/ortho-joining.md"
+    }
+}
