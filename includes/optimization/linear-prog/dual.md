@@ -1,13 +1,16 @@
-The dual of the linear program
-\[ P: \max \left\{ c^Tx: Ax \le b, x \ge 0 \right\} \]
+Let $A \in \mathbb{R}^{m \times n}$. Let $I \subseteq [n]$ and $J \subseteq [m]$.
+Then the dual of the linear program
+\[ P: \min_{x: x_J \ge 0} c^Tx \quad\textrm{where}\quad
+((Ax)_i \ge b_i, \forall i \in I) \textrm{ and } ((Ax)_i = b_i, \forall i \in [n]-I) \]
 is
-\[ D: \min \left\{ b^Ty: A^Ty \ge c, y \ge 0 \right\} \]
+\[ D: \max_{y: y_I \ge 0} b^Ty \quad\textrm{where}\quad
+((A^Ty)_j \le c_j, \forall j \in J) \textrm{ and } ((A^Ty)_j = c_j, \forall j \in [m]-J) \]
 Also, the dual of $D$ is $P$.
 
-For other kinds of linear programs, the dual can either be obtained by
-first converting to standard form, or by applying this method:
-<http://www.cs.columbia.edu/coms6998-3/lpprimer.pdf>.
+As a special case, on setting $J = [n]$ and $I = [m]$, we get that the dual of
+\[ P: \min_{x \ge 0} c^Tx \textrm{ where } Ax \ge b \]
+is
+\[ D: \max_{y \ge 0} b^Ty \textrm{ where } A^Ty \le c \]
 
-This can be proven by a straightforward application of the definition
-of duality for general optimization problems.
-The proof is too tedious to write, so I'm omitting it here.
+Equivalently, we can obtain the dual by applying this method:
+<http://www.cs.columbia.edu/coms6998-3/lpprimer.pdf>.
