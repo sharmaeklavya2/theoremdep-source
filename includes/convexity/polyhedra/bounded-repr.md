@@ -56,7 +56,7 @@ When $a_i^Td > 0$, we get $a_i^T\xstar = a_i^T\xhat + \lambda^* a_i^Td \ge b_i$.
 Now let $a_i^Td < 0$.
 $\lambda^* \le (b_i - a_i^T\xhat)/(a_i^Td) \implies a_i^T\xhat + \lambda^* a_i^Td \ge b_i$.
 Hence, $a_i^T\xstar \ge b_i$. Threfore, $\xstar \in P'$.
-Furthermore, $a_k^T\xstar = a_k^T\xhat + \lambda^* a_i^Td = b_i$.
+Furthermore, $a_k^T\xstar = a_k^T\xhat + \lambda^* a_k^Td = b_k$.
 
 Since $a_i^Td = 0$ for $i \in T$, but $a_k^Td < 0$, we get that $k \not\in T$.
 Furthermore, $a_k$ doesn't lie in the row space of $B$,
