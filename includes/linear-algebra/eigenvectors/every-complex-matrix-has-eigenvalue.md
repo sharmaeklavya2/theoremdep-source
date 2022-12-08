@@ -26,7 +26,7 @@ Let $a_i = \lambda$.
 
 \begin{align}
 & |A-\lambda I| = 0
-\\ &\Rightarrow \operatorname{rank}(A-\lambda I) = 0
+\\ &\Rightarrow \operatorname{rank}(A-\lambda I) < n
 \\ &\Rightarrow \exists u \neq 0, (A - \lambda I)u = 0
 \\ &\Rightarrow \exists u \neq 0, Au = (\lambda I)u = \lambda u
 \end{align}
