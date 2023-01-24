@@ -27,8 +27,8 @@ Let $K = \{k: kN \in H\}$.
 & k_1, k_2 \in K
 \\ &\Rightarrow k_1N, k_2N \in H
 \\ &\Rightarrow (k_1N)(k_2N)^{-1} \in H
-\\ &\Rightarrow (k_1k_2)^{-1}N \in H
-\\ &\Rightarrow (k_1k_2)^{-1} \in K
+\\ &\Rightarrow (k_1k_2^{-1})N \in H
+\\ &\Rightarrow k_1k_2^{-1} \in K
 \end{align}
 
 Therefore, $K$ is a subgroup of $G$ and $H = K/N$.
