@@ -14,7 +14,7 @@
     "DEFAULT_LANG": "en",
 
     "ASYNC_JS": [
-        "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js"
+        "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
     ],
     "DEP_REASON_MAP": {
         "def": "Used in definition",
