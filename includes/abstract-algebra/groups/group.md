@@ -14,7 +14,7 @@ For $g \in G$ and $k \in \mathbb{Z}$,
 \[ g^k = \begin{cases}
 g*g*\ldots*g \; (k \textrm{ times}) & \textrm{if } k > 0
 \\ e & \textrm{if } k = 0
-\\ g^{-1}*g^{-1}*\ldots*g^{-1} \; (k \textrm{ times}) & \textrm{if } k < 0
+\\ g^{-1}*g^{-1}*\ldots*g^{-1} \; (-k \textrm{ times}) & \textrm{if } k < 0
 \end{cases} \]
 
 $\operatorname{order}(g)$ is the smallest positive integer $k$ such that $g^k = e$.
