@@ -1,3 +1,6 @@
+<span class="invisible">
+$\newcommand{\visit}{\operatorname{visit}}$
+</span>
 Let $G_π$ be the DFS forest of $G$.
 $v$ is a descendant of $u$ in $G_π$ when DFS terminates iff
 at the time when `visit(u)` is called, there is a white path from $u$ to $v$ in $G$.
@@ -6,31 +9,42 @@ at the time when `visit(u)` is called, there is a white path from $u$ to $v$ in 
 
 ## Proof
 
+### Descendant implies white path
+
 \begin{align}
 & v \textrm{ is a descendant of } u \textrm{ in DFS forest}
-\\ &\Rightarrow \operatorname{visit}(v) \textrm{ was called during visit}(u)
-\\ &\Rightarrow \exists w_0, w_1, \ldots, w_k, \textrm{ such that }
+\\ &\implies \operatorname{visit}(v) \textrm{ was called during visit}(u)
+\\ &\implies \exists w_0, w_1, \ldots, w_k, \textrm{ such that }
     (u = w_0 \wedge v = w_k \wedge (\forall 1 \le i < k,
         \operatorname{visit}(w_i) \textrm{ makes a direct call to visit}(w_{i+1})))
-\\ &\Rightarrow (u = w_0 \wedge v = w_k \wedge (\forall 1 \le i < k,
+\\ &\implies (u = w_0 \wedge v = w_k \wedge (\forall 1 \le i < k,
         w_{i+1} \textrm{ is white when visit}(w_i) \textrm{ is called}))
-\\ &\Rightarrow (u = w_0 \wedge v = w_k \wedge (\forall 1 \le i < k,
+\\ &\implies (u = w_0 \wedge v = w_k \wedge (\forall 1 \le i < k,
         w_{i+1} \textrm{ is white when visit}(u) \textrm{ is called}))
-\\ &\Rightarrow \textrm{ there is a white path from } u \textrm{ to } v
+\\ &\implies \textrm{ there is a white path from } u \textrm{ to } v
 \end{align}
 
-Let there be a white path from $u$ to $v$ in $G$ when `visit(u)` was called.
-Consider the non-trivial case $u \neq v$, so the path has length ≥ 1.
-Let $w$ be the predecessor of $v$ in this path.
-Without loss of generality, assume all vertices in the path from $u$ to $w$
-become descendants of $u$ when DFS terminates.
+### White path implies descendant
 
-* $v$ was white when `visit(u)` was called $\implies s(u) < s(v)$.
-* $w$ is a descendant of $u$ in $G_π$, so $[s(w), f(w)]$ lies within $[s(u), f(u)]$
-by the parenthesis theorem.
-* $v$ is not a descendant of $u \implies u$ was already non-white when `visit(w)` was called.
-Therefore, $s(v) < s(w)$.
+For any vertex $u$, the vertex $v$ is called a *counterexample* if $v$ is not a descendant
+of $u$ in $G_π$ and there was a white path from $u$ to $v$ in $G$ when $\visit(u)$ was called.
+Suppose a counterexample exists for some vertex $u$.
+Let $v$ be a counterexample for $u$ with the shortest white path.
+Then $u \neq v$, so the white path has length ≥ 1.
 
-Combining the above facts, we get $s(u) < s(v) < s(w) < f(u)$.
-This means $[s(v), f(v)]$ is not disjoint with $[s(u), f(u)]$.
-Therefore, $v$ is a descendant of $u$ by the parenthesis theorem.
+Let $w$ be the predecessor of $v$ in this white path.
+Then all vertices in the white path from $u$ to $w$ are descendants of $u$ in $G_π$,
+otherwise we can find a counterexample with a shorter white path.
+
+* $v$ was white when $\visit(u)$ was called. Hence, $s(u) < s(v)$.
+* Since $v$ is not a descendant of $u$ in $G_π$, $\visit(v)$ was not called during $\visit(u)$.
+    Hence, $s(v) \not\in [s(u), f(u)]$.
+
+Combining the above two facts tells us that $s(v) > f(u)$.
+Hence, $v$ remains white throughout $\visit(u)$.
+
+$w$ is a descendant of $u$ in $G_π$, so $\visit(w)$ is called during $\visit(u)$.
+By the parenthesis theorem, $[s(w), f(w)]$ lies in $[s(u), f(u)]$.
+Since $(w, v) \in G$ and $v$ remains white during $\visit(u)$,
+$\visit(v)$ will be called during $\visit(w)$.
+This is a contradiction, since $\visit(v)$ cannot be called during $\visit(u)$.
