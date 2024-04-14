@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop",
+        "/fair-division/notions/ef",
+        "/set-functions/supermodular",
+        "/optimization/min-x-and-xcomp-sq"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP cake division doesn't exist for supermodular valuations"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-existence/prop-cake.md"
+    }
+}

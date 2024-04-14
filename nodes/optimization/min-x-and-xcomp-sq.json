@@ -1,0 +1,11 @@
+{
+    "deps": [],
+    "metadata": {
+        "type": "theorem",
+        "title": "min(x², (a-x)²) ≤ a²/4"
+    },
+    "document": {
+        "type": "include",
+        "path": "/optimization/min-x-and-xcomp-sq.md"
+    }
+}
