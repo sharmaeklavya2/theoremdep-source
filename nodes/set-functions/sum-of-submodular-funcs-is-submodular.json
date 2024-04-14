@@ -1,6 +1,6 @@
 {
     "deps": [
-        "/misc/submodular-func"
+        "/set-functions/submodular"
     ],
     "metadata": {
         "type": "theorem",
@@ -8,6 +8,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/misc/sum-of-submodular-funcs-is-submodular.md"
+        "path": "/set-functions/sum-of-submodular-funcs-is-submodular.md"
     }
 }

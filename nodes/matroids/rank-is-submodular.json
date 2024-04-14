@@ -1,7 +1,7 @@
 {
     "deps": [
         "/matroids/rank",
-        "/misc/submodular-func",
+        "/set-functions/submodular",
         "/matroids/rank-of-set-increment",
         "/matroids/basis-of-set-increment",
         "/matroids/expand-to-basis"

@@ -2,10 +2,10 @@
     "deps": [
         "/matroids/matroid",
         "/matroids/weights/weight-function",
-        "/misc/submodular-func",
+        "/set-functions/submodular",
         "/matroids/restricted-rank-is-submodular",
         "/matroids/weights/greedy",
-        "/misc/sum-of-submodular-funcs-is-submodular"
+        "/set-functions/sum-of-submodular-funcs-is-submodular"
     ],
     "metadata": {
         "type": "theorem",

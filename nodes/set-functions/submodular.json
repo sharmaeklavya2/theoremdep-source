@@ -7,6 +7,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/misc/submodular-func.md"
+        "path": "/set-functions/submodular.md"
     }
 }
