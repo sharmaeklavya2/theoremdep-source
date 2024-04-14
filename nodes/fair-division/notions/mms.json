@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/set-functions/mms"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Maximin share allocations"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/mms.md"
+    }
+}

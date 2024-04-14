@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/fair-division/fair-division"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Envy-freeness"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/ef.md"
+    }
+}

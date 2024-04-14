@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/set-functions/submodular"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "EF1 and EFX"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/ef1x-goods.md"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/set-functions/set-function",
+        "/analysis/sup-inf"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Maximin share of a set function",
+        "description": "The maximum value obtainable from a set by partitioning it into $n$ parts and picking the smallest-valued part."
+    },
+    "document": {
+        "type": "include",
+        "path": "/set-functions/mms.md"
+    }
+}

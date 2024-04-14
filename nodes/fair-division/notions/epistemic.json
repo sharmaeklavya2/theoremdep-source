@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Epistemic fairness",
+        "description": "An allocation is epistemically fair to agent i if the remaining agents can rearrange goods among themselves such that the resulting allocation becomes fair to i."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/epistemic.md"
+    }
+}

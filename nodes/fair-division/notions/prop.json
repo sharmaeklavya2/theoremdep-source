@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Proportional allocation",
+        "description": "An allocation A is PROP if each agent i gets v_i(M)/n value."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/prop.md"
+    }
+}
