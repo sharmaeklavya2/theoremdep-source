@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/set-functions/additive",
+        "/set-functions/submodular",
+        "/set-functions/supermodular",
+        "/set-functions/sub-sup-add"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "A set function is additive iff it is submodular and supermodular iff it is subadditive and superadditive."
+    },
+    "document": {
+        "type": "include",
+        "path": "/set-functions/additive-vs-subsup.md"
+    }
+}

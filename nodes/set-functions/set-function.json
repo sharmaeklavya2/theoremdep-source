@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/measure-theory/sigma-algebra"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Set function",
+        "description": "A set function takes as input a set and outputs a real number."
+    },
+    "document": {
+        "type": "include",
+        "path": "/set-functions/set-function.md"
+    }
+}

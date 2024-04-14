@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/set-functions/supermodular",
+        "/set-functions/sub-sup-add"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "A supermodular function is also a superadditive function"
+    },
+    "document": {
+        "type": "include",
+        "path": "/set-functions/supmod-implies-supadd.md"
+    }
+}

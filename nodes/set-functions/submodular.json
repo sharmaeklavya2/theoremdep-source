@@ -1,5 +1,7 @@
 {
-    "deps": [],
+    "deps": [
+        "/set-functions/set-function"
+    ],
     "metadata": {
         "type": "theoremdef",
         "title": "Submodular function",

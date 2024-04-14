@@ -1,10 +1,10 @@
 $f: 2^{\Omega} \to \mathbb{R}$ be a function.
-Then $f$ is submodular iff it satisfies one of the following equivalent conditions:
+Then $f$ is supermodular iff it satisfies one of the following equivalent conditions:
 
 1.  $\forall Y \subseteq \Omega, \forall X \subseteq Y, \forall Z \in \Omega \setminus Y,$
-    $f(Z \mid X) \ge f(Z \mid Y)$.
+    $f(Z \mid X) \le f(Z \mid Y)$.
 2.  $\forall P \subseteq \Omega, \forall Q \subseteq \Omega,$
-    $f(P) + f(Q) \ge f(P \cup Q) + f(P \cap Q)$.
+    $f(P) + f(Q) \le f(P \cup Q) + f(P \cap Q)$.
 
 ## Proof of equivalence of definitions
 

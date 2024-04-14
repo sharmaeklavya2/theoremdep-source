@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/set-functions/set-function"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Subadditive and superadditive set functions",
+        "description": "A set function f is subadditive iff f(A ∪ B) ≤ f(A) + f(B) for all disjoint A and B. f is superadditive iff f(A ∪ B) ≥ f(A) + f(B) for all disjoint A and B."
+    },
+    "document": {
+        "type": "include",
+        "path": "/set-functions/sub-sup-add.md"
+    }
+}

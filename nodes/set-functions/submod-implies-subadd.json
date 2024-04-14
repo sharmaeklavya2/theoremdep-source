@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/set-functions/submodular",
+        "/set-functions/sub-sup-add"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "A submodular function is also a subadditive function"
+    },
+    "document": {
+        "type": "include",
+        "path": "/set-functions/submod-implies-subadd.md"
+    }
+}
