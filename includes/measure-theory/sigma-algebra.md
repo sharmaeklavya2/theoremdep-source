@@ -14,5 +14,5 @@ $X-A$ is called the complement of $A$, and is denoted by $\overline{A}$.
 Let $\Scal = \{A_1, A_2, \ldots\} \subseteq \Fcal$ be a countable set. Then
 $\left(\bigcup_{A \in \Scal} A\right) \in \Fcal$.
 
-As a trivial example, $\{\{\}, X\}$ is a $\sigma$-algebra over $X$.
+As a trivial example, $\{X, \emptyset\}$ is a $\sigma$-algebra over $X$.
 The power-set of $X$ is a $\sigma$-algebra over $X$ if $X$ is finite.
