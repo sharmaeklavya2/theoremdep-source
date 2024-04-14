@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/set-functions/set-function",
+        "/measure-theory/sigma-algebra"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Fair division"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/fair-division.md"
+    }
+}
