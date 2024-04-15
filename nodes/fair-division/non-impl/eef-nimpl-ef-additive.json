@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/ef",
+        "/fair-division/notions/epistemic",
+        "/set-functions/additive"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "EEF doesn't imply EF for additive valuations"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/eef-nimpl-ef-additive.md"
+    }
+}

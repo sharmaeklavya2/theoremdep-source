@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/set-functions/sub-sup-add"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "EEF implies PROP for subadditive valuations"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/eef-impl-prop-subadd.md"
+    }
+}

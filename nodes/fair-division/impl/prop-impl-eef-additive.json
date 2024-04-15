@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/set-functions/additive",
+        "/fair-division/notions/ef",
+        "/fair-division/notions/epistemic",
+        "/fair-division/notions/prop"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Cake cutting: PROP implies EEF for additive valuations"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/prop-impl-eef-additive.md"
+    }
+}

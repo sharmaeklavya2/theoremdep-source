@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/set-functions/sub-sup-add"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP implies EF for superadditive identical valuations"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/prop-impl-ef-superadd-id.md"
+    }
+}
