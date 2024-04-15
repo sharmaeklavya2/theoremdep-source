@@ -1,4 +1,4 @@
-In fair division of indivisible goods, an allocation $A$ is said to be
+In fair division of indivisible goods (equal entitlements), an allocation $A$ is said to be
 
 * EF1-fair to agent $i$ iff
 \[ v_i(A_i) ≥ \max_{j ≠ i} \begin{cases}
