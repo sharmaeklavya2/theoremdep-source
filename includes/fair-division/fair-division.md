@@ -45,7 +45,7 @@ Without loss of generality, we assume $N = [n]$.
     We define agent $i$'s disutility for any $S \subseteq M$ as $d_i(S) := -v_i(S)$.
     * If $v_i(S \mid T)$ can be both positive or negative, $M$ is called a set of *mixed manna*.
 
-3.  *Equal vs unequal entitlements*: When $w_1 = w_2 = \ldots = w_n$,
+3.  *Equal vs unequal entitlements*: When $w_i = 1/n$ for all $i \in [n]$,
     we say that the agents have equal entitlements.
     This is such an important special case that
     we will assume equal entitlements unless specified otherwise.
@@ -66,8 +66,9 @@ Other special cases are obtained by constraining the set of valuation functions 
 
 A fairness notion $F$ is a function that takes as input a fair division instance $\Ical$,
 a (partial) allocation $A$, and an agent $i$, and outputs either `true` or `false`.
-Allocation $A$ is said to be $F$-fair to agent $i$ iff $F(\Ical, A, i)$ is true.
-Allocation $A$ is called $F$-fair if it is fair to all agents.
+When $F(\Ical, A, i)$ is true, we say that allocation $A$ is $F$-fair to agent $i$,
+or that agent $i$ is $F$-satisfied by allocation $A$.
+Allocation $A$ is $F$-fair if it is $F$-fair to all agents.
 
 A notion $F$ of fairness is said to be *feasible* if for every fair division instance,
 there exists an $F$-fair allocation.
