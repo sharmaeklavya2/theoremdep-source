@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/ef1x-goods",
+        "/fair-division/notions/mms"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "MMS implies EFX for two agents (goods)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/mms-to-efx-n2-goods.md"
+    }
+}
