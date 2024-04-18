@@ -20,3 +20,6 @@ It is trivial to see that EF implies EFX, and EFX implies EF1.
 For submodular valuations, EFX implies EFX<sup>0</sup>.
 
 Some people actually mean EFX<sup>0</sup> when they say EFX.
+
+EFX was first defined in <https://doi.org/10.1145/3355902>
+(Definition 4.5 in Section 4.2).
