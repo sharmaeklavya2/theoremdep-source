@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/fair-division/fair-division"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "PROP1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/prop1.md"
+    }
+}
