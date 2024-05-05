@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Welfare",
+        "description": "Social welfare, Nash welfare, and Egalitarian welfare."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/welfare.md"
+    }
+}

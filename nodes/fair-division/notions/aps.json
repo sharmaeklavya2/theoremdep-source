@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "AnyPrice share",
+        "keywords": ["aps"]
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/aps.md"
+    }
+}

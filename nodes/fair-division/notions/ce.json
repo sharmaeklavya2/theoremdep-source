@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/set-functions/additive"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Competitive Equilibrium"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/ce.md"
+    }
+}

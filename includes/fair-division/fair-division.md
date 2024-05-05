@@ -30,7 +30,14 @@ Without loss of generality, we assume $N = [n]$.
         * for any $\alpha \in [0, 1]$, there exists a set $T$ such that $v_i(T) = \alpha v_i(S)$.
         * for any positive numbers $\beta_1, \beta_2, \ldots, \beta_k$, there exists a partition $(P_1, \ldots, P_k)$
             of $M$ such that $v_i(P_j)/\beta_j$ has the same value for all $j \in [k]$.
-    * The *contiguous cake-cutting* setting is a special case of the cake-cutting setting
+    * The *divisible* setting is a special case of cake cutting.
+        Here we have $m$ homogenous goods that can be split into pieces.
+        Here a bundle is represented as a vector $x \in [0,1]^m$,
+        where $x_j$ is the fraction of good $j$ in the bundle.
+        Each agent $i$'s valuation function $v_i: [0,1]^m \to \mathbb{R}$
+        tells us how much they value each bundle $x \in [0,1]^m$.
+        An allocation is a sequence of $n$ bundles that sum to $\{1\}^m$.
+    * The *contiguous cake-cutting* setting is a special case of cake-cutting
     where $M = [0, 1]$ and each bundle $A_i$ must be an interval.
     Furthermore, for any interval $[a, b]$, both of the following hold:
         * for any $\alpha \in [0, 1]$, there exist $c, d \in [a, b]$ such that
@@ -40,10 +47,14 @@ Without loss of generality, we assume $N = [n]$.
             such that $v_i([c_{j-1}, c_j])/\beta_j$ has the same value for all $j \in [k]$.
 
 2.  *Goods vs chores vs mixed manna*:
-    * If $v_i(S \mid T) \ge 0$ for all $S, T \subseteq M$, $M$ is called a set of *goods*.
-    * If $v_i(S \mid T) \le 0$ for all $S, T \subseteq M$, $M$ is called a set of *chores*.
-    We define agent $i$'s disutility for any $S \subseteq M$ as $d_i(S) := -v_i(S)$.
-    * If $v_i(S \mid T)$ can be both positive or negative, $M$ is called a set of *mixed manna*.
+    * $G \subseteq M$ is called a set of *goods* for agent $i$ iff
+        for all $S \subseteq G$ and $T \subseteq M$, we have $v_i(S \mid T) \ge 0$.
+    * $C \subseteq M$ is called a set of *chores* for agent $i$ iff
+        for all $S \subseteq C$ and $T \subseteq M$, we have $v_i(S \mid T) \le 0$.
+        For any set $X \subseteq M$, we define $d_i(X) := -v_i(X)$.
+    * When $M$ may not be a set of goods or a set of chores, we call $M$ a set of *mixed manna*.
+    * $M$ is said to be *doubly monotone* for agent $i$ if $M = G \cup C$,
+        where $G$ is a set of goods for $i$ and $C$ is a set of chores for $i$.
 
 3.  *Equal vs unequal entitlements*: When $w_i = 1/n$ for all $i \in [n]$,
     we say that the agents have equal entitlements.
@@ -75,3 +86,13 @@ there exists an $F$-fair allocation.
 
 We say that a notion $F_1$ of fairness implies another notion $F_2$ of fairness if
 every $F_1$-fair allocation is also an $F_2$-fair allocation.
+
+## Non-real valuations
+
+We usually let the co-domain of valuation functions be $\mathbb{R}$,
+but sometimes we may assume that all valuation functions have a common co-domain $U$,
+where $U$ is a totally-ordered [vector space](../linear-algebra/vector-spaces/vector-space.html).
+A common choice is $U = \mathbb{R}^k$, for some $k \in \mathbb{N}$,
+where the total order is given by lexicographic ordering
+(this is also how tuples are compared in Python).
+Unless specified otherwise, assume $U = \mathbb{R}$.

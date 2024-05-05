@@ -4,8 +4,9 @@
         "/set-functions/mms"
     ],
     "metadata": {
-        "type": "def",
-        "title": "Maximin share allocations"
+        "type": "theoremdef",
+        "title": "Maximin share allocations",
+        "description": "MMS, WMMS, and pessimistic share"
     },
     "document": {
         "type": "include",
