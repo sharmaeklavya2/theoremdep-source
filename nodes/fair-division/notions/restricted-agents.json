@@ -1,0 +1,13 @@
+{
+    "deps": [
+        "/fair-division/fair-division"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Restricted agents, pairwise fairness, and groupwise fairness"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/restricted-agents.md"
+    }
+}
