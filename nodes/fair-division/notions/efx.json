@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/ef",
+        "/set-functions/submodular",
+        "/set-functions/supermodular"
+    ],
+    "metadata": {
+        "type": "theoremdef",
+        "title": "EFX"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/efx.md"
+    }
+}

@@ -1,14 +1,15 @@
 {
     "deps": [
         "/fair-division/fair-division",
-        "/set-functions/submodular"
+        "/fair-division/notions/ef"
     ],
     "metadata": {
         "type": "def",
-        "title": "EF1 and EFX"
+        "title": "EF1",
+        "description": "Envy-free up to 1 item"
     },
     "document": {
         "type": "include",
-        "path": "/fair-division/notions/ef1x-goods.md"
+        "path": "/fair-division/notions/ef1.md"
     }
 }
