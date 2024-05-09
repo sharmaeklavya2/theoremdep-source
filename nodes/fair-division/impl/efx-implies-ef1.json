@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/ef",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/ef1",
+        "/set-functions/additive",
+        "/set-functions/submodular",
+        "/set-functions/supermodular"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "EFX implies EF1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/efx-implies-ef1.md"
+    }
+}
