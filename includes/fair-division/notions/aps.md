@@ -1,7 +1,7 @@
 <span class="invisible">
 $\newcommand{\defeq}{:=}$
 </span>
-Let $([n], [m], V, w)$ be a fair division instance.
+Let $([n], [m], V, w)$ be a fair division instance with indivisible items.
 Let $\Delta_m \defeq \{x \in \mathbb{R}_{\ge 0}^m: \sum_{i=1}^m x_i = 1\}$.
 For any $x \in \Delta_m$ and $S \subseteq [m]$,
 let $x(S) \defeq \sum_{j \in S} x_j$.
