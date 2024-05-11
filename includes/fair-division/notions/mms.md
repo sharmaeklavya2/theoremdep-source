@@ -2,8 +2,9 @@
 $\newcommand{\MMS}{\operatorname{MMS}}$
 </span>
 Consider a fair division instance with $n$ agents, equal entitlements, and a set $M$ of items.
-Agent $i$'s maximin share (MMS) is given by $\MMS_{v_i}^n(M)$.
+$\MMS_{v_i}^n(M)$ is called agent $i$'s maximin share.
 An allocation $A$ is MMS-fair to agent $i$ if $v_i(A_i) ≥ \MMS_{v_i}^n(M)$.
+For $\alpha \in [0, 1]$, $A$ is $\alpha$-MMS-fair to agent $i$ if $v_i(A_i) ≥ \alpha\MMS_{v_i}^n(M)$.
 Often, for brevity, we write $\MMS_i$ instead of $\MMS_{v_i}^n(M)$.
 
 For non-equal entitlements, there are two variants:
