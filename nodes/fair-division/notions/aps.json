@@ -1,9 +1,11 @@
 {
     "deps": [
-        "/fair-division/fair-division"
+        "/fair-division/fair-division",
+        "/optimization/linear-prog/dual",
+        "/optimization/linear-prog/strong-duality"
     ],
     "metadata": {
-        "type": "def",
+        "type": "theoremdef",
         "title": "AnyPrice share",
         "keywords": ["aps"]
     },
