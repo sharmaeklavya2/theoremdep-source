@@ -2,15 +2,14 @@
     "deps": [
         "/fair-division/fair-division",
         "/fair-division/notions/prop",
-        "/set-functions/submodular",
-        "/set-functions/supermodular"
+        "/fair-division/notions/propx"
     ],
     "metadata": {
         "type": "theoremdef",
-        "title": "PROPx"
+        "title": "PROPm"
     },
     "document": {
         "type": "include",
-        "path": "/fair-division/notions/propx.md"
+        "path": "/fair-division/notions/propm.md"
     }
 }
