@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/efx"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Minimum EFX Share (MXS)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/mxs.md"
+    }
+}

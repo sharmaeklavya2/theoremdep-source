@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/ef1"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Minimum EF1 share (M1S)"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/m1s.md"
+    }
+}
