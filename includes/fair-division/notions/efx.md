@@ -5,42 +5,31 @@ Let $\max(\emptyset) \defeq -\infty$ and $\min(\emptyset) \defeq \infty$.
 
 Let $([n], M, V, w)$ be a fair division instance for indivisible items
 (where each agent $i$ has entitlement $w_i$). An allocation $A$ is said to be
-
-* EFX<sub>0</sub>-fair to agent $i$ iff for every $j \in [n] \setminus \{i\}$,
-either $i$ doesn't envy $j$, or
-\[ \frac{v_i(A_i)}{w_i} ≥ \frac{\max(\{v_i(A_j \setminus S) \mid \emptyset \neq S \subseteq A_j
-    \textrm{ and } v_i(S \mid A_i) ≥ 0\})}{w_j} \]
-and
-\[ \frac{\min(\{v_i(S) \mid S \subsetneq A_i \textrm{ and } v_i(S) ≥ v_i(A_i)\})}{w_i} ≥ \frac{v_i(A_j)}{w_j}. \]
-If the above conditions are not satisfied for some $j \in [n] \setminus \{i\}$,
-we say that $i$ EFX<sub>0</sub>-envies $j$.
-* EFX-fair to agent $i$ iff for every $j \in [n] \setminus \{i\}$,
+EFX-fair to agent $i$ iff for every $j \in [n] \setminus \{i\}$,
 either $i$ doesn't envy $j$, or
 \[ \frac{v_i(A_i)}{w_i} ≥ \frac{\max(\{v_i(A_j \setminus S) \mid \emptyset \neq S \subseteq A_j
     \textrm{ and } v_i(S \mid A_i) > 0\})}{w_j} \]
 and
-\[ \frac{\min(\{v_i(S) \mid S \subsetneq A_i \textrm{ and } v_i(S) > v_i(A_i) \})}{w_i} ≥ \frac{v_i(A_j)}{w_j}. \]
+\[ \frac{\min(\{v_i(A_i \setminus S) \mid \emptyset \neq S \subseteq A_i
+    \textrm{ and } v_i(S \mid A_i \setminus S) < 0 \})}{w_i} ≥ \frac{v_i(A_j)}{w_j}. \]
 If the above conditions are not satisfied for some $j \in [n] \setminus \{i\}$,
-we say that $i$ EFX<sub>0</sub>-envies $j$.
+we say that $i$ EFX-envies $j$.
 
-Some people actually mean EFX<sup>0</sup> when they say EFX.
-EFX was first defined in <https://doi.org/10.1145/3355902> (Definition 4.5 in Section 4.2).
+EFX was first defined in <https://doi.org/10.1145/3355902> (Definition 4.5 in Section 4.2)
+for goods with additive valuations.
+Slightly different definitions exist in literature, where one or both of
+the marginal values $v_i(S \mid A_i)$ and $d_i(S \mid A_i \setminus S)$
+are non-negative instead of positive.
 
-It is trivial to see that EF implies EFX<sub>0</sub>, and EFX<sub>0</sub> implies EFX.
+It is trivial to see that EF implies EFX.
 
 Equivalent definitions in special cases:
 
-1.  When all items are goods to agent $i$, then $A$ is EFX<sub>0</sub>-fair to agent $i$ iff
-    for every $j \in [n] \setminus \{i\}$,
-    \[ \frac{v_i(A_i)}{w_i} ≥ \frac{\max(\{v_i(A_j \setminus \{g\}) \mid g \in A_j\})}{w_j}. \]
-2.  When all items are chores to agent $i$, $A$ is EFX<sub>0</sub>-fair to agent $i$ iff
-    for every $j \in [n] \setminus \{i\}$,
-    \[ \frac{\min(\{v_i(A_i \setminus \{c\}) \mid c \in A_i\})}{w_i} ≥ \frac{v_i(A_j)}{w_j}. \]
-3.  When all items are goods to agent $i$ and $v_i$ is submodular,
+1.  When all items are goods to agent $i$ and $v_i$ is submodular,
     $A$ is EFX-fair to agent $i$ iff for every $j \in [n] \setminus \{i\}$,
     \[ \frac{v_i(A_i)}{w_i} ≥ \frac{\max(\{v_i(A_j \setminus \{g\})
         \mid g \in A_j \textrm{ and } v_i(g \mid A_i) > 0\})}{w_j}. \]
-3.  When all items are chores to agent $i$ and $d_i$ is supermodular,
+2.  When all items are chores to agent $i$ and $d_i$ is supermodular,
     $A$ is EFX-fair to agent $i$ iff for every $j \in [n] \setminus \{i\}$,
     \[ \frac{\max(\{d_i(A_i \setminus \{c\}) \mid c \in A_i
         \textrm{ and } d_i(A_i \setminus \{c\}) > d_i(A_i) \})}{w_i} ≤ \frac{d_i(A_j)}{w_j}. \]
