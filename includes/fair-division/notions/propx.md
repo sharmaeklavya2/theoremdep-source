@@ -8,9 +8,9 @@ An allocation $A$ is said to be PROPx-fair to agent $i$ iff
 either $v_i(A_i) ≥ w_iv_i([m])$ or both of these conditions hold:
 
 * $v_i(A_i \cup S) > w_iv_i([m])$ for every $S$ such that
-    $\emptyset \neq S \subseteq M \setminus A_i$ and $v_i(S \mid A_i) > 0$.
-* $v_i(A_i \setminus S) > w_iv_i([m])$ for every $S$ such that
-    $\emptyset \neq S \subseteq A_i$ and $v_i(S \mid A_i \setminus S) < 0$.
+    $S \subseteq M \setminus A_i$ and $v_i(S \mid A_i) > 0$.
+* $v_i(A_i \setminus S) > w_iv_i([m])$ for every $S \subseteq A_i$
+    such that $v_i(S \mid A_i \setminus S) < 0$.
 
 It is trivial to see that PROP implies PROPx.
 
@@ -36,11 +36,11 @@ Hence, we can assume without loss of generality that $|S| = 1$ in the definition
 Suppose all items are chores and $d_i$ is supermodular.
 Let $A$ be an allocation and $S \subseteq A_i$ such that $d_i(S \mid A_i \setminus S) > 0$.
 Let $S \defeq \{c_1, \ldots, c_k\}$.
-For $t \in \{0, \ldots, k\}$, let $R_t \defeq \{c_1, \ldots, c_t\}$. Then
+For $t \in \{0, \ldots, k\}$, let $S_t \defeq \{c_1, \ldots, c_t\}$. Then
 \begin{align}
-0 &< d_i(S \mid A_i \setminus S) = d_i(A_i \setminus R_0) - d_i(A_i \setminus R_k)
-\\ &= \sum_{t=1}^k (d_i(A_i \setminus R_{t-1}) - d_i(A_i \setminus R_t))
-\\ &= \sum_{t=1}^k d_i(c_t \mid A_i \setminus R_t)
+0 &< d_i(S \mid A_i \setminus S) = d_i(A_i \setminus S_0) - d_i(A_i \setminus S_k)
+\\ &= \sum_{t=1}^k (d_i(A_i \setminus S_{t-1}) - d_i(A_i \setminus S_t))
+\\ &= \sum_{t=1}^k d_i(c_t \mid A_i \setminus S_t)
 \\ &\le \sum_{t=1}^k d_i(c_t \mid A_i \setminus \{c_t\})
 \end{align}
 Hence, $d_i(c \mid A_i \setminus \{c\}) > 0$ for some $c \in S$.
