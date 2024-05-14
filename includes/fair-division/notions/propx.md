@@ -1,14 +1,14 @@
 <span class="invisible">
 $\newcommand{\defeq}{:=}$
 </span>
-Let $([n], M, V, w)$ be a fair division instance for indivisible items
+Let $([n], [m], V, w)$ be a fair division instance for indivisible items
 (where each agent $i$ has entitlement $w_i$).
 
 An allocation $A$ is said to be PROPx-fair to agent $i$ iff
 either $v_i(A_i) ≥ w_iv_i([m])$ or both of these conditions hold:
 
-* $v_i(A_i \cup S) > w_iv_i([m])$ for every $S$ such that
-    $S \subseteq M \setminus A_i$ and $v_i(S \mid A_i) > 0$.
+* $v_i(A_i \cup S) > w_iv_i([m])$ for every $S \subseteq [m] \setminus A_i$
+    such that $v_i(S \mid A_i) > 0$.
 * $v_i(A_i \setminus S) > w_iv_i([m])$ for every $S \subseteq A_i$
     such that $v_i(S \mid A_i \setminus S) < 0$.
 
@@ -18,7 +18,7 @@ Equivalent definitions in special cases:
 
 1.  When all items are goods to agent $i$ and $v_i$ is submodular, $A$ is PROPx-fair to agent $i$
     iff $v_i(A_i) ≥ w_iv_i([m])$ or $v_i(A_i \cup \{g\}) > w_iv_i([m])$
-    for every $g \in M \setminus A_i$ such that $v_i(g \mid A_i) > 0$.
+    for every $g \in [m] \setminus A_i$ such that $v_i(g \mid A_i) > 0$.
 2.  When all items are chores to agent $i$ and $d_i$ is supermodular, $A$ is PROPx-fair to agent $i$
     iff $d_i(A_i) ≤ w_id_i([m])$ or $d_i(A_i \setminus \{c\}) < w_id_i([m])$
     for every $c \in A_i$ such that $d_i(c \mid A_i \setminus \{c\}) > 0$.
@@ -26,7 +26,7 @@ Equivalent definitions in special cases:
 ## Proof of equivalence of definitions of PROPx
 
 Suppose all items are goods and $v_i$ is submodular.
-Let $A$ be an allocation and $S \subseteq M \setminus A_i$ such that $v_i(S \mid A_i) > 0$.
+Let $A$ be an allocation and $S \subseteq [m] \setminus A_i$ such that $v_i(S \mid A_i) > 0$.
 Let $S \defeq \{g_1, \ldots, g_k\}$. Then
 \[ 0 < v_i(S \mid A_i) = \sum_{t=1}^k v_i(g_t \mid A_i \cup \{g_1, \ldots, g_{t-1}\})
     \le \sum_{t=1}^k v_i(g_t \mid A_i). \]

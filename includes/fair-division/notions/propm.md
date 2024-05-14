@@ -1,8 +1,7 @@
 <span class="invisible">
 $\newcommand{\defeq}{:=}$
-$\newcommand{\Scal}{\mathcal{S}}$
 </span>
-Let $([n], M, V, w)$ be a fair division instance for indivisible items
+Let $([n], [m], V, w)$ be a fair division instance for indivisible items
 (where each agent $i$ has entitlement $w_i$).
 
 An allocation $A$ is said to be PROPm-fair to agent $i$ iff
