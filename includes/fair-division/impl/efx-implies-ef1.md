@@ -7,8 +7,8 @@ let $A$ be an allocation where agent $i$ is EFX-satisfied.
 Then agent $i$ is EF1-satisfied in these scenarios:
 
 1.  $v_i$ is additive.
-2.  $v_i$ is doubly-monotone and $v_i(g \mid S) > 0$ for every good $g$
-    and $v_i(c \mid S) < 0$ for every chore $c$.
+2.  $v_i$ is doubly-monotone and $v_i(g \mid \cdot) > 0$ for every good $g$
+    and $v_i(c \mid \cdot) < 0$ for every chore $c$.
 3.  Agents have equal entitlements, all items are goods for agent $i$, and $v_i$ is submodular.
 4.  All items are chores for agent $i$, and $d_i$ is supermodular.
 
