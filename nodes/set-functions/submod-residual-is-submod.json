@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/set-functions/set-function",
+        "/set-functions/submodular",
+        "/sets-and-relations/de-morgan-laws"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Residual of submodular function is submodular",
+        "description": "f is submodular implies f(·|S) is submodular."
+    },
+    "document": {
+        "type": "include",
+        "path": "/set-functions/submod-residual-is-submod.md"
+    }
+}

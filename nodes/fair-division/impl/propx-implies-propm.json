@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/propx",
+        "/fair-division/notions/propm"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROPx implies PROPm"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/propx-implies-propm.md"
+    }
+}

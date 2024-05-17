@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/propm",
+        "/fair-division/notions/prop1",
+        "/set-functions/submodular",
+        "/set-functions/submod-residual-is-submod",
+        "/set-functions/submod-implies-subadd"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROPm implies PROP1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/propm-implies-prop1.md"
+    }
+}
