@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/propm",
+        "/set-functions/sub-sup-add",
+        "/set-functions/additive",
+        "/fair-division/misc/prop-envy"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "EFX implies PROPm"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/efx-implies-propm.md"
+    }
+}
