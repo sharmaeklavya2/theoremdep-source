@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/efx"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "WMMS implies EFX for two agents"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/mms-to-efx-n2.md"
+    }
+}
