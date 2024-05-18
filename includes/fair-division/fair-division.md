@@ -60,6 +60,7 @@ Without loss of generality, we assume $N = [n]$.
     we say that the agents have equal entitlements.
     This is such an important special case that
     we will assume equal entitlements unless specified otherwise.
+    The case where entitlements are unequal is called *weighted* fair division.
 
 3.  *Identical vs non-identical valuations*:
     If $v_1 = v_2 = \ldots = v_n$, we say that the agents have identical valuations.
