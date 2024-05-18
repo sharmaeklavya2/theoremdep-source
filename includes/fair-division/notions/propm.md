@@ -7,14 +7,14 @@ Let $([n], [m], V, w)$ be a fair division instance for indivisible items
 An allocation $A$ is said to be PROPm-fair to agent $i$ iff
 either $v_i(A_i) ≥ w_iv_i([m])$ or both of these conditions hold:
 
-* For $j \in [n] \setminus \{i\}$, define
+1.  For $j \in [n] \setminus \{i\}$, define
     \[ \tau_j \defeq \begin{cases}
     0 & \textrm{ if } v_i(S \mid A_i) ≤ 0 \textrm{ for all } S \subseteq A_j
     \\ \min(\{v_i(S \mid A_i) \mid S \subseteq A_j \textrm{ and } v_i(S \mid A_i) > 0\}) & \textrm{ otherwise}
     \end{cases}. \]
     Define $T \defeq \{\tau_j \mid j \in [n] \setminus \{i\} \textrm{ and } \tau_j > 0\}$.
     Then either $T = \emptyset$, or $v_i(A_i) + \max(T) > w_iv_i([m])$.
-* $v_i(A_i \setminus S) > w_iv_i([m])$ for every $S \subseteq A_i$
+2.  $v_i(A_i \setminus S) > w_iv_i([m])$ for every $S \subseteq A_i$
     such that $v_i(S \mid A_i \setminus S) < 0$.
 
 It is trivial to see that PROP implies PROPm.

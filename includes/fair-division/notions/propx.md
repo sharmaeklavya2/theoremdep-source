@@ -7,9 +7,9 @@ Let $([n], [m], V, w)$ be a fair division instance for indivisible items
 An allocation $A$ is said to be PROPx-fair to agent $i$ iff
 either $v_i(A_i) ≥ w_iv_i([m])$ or both of these conditions hold:
 
-* $v_i(A_i \cup S) > w_iv_i([m])$ for every $S \subseteq [m] \setminus A_i$
+1.  $v_i(A_i \cup S) > w_iv_i([m])$ for every $S \subseteq [m] \setminus A_i$
     such that $v_i(S \mid A_i) > 0$.
-* $v_i(A_i \setminus S) > w_iv_i([m])$ for every $S \subseteq A_i$
+2.  $v_i(A_i \setminus S) > w_iv_i([m])$ for every $S \subseteq A_i$
     such that $v_i(S \mid A_i \setminus S) < 0$.
 
 It is trivial to see that PROP implies PROPx.
