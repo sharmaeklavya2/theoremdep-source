@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/ef1",
+        "/fair-division/notions/prop1",
+        "/set-functions/sub-sup-add"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "EF1 implies PROP1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/ef1-implies-prop1.md"
+    }
+}
