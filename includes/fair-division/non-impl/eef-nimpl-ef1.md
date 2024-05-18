@@ -1,6 +1,10 @@
-There exists a fair division instance with 3 agents and additive valuations,
-and an allocation $A$ for that instance that is epistemic EF and PROP but not EF.
-This holds for both goods division and chores division, and both divisible and indivisible items.
+<span class="invisible">
+$\newcommand{\Ical}{\mathcal{I}}$
+</span>
+There exists a fair division instance $\Ical$ with 3 agents, equal entitlements, and additive valuations,
+and an allocation $A$ for $\Ical$ that is epistemic EF and PROP but not EF.
+Moreover, if $\Ical$ has only indivisible goods, then $A$ is not EF1.
+This holds for both goods division and chores division.
 
 ## Proof
 
@@ -20,11 +24,14 @@ Note that $f_1(M) = f_2(M) = f_3(M) = 12$.
 Let $A = (S_1 \cup S_2, S_3 \cup S_4, S_5 \cup S_6)$
 and $B^{(1)} = (S_1 \cup S_2, S_3 \cup S_5, S_4 \cup S_6)$.
 
-If $v_1 = f_1$, then agent 1 envies agent 2 in $A$,
+If $v_i = f_i$ for all $i \in [3]$, then agent 1 envies agent 2 in $A$,
 but $B^{(1)}$ is agent 1's epistemic EF certificate for $A$.
 Similarly, we can show that agents 2 and 3 are also envious in $A$
 but they too have epistemic EF certificates for $A$.
 Hence, $A$ is EEF but not EF.
 Also, $v_i(A_i) = 4$ for all $i$, so $A$ is PROP.
 
-A similar argument holds when $v_1 = -f_1$.
+When the items are indivisible, let $S_i$ have 2 identical goods for each $i \in [6]$.
+Then agent 1 EF1-envies agent 2, agent 2 EF1-envies agent 3, and agent 3 EF1-envies agent 1.
+
+A similar argument holds when $v_i = -f_i$ for all $i \in [3]$.
