@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/propm",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/restricted-agents"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROPm doesn't exist for mixed manna"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-existence/propm-mixed-manna.md"
+    }
+}
