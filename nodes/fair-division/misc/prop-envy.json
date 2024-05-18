@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/set-functions/sub-sup-add"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP-unsat implies someone is superPROP",
+        "description": "In allocation A, if v_i(A_i) < w_iv_i(M), then for some other agent $j$, we have $v_i(A_j) > w_jv_i(M)$."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/misc/prop-envy.md"
+    }
+}

@@ -23,10 +23,7 @@ Suppose agent $i$ is EF1-satisfied but not PROP1-satisfied by allocation $A$. Th
 2.  $v_i(A_i \cup \{g\}) ≤ w_iv_i([m])$ for all $g \in [m] \setminus A_i$.
 3.  $v_i(A_i \setminus \{c\}) ≤ w_iv_i([m])$ for all $c \in A_i$.
 
-Let $v_i$ be subadditive.
-Suppose $v_i(A_j) ≤ w_jv_i([m])$ for all $j \in [n] \setminus \{i\}$. Then
-\[ v_i([m]) ≤ \sum_{j=1}^n v_i(A_j) < \sum_{j=1}^n w_jv_i([m]) = v_i([m]). \]
-This is a contradiction. Hence, there exists $j \in [n] \setminus \{i\}$
+Let $v_i$ be subadditive. Then there exists $j \in [n] \setminus \{i\}$
 such that $v_i(A_j) > w_jv_i([m])$. Hence,
 \[ \frac{v_i(A_i)}{w_i} < v_i([m]) < \frac{v_i(A_j)}{w_j}. \]
 Hence, $i$ envies $j$. But $i$ is EF1-satisfied. Hence,
