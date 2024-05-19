@@ -2,8 +2,7 @@
     "deps": [
         "/fair-division/fair-division",
         "/fair-division/notions/prop",
-        "/set-functions/submodular",
-        "/set-functions/supermodular"
+        "/set-functions/submodular"
     ],
     "metadata": {
         "type": "theoremdef",

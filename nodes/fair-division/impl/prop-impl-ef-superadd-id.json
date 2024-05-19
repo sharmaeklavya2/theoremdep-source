@@ -1,7 +1,7 @@
 {
     "deps": [
         "/fair-division/fair-division",
-        "/set-functions/sub-sup-add"
+        "/set-functions/subadditive"
     ],
     "metadata": {
         "type": "theorem",

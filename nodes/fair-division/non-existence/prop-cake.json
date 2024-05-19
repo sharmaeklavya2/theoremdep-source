@@ -3,7 +3,7 @@
         "/fair-division/fair-division",
         "/fair-division/notions/prop",
         "/fair-division/notions/ef",
-        "/set-functions/supermodular",
+        "/set-functions/submodular",
         "/optimization/min-x-and-xcomp-sq"
     ],
     "metadata": {

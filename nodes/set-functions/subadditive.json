@@ -9,6 +9,6 @@
     },
     "document": {
         "type": "include",
-        "path": "/set-functions/sub-sup-add.md"
+        "path": "/set-functions/subadditive.md"
     }
 }

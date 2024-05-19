@@ -1,11 +1,11 @@
 {
     "deps": [
         "/set-functions/submodular",
-        "/set-functions/sub-sup-add"
+        "/set-functions/subadditive"
     ],
     "metadata": {
         "type": "theorem",
-        "title": "A submodular function is also a subadditive function"
+        "title": "Submodularity implies subadditivity, supermodularity implies superadditivity"
     },
     "document": {
         "type": "include",

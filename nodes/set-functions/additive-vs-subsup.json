@@ -2,8 +2,7 @@
     "deps": [
         "/set-functions/additive",
         "/set-functions/submodular",
-        "/set-functions/supermodular",
-        "/set-functions/sub-sup-add"
+        "/set-functions/subadditive"
     ],
     "metadata": {
         "type": "theorem",

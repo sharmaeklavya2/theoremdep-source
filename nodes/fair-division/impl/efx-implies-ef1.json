@@ -5,8 +5,7 @@
         "/fair-division/notions/efx",
         "/fair-division/notions/ef1",
         "/set-functions/additive",
-        "/set-functions/submodular",
-        "/set-functions/supermodular"
+        "/set-functions/submodular"
     ],
     "metadata": {
         "type": "theorem",

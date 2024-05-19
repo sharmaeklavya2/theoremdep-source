@@ -5,7 +5,7 @@
     "metadata": {
         "type": "theoremdef",
         "title": "Submodular function",
-        "description": "A function is submodular iff its marginal decreases with the size of the set."
+        "description": "A function is submodular iff its marginal decreases with the size of the set. f is supermodular iff -f is submodular."
     },
     "document": {
         "type": "include",
