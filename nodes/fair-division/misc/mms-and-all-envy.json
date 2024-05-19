@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/efx"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "WMMS-sat and envious of everyone implies EFX-sat",
+        "description": "If an agent i is WMMS-satisfied and envies everyone else, then she is also EFX-satisfied."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/misc/mms-and-all-envy.md"
+    }
+}

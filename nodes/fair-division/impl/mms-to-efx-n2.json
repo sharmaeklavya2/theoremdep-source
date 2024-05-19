@@ -2,7 +2,8 @@
     "deps": [
         "/fair-division/fair-division",
         "/fair-division/notions/mms",
-        "/fair-division/notions/efx"
+        "/fair-division/notions/efx",
+        "/fair-division/misc/mms-and-all-envy"
     ],
     "metadata": {
         "type": "theorem",
