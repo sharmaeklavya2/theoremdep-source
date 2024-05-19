@@ -1,0 +1,23 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop1",
+        "/fair-division/notions/m1s",
+        "/fair-division/notions/propx",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/aps",
+        "/set-functions/additive",
+        "/bounds/k-extreme-sum",
+        "/fair-division/misc/prop-envy",
+        "/fair-division/notions/restricted-agents",
+        "/fair-division/impl/ef1-implies-prop1"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Additive goods and binary marginals"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/misc/binary-additive.md"
+    }
+}
