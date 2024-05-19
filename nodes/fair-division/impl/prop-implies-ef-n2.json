@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop",
+        "/fair-division/notions/ef",
+        "/set-functions/subadditive"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP implies EF for n=2"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/prop-implies-ef-n2.md"
+    }
+}

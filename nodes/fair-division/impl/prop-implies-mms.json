@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop",
+        "/fair-division/notions/mms",
+        "/set-functions/subadditive",
+        "/bounds/k-extreme-sum"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP implies WMMS and pessShare"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/prop-implies-mms.md"
+    }
+}

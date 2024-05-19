@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop",
+        "/fair-division/notions/aps",
+        "/set-functions/additive"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP implies APS"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/prop-implies-aps.md"
+    }
+}

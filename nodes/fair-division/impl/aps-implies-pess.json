@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/mms",
+        "/bounds/k-extreme-sum"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "APS implies pessShare"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/aps-implies-pess.md"
+    }
+}
