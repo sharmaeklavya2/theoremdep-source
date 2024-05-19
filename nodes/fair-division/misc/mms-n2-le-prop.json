@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/mms",
+        "/set-functions/additive"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "MMS is largest bundle value at most PROP when n=2",
+        "description": "When n=2, MMS is the largest value a bundle can have such that its value is less than the proportional share."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/misc/mms-n2-le-prop.md"
+    }
+}

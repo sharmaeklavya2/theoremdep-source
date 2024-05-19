@@ -16,6 +16,9 @@ then we require each part to be feasible.)
 Agent $i$'s *weighted maximin share* is
 \[ \mathrm{WMMS}_i := w_i \sup_{X \in \Pi^n(M)} \min_{j=1}^n \frac{v_i(X_j)}{w_j}. \]
 Allocation $A$ is WMMS-fair to agent $i$ if $v_i(A_i) \ge \mathrm{WMMS}_i$.
+For discrete fair division,
+\[ \arg\max_{X \in \Pi^n(M)} \min_{j=1}^n \frac{v_i(X_j)}{w_j} \]
+is called the WMMS partition.
 
 Let $1 ≤ \ell ≤ d$. Let $\Pi^d(M)$ be the set of all $d$-partitions of $M$.
 Then agent $i$'s $\ell$-out-of-$d$ share is defined as

@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/mms",
+        "/fair-division/misc/mms-n2-le-prop",
+        "/fair-division/impl/aps-implies-pess",
+        "/fair-division/impl/prop-implies-aps"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "APS = MMS for n=2"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/mms-implies-aps-n2.md"
+    }
+}
