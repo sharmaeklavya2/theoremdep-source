@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop1",
+        "/fair-division/notions/m1s",
+        "/set-functions/additive"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "M1S doesn't imply PROP1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/m1s-nimpl-prop1.md"
+    }
+}

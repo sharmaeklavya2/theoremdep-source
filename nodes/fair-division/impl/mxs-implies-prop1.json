@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop1",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/mxs",
+        "/fair-division/misc/prop-envy"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "An MXS allocation is also PROP1"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/mxs-implies-prop1.md"
+    }
+}
