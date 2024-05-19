@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/propx",
+        "/fair-division/notions/ef1",
+        "/fair-division/impl/aps-implies-pess",
+        "/fair-division/impl/prop-implies-aps"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Share vs envy for identical valuations (goods)",
+        "description": "n≥3 additive agents, 2n-1 identical goods. Give n goods to 1 agent and 1 good each to others. This allocation is APS and PROPx, but not EF1."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/share-vs-envy-goods.md"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/ef1",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/epistemic",
+        "/fair-division/impl/aps-implies-pess",
+        "/fair-division/impl/prop-implies-aps"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Share vs envy for identical valuations (chores)",
+        "description": "n≥3 additive agents, n+1 identical chores. Give 2 chores to agents 1 and 2, 0 chores to agent n, and 1 chore each to others. This allocation is APS and EEFX, but not EF1."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/share-vs-envy-chores.md"
+    }
+}
