@@ -7,7 +7,7 @@ import os
 import argparse
 
 
-TEMPLATE = """{
+JSON_TEMPLATE = """{
     "deps": [
     ],
     "metadata": {
@@ -20,6 +20,11 @@ TEMPLATE = """{
         "path": "$path$"
     }
 }
+"""
+
+MD_TEMPLATE = """<span class="invisible">
+$\\newcommand{\\defeq}{:=}$
+</span>
 """
 
 
@@ -41,14 +46,15 @@ def main():
     md_path = '/{}.md'.format(path)
     md_path2 = os.path.relpath(os.path.join(BASE_DIR, 'includes', path + '.md'))
 
-    if os.path.exists(json_path):
-        print('File', repr(json_path), 'already exists.', file=sys.stderr)
-        sys.exit(1)
+    for path in (json_path, md_path):
+        if os.path.exists(path):
+            print('File', repr(path), 'already exists.', file=sys.stderr)
+            sys.exit(1)
 
     with open(json_path, 'w') as fp:
-        fp.write(TEMPLATE.replace('$path$', md_path))
-    with open(md_path2, 'a') as fp:
-        pass
+        fp.write(JSON_TEMPLATE.replace('$path$', md_path))
+    with open(md_path2, 'w') as fp:
+        fp.write(MD_TEMPLATE)
 
 
 if __name__ == '__main__':
