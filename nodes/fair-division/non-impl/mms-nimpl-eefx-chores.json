@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/epistemic",
+        "/set-functions/additive"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "MMS doesn't imply EEFX for chores"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/mms-nimpl-eefx-chores.md"
+    }
+}

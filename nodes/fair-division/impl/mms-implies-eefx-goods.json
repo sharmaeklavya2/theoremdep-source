@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/epistemic",
+        "/fair-division/misc/mms-and-all-envy"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "MMS implies EEFX"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/mms-implies-eefx-goods.md"
+    }
+}
