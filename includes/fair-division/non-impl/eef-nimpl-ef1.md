@@ -31,7 +31,10 @@ but they too have epistemic EF certificates for $A$.
 Hence, $A$ is EEF but not EF.
 Also, $v_i(A_i) = 4$ for all $i$, so $A$ is PROP.
 
-When the items are indivisible, let $S_i$ have 2 identical goods for each $i \in [6]$.
+When the items are indivisible, let $S_i$ have 3 goods for each $i \in [6]$,
+where each good's value is in $\{0, 1\}$.
 Then agent 1 EF1-envies agent 2, agent 2 EF1-envies agent 3, and agent 3 EF1-envies agent 1.
+Alternatively, let $S_i$ have 4 goods for each $i \in [6]$,
+where each good's value is in $\{1/4, 3/4\}$.
 
 A similar argument holds when $v_i = -f_i$ for all $i \in [3]$.

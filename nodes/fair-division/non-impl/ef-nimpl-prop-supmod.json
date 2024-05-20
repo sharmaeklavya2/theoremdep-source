@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/ef",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/prop1",
+        "/fair-division/notions/propm",
+        "/set-functions/submodular",
+        "/bounds/k-extreme-sum"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "EF doesn't imply PROP for supermodular valuations"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/ef-nimpl-prop-supmod.md"
+    }
+}
