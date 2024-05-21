@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/propx",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/restricted-agents"
+
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROPx doesn't exist even if APS does"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-existence/propx.md"
+    }
+}

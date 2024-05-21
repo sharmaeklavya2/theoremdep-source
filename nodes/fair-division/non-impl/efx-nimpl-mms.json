@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/mms"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "EFX doesn't imply MMS"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/efx-nimpl-mms.md"
+    }
+}

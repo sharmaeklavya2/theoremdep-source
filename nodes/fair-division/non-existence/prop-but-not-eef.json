@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/epistemic",
+        "/fair-division/notions/ef",
+        "/fair-division/notions/prop"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP but not EEF",
+        "description": "There is an instance for which a PROP allocation exist but an epistemic EF allocation doesn't exist."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-existence/prop-but-not-eef.md"
+    }
+}

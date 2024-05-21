@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/propm",
+        "/fair-division/impl/aps-implies-pess"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "APS and MMS don't imply PROPm"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/aps-nimpl-propm.md"
+    }
+}
