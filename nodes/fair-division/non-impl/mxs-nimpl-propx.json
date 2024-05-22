@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/propx",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/mxs"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "MXS doesn't imply PROPx or EFX"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/mxs-nimpl-propx.md"
+    }
+}
