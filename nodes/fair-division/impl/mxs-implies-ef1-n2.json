@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/mxs",
+        "/fair-division/notions/ef1",
+        "/fair-division/notions/efx"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "MXS implies EF1 for n=2"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/mxs-implies-ef1-n2.md"
+    }
+}
