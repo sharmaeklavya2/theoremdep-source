@@ -1,0 +1,22 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/ef1",
+        "/fair-division/notions/prop1",
+        "/fair-division/notions/m1s",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/restricted-agents",
+        "/fair-division/misc/binary-additive"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP1+M1S allocation doesn't exist",
+        "description": "There is an instance for which an EFX and groupwise-MMS allocation exists, and an APS allocation exists, but PROP1 and M1S are not simultaneously achievable."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-existence/prop1-plus-m1s.md"
+    }
+}
