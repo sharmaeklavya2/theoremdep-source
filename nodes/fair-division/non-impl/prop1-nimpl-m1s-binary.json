@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop1",
+        "/fair-division/notions/m1s"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP1 doesn't imply M1S for unit marginals and n=2"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/prop1-nimpl-m1s-binary.md"
+    }
+}
