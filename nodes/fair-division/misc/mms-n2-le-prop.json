@@ -7,7 +7,7 @@
     "metadata": {
         "type": "theorem",
         "title": "MMS is largest bundle value at most PROP when n=2",
-        "description": "When n=2, MMS is the largest value a bundle can have such that its value is less than the proportional share."
+        "description": "When n=2, MMS is the largest value a bundle can have such that its value is less than the proportional share. A similar result holds for WMMS when entitlements are unequal."
     },
     "document": {
         "type": "include",

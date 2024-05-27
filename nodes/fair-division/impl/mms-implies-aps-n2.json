@@ -9,7 +9,8 @@
     ],
     "metadata": {
         "type": "theorem",
-        "title": "APS = MMS for n=2"
+        "title": "APS = MMS for n=2",
+        "description": "APS = MMS for n=2. When entitlements are unequal, APS ≤ WMMS."
     },
     "document": {
         "type": "include",
