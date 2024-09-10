@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop",
+        "/fair-division/notions/m1s",
+        "/set-functions/submodular"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP doesn't imply M1S for unit-demand valuations"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/prop-nimpl-m1s-ud.md"
+    }
+}
