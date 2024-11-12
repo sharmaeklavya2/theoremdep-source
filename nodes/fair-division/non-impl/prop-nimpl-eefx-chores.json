@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop",
+        "/fair-division/notions/efx",
+        "/fair-division/notions/epistemic"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP doesn't imply EEFX for chores"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/prop-nimpl-eefx-chores.md"
+    }
+}
