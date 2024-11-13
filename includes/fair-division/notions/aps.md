@@ -38,7 +38,7 @@ $p$ is non-negative and $p([m]) = 1$. Hence,
 
 When all items are chores, by Lemma 1, we can assume without loss of generality that
 $p$ is non-positive and $p([m]) = -1$. Hence,
-\[ \APS_i = \max_{q \in \Delta_m}\;\min_{S \subseteq [m]: q(S) ≥ w_i} d_i(S). \]
+\[ -\APS_i = \max_{q \in \Delta_m}\;\min_{S \subseteq [m]: q(S) ≥ w_i} d_i(S). \]
 
 ## Dual Definition
 
