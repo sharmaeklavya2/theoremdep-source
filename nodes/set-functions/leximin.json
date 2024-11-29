@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/set-functions/set-function",
+        "/set-functions/mms"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Leximin partition of a set function"
+    },
+    "document": {
+        "type": "include",
+        "path": "/set-functions/leximin.md"
+    }
+}
