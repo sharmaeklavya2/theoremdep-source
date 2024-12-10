@@ -22,7 +22,7 @@ is called the WMMS partition.
 
 Let $1 ≤ \ell ≤ d$. Let $\Pi^d(M)$ be the set of all $d$-partitions of $M$.
 Then agent $i$'s $\ell$-out-of-$d$ share is defined as
-\[ \textrm{$\ell$-out-of-$d$-share}_i := \sup_{X \in \Pi^d(M): v_i(X_j) \le v_i(X_{j+1}) \forall j \in [n-1]}
+\[ \textrm{$\ell$-out-of-$d$-share}_i := \sup_{X \in \Pi^d(M): v_i(X_j) \le v_i(X_{j+1}) \forall j \in [d-1]}
     \sum_{j=1}^{\ell} v_i(X_j). \]
 Then agent $i$'s pessimistic share is defined as
 \[ \mathrm{pessShare}_i := \sup_{1 ≤ \ell ≤ d: \ell / d ≤ w_i} \textrm{$\ell$-out-of-$d$-share}_i. \]
@@ -37,7 +37,7 @@ For equal entitlements, we have $w_i = 1/n$.
 The $1$-out-of-$n$-share is the same as MMS, so $\mathrm{pessShare}_i \ge \MMS_i$.
 
 Now pick $d$ such that $\ell/d \le 1/n$, i.e., $d ≥ \ell n$.
-For any $X \in \Pi^d(M)$ such that $v_i(X_j) \le v_i(X_{j+1})$ for all $j \in [n-1]$.
+For any $X \in \Pi^d(M)$ such that $v_i(X_j) \le v_i(X_{j+1})$ for all $j \in [d-1]$.
 Now create $Y \in \Pi^n(M)$ where $Y_k = \bigcup_{j=(k-1)n + 1}^{kn} X_j$ for $k \in [n-1]$
 and $Y_n = M \setminus \bigcup_{j=1}^{n-1} Y_j$.
 By definition of MMS, we get $\sum_{j=1}^{\ell} v_i(X_j) = v_i(Y_1) \le \MMS_i$.
