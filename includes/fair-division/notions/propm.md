@@ -51,7 +51,7 @@ I wanted to generalize the definition of PROPm
 so that the above results continue to hold.
 
 According to existing literature, agent $i$ is PROPm-satisfied by allocation $A$ iff
-$v_i(A_i) + \max_{i≠i} m_i(A_j) ≥ v_i([m])/n$,
+$v_i(A_i) + \max_{j≠i} m_i(A_j) ≥ v_i([m])/n$,
 where <https://doi.org/10.1609/aaai.v35i6.16650> defines $m_i(S)$ as $\min_{g \in S} v_i(g)$,
 and <https://arxiv.org/abs/2202.02672v1> defines $m_i(S)$ as $\min_{g \in S: v_i(g) > 0} v_i(g)$.
 Both these definitions don't explicitly state what $m_i(\emptyset)$ is.
