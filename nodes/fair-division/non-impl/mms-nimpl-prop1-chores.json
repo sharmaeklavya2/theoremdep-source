@@ -2,16 +2,18 @@
     "deps": [
         "/fair-division/fair-division",
         "/fair-division/notions/mms",
-        "/fair-division/notions/efx",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/ef1",
         "/fair-division/notions/epistemic",
+        "/fair-division/notions/prop1",
         "/set-functions/additive"
     ],
     "metadata": {
         "type": "theorem",
-        "title": "MMS doesn't imply EEFX for chores"
+        "title": "MMS+APS doesn't imply PROP1 for chores"
     },
     "document": {
         "type": "include",
-        "path": "/fair-division/non-impl/mms-nimpl-eefx-chores.md"
+        "path": "/fair-division/non-impl/mms-nimpl-prop1-chores.md"
     }
 }

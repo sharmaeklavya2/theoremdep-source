@@ -1,0 +1,20 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/min-fair-share",
+        "/fair-division/notions/efx",
+        "/set-functions/additive",
+        "/set-functions/leximin",
+        "/fair-division/notions/restricted-agents",
+        "/fair-division/impl/mms-to-efx-n2"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "MMS implies MXS"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/mms-implies-mxs.md"
+    }
+}
