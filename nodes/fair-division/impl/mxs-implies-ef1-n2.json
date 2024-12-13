@@ -1,7 +1,7 @@
 {
     "deps": [
         "/fair-division/fair-division",
-        "/fair-division/notions/mxs",
+        "/fair-division/notions/min-fair-share",
         "/fair-division/notions/ef1",
         "/fair-division/notions/efx"
     ],

@@ -2,7 +2,8 @@
     "deps": [
         "/fair-division/fair-division",
         "/fair-division/notions/prop1",
-        "/fair-division/notions/m1s",
+        "/fair-division/notions/ef1",
+        "/fair-division/notions/min-fair-share",
         "/set-functions/additive"
     ],
     "metadata": {

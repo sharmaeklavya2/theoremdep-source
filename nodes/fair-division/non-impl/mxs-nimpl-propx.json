@@ -3,7 +3,7 @@
         "/fair-division/fair-division",
         "/fair-division/notions/propx",
         "/fair-division/notions/efx",
-        "/fair-division/notions/mxs"
+        "/fair-division/notions/min-fair-share"
     ],
     "metadata": {
         "type": "theorem",

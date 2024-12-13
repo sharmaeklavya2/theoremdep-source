@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "/fair-division/fair-division"
+    ],
+    "metadata": {
+        "type": "def",
+        "title": "Minimum fair share",
+        "description": "An allocation A is min-F-fair to agent i if there is another allocation B that is F-fair to her and where her value for her own bundle is at most that in A."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/notions/min-fair-share.md"
+    }
+}
