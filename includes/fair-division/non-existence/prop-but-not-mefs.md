@@ -11,7 +11,8 @@ Valuations are given by this table:
 <tr><td>$v$<sub>3</sub>( $j$ )</td><td>10</td><td>20</td><td>30</td></tr>
 </table>
 
-Then the allocation $(\{2\}, \{1\}, \{3\})$ is PROP, but no allocation is epistemic EF.
+Then the allocation $(\{2\}, \{1\}, \{3\})$ is PROP, but no allocation is MEFS
+(every agent's minimum EF share is 30).
 
 Consider a fair division instance with 3 chores and 3 agents having equal entitlements and additive valuations.
 Disutilities are given by this table:
@@ -23,4 +24,5 @@ Disutilities are given by this table:
 <tr><td>$d$<sub>3</sub>( $j$ )</td><td>30</td><td>20</td><td>10</td></tr>
 </table>
 
-Then the allocation $(\{2\}, \{1\}, \{3\})$ is PROP, but no allocation is epistemic EF.
+Then the allocation $(\{2\}, \{1\}, \{3\})$ is PROP, but no allocation is MEFS
+(every agent's minimum EF share is $-10$).

@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/epistemic",
+        "/fair-division/notions/min-fair-share",
+        "/fair-division/notions/ef"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "MEFS but not EEF for chores"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/mefs-but-not-eef-chores.md"
+    }
+}

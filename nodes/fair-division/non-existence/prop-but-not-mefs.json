@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/min-fair-share",
+        "/fair-division/notions/ef",
+        "/fair-division/notions/prop"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "PROP but not MEFS",
+        "description": "There is an instance for which a PROP allocation exists but an MEFS allocation doesn't exist."
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-existence/prop-but-not-mefs.md"
+    }
+}
