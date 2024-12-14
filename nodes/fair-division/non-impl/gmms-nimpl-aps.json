@@ -1,0 +1,19 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/set-functions/additive",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/restricted-agents",
+        "/fair-division/impl/leximin-implies-gmms",
+        "/fair-division/misc/aps-gt-mms"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "GMMS doesn't imply APS"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/gmms-nimpl-aps.md"
+    }
+}

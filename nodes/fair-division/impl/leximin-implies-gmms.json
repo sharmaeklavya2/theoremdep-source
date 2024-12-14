@@ -1,0 +1,16 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/restricted-agents",
+        "/set-functions/leximin"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "Leximin implies GMMS for idval"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/impl/leximin-implies-gmms.md"
+    }
+}
