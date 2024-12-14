@@ -1,0 +1,18 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/fair-division/notions/prop",
+        "/fair-division/notions/ef",
+        "/fair-division/notions/ef1",
+        "/fair-division/notions/epistemic",
+        "/fair-division/notions/min-fair-share"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "MEFS+PROP doesn't imply EEF1 for chores"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/non-impl/mefs-nimpl-eef1-chores.md"
+    }
+}
