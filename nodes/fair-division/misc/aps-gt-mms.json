@@ -1,0 +1,17 @@
+{
+    "deps": [
+        "/fair-division/fair-division",
+        "/set-functions/additive",
+        "/fair-division/notions/aps",
+        "/fair-division/notions/mms",
+        "/fair-division/notions/prop"
+    ],
+    "metadata": {
+        "type": "theorem",
+        "title": "APS can be > MMS"
+    },
+    "document": {
+        "type": "include",
+        "path": "/fair-division/misc/aps-gt-mms.md"
+    }
+}
