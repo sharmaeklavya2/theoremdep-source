@@ -33,7 +33,7 @@ or
 
 ### Case 1: $\exists c \in A_i$ such that $v_i(A_i \setminus \{c\})/w_i ≥ v_i(A_j)/w_j$.
 
-Since $i$ is PROP1-unsatisfied and $v_i(A_j) > w_iv_i([m])$, we get
+Since $i$ is PROP1-unsatisfied and $v_i(A_j) > w_jv_i([m])$, we get
 \[ \frac{v_i(A_i \setminus \{c\})}{w_i} ≤ v_i([m]) < \frac{v_i(A_j)}{w_j}. \]
 This is a contradiction because $i$ envies $j$.
 
