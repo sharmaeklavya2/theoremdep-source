@@ -3,7 +3,7 @@ $\newcommand{\defeq}{:=}$
 </span>
 Consider a fair division instance with 15 goods and 3 agents having equal entitlements
 and identical additive valuations. The values of the goods are
-5, 5, 5, 7, 7, 7, 11, 17, 23, 23, 23, 31, 31, 31, 65.
+65, 31, 31, 31, 23, 23, 23, 17, 11, 7, 7, 7, 5, 5, 5.
 Then a GMMS allocation exists but an APS alloction doesn't exist.
 
 Even for the instance of chores obtained by multiplying every good's value by $-1$,
