@@ -13,7 +13,7 @@ Then $v$ is submodular, and the allocation $A = (\{1, 2\}, \{3\})$ is PROP but n
 
 ## Proof that $v$ is submodular
 
-\[ v(g \mid S) = \eps + \begin{cases}
+\[ v(g \mid S) = 2\eps + \begin{cases}
 0 & \textrm{ if } 1 \in S \textrm{ or } 2 \in S
 \\ 1 & \textrm{ if } S = \{3\}
 \\ v(\{g\}) & \textrm{ if } S = \emptyset
