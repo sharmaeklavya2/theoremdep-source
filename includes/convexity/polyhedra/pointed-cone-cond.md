@@ -7,14 +7,14 @@ Then the following are equivalent:
 
 1.  $C$ is pointed (i.e., $x \in C - \{0\} \implies -x \not\in C$)
 2.  $C$ has a BFS.
-3.  $C$ contains a line.
+3.  $C$ doesn't contain a line.
 4.  $\rank(A) = n$.
 
 Furthermore, if $C$ is pointed, $0$ is the unique BFS of $C$, and $0$ is the unique extreme point of $C$.
 
 # Proof
 
-**Lemma**: $C$ is pointed iff $C$ contains a line.
+**Lemma**: $C$ is pointed iff $C$ doesn't contain a line.
 
 *Proof*:
 If $C$ contains the line $\{\lambda x: \lambda \in \mathbb{R}\}$, where $x \neq 0$,
@@ -23,7 +23,7 @@ then $x \in C - \{0\}$ but $-x \in C$, so $C$ is not pointed.
 If $C$ is not pointed, $\exists x \in C - \{0\}$ such that $-x \in C$.
 By the definition of cone, $\lambda x \in C, \forall \lambda \in \mathbb{R}$.
 Hence, $C$ contains a line.
-So, $C$ is pointed iff $C$ contains a line. □
+So, $C$ is pointed iff $C$ doesn't contain a line. □
 
 **Lemma**: $C$ contains a line iff $C$ has a BFS iff $\rank(A) = n$.
 
